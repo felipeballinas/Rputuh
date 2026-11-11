@@ -13,9 +13,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
+  discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    outputs:
+      worlds: ${{ steps.worlds.outputs.matrix }}
     steps:
       - name: Baixar o repositório
         uses: actions/checkout@v4
@@ -23,8 +24,58 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Coletar XP ranqueado e mortes recentes
-        run: python scripts/collect_player_history.py
+      - name: Listar mundos com jogadores ativos
+        id: worlds
+        run: echo "matrix=$(python scripts/list_active_worlds.py)" >> "$GITHUB_OUTPUT"
+
+  collect:
+    needs: discover
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        world: ${{ fromJson(needs.discover.outputs.worlds) }}
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Coletar todos os personagens do mundo
+        if: matrix.world.slug != 'none'
+        run: python scripts/collect_player_history.py --world "${{ matrix.world.name }}"
+      - name: Enviar CSVs deste mundo
+        if: matrix.world.slug != 'none'
+        uses: actions/upload-artifact@v4
+        with:
+          name: player-history-world-${{ matrix.world.slug }}
+          path: data/player-history/worlds/${{ matrix.world.slug }}/
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: [discover, collect]
+    if: always() && needs.discover.result == 'success' && needs.collect.result != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Baixar CSVs dos mundos
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          path: artifacts/player-history
+          pattern: player-history-world-*
+          merge-multiple: false
+      - name: Reunir os arquivos por mundo
+        run: python scripts/merge_player_history_artifacts.py
       - name: Salvar CSVs do histórico
         run: |
           git config user.name "github-actions[bot]"
@@ -35,4 +86,10 @@ jobs:
             exit 0
           fi
           git commit -m "Atualiza histórico de XP e mortes"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            if git push; then
+              exit 0
+            fi
+          done
+          exit 1
