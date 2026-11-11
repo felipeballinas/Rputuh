@@ -3,9 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RPUTUH | Consulta Tibia</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>PORTAL RPUTUH | Consulta Tibia</title>
+<meta name="description" content="RPUTUH: portal Tibiano com consulta de personagens, XP compartilhada, quests, builds, highscores, guilds e conteúdo de Tibia.">
+<link rel="canonical" href="https://rputuh.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Portal RPUTUH">
+<meta property="og:title" content="PORTAL RPUTUH | Consulta Tibia">
+<meta property="og:description" content="Consultas, quests, builds e conteúdo para a comunidade Tibiana.">
+<meta property="og:url" content="https://rputuh.com.br/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://rputuh.com.br/Miniatura.jpg">
+<meta property="og:image:secure_url" content="https://rputuh.com.br/Miniatura.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1365">
+<meta property="og:image:height" content="768">
+<meta property="og:image:alt" content="Logo Gameplay RPUTUH diante de uma fortaleza Tibiana em chamas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PORTAL RPUTUH | Consulta Tibia">
+<meta name="twitter:description" content="Consultas, quests, builds e conteúdo para a comunidade Tibiana.">
+<meta name="twitter:image" content="https://rputuh.com.br/Miniatura.jpg">
+<link rel="icon" type="image/png" href="Icone%20Site.png">
+<link rel="apple-touch-icon" href="Icone%20Site.png"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Pixelify+Sans:wght@500;700&display=swap">
 <style>
 :root{
@@ -187,7 +205,7 @@ textarea{width:100%;min-height:14rem;resize:vertical;font:500 .95rem/1.45 ui-mon
 .quest-intro-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
 .quest-intro-card{min-width:0;padding:.55rem .7rem;border:1px solid #54351f;border-radius:7px;background:#100e0d}
 .quest-intro-card h4{margin:0 0 .3rem;padding-bottom:.25rem;border-bottom:1px solid #70401b;color:var(--gold);font:700 1rem var(--body)}
-.quest-intro-card p{margin:.25rem 0;overflow-wrap:anywhere}.quest-intro-card>div{min-width:0}.quest-intro-card img{width:auto!important;max-width:4rem!important;max-height:4rem!important;height:auto!important;object-fit:contain;vertical-align:middle}
+.quest-intro-card p{margin:.25rem 0;overflow-wrap:anywhere}.quest-intro-card>div{min-width:0}.quest-intro-card img{width:auto!important;max-width:min(100%,37.5rem)!important;max-height:min(65vh,34rem)!important;height:auto!important;object-fit:contain;vertical-align:middle}
 .quest-intro-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(7.5rem,1fr));gap:.4rem;margin:.65rem 0}
 .quest-intro-stat{min-width:0;overflow-wrap:anywhere;border:1px solid #4d321f;border-radius:6px;background:#17120f;text-align:center}
 .quest-intro-stat b{display:block;padding:.25rem .35rem;background:linear-gradient(90deg,#8f3218,#d14b1b);color:#fff;font-size:.88rem}
@@ -196,7 +214,7 @@ textarea{width:100%;min-height:14rem;resize:vertical;font:500 .95rem/1.45 ui-mon
 .quest-intro-legend h4{margin:-.65rem -.8rem .55rem;padding:.38rem .7rem;border-radius:6px 6px 0 0;background:linear-gradient(90deg,#9b3215,#ef6815);color:#fff;text-align:center;font:700 1rem var(--body)}
 .quest-intro-legend p{margin:.25rem 0;font-style:italic}
 .quest-attribution{margin:.6rem 0;padding:.6rem .75rem;border:1px solid #493629;border-radius:6px;background:#100e0d;color:var(--muted);font-size:.9rem}
-.quest-article{max-width:82rem;overflow-wrap:anywhere;line-height:1.65;scroll-margin-top:1rem}.quest-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(17rem,22rem);gap:1.25rem;align-items:start}.quest-guide-content{grid-column:1;grid-row:1;min-width:0}.quest-infobox{grid-column:2;grid-row:1;min-width:0;padding:.75rem;border:1px solid #9b5a27;border-radius:9px;background:linear-gradient(145deg,#3a2417,#211811);box-shadow:0 8px 24px #0006;color:var(--text);text-align:center}.quest-infobox .pi-title{margin:0 0 .6rem;padding:.55rem;border-radius:5px;background:linear-gradient(180deg,#8b321c,#5f2116);color:#fff;font-weight:700}.quest-infobox .pi-group{margin:.45rem 0}.quest-infobox .pi-header{margin:.4rem 0;padding:.25rem;color:var(--gold);font-weight:700}.quest-infobox .pi-data{display:grid;grid-template-columns:minmax(5rem,.8fr) minmax(0,1.2fr);gap:.4rem;padding:.35rem .15rem;border-bottom:1px solid #70401b;text-align:left}.quest-infobox .pi-data-label{margin:0;color:var(--muted);font-weight:600}.quest-infobox .pi-data-value{min-width:0;overflow-wrap:anywhere}.quest-infobox .pi-navigation{margin-top:.55rem;color:var(--muted);font-size:.9rem}.quest-article h2,.quest-article h3,.quest-article h4{color:var(--gold);margin:1.1rem 0 .45rem}.quest-article p{margin:.55rem 0}.quest-article ul,.quest-article ol{padding-left:1.5rem}.quest-article table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}.quest-article th,.quest-article td{padding:.45rem .55rem;border:1px solid #493629}.quest-article img{display:block;width:auto!important;max-width:min(100%,38rem)!important;max-height:min(65vh,34rem)!important;height:auto!important;object-fit:contain;vertical-align:middle;margin:.55rem auto}.quest-article p img,.quest-article li img,.quest-article td img,.quest-article th img,.quest-intro img{display:inline-block;width:auto!important;max-width:min(100%,12rem)!important;max-height:10rem!important;height:auto!important;object-fit:contain;vertical-align:middle;margin:.2rem}.quest-article a{overflow-wrap:anywhere}.quest-article figure{margin:.8rem 0}.quest-article table.quest-dialogue{display:table;width:min(100%,58rem);margin:1rem auto;border:1px solid #a5652d;border-radius:10px;border-spacing:0;overflow:hidden;background:#19130f;box-shadow:0 8px 22px #0006}.quest-article table.quest-dialogue tr:nth-child(even){background:#211811}.quest-article table.quest-dialogue td,.quest-article table.quest-dialogue th{padding:.65rem .8rem;border-color:#64411f;color:#f1e7d8;vertical-align:middle}.quest-article table.quest-dialogue td:first-child{width:7rem;text-align:center;background:#120e0c}.quest-article table.quest-dialogue td:first-child img{display:inline-block;width:auto!important;max-width:4rem!important;max-height:4rem!important;height:auto!important;margin:.2rem;object-fit:contain}.quest-article table.quest-dialogue b,.quest-article table.quest-dialogue strong{color:#ffad43}.quest-article table.quest-dialogue i,.quest-article table.quest-dialogue em{color:#d9c7b2}.quest-article .quest-dialogue{box-sizing:border-box;max-height:22rem;overflow:auto;margin:1rem auto;padding:1rem;border:1px solid #c2cbd2;border-radius:10px;background:#edf1f4;color:#27333c;box-shadow:0 4px 14px #0003}.quest-article .quest-dialogue a{color:#1769aa}.quest-article .quest-dialogue b,.quest-article .quest-dialogue strong{color:#1769aa}.quest-article .quest-dialogue i,.quest-article .quest-dialogue em{color:#536575}.quest-article table.quest-dialogue{display:table;width:min(100%,58rem);border-collapse:separate;border-spacing:0;background:#edf1f4;color:#27333c}.quest-article table.quest-dialogue tr:nth-child(even){background:#e5ebef}.quest-article table.quest-dialogue td,.quest-article table.quest-dialogue th{border-color:#c2cbd2;color:#27333c}.quest-article table.quest-dialogue td:first-child{background:#e5ebef}.quest-article table.quest-dialogue b,.quest-article table.quest-dialogue strong{color:#1769aa}.quest-article table.quest-dialogue i,.quest-article table.quest-dialogue em{color:#536575}
+.quest-article{max-width:82rem;overflow-wrap:anywhere;line-height:1.65;scroll-margin-top:1rem}.quest-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(17rem,22rem);gap:1.25rem;align-items:start}.quest-guide-content{grid-column:1;grid-row:1;min-width:0}.quest-infobox{grid-column:2;grid-row:1;min-width:0;padding:.75rem;border:1px solid #9b5a27;border-radius:9px;background:linear-gradient(145deg,#3a2417,#211811);box-shadow:0 8px 24px #0006;color:var(--text);text-align:center}.quest-infobox .pi-title{margin:0 0 .6rem;padding:.55rem;border-radius:5px;background:linear-gradient(180deg,#8b321c,#5f2116);color:#fff;font-weight:700}.quest-infobox .pi-group{margin:.45rem 0}.quest-infobox .pi-header{margin:.4rem 0;padding:.25rem;color:var(--gold);font-weight:700}.quest-infobox .pi-data{display:grid;grid-template-columns:minmax(5rem,.8fr) minmax(0,1.2fr);gap:.4rem;padding:.35rem .15rem;border-bottom:1px solid #70401b;text-align:left}.quest-infobox .pi-data-label{margin:0;color:var(--muted);font-weight:600}.quest-infobox .pi-data-value{min-width:0;overflow-wrap:anywhere}.quest-infobox .pi-navigation{margin-top:.55rem;color:var(--muted);font-size:.9rem}.quest-article h2,.quest-article h3,.quest-article h4{color:var(--gold);margin:1.1rem 0 .45rem}.quest-article p{margin:.55rem 0}.quest-article ul,.quest-article ol{padding-left:1.5rem}.quest-article table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}.quest-article th,.quest-article td{padding:.45rem .55rem;border:1px solid #493629}.quest-article img{display:block;width:auto!important;max-width:min(100%,37.5rem)!important;max-height:min(65vh,34rem)!important;height:auto!important;object-fit:contain;vertical-align:middle;margin:.55rem auto}.quest-article p img,.quest-article li img,.quest-article td img,.quest-article th img,.quest-intro img{display:inline-block;width:auto!important;max-width:min(100%,37.5rem)!important;max-height:min(65vh,34rem)!important;height:auto!important;object-fit:contain;vertical-align:middle;margin:.2rem}.quest-article a{overflow-wrap:anywhere}.quest-article figure{margin:.8rem 0}.quest-article table.quest-dialogue{display:table;width:min(100%,58rem);margin:1rem auto;border:1px solid #a5652d;border-radius:10px;border-spacing:0;overflow:hidden;background:#19130f;box-shadow:0 8px 22px #0006}.quest-article table.quest-dialogue tr:nth-child(even){background:#211811}.quest-article table.quest-dialogue td,.quest-article table.quest-dialogue th{padding:.65rem .8rem;border-color:#64411f;color:#f1e7d8;vertical-align:middle}.quest-article table.quest-dialogue td:first-child{width:7rem;text-align:center;background:#120e0c}.quest-article table.quest-dialogue td:first-child img{display:inline-block;width:auto!important;max-width:4rem!important;max-height:4rem!important;height:auto!important;margin:.2rem;object-fit:contain}.quest-article table.quest-dialogue b,.quest-article table.quest-dialogue strong{color:#ffad43}.quest-article table.quest-dialogue i,.quest-article table.quest-dialogue em{color:#d9c7b2}.quest-article .quest-dialogue{box-sizing:border-box;max-height:22rem;overflow:auto;margin:1rem auto;padding:1rem;border:1px solid #c2cbd2;border-radius:10px;background:#edf1f4;color:#27333c;box-shadow:0 4px 14px #0003}.quest-article .quest-dialogue a{color:#1769aa}.quest-article .quest-dialogue b,.quest-article .quest-dialogue strong{color:#1769aa}.quest-article .quest-dialogue i,.quest-article .quest-dialogue em{color:#536575}.quest-article table.quest-dialogue{display:table;width:min(100%,58rem);border-collapse:separate;border-spacing:0;background:#edf1f4;color:#27333c}.quest-article table.quest-dialogue tr:nth-child(even){background:#e5ebef}.quest-article table.quest-dialogue td,.quest-article table.quest-dialogue th{border-color:#c2cbd2;color:#27333c}.quest-article table.quest-dialogue td:first-child{background:#e5ebef}.quest-article table.quest-dialogue b,.quest-article table.quest-dialogue strong{color:#1769aa}.quest-article table.quest-dialogue i,.quest-article table.quest-dialogue em{color:#536575}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media (max-width:60rem){.party-columns{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:60rem){.quest-intro-grid{grid-template-columns:minmax(0,1fr)}.quest-layout{grid-template-columns:minmax(0,1fr);gap:.75rem}.quest-guide-content{grid-column:1;grid-row:1}.quest-infobox{grid-column:1;grid-row:2}}
@@ -350,6 +368,27 @@ header{position:relative;z-index:100;overflow:visible}
 .landing-copy#news-slide .tagline{max-width:38rem;font-size:clamp(1.05rem,1.8vw,1.55rem);line-height:1.25;overflow-wrap:anywhere}
 .landing-copy#news-slide .news-translation-note{display:block;margin:-.7rem 0 1rem;color:var(--muted)}
 .landing-copy#news-slide .landing-cta[hidden]{display:none}
+/* Mapa interativo das coordenadas dos guias */
+.quest-map-coordinate{display:inline;padding:0 .08rem;border:0;border-radius:3px;background:transparent;color:#ffad43;font:inherit;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;cursor:pointer}
+.quest-map-coordinate:hover{background:#ff861822;color:#ffd08a}
+.quest-map-dialog{width:min(42rem,calc(100vw - 1.5rem));height:min(82vh,36rem);max-width:none;max-height:none;padding:.65rem;overflow:hidden;border:1px solid #a8672d;border-radius:12px;background:linear-gradient(145deg,#241a13,#100d0b);color:var(--text);box-shadow:0 22px 70px #000c;grid-template-rows:auto minmax(0,1fr);gap:.55rem}
+.quest-map-dialog[open]{display:grid}
+.quest-map-dialog::backdrop{background:#000b;backdrop-filter:blur(3px)}
+.quest-map-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;min-width:0;padding:.1rem .15rem .45rem;border-bottom:1px solid #49301d}
+.quest-map-dialog-head h2{margin:0;color:var(--gold);font:700 1.1rem var(--display)}
+#quest-map-frame{display:block;width:100%;height:100%;min-height:15rem;border:1px solid #50331f;border-radius:7px;background:#17120f}
+@media(max-width:44rem){.quest-search-row{flex-wrap:wrap}.quest-search-row input{flex:1 1 100%}.quest-map-dialog{width:calc(100vw - 1rem);height:min(82vh,36rem);padding:.5rem}.quest-map-dialog-head h2{font-size:1rem}}
+/* Comparador de builds e dano */
+.damage-source-note{margin:.7rem 0 1rem;padding:.8rem 1rem;border:1px solid #80501e;border-radius:8px;background:#22180f;color:#e9d9c7;line-height:1.5}.damage-source-note a,.damage-credit a{color:#ffad43}.damage-toolbar{align-items:center;margin-bottom:1rem}.damage-build-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:start}.damage-build{min-width:0;padding:1rem;border:1px solid #64401f;border-radius:10px;background:linear-gradient(145deg,#1d1712,#100d0b);box-shadow:0 8px 24px #0005}.damage-build h3{margin:.1rem 0 .55rem;color:var(--gold)}.damage-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}.damage-fields label{display:flex;flex-direction:column;gap:.3rem;min-width:0;color:var(--muted);font-size:.9rem}.damage-fields input,.damage-fields select,.damage-row input,.damage-row select{box-sizing:border-box;width:100%;height:2.65rem;min-height:2.65rem;min-width:0;padding:.45rem .65rem;border:1px solid #50331f;border-radius:6px;background:#0e0c0a;color:var(--text);font:inherit;flex:0 0 auto}.damage-fields .damage-field-wide{grid-column:auto}.damage-advanced,.damage-section{margin-top:.8rem;padding:.65rem;border:1px solid #49301d;border-radius:8px;background:#17120f}.damage-advanced summary,.damage-section summary{color:#ffbd68;font-weight:700;cursor:pointer}.damage-advanced .damage-fields{margin-top:.65rem}.damage-section>summary{margin-bottom:.55rem}.damage-check{display:flex;align-items:center;gap:.45rem;margin:.2rem 0 .6rem;color:var(--muted);font-size:.9rem}.damage-check input{width:auto;height:auto;min-height:0;flex:0 0 auto}.damage-row{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(4.5rem,.55fr)) auto;gap:.45rem;align-items:center;margin:.45rem 0}.damage-perk-row{grid-template-columns:minmax(0,1.6fr) minmax(5rem,.65fr) auto}.damage-target-row{grid-template-columns:minmax(0,1.5fr) minmax(4rem,.5fr) minmax(6rem,.75fr) minmax(4rem,.45fr) auto}.damage-remove{min-width:2.4rem;padding:.45rem;border:1px solid #70401b;border-radius:5px;background:#24140f;color:#ffb26b;cursor:pointer}.damage-add{margin-top:.4rem;padding:.45rem .7rem}.damage-result{margin-top:1rem;padding:.8rem;border:1px solid #8b551f;border-radius:8px;background:#100d0b}.damage-result h4{margin:.1rem 0 .65rem;color:var(--gold)}.damage-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.55rem}.damage-kpi{padding:.65rem;border:1px solid #49301d;border-radius:7px;background:#1b1510}.damage-kpi span{display:block;color:var(--muted);font-size:.8rem}.damage-kpi b{display:block;margin-top:.2rem;color:#ffb14e;font-size:1.2rem}.damage-result table{width:100%;margin-top:.7rem;border-collapse:collapse;font-size:.88rem}.damage-result th,.damage-result td{padding:.4rem .5rem;border-bottom:1px solid #37271a;text-align:right}.damage-result th:first-child,.damage-result td:first-child{text-align:left}.damage-result .damage-winner{color:#8ee6a0}.damage-result .damage-loser{color:#e9a18e}.damage-result .damage-error{color:#ff9b89}.damage-credit{margin-top:1rem;font-size:.88rem}.damage-remove:hover{background:#3b2014}
+.damage-item-preview{display:flex;align-items:center;gap:.7rem;min-height:3.4rem;margin:0 0 .75rem;padding:.5rem .65rem;border:1px solid #49301d;border-radius:7px;background:#15110e}.damage-item-preview img{width:40px;height:40px;object-fit:contain;image-rendering:pixelated}.damage-item-preview .damage-item-placeholder{display:grid;place-items:center;width:40px;height:40px;border:1px dashed #64401f;border-radius:5px;color:#ffad43;font-size:1.2rem}.damage-item-preview b,.damage-item-preview small{display:block}.damage-item-preview small{margin-top:.15rem;color:var(--muted)}
+.damage-item-preview .damage-item-placeholder[hidden]{display:none}
+.damage-comparison{display:grid;grid-template-columns:1fr;gap:.65rem;margin:0 0 1rem;padding:.9rem 1rem;border:1px solid #80501e;border-radius:8px;background:linear-gradient(110deg,#21170f,#12100e);color:#f2e4d4}.damage-comparison:empty{display:none}.damage-comparison-head{display:flex;justify-content:space-between;gap:.7rem;align-items:center}.damage-comparison-head b{color:#ffb14e}.damage-comparison-head span{color:var(--muted);font-size:.9rem}.damage-compare-bars{display:grid;gap:.55rem}.damage-compare-row{display:grid;grid-template-columns:5.5rem minmax(0,1fr) minmax(5rem,auto);gap:.6rem;align-items:center;font-size:.9rem}.damage-compare-track{height:1rem;overflow:hidden;border:1px solid #49301d;border-radius:99px;background:#090807}.damage-compare-fill{height:100%;min-width:0;border-radius:99px;transition:width .35s ease}.damage-compare-fill.a{background:linear-gradient(90deg,#b58d32,#f5d66b)}.damage-compare-fill.b{background:linear-gradient(90deg,#5069b7,#8da8ff)}.damage-compare-row b{text-align:right;font-variant-numeric:tabular-nums}.damage-compare-foot{color:var(--muted);font-size:.82rem}
+.damage-compare-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}.damage-compare-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:.15rem .65rem;padding:.65rem .75rem;border:1px solid #59451f;border-radius:8px;background:#18150f}.damage-compare-card.b{border-color:#394a7d;background:#111521}.damage-compare-card>b{display:flex;align-items:center;gap:.4rem}.damage-compare-card i{display:grid;place-items:center;width:1.35rem;height:1.35rem;border-radius:5px;background:#d8bd61;color:#17120a;font-style:normal}.damage-compare-card.b i{background:#758fe7;color:#0c1020}.damage-compare-card>strong{grid-column:1/-1;color:#f0d76f;font-size:1.55rem;font-variant-numeric:tabular-nums}.damage-compare-card.b>strong{color:#91a9ff}.damage-compare-card>span{color:var(--muted);font-size:.85rem}.damage-compare-card>small{grid-column:1/-1;color:var(--muted)}
+.damage-build-title{display:flex;align-items:center;justify-content:space-between;gap:.5rem}.damage-build-title h3{margin:.1rem 0 .55rem}.damage-vocation-badge{padding:.25rem .55rem;border:1px solid #80501e;border-radius:99px;background:#24180e;color:#ffbd68;font-size:.8rem;font-weight:700}.damage-vocation-required .damage-comparison,.damage-vocation-required .damage-toolbar,.damage-vocation-required .damage-build-grid,.damage-vocation-required .damage-source-note{display:none}.damage-vocation-dialog{width:min(38rem,calc(100vw - 2rem));max-width:none;padding:0;border:1px solid #9b5a27;border-radius:14px;background:linear-gradient(145deg,#21170f,#100d0b);color:var(--text);box-shadow:0 24px 90px #000c}.damage-vocation-dialog::backdrop{background:#080604cc;backdrop-filter:blur(5px)}.damage-vocation-dialog-inner{padding:1.4rem}.damage-vocation-dialog h2{margin:.25rem 0 .4rem;color:#ffb14e}.damage-vocation-dialog p{color:var(--muted);line-height:1.5}.damage-modal-kicker{color:#d49c42;font-size:.75rem;font-weight:800;letter-spacing:.16em}.damage-vocation-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin:1rem 0}.damage-vocation-choices button{display:grid;grid-template-columns:3.5rem minmax(0,1fr);align-items:center;gap:.1rem .55rem;min-height:4.4rem;padding:.65rem .75rem;border:1px solid #59401f;border-radius:9px;background:linear-gradient(145deg,#211a14,#15100c);color:var(--text);text-align:left;cursor:pointer}.damage-vocation-choices button:hover,.damage-vocation-choices button:focus-visible{border-color:#ff9b36;background:#2b1b0e;outline:none}.damage-vocation-choices button>img{grid-row:1/3;width:3rem;height:3rem;object-fit:contain;image-rendering:pixelated}.damage-vocation-choices button>b{color:#ffbd68}.damage-vocation-choices button>small{color:var(--muted)}.damage-vocation-cancel{padding:.45rem .7rem;border:1px solid #57402d;border-radius:6px;background:#15110e;color:var(--muted);cursor:pointer}
+@media(max-width:50rem){.damage-build-grid{grid-template-columns:minmax(0,1fr)}.damage-row{grid-template-columns:minmax(0,1fr) minmax(4rem,.5fr) minmax(4rem,.5fr) auto}.damage-target-row{grid-template-columns:minmax(0,1fr) minmax(4rem,.5fr) auto}.damage-target-row select:nth-of-type(2),.damage-target-row select:nth-of-type(3){grid-row:2}}
+@media(max-width:36rem){.damage-fields{grid-template-columns:minmax(0,1fr)}.damage-fields .damage-field-wide{grid-column:auto}.damage-row,.damage-perk-row,.damage-target-row{grid-template-columns:minmax(0,1fr) minmax(3.8rem,.55fr) auto}.damage-row select:first-child{grid-column:1/-1}.damage-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.damage-result table{font-size:.78rem}.damage-result th,.damage-result td{padding:.35rem .2rem}}
+@media(max-width:36rem){.damage-compare-cards{grid-template-columns:minmax(0,1fr)}.damage-compare-row{grid-template-columns:4.25rem minmax(0,1fr) 4rem}.damage-comparison-head{align-items:flex-start;flex-direction:column}}
+@media(max-width:32rem){.damage-vocation-dialog-inner{padding:1rem}.damage-vocation-choices{grid-template-columns:minmax(0,1fr)}}
 </style>
 </head>
 <body>
@@ -376,7 +415,7 @@ header{position:relative;z-index:100;overflow:visible}
               <a href="#guild" data-route="guild">⚔️ Guilds</a>
             </div>
           </details>
-          <a href="#quests" data-route="quests">⚔ Quests</a><a href="#party" data-route="party">XP compartilhada / PT</a><a href="#loot" data-route="loot">Dividir loot</a><a href="#about" data-route="about">Sobre</a><a href="#live" class="live-nav-link is-checking" id="nav-live" data-route="live" aria-label="Live: verificando"><span class="live-nav-dot" aria-hidden="true"></span><span id="nav-live-label">Verificando…</span></a>
+          <a href="#quests" data-route="quests">⚔ Quests</a><a href="#party" data-route="party">XP compartilhada / PT</a><a href="#loot" data-route="loot">Dividir loot</a><a href="#damage" data-route="damage">⚔ Dano / Builds</a><a href="#about" data-route="about">Sobre</a><a href="#live" class="live-nav-link is-checking" id="nav-live" data-route="live" aria-label="Live: verificando"><span class="live-nav-dot" aria-hidden="true"></span><span id="nav-live-label">Verificando…</span></a>
         </nav>
         <div class="channel-links" aria-label="Canais do RPUTUH"><b>Canais:</b><a href="https://www.youtube.com/@rputuh" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.twitch.tv/rputuh" target="_blank" rel="noopener noreferrer">Twitch</a><a href="https://www.instagram.com/rputuh" target="_blank" rel="noopener noreferrer">Instagram</a></div>
       </div>
@@ -464,12 +503,16 @@ header{position:relative;z-index:100;overflow:visible}
     <h2>Explorador de Quests</h2>
     <p class="muted">Pesquise uma quest para abrir seu guia e spoiler. A lista e os artigos da TibiaWiki Brasil são priorizados; quests sem página disponível usam a fonte internacional e tradução automática das instruções.</p>
     <div class="quest-source-note">⚠ Os guias podem revelar etapas e soluções. A lista e os detalhes precisam de conexão com a internet.</div>
-    <div class="row quest-search-row"><label class="sr-only" for="quest-filter">Buscar quest</label><input id="quest-filter" type="search" placeholder="Buscar pelo nome da quest" autocomplete="off"><span class="muted" id="quest-count" aria-live="polite"></span></div>
+    <div class="row quest-search-row"><label class="sr-only" for="quest-filter">Buscar quest</label><input id="quest-filter" type="search" placeholder="Buscar pelo nome da quest" autocomplete="off"><span class="muted" id="quest-count" aria-live="polite"></span><button type="button" class="btn" id="quest-refresh">Atualizar lista</button></div>
     <div id="quest-status" class="muted" role="status">Carregue a lista para começar.</div>
     <div id="quest-list" class="quest-list"></div>
     <div id="quest-details" class="hidden"></div>
   </section>
 
+<dialog class="quest-map-dialog" id="quest-map-dialog" aria-labelledby="quest-map-title">
+  <div class="quest-map-dialog-head"><h2 id="quest-map-title">Mapa da quest</h2><button type="button" class="btn" id="quest-map-close" aria-label="Fechar mapa">Fechar ✕</button></div>
+  <iframe id="quest-map-frame" title="Mapa interativo do TibiaMaps"></iframe>
+</dialog>
 <section id="p-live" class="panel hidden">
     <div class="live-page-head"><span class="live-page-dot" id="live-page-dot" aria-hidden="true"></span><div><h2>RPUTUH ao vivo</h2><p id="live-page-status" aria-live="polite">Verificando transmissão…</p></div></div>
     <div class="live-offline" id="live-page-offline"><b>A transmissão está offline no momento.</b><br>Quando o canal entrar ao vivo, o player e o chat aparecerão aqui.</div>
@@ -528,6 +571,78 @@ header{position:relative;z-index:100;overflow:visible}
     <div id="out-loot" aria-live="polite"></div>
   </section>
 
+  <section id="p-damage" class="panel hidden">
+    <h2>Comparador de dano e builds</h2>
+    <p class="muted">Escolha a vocação para ver os atributos, as armas disponíveis e comparar duas builds dessa classe.</p>
+    <dialog id="damage-vocation-dialog" class="damage-vocation-dialog" aria-labelledby="damage-vocation-title">
+      <div class="damage-vocation-dialog-inner"><span class="damage-modal-kicker">DANO / BUILDS</span><h2 id="damage-vocation-title">Qual vocação vamos comparar?</h2><p>Selecione uma vocação. As duas builds serão configuradas para ela e as armas serão filtradas automaticamente.</p>
+        <div class="damage-vocation-choices">
+          <button type="button" data-damage-vocation-choice="knight"><img data-damage-vocation-image="knight" src="https://www.tibiawiki.com.br/images/3/36/Outfit_Bat_Knight_Female_Addon_3.gif" alt="Outfit Elite Knight" loading="lazy"><b>Elite Knight</b><small>Machados · Clavas · Espadas</small></button>
+          <button type="button" data-damage-vocation-choice="paladin"><img data-damage-vocation-image="paladin" src="https://www.tibiawiki.com.br/images/5/54/Outfit_Celestial_Avenger_Male_Addon_3.gif" alt="Outfit Royal Paladin" loading="lazy"><b>Royal Paladin</b><small>Armas de distância</small></button>
+          <button type="button" data-damage-vocation-choice="sorcerer"><img data-damage-vocation-image="sorcerer" src="https://www.tibiawiki.com.br/images/8/8c/Outfit_Conjurer_Male_Addon_3.gif" alt="Outfit Master Sorcerer" loading="lazy"><b>Master Sorcerer</b><small>Wands</small></button>
+          <button type="button" data-damage-vocation-choice="druid"><img data-damage-vocation-image="druid" src="https://www.tibiawiki.com.br/images/d/d1/Outfit_Rune_Master_Female_Addon_3.gif" alt="Outfit Elder Druid" loading="lazy"><b>Elder Druid</b><small>Rods</small></button>
+          <button type="button" data-damage-vocation-choice="monk"><img data-damage-vocation-image="monk" src="https://www.tibiawiki.com.br/images/c/c6/Outfit_Martial_Artist_Male_Addon_3.gif" alt="Outfit Exalted Monk" loading="lazy"><b>Exalted Monk</b><small>Armas de punho</small></button>
+        </div><button type="button" class="damage-vocation-cancel" data-damage-vocation-dismiss>Voltar ao site</button>
+      </div>
+    </dialog>
+    <div class="damage-source-note"><b>Estimativa:</b> o Tibia não publica a fórmula completa de combate. Os resultados são calculados pela API pública do TibiaTools.io; use como referência para comparar configurações, não como previsão exata de XP/h. <a href="https://tibiatools.io/tools/calculator/guide" target="_blank" rel="noopener noreferrer">Como funciona o cálculo ↗</a></div>
+    <div id="damage-comparison" class="damage-comparison" aria-live="polite"></div>
+    <div class="damage-toolbar"><button type="button" class="btn" id="damage-change-vocation">Trocar vocação</button><span id="damage-status" class="muted" role="status">A comparação atualiza automaticamente ao alterar os dados.</span></div>
+    <div class="damage-build-grid">
+      <article class="damage-build" data-damage-build="a">
+        <div class="damage-build-title"><h3>Build A</h3><span class="damage-vocation-badge" data-damage-vocation-label>Elite Knight</span></div>
+        <div class="damage-item-preview" data-damage-weapon-preview="a"><span class="damage-item-placeholder">⚔</span><span><b data-damage-weapon-name>Arma padrão</b><small data-damage-weapon-skill>Selecione a vocação e a arma</small></span></div>
+        <div class="damage-fields">
+          <input type="hidden" data-damage-stat="vocation" value="knight">
+          <label>Level<input type="number" min="1" step="1" data-damage-stat="level" value="500"></label>
+          <label><span data-damage-skill-label>Skill principal</span><input type="number" min="0" step="1" data-damage-stat="skill" value="130"></label>
+          <label>Magic Level<input type="number" min="0" step="1" data-damage-stat="magicLevel" value="10"></label>
+          <label>Chance crítica (%)<input type="number" min="0" max="100" step="0.1" data-damage-stat="critChance" value="10"></label>
+          <label>Dano crítico (%)<input type="number" min="0" step="0.1" data-damage-stat="critDamage" value="50"></label>
+          <label class="damage-field-wide">Arma<select data-damage-weapon><option value="1">Punhos (padrão)</option></select></label><label class="damage-field-wide">Stance<select data-damage-stance><option value="">Sem stance</option></select></label>
+        </div>
+        <details class="damage-advanced"><summary>Atributos avançados</summary><div class="damage-fields">
+          <label>Fatal chance (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="fatalChance"></label>
+          <label>Transcendence (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="transcendenceChance"></label>
+          <label>Base Magic Level<input type="number" min="0" step="1" data-damage-stat="baseMagicLevel"></label>
+          <label>HP<input type="number" min="1" step="1" data-damage-stat="hitPoints"></label>
+          <label>MP<input type="number" min="1" step="1" data-damage-stat="manaPoints"></label>
+          <label data-damage-skill-attribute="axe">Axe<input type="number" min="0" step="1" data-damage-stat="axe"></label><label data-damage-skill-attribute="club">Club<input type="number" min="0" step="1" data-damage-stat="club"></label><label data-damage-skill-attribute="sword">Sword<input type="number" min="0" step="1" data-damage-stat="sword"></label><label data-damage-skill-attribute="fist">Fist<input type="number" min="0" step="1" data-damage-stat="fist"></label><label data-damage-skill-attribute="distance">Distance<input type="number" min="0" step="1" data-damage-stat="distance"></label><label data-damage-skill-attribute="shielding">Shielding<input type="number" min="0" step="1" data-damage-stat="shielding"></label>
+        </div></details>
+        <details class="damage-section" open><summary>Rotação</summary><label class="damage-check"><input type="checkbox" data-damage-auto checked> Incluir auto-ataque a cada turno</label><div class="damage-rotation" data-damage-rotation="a"></div><button type="button" class="btn damage-add" data-damage-add-rotation="a">+ Adicionar spell</button></details>
+        <details class="damage-section"><summary>Perks e bônus</summary><div class="damage-perks" data-damage-perks="a"></div><button type="button" class="btn damage-add" data-damage-add-perk="a">+ Adicionar perk</button></details>
+        <details class="damage-section"><summary>Alvos e charms</summary><div class="damage-targets" data-damage-targets="a"></div><button type="button" class="btn damage-add" data-damage-add-target="a">+ Adicionar criatura</button></details>
+        <div class="damage-result" data-damage-result="a"><p class="muted">Configure e calcule para ver os resultados.</p></div>
+      </article>
+      <article class="damage-build" data-damage-build="b">
+        <div class="damage-build-title"><h3>Build B</h3><span class="damage-vocation-badge" data-damage-vocation-label>Elite Knight</span></div>
+        <div class="damage-item-preview" data-damage-weapon-preview="b"><span class="damage-item-placeholder">⚔</span><span><b data-damage-weapon-name>Arma padrão</b><small data-damage-weapon-skill>Selecione a vocação e a arma</small></span></div>
+        <div class="damage-fields">
+          <input type="hidden" data-damage-stat="vocation" value="knight">
+          <label>Level<input type="number" min="1" step="1" data-damage-stat="level" value="500"></label>
+          <label><span data-damage-skill-label>Skill principal</span><input type="number" min="0" step="1" data-damage-stat="skill" value="130"></label>
+          <label>Magic Level<input type="number" min="0" step="1" data-damage-stat="magicLevel" value="10"></label>
+          <label>Chance crítica (%)<input type="number" min="0" max="100" step="0.1" data-damage-stat="critChance" value="10"></label>
+          <label>Dano crítico (%)<input type="number" min="0" step="0.1" data-damage-stat="critDamage" value="50"></label>
+          <label class="damage-field-wide">Arma<select data-damage-weapon><option value="1">Punhos (padrão)</option></select></label><label class="damage-field-wide">Stance<select data-damage-stance><option value="">Sem stance</option></select></label>
+        </div>
+        <details class="damage-advanced"><summary>Atributos avançados</summary><div class="damage-fields">
+          <label>Fatal chance (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="fatalChance"></label>
+          <label>Transcendence (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="transcendenceChance"></label>
+          <label>Base Magic Level<input type="number" min="0" step="1" data-damage-stat="baseMagicLevel"></label>
+          <label>HP<input type="number" min="1" step="1" data-damage-stat="hitPoints"></label>
+          <label>MP<input type="number" min="1" step="1" data-damage-stat="manaPoints"></label>
+          <label data-damage-skill-attribute="axe">Axe<input type="number" min="0" step="1" data-damage-stat="axe"></label><label data-damage-skill-attribute="club">Club<input type="number" min="0" step="1" data-damage-stat="club"></label><label data-damage-skill-attribute="sword">Sword<input type="number" min="0" step="1" data-damage-stat="sword"></label><label data-damage-skill-attribute="fist">Fist<input type="number" min="0" step="1" data-damage-stat="fist"></label><label data-damage-skill-attribute="distance">Distance<input type="number" min="0" step="1" data-damage-stat="distance"></label><label data-damage-skill-attribute="shielding">Shielding<input type="number" min="0" step="1" data-damage-stat="shielding"></label>
+        </div></details>
+        <details class="damage-section" open><summary>Rotação</summary><label class="damage-check"><input type="checkbox" data-damage-auto checked> Incluir auto-ataque a cada turno</label><div class="damage-rotation" data-damage-rotation="b"></div><button type="button" class="btn damage-add" data-damage-add-rotation="b">+ Adicionar spell</button></details>
+        <details class="damage-section"><summary>Perks e bônus</summary><div class="damage-perks" data-damage-perks="b"></div><button type="button" class="btn damage-add" data-damage-add-perk="b">+ Adicionar perk</button></details>
+        <details class="damage-section"><summary>Alvos e charms</summary><div class="damage-targets" data-damage-targets="b"></div><button type="button" class="btn damage-add" data-damage-add-target="b">+ Adicionar criatura</button></details>
+        <div class="damage-result" data-damage-result="b"><p class="muted">Configure e calcule para ver os resultados.</p></div>
+      </article>
+    </div>
+    <p class="damage-credit muted">Dados e motor de cálculo fornecidos pela <a href="https://tibiatools.io/tools/calculator/guide" target="_blank" rel="noopener noreferrer">TibiaTools.io</a>. Perks, rotação, alvos e resistências influenciam o resultado; se a rotação ou os alvos não forem informados, o resultado fica menos representativo.</p>
+  </section>
+
   <footer class="site-footer">
     <div class="site-footer-brand"><b>RPUTUH</b> · Portal da comunidade Tibiana</div>
     <nav aria-label="Canais do RPUTUH"><a href="https://www.youtube.com/@rputuh" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.twitch.tv/rputuh" target="_blank" rel="noopener noreferrer">Twitch</a><a href="https://www.instagram.com/rputuh" target="_blank" rel="noopener noreferrer">Instagram</a></nav>
@@ -554,6 +669,7 @@ const YOUTUBE_VIDEOS = [
 ];
 let twitchPlayer = null;
 let questCatalog = null;
+let questCatalogUpdatedAt = 0;
 const questPageCache = new Map();
 const questTranslationCache = new Map();
 let questPreservedTerms = [];
@@ -866,12 +982,13 @@ async function go(h, remember = true) {
 
   stopYoutubeVideo();
   document.querySelector('.carousel-panel').classList.remove('has-player', 'has-youtube-player', 'has-live-player');
-  const t = ['char', 'world', 'scores', 'guild', 'quests', 'party', 'loot', 'about', 'live'].includes(tab) ? tab : 'char';
+  const t = ['char', 'world', 'scores', 'guild', 'quests', 'party', 'loot', 'damage', 'about', 'live'].includes(tab) ? tab : 'char';
   const val = arg ? decodeURIComponent(arg) : '';
   showTab(t);
   if (remember) setHash(h || t);
   try {
     if (t === 'live') { initTwitchEmbed(); renderLivePage(); }
+    if (t === 'damage') openDamageVocationPicker();
     if (t === 'char' && val) { document.querySelector('[data-form=char] input').value = val; await loadChar(val); }
     if (t === 'guild' && val) { document.querySelector('[data-form=guild] input').value = val; await loadGuild(val); }
     if (t === 'party' && val) { document.querySelector('[data-form=party] input').value = val; await findParty(val); }
@@ -885,45 +1002,92 @@ addEventListener('hashchange', () => go(location.hash, false));
 
 /* ---------- Explorador de quests ---------- */
 const questFilter = $('#quest-filter');
+const QUEST_CATALOG_TTL = 15 * 60 * 1000;
 questFilter.addEventListener('input', renderQuestList);
+$('#quest-refresh').addEventListener('click', () => loadQuestDirectory(true));
+setInterval(() => {
+  const route = location.hash.replace(/^#/, '').split('/')[0];
+  if (route === 'quests' && questCatalog && $('#quest-details').classList.contains('hidden') && Date.now() - questCatalogUpdatedAt >= QUEST_CATALOG_TTL) loadQuestDirectory();
+}, 60 * 1000);
 
-async function loadQuestDirectory() {
+async function fetchAllQuestCategoryPages(apiUrl, category) {
+  const pages = [];
+  let continuation = null;
+  const seenCursors = new Set();
+  for (let pageNumber = 0; pageNumber < 100; pageNumber++) {
+    const params = new URLSearchParams({action:'query',list:'categorymembers',cmtitle:category,cmtype:'page',cmlimit:'500',cmprop:'title',format:'json',formatversion:'2',origin:'*'});
+    if (continuation) for (const [key, value] of Object.entries(continuation)) params.set(key, value);
+    const response = await fetch(`${apiUrl}?${params}`);
+    if (!response.ok) throw new Error(`A wiki respondeu com erro ${response.status} ao listar ${category}.`);
+    const data = await response.json();
+    if (data?.error) throw new Error(data.error.info || `Não foi possível listar ${category}.`);
+    pages.push(...(data.query?.categorymembers || []));
+    continuation = data.continue || null;
+    if (!continuation) return pages;
+    const cursorKey = JSON.stringify(continuation);
+    if (seenCursors.has(cursorKey)) throw new Error(`A paginação de ${category} não avançou.`);
+    seenCursors.add(cursorKey);
+  }
+  throw new Error(`A categoria ${category} ultrapassou o limite de segurança da paginação.`);
+}
+
+async function fetchQuestCategories(apiUrl, categories) {
+  const groups = await Promise.all(categories.map((category) => fetchAllQuestCategoryPages(apiUrl, category)));
+  return groups.flat().filter((page) => page.ns === 0 && !page.title.includes('/')).map((page) => page.title);
+}
+
+async function refreshQuestCatalog() {
+  const [portugueseResult, internationalResult] = await Promise.allSettled([
+    fetchQuestCategories(WIKI_BR_API, ['Categoria:Spoilers de Quests','Categoria:Quests de Mainland','Categoria:Quests de Rookgaard']),
+    fetchQuestCategories(WIKI_API, ['Category:Quest_Overview_Pages'])
+  ]);
+  if (portugueseResult.status === 'rejected' && internationalResult.status === 'rejected') {
+    throw new Error('Não foi possível consultar as categorias de quests da TibiaWiki Brasil nem da wiki internacional.');
+  }
+  const portugueseTitles = portugueseResult.status === 'fulfilled' ? portugueseResult.value : [];
+  const internationalTitles = internationalResult.status === 'fulfilled'
+    ? internationalResult.value.filter((title) => !/\bmini?\s*world\s*changes?\b|\bworld\s*changes?\b/i.test(title))
+    : [];
+  const byNormalizedTitle = new Map();
+  for (const title of [...portugueseTitles, ...internationalTitles]) {
+    const key = title.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase();
+    if (!byNormalizedTitle.has(key)) byNormalizedTitle.set(key, title);
+  }
+  const updatedCatalog = [...byNormalizedTitle.values()].sort((a,b) => a.localeCompare(b));
+  if (!updatedCatalog.length) throw new Error('As categorias consultadas não retornaram quests.');
+  questCatalog = updatedCatalog;
+  questCatalogUpdatedAt = Date.now();
+  const sources = [portugueseTitles.length ? 'TibiaWiki Brasil' : '', internationalTitles.length ? 'TibiaWiki internacional' : ''].filter(Boolean);
+  return {sources, portugueseCount:portugueseTitles.length, internationalCount:internationalTitles.length};
+}
+
+async function loadQuestDirectory(forceRefresh = false) {
   const status = $('#quest-status');
   $('#quest-details').classList.add('hidden');
   $('#quest-list').classList.remove('hidden');
-  status.textContent = 'Carregando lista de quests…';
-  try {
-    if (!questCatalog) {
-      try {
-        const categories = ['Categoria:Spoilers de Quests'];
-        const portuguesePages = await Promise.all(categories.map(async (category) => {
-          const params = new URLSearchParams({action:'query',list:'categorymembers',cmtitle:category,cmtype:'page',cmlimit:'500',format:'json',origin:'*'});
-          const response = await fetch(`${WIKI_BR_API}?${params}`);
-          if (!response.ok) throw new Error(`A TibiaWiki Brasil respondeu com erro ${response.status}.`);
-          const data = await response.json();
-          if (data?.error) throw new Error(data.error.info || 'A lista brasileira de quests não pôde ser carregada.');
-          return data.query?.categorymembers || [];
-        }));
-        questCatalog = Array.from(new Set(portuguesePages.flat().filter((page) => page.ns === 0).map((page) => page.title))).sort((a,b) => a.localeCompare(b));
-        if (!questCatalog.length) throw new Error('A lista brasileira de quests veio vazia.');
-        status.dataset.questLanguage = 'pt';
-      } catch (portugueseError) {
-        const params = new URLSearchParams({action:'query',list:'categorymembers',cmtitle:'Category:Quest_Overview_Pages',cmlimit:'500',format:'json',origin:'*'});
-        const response = await fetch(`${WIKI_API}?${params}`);
-        if (!response.ok) throw portugueseError;
-        const data = await response.json();
-        if (data?.error) throw new Error(data.error.info || 'A lista de quests não pôde ser carregada.');
-        questCatalog = (data.query?.categorymembers || []).filter((page) => page.ns === 0 && !page.title.includes('/')).map((page) => page.title).sort((a,b) => a.localeCompare(b));
-        status.dataset.questLanguage = 'en';
+  const needsRefresh = forceRefresh || !questCatalog || Date.now() - questCatalogUpdatedAt >= QUEST_CATALOG_TTL;
+  if (needsRefresh) {
+    status.textContent = questCatalog ? 'Verificando se há quests novas…' : 'Carregando todas as páginas das categorias de quests…';
+    $('#quest-refresh').disabled = true;
+    try {
+      const result = await refreshQuestCatalog();
+      status.textContent = `Lista atualizada com ${questCatalog.length} quests encontradas em ${result.sources.join(' e ')}. A consulta é renovada automaticamente a cada 15 minutos.`;
+    } catch (error) {
+      if (!questCatalog) {
+        status.textContent = `${error.message} Tente novamente quando a conexão estiver disponível.`;
+        return;
       }
+      status.textContent = `Não foi possível atualizar agora; mantendo as ${questCatalog.length} quests carregadas anteriormente. ${error.message}`;
+    } finally {
+      $('#quest-refresh').disabled = false;
     }
-    status.textContent = questCatalog.length ? `${status.dataset.questLanguage === 'pt' ? 'Lista da TibiaWiki Brasil carregada.' : 'Lista internacional carregada; alguns guias podem estar em inglês.'} Selecione uma quest para abrir o guia e o spoiler.` : 'Nenhuma quest foi encontrada na fonte.';
-    renderQuestList();
-    requestAnimationFrame(() => $('#p-quests')?.scrollIntoView({behavior:'smooth',block:'start'}));
-  } catch (error) {
-    status.textContent = `${error.message} Tente novamente quando a conexão estiver disponível.`;
+  } else {
+    status.textContent = `Lista sincronizada: ${questCatalog.length} quests. A próxima verificação automática será feita em até 15 minutos.`;
   }
+  renderQuestList();
+  requestAnimationFrame(() => $('#p-quests')?.scrollIntoView({behavior:'smooth',block:'start'}));
 }
+
 function renderQuestList() {
   if (!questCatalog) return;
   const query = questFilter.value.trim().toLocaleLowerCase();
@@ -933,6 +1097,101 @@ function renderQuestList() {
   $('#quest-list').querySelectorAll('[data-quest]').forEach((button) => button.addEventListener('click', () => go(`quests/${encodeURIComponent(button.dataset.quest)}`)));
 }
 
+function linkQuestCoordinates(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (node.parentElement?.closest('a,button,code,pre,script,style')) continue;
+    if (/\d{4,5}\s*,\s*\d{4,5}\s*,\s*(?:1[0-5]|[0-9])/.test(node.nodeValue || '')) textNodes.push(node);
+  }
+  const coordinatePattern = /(?<!\d)(\d{4,5})\s*,\s*(\d{4,5})\s*,\s*(1[0-5]|[0-9])(?::(\d{1,2}))?(?!\d)/g;
+  for (const node of textNodes) {
+    const text = node.nodeValue || '';
+    const adjacentMapLink = node.nextSibling;
+    coordinatePattern.lastIndex = 0;
+    let match, cursor = 0, found = false, lastCoordinateLink = null;
+    const fragment = document.createDocumentFragment();
+    while ((match = coordinatePattern.exec(text))) {
+      found = true;
+      fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+      const link = document.createElement('a');
+      link.className = 'quest-map-coordinate';
+      link.textContent = 'Aqui';
+      link.dataset.mapX = match[1];
+      link.dataset.mapY = match[2];
+      link.dataset.mapZ = match[3];
+      link.dataset.mapMarker = match[4] || '2';
+      link.href = `https://tibiamaps.io/map#${match[1]},${match[2]},${match[3]}:${match[4] || '2'}`;
+      link.setAttribute('aria-label', `Abrir mapa na posição ${match[1]}, ${match[2]}, andar ${match[3]}`);
+      fragment.append(link);
+      lastCoordinateLink = link;
+      cursor = match.index + match[0].length;
+      const trailingHere = text.slice(cursor).match(/^\s*aqui\b/i);
+      if (trailingHere) cursor += trailingHere[0].length;
+    }
+    if (found) {
+      fragment.append(document.createTextNode(text.slice(cursor)));
+      node.replaceWith(fragment);
+      let mapLink = lastCoordinateLink?.nextSibling || adjacentMapLink;
+      let cleanupSteps = 0;
+      while (mapLink && cleanupSteps++ < 10) {
+        if (mapLink.nodeType === Node.TEXT_NODE) {
+          const originalText = mapLink.textContent;
+          const withoutHere = originalText.replace(/^([\s()[\]{}.,:;]*)aqui\b/i, '$1');
+          if (withoutHere !== originalText) {
+            if (withoutHere.trim()) mapLink.textContent = withoutHere;
+            else { const next = mapLink.nextSibling; mapLink.remove(); mapLink = next; continue; }
+          }
+          if (/^[\s()[\]{}.,:;]*$/.test(mapLink.textContent)) { mapLink = mapLink.nextSibling; continue; }
+          break;
+        }
+        if (mapLink.nodeType !== Node.ELEMENT_NODE) break;
+        if (/^aqui\b/i.test(mapLink.textContent.trim()) && !mapLink.querySelector('a.quest-map-coordinate')) {
+          const next = mapLink.nextSibling; mapLink.remove(); mapLink = next; continue;
+        }
+        const mapImage = mapLink.matches('img') ? mapLink : mapLink.querySelector('img');
+        if (mapImage) {
+          let mapLabel = [mapLink.getAttribute?.('href'), mapImage.getAttribute('src'), mapImage.getAttribute('alt'), mapImage.getAttribute('title'), mapImage.getAttribute('data-image-name')].join(' ');
+          try { mapLabel = decodeURIComponent(mapLabel); } catch {}
+          if (/map/i.test(mapLabel)) { mapLink.remove(); continue; }
+        }
+        break;
+      }
+    }
+  }
+  for (const coordinateLink of root.querySelectorAll('a.quest-map-coordinate')) {
+    const textBlock = coordinateLink.closest('p,li,td,dd,dt,div') || root;
+    const followingText = document.createTreeWalker(textBlock, NodeFilter.SHOW_TEXT);
+    while (followingText.nextNode()) {
+      const textNode = followingText.currentNode;
+      if (coordinateLink.contains(textNode)) continue;
+      if (!(coordinateLink.compareDocumentPosition(textNode) & Node.DOCUMENT_POSITION_FOLLOWING)) continue;
+      const originalText = textNode.nodeValue || '';
+      const cleanedText = originalText.replace(/^(\s*[()[\]{}.,:;]*\s*)aqui\b/i, '$1');
+      if (cleanedText !== originalText) { textNode.nodeValue = cleanedText; break; }
+      if (/^[\s()[\]{}.,:;]*$/.test(originalText)) continue;
+      break;
+    }
+  }
+}
+
+function openQuestMap(button) {
+  const {mapX:x, mapY:y, mapZ:z, mapMarker:marker} = button.dataset;
+  const mapUrl = `https://tibiamaps.io/map/embed/?forceBlankTarget#${x},${y},${z}:${marker || '2'}`;
+  $('#quest-map-frame').src = mapUrl;
+  $('#quest-map-dialog').showModal();
+}
+
+$('#quest-details').addEventListener('click', (event) => {
+  const coordinate = event.target.closest('.quest-map-coordinate');
+  if (coordinate) { event.preventDefault(); openQuestMap(coordinate); }
+});
+const questMapDialog = $('#quest-map-dialog');
+function closeQuestMap() { questMapDialog.close(); }
+$('#quest-map-close').addEventListener('click', closeQuestMap);
+questMapDialog.addEventListener('click', (event) => { if (event.target === questMapDialog) closeQuestMap(); });
+questMapDialog.addEventListener('close', () => { $('#quest-map-frame').src = 'about:blank'; });
 async function fetchQuestPage(title, language = 'en') {
   const api = language === 'pt' ? WIKI_BR_API : WIKI_API;
   const cacheKey = `${language}:${title}`;
@@ -1102,7 +1361,7 @@ function safeQuestHtml(source, sourceTitle, language = 'en') {
   layout.append(guide);
   const container = document.createElement('div'); container.className = 'quest-article'; container.id='quest-article-start';
   if(intro.childElementCount>1) container.append(intro);
-  container.append(layout); return container.outerHTML;
+  container.append(layout); linkQuestCoordinates(container); return container.outerHTML;
 }
 
 async function openQuest(title) {
@@ -1150,7 +1409,7 @@ function prepareQuestText(block) {
     protectedValues.set(token,value);
     node.replaceWith(document.createTextNode(token));
   };
-  const protectedElements = Array.from(clone.querySelectorAll('a,b,strong,code,img')).filter((node) => !node.parentElement.closest('a,b,strong,code,img'));
+  const protectedElements = Array.from(clone.querySelectorAll('a,b,strong,code,img,button')).filter((node) => !node.parentElement.closest('a,b,strong,code,img'));
   protectedElements.forEach((node) => protect(node));
   
   const walker = document.createTreeWalker(clone,NodeFilter.SHOW_TEXT);
@@ -1527,6 +1786,314 @@ $('#yasir-done').addEventListener('click', () => yasirDialog.close());
 $('#yasir-refresh').addEventListener('click', () => loadYasirWorlds(true));
 yasirDialog.addEventListener('click', (event) => { if (event.target === yasirDialog) yasirDialog.close(); });
 
+/* ---------- Comparador de dano (TibiaTools API) ---------- */
+const DAMAGE_API = 'https://tibiatools.io/api/v1';
+const DAMAGE_VOCATIONS = {knight:'knight', paladin:'paladin', sorcerer:'sorcerer', druid:'druid', monk:'monk'};
+const DAMAGE_VOCATION_LABELS = {knight:'Elite Knight', paladin:'Royal Paladin', sorcerer:'Master Sorcerer', druid:'Elder Druid', monk:'Exalted Monk'};
+const DAMAGE_VOCATION_WEAPON_SKILLS = {knight:['axe','club','sword'], paladin:['distance'], sorcerer:[null], druid:[null], monk:['fist']};
+const DAMAGE_VOCATION_SKILL_ATTRIBUTES = {knight:['axe','club','sword','shielding'], paladin:['distance','shielding'], sorcerer:[], druid:[], monk:['fist','shielding']};
+const DAMAGE_VOCATION_ART = {knight:'Outfit_Bat_Knight_Female_Addon_3',paladin:'Outfit_Celestial_Avenger_Male_Addon_3',sorcerer:'Outfit_Conjurer_Male_Addon_3',druid:'Outfit_Rune_Master_Female_Addon_3',monk:'Outfit_Monk_Male_Addon_3'};
+let damageCatalog = null;
+let damageCatalogPromise = null;
+let damageVocationConfirmed = false;
+const damageWikiImageCache = new Map();
+let damageAutoTimer = 0;
+let damageCalculationInProgress = false;
+let damageCalculationQueued = false;
+function openDamageVocationPicker() {
+  damageVocationConfirmed = false;
+  $('#p-damage').classList.add('damage-vocation-required');
+  const dialog = $('#damage-vocation-dialog');
+  loadDamageVocationImages();
+  if (!dialog.open) dialog.showModal();
+}
+$('#damage-vocation-dialog').addEventListener('click', async (event) => {
+  const choice = event.target.closest('[data-damage-vocation-choice]');
+  if (event.target.closest('[data-damage-vocation-dismiss]')) { $('#damage-vocation-dialog').close(); return; }
+  if (!choice) return;
+  const vocation = choice.dataset.damageVocationChoice;
+  for (const side of ['a','b']) {
+    const root = damageRoot(side);
+    root.querySelector('[data-damage-stat="vocation"]').value = vocation;
+    root.querySelector('[data-damage-vocation-label]').textContent = DAMAGE_VOCATION_LABELS[vocation];
+    damageUpdateSkillAttributes(root, vocation);
+  }
+  choice.disabled = true;
+  $('#damage-status').textContent = 'Preparando armas e atributos da vocação…';
+  try {
+    const catalogWasLoaded = Boolean(damageCatalog);
+    await loadDamageCatalog();
+    if (catalogWasLoaded) for (const side of ['a','b']) damageRefreshBuildOptions(damageRoot(side));
+    damageVocationConfirmed = true;
+    $('#p-damage').classList.remove('damage-vocation-required');
+    $('#damage-vocation-dialog').close();
+    damageScheduleComparison();
+  } catch (error) {
+    $('#damage-status').textContent = `Não foi possível carregar os dados: ${error.message}`;
+    choice.disabled = false;
+  }
+});
+$('#damage-vocation-dialog').addEventListener('cancel', () => { $('#p-damage').classList.add('damage-vocation-required'); });
+const damageNumber = (root, key, fallback = 0) => {
+  const input = root.querySelector(`[data-damage-stat="${key}"]`);
+  const value = input ? Number(input.value) : fallback;
+  return Number.isFinite(value) ? value : fallback;
+};
+const damageRoot = (side) => document.querySelector(`[data-damage-build="${side}"]`);
+const damageOptions = (items, current, placeholder) => `${placeholder ? `<option value="">${esc(placeholder)}</option>` : ''}${items.map((item) => `<option value="${esc(item.id)}" ${String(item.id) === String(current) ? 'selected' : ''}>${esc(item.name)}</option>`).join('')}`;
+function damageWeaponOptions(weapons, current) {
+  const labels = {axe:'Machados',club:'Clavas',sword:'Espadas',distance:'Armas de distância',fist:'Armas de punho'};
+  const groups = new Map();
+  for (const item of weapons) {
+    let group = labels[item.skill];
+    if (!group) group = /wand/i.test(item.name) ? 'Wands' : /rod/i.test(item.name) ? 'Rods' : 'Armas mágicas';
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push(item);
+  }
+  return [...groups.entries()].map(([label,items]) => `<optgroup label="${esc(label)}">${items.map((item) => `<option value="${esc(item.id)}" ${String(item.id) === String(current) ? 'selected' : ''}>${esc(item.name)}</option>`).join('')}</optgroup>`).join('');
+}
+async function damageFetch(path) {
+  const response = await fetch(`${DAMAGE_API}${path}`, {headers:{Accept:'application/json'}});
+  if (!response.ok) throw new Error(`API TibiaTools respondeu ${response.status} em ${path}.`);
+  const data = await response.json();
+  return data.items || data;
+}
+async function damageWikiImage(itemName) {
+  const key = String(itemName || '').trim();
+  if (!key) return '';
+  if (damageWikiImageCache.has(key)) return damageWikiImageCache.get(key);
+  const promise = (async () => {
+    const params = new URLSearchParams({action:'query',titles:`Arquivo:${key}.gif|Arquivo:${key}.png`,redirects:'1',prop:'imageinfo',iiprop:'url',iiurlwidth:'64',format:'json',formatversion:'2',origin:'*'});
+    const response = await fetch(`${WIKI_BR_API}?${params}`, {headers:{Accept:'application/json'}});
+    if (!response.ok) return '';
+    const data = await response.json();
+    const pages = Array.isArray(data.query?.pages) ? data.query.pages : Object.values(data.query?.pages || {});
+    return pages.find((page) => page.imageinfo?.[0]?.thumburl || page.imageinfo?.[0]?.url)?.imageinfo?.[0]?.thumburl
+      || pages.find((page) => page.imageinfo?.[0]?.url)?.imageinfo?.[0]?.url || '';
+  })().catch(() => '');
+  damageWikiImageCache.set(key, promise);
+  return promise;
+}
+function loadDamageVocationImages() {
+  document.querySelectorAll('[data-damage-vocation-image]').forEach((image) => {
+    const vocation = image.dataset.damageVocationImage;
+    const fileTitle = DAMAGE_VOCATION_ART[vocation];
+    if (!fileTitle) return;
+    damageWikiImage(fileTitle).then((url) => { if (url && image.isConnected) image.src = url; });
+  });
+}
+async function damageUpdateWeaponPreview(root) {
+  const preview = root.querySelector('[data-damage-weapon-preview]');
+  const weaponId = Number(root.querySelector('[data-damage-weapon]').value);
+  const weapon = damageCatalog?.weapons.find((item) => item.id === weaponId);
+  if (!preview || !weapon) return;
+  const requestId = String((Number(preview.dataset.imageRequest) || 0) + 1);
+  preview.dataset.imageRequest = requestId;
+  preview.querySelector('[data-damage-weapon-name]').textContent = weapon.name;
+  preview.querySelector('[data-damage-weapon-skill]').textContent = `${weapon.skill ? weapon.skill.replace(/^./, (letter) => letter.toUpperCase()) + ' Fighting' : 'Arma'} · Attack ${weapon.attack ?? '—'}`;
+  root.querySelector('[data-damage-skill-label]').textContent = weapon.skill ? `${weapon.skill.replace(/^./, (letter) => letter.toUpperCase())} Fighting` : 'Skill principal';
+  const placeholder = preview.querySelector('.damage-item-placeholder');
+  preview.querySelectorAll('img').forEach((image) => image.remove());
+  if (placeholder) placeholder.hidden = false;
+  const imageUrl = await damageWikiImage(weapon.name);
+  if (!imageUrl || !preview.isConnected || preview.dataset.imageRequest !== requestId || Number(root.querySelector('[data-damage-weapon]').value) !== weaponId) return;
+  const image = document.createElement('img');
+  image.src = imageUrl; image.alt = weapon.name; image.loading = 'lazy';
+  image.addEventListener('error', () => { image.remove(); if (placeholder && preview.dataset.imageRequest === requestId) placeholder.hidden = false; }, {once:true});
+  preview.querySelectorAll('img').forEach((existing) => existing.remove());
+  if (placeholder) placeholder.hidden = true;
+  preview.prepend(image);
+}
+async function loadDamageCatalog() {
+  if (damageCatalog) return damageCatalog;
+  if (damageCatalogPromise) return damageCatalogPromise;
+  const status = $('#damage-status');
+  status.textContent = 'Carregando armas, spells, perks, criaturas e charms…';
+  damageCatalogPromise = Promise.all(['spells','weapons','perks','creatures','charms','stances'].map((name) => damageFetch(`/meta/${name}`)))
+    .then(([spells,weapons,perks,creatures,charms,stances]) => {
+      damageCatalog = {spells,weapons,perks,creatures,charms,stances};
+      for (const side of ['a','b']) {
+        const root = damageRoot(side);
+        damageRefreshBuildOptions(root, true);
+        const firstSpell = damageSpellsFor(root).find((spell) => spell.id !== 1);
+        if (firstSpell) damageAddRotation(side, firstSpell.id);
+      }
+      status.textContent = 'Dados carregados. Configure as duas builds e calcule a comparação.';
+      damageScheduleComparison();
+      return damageCatalog;
+    })
+    .catch((error) => {
+      damageCatalogPromise = null;
+      status.textContent = `Não foi possível carregar a calculadora: ${error.message}`;
+      throw error;
+    });
+  return damageCatalogPromise;
+}
+function damageSpellsFor(root) {
+  const vocation = root.querySelector('[data-damage-stat="vocation"]').value;
+  return damageCatalog.spells.filter((item) => item.vocations?.includes(vocation) && item.selectable !== false && !item.isExtra && item.spellType !== 'auto');
+}
+function damageUpdateSkillAttributes(root, vocation) {
+  const allowed = DAMAGE_VOCATION_SKILL_ATTRIBUTES[vocation] || [];
+  root.querySelectorAll('[data-damage-skill-attribute]').forEach((label) => {
+    const enabled = allowed.includes(label.dataset.damageSkillAttribute);
+    label.hidden = !enabled;
+    label.querySelector('input').disabled = !enabled;
+  });
+}
+function damageRefreshBuildOptions(root, initial = false) {
+  if (!damageCatalog) return;
+  const vocation = root.querySelector('[data-damage-stat="vocation"]').value;
+  damageUpdateSkillAttributes(root, vocation);
+  const weaponSelect = root.querySelector('[data-damage-weapon]');
+  const oldWeapon = initial ? '1' : weaponSelect.value;
+  const allowedSkills = DAMAGE_VOCATION_WEAPON_SKILLS[vocation] || [];
+  const weapons = damageCatalog.weapons.filter((item) => item.vocations?.includes(vocation) && allowedSkills.includes(item.skill ?? null));
+  weaponSelect.innerHTML = weapons.length ? damageWeaponOptions(weapons, oldWeapon) : '<option value="">Nenhuma arma encontrada para esta vocação</option>';
+  if (!weaponSelect.value && weapons[0]) weaponSelect.value = String(weapons[0].id);
+  damageUpdateWeaponPreview(root);
+  const stanceSelect = root.querySelector('[data-damage-stance]');
+  const oldStance = initial ? '' : stanceSelect.value;
+  const stances = damageCatalog.stances.filter((item) => (!item.vocation || item.vocation === vocation) && item.selectable !== false);
+  stanceSelect.innerHTML = damageOptions(stances, oldStance, 'Sem stance');
+  const spellItems = damageSpellsFor(root);
+  root.querySelectorAll('[data-damage-rotation-row]').forEach((row) => {
+    const select = row.querySelector('[data-damage-spell]');
+    const old = select.value;
+    select.innerHTML = damageOptions(spellItems, old, null);
+    if (!select.value && spellItems[0]) select.value = String(spellItems[0].id);
+  });
+  const perkItems = damageCatalog.perks.filter((item) => item.selectable !== false && (!item.vocations || item.vocations.includes(vocation)));
+  root.querySelectorAll('[data-damage-perk-row]').forEach((row) => {
+    const select = row.querySelector('[data-damage-perk]');
+    const old = select.value;
+    select.innerHTML = damageOptions(perkItems, old, 'Selecione um perk');
+  });
+}
+function damageAddRotation(side, selectedId = '') {
+  const root = damageRoot(side);
+  const list = root.querySelector('[data-damage-rotation]');
+  const spells = damageSpellsFor(root);
+  if (!spells.length) return;
+  const chosen = selectedId || spells[0].id;
+  const row = document.createElement('div');
+  row.className = 'damage-row'; row.dataset.damageRotationRow = '';
+  row.innerHTML = `<select data-damage-spell aria-label="Spell">${damageOptions(spells, chosen, null)}</select><input type="number" min="1" step="1" value="1" data-damage-target-count aria-label="Alvos atingidos"><input type="number" min="0" step="0.1" value="1" data-damage-ratio aria-label="Proporção da rotação"><button type="button" class="damage-remove" data-damage-remove aria-label="Remover spell">×</button>`;
+  list.append(row);
+}
+function damageAddPerk(side) {
+  const root = damageRoot(side);
+  const vocation = root.querySelector('[data-damage-stat="vocation"]').value;
+  const perks = damageCatalog.perks.filter((item) => item.selectable !== false && (!item.vocations || item.vocations.includes(vocation)));
+  const row = document.createElement('div');
+  row.className = 'damage-row damage-perk-row'; row.dataset.damagePerkRow = '';
+  row.innerHTML = `<select data-damage-perk aria-label="Perk">${damageOptions(perks, '', 'Selecione um perk')}</select><input type="number" step="0.1" value="0" data-damage-perk-value aria-label="Valor do perk"><button type="button" class="damage-remove" data-damage-remove aria-label="Remover perk">×</button>`;
+  root.querySelector('[data-damage-perks]').append(row);
+}
+function damageAddTarget(side) {
+  const root = damageRoot(side);
+  const row = document.createElement('div');
+  row.className = 'damage-row damage-target-row'; row.dataset.damageTargetRow = '';
+  const creatures = damageCatalog.creatures.slice().sort((a,b) => a.name.localeCompare(b.name, 'en'));
+  const charms = damageCatalog.charms;
+  row.innerHTML = `<select data-damage-creature aria-label="Criatura">${damageOptions(creatures, '', 'Selecione uma criatura')}</select><input type="number" min="0" step="0.1" value="1" data-damage-creature-ratio aria-label="Proporção do alvo"><select data-damage-charm aria-label="Charm">${damageOptions(charms, '', 'Sem charm')}</select><select data-damage-charm-tier aria-label="Nível do charm"><option value="1">Tier 1</option><option value="2">Tier 2</option><option value="3">Tier 3</option></select><button type="button" class="damage-remove" data-damage-remove aria-label="Remover criatura">×</button>`;
+  root.querySelector('[data-damage-targets]').append(row);
+}
+function damagePayload(side) {
+  const root = damageRoot(side);
+  const statFields = ['level','skill','magicLevel','critChance','critDamage','fatalChance','transcendenceChance','baseMagicLevel','hitPoints','manaPoints','axe','club','sword','fist','distance','shielding'];
+  const stats = {vocation:root.querySelector('[data-damage-stat="vocation"]').value, stanceIds:root.querySelector('[data-damage-stance]').value ? [Number(root.querySelector('[data-damage-stance]').value)] : [], bonus:0};
+  for (const key of statFields) {
+    const input = root.querySelector(`[data-damage-stat="${key}"]`);
+    if (input && !input.disabled && input.value.trim() !== '') stats[key] = damageNumber(root, key);
+  }
+  const rotation = [];
+  if (root.querySelector('[data-damage-auto]').checked) rotation.push({id:1, targets:1, ratio:1});
+  root.querySelectorAll('[data-damage-rotation-row]').forEach((row) => {
+    const id = Number(row.querySelector('[data-damage-spell]').value);
+    if (id) rotation.push({id, targets:Math.max(1, Number(row.querySelector('[data-damage-target-count]').value) || 1), ratio:Math.max(0, Number(row.querySelector('[data-damage-ratio]').value) || 0)});
+  });
+  const perks = [...root.querySelectorAll('[data-damage-perk-row]')].map((row) => ({id:Number(row.querySelector('[data-damage-perk]').value), value:Number(row.querySelector('[data-damage-perk-value]').value) || 0})).filter((item) => item.id);
+  const targets = [...root.querySelectorAll('[data-damage-target-row]')].map((row) => {
+    const item = {id:Number(row.querySelector('[data-damage-creature]').value), ratio:Math.max(0, Number(row.querySelector('[data-damage-creature-ratio]').value) || 0)};
+    const charmId = Number(row.querySelector('[data-damage-charm]').value);
+    if (charmId) { item.charmId = charmId; item.charmTier = Number(row.querySelector('[data-damage-charm-tier]').value) || 1; }
+    return item;
+  }).filter((item) => item.id);
+  return {stats, weapon:{id:Number(root.querySelector('[data-damage-weapon]').value) || 1}, perks, rotation, targets};
+}
+async function calculateDamage(payload) {
+  const response = await fetch(`${DAMAGE_API}/damage`, {method:'POST', headers:{'Content-Type':'application/json',Accept:'application/json'}, body:JSON.stringify(payload)});
+  let data;
+  try { data = await response.json(); } catch { throw new Error(`Resposta inválida da API (${response.status}).`); }
+  if (!response.ok) throw new Error(data?.error?.message || data?.message || `API respondeu ${response.status}.`);
+  if (data?.error) throw new Error(typeof data.error === 'string' ? data.error : data.error.message || 'A API recusou os parâmetros informados.');
+  return data;
+}
+const damageFmt = (value) => Number(value || 0).toLocaleString('pt-BR', {maximumFractionDigits:1});
+function renderDamageResult(side, result, payload) {
+  const root = damageRoot(side);
+  const target = root.querySelector('[data-damage-result]');
+  const summary = result.summary || {};
+  const ids = new Set(payload.rotation.map((item) => item.id));
+  for (const item of damageCatalog.spells) if (ids.has(item.id)) for (const id of item.bundledSpellIds || []) ids.add(id);
+  const spells = (result.spells || []).filter((item) => ids.has(item.id));
+  target.innerHTML = `<h4>Resultado da Build ${side.toUpperCase()}</h4><div class="damage-kpis"><div class="damage-kpi"><span>Dano efetivo por turno</span><b>${damageFmt(summary.effectiveDamagePerTurn)}</b></div><div class="damage-kpi"><span>Dano efetivo por hit</span><b>${damageFmt(summary.effectiveDamagePerHit)}</b></div><div class="damage-kpi"><span>Dano de charms</span><b>${damageFmt(summary.damageFromCharms)}</b></div></div>${spells.length ? `<table><thead><tr><th>Spell</th><th>Bruto mín./méd./máx.</th><th>Efetivo médio</th></tr></thead><tbody>${spells.map((spell) => `<tr><td>${esc(spell.name)}</td><td>${damageFmt(spell.raw?.min)} / ${damageFmt(spell.raw?.avg)} / ${damageFmt(spell.raw?.max)}</td><td>${damageFmt(spell.effective?.avg)}</td></tr>`).join('')}</tbody></table>` : '<p class="muted">A API não retornou detalhes de spells para esta rotação.</p>'}`;
+}
+function renderDamageComparison(results) {
+  const a = Number(results.a.summary?.effectiveDamagePerTurn) || 0;
+  const b = Number(results.b.summary?.effectiveDamagePerTurn) || 0;
+  const top = Math.max(a, b, 1);
+  const delta = a ? ((b - a) / a) * 100 : null;
+  const winner = a === b ? 'Empate' : `Build ${a > b ? 'A' : 'B'} está ${damageFmt(Math.abs(a - b))} de dano/turno à frente`;
+  const weaponName = (side) => damageCatalog.weapons.find((item) => item.id === Number(damageRoot(side).querySelector('[data-damage-weapon]').value))?.name || 'Arma';
+  $('#damage-comparison').innerHTML = `<div class="damage-comparison-head"><b>${winner}</b><span>${delta === null ? 'Diferença percentual indisponível porque a Build A está zerada.' : `Build B ${delta >= 0 ? 'fica' : 'fica'} ${damageFmt(Math.abs(delta))}% ${delta >= 0 ? 'acima' : 'abaixo'} da Build A em dano por turno.`}</span></div><div class="damage-compare-cards"><article class="damage-compare-card a"><b><i>A</i> ${esc(weaponName('a'))}</b><strong>${damageFmt(a)}</strong><span>dano efetivo por turno</span><small>${damageFmt(results.a.summary?.effectiveDamagePerHit)} por hit · ${damageFmt(results.a.summary?.damageFromCharms)} de charms</small></article><article class="damage-compare-card b"><b><i>B</i> ${esc(weaponName('b'))}</b><strong>${damageFmt(b)}</strong><span>dano efetivo por turno</span><small>${damageFmt(results.b.summary?.effectiveDamagePerHit)} por hit · ${damageFmt(results.b.summary?.damageFromCharms)} de charms</small></article></div><div class="damage-compare-bars" role="img" aria-label="Gráfico horizontal comparando o dano efetivo por turno das builds A e B"><div class="damage-compare-row"><span>Build A</span><div class="damage-compare-track"><div class="damage-compare-fill a" style="width:${(a / top) * 100}%"></div></div><b>${damageFmt(a)}</b></div><div class="damage-compare-row"><span>Build B</span><div class="damage-compare-track"><div class="damage-compare-fill b" style="width:${(b / top) * 100}%"></div></div><b>${damageFmt(b)}</b></div></div>`;
+}
+async function damageCalculateComparison() {
+  if (damageCalculationInProgress) { damageCalculationQueued = true; return; }
+  damageCalculationInProgress = true;
+  const status = $('#damage-status');
+  status.textContent = 'Atualizando a comparação das builds…';
+  try {
+    await loadDamageCatalog();
+    const payloads = {a:damagePayload('a'), b:damagePayload('b')};
+    const [a,b] = await Promise.all([calculateDamage(payloads.a), calculateDamage(payloads.b)]);
+    renderDamageResult('a', a, payloads.a); renderDamageResult('b', b, payloads.b);
+    renderDamageComparison({a,b});
+    status.textContent = 'Comparação automática atualizada. Valores estimados pelo motor de cálculo.';
+  } catch (error) {
+    status.textContent = `Falha no cálculo: ${error.message}`;
+    $('#damage-comparison').innerHTML = `<span class="damage-error">Não foi possível comparar as builds: ${esc(error.message)}</span>`;
+    for (const side of ['a','b']) damageRoot(side).querySelector('[data-damage-result]').innerHTML = `<p class="damage-error">${esc(error.message)}</p>`;
+  } finally {
+    damageCalculationInProgress = false;
+    if (damageCalculationQueued) { damageCalculationQueued = false; damageScheduleComparison(); }
+  }
+}
+function damageScheduleComparison() {
+  if (!damageVocationConfirmed) return;
+  clearTimeout(damageAutoTimer);
+  damageAutoTimer = setTimeout(damageCalculateComparison, 500);
+}
+$('#p-damage').addEventListener('click', async (event) => {
+  const addRotation = event.target.closest('[data-damage-add-rotation]');
+  const addPerk = event.target.closest('[data-damage-add-perk]');
+  const addTarget = event.target.closest('[data-damage-add-target]');
+  const remove = event.target.closest('[data-damage-remove]');
+  if (addRotation) { await loadDamageCatalog(); damageAddRotation(addRotation.dataset.damageAddRotation); }
+  if (addPerk) { await loadDamageCatalog(); damageAddPerk(addPerk.dataset.damageAddPerk); }
+  if (addTarget) { await loadDamageCatalog(); damageAddTarget(addTarget.dataset.damageAddTarget); }
+  if (remove) remove.closest('[data-damage-rotation-row],[data-damage-perk-row],[data-damage-target-row]')?.remove();
+  if (addRotation || addPerk || addTarget || remove) damageScheduleComparison();
+  if (event.target.id === 'damage-change-vocation') openDamageVocationPicker();
+});
+$('#p-damage').addEventListener('change', (event) => {
+  if (event.target.matches('[data-damage-stat="vocation"]') && damageCatalog) damageRefreshBuildOptions(event.target.closest('[data-damage-build]'));
+  if (event.target.matches('[data-damage-weapon]')) damageUpdateWeaponPreview(event.target.closest('[data-damage-build]'));
+  if (event.target.matches('select,input')) damageScheduleComparison();
+});
+$('#p-damage').addEventListener('input', (event) => { if (event.target.matches('input')) damageScheduleComparison(); });
+
 go(location.hash || 'home', false);
 renderClock();
 setInterval(renderClock, 1000);
@@ -1534,19 +2101,6 @@ loadLatestNewsSlide();
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
