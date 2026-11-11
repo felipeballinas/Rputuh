@@ -71,18 +71,31 @@ def csv_path(world: str) -> Path:
     return DATA_DIR / f"{slugify(world)}.csv"
 
 
-def load_world_csv(world: str) -> tuple[Path, dict[str, dict[str, str]]]:
+def load_world_csv(world: str) -> tuple[Path, dict[str, dict[str, str]], bool]:
     path = csv_path(world)
     records: dict[str, dict[str, str]] = {}
+    had_duplicates = False
     if path.exists():
         with path.open("r", encoding="utf-8-sig", newline="") as handle:
             reader = csv.DictReader(handle)
             for row in reader:
-                key = row.get("normalized_name") or normalize_name(row.get("name", ""))
+                name = row.get("name", "")
+                key = normalize_name(name)
                 if key:
                     row["normalized_name"] = key
-                    records[key] = {field: row.get(field, "") or "" for field in FIELDS}
-    return path, records
+                    incoming = {field: row.get(field, "") or "" for field in FIELDS}
+                    existing = records.get(key)
+                    if existing:
+                        had_duplicates = True
+                        # Preserve the most recently seen record and fill any
+                        # blank fields from the duplicate row.
+                        if incoming.get("last_seen_at", "") > existing.get("last_seen_at", ""):
+                            records[key] = {field: incoming.get(field) or existing.get(field, "") for field in FIELDS}
+                        else:
+                            records[key] = {field: existing.get(field) or incoming.get(field, "") for field in FIELDS}
+                    else:
+                        records[key] = incoming
+    return path, records, had_duplicates
 
 
 def save_world_csv(path: Path, records: dict[str, dict[str, str]]) -> None:
@@ -158,8 +171,8 @@ def main() -> None:
     new_names = 0
     online_count = 0
     for world, online in scans:
-        path, records = load_world_csv(world)
-        changed = False
+        path, records, had_duplicates = load_world_csv(world)
+        changed = had_duplicates
         online_count += len(online)
         for player in online:
             name = optional_text(player.get("name"))

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import argparse
+import hashlib
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -29,7 +30,7 @@ XP_FIELDS = [
 ]
 DEATH_EVENT_FIELDS = [
     "name", "normalized_name", "world", "death_time", "death_date", "level",
-    "reason", "recorded_at", "source_truncated",
+    "reason", "recorded_at", "last_verified_at", "source_truncated",
 ]
 DEATH_DAILY_FIELDS = [
     "date", "name", "normalized_name", "world", "deaths_count", "status", "verified_at",
@@ -172,7 +173,9 @@ def prune_by_date(rows: dict[tuple[str, ...], dict[str, str]], field: str, cutof
             del rows[identity]
 
 
-def main(selected_world: str | None = None) -> None:
+def main(selected_world: str | None = None, shard_index: int = 0, shard_count: int = 1) -> None:
+    if shard_count < 1 or not 0 <= shard_index < shard_count:
+        raise ValueError("Índice/quantidade de shards inválidos.")
     today = local_date()
     now = utc_now()
     timestamp = stamp(now)
@@ -202,6 +205,10 @@ def main(selected_world: str | None = None) -> None:
         checkpoint_path = checkpoint_file(world)
         checkpoints = read_csv(checkpoint_path, ["date", "world", "status", "records_seen", "pages", "updated_at"], ("date", "world"))
         checkpoint_key = (today, world)
+        if shard_index > 0 and checkpoints.get(checkpoint_key, {}).get("status") != "complete":
+            # Only shard 0 fetches each world's complete highscore once per day.
+            xp_rows_by_world[world] = xp_rows
+            continue
         if checkpoints.get(checkpoint_key, {}).get("status") == "complete":
             prune_by_date(checkpoints, "date", cutoff_date)
             write_csv(checkpoint_path, ["date", "world", "status", "records_seen", "pages", "updated_at"],
@@ -300,6 +307,10 @@ def main(selected_world: str | None = None) -> None:
             if checked < now - timedelta(hours=retry_hours):
                 due.append((world, normalized, player, checks))
     due.sort(key=lambda item: (item[3].get((item[1], item[0]), {}).get("last_checked_at", ""), item[0], item[1]))
+    if shard_count > 1:
+        due = [item for item in due if int.from_bytes(
+            hashlib.sha256(f"{item[0].casefold()}::{item[1]}".encode("utf-8")).digest()[:4], "big"
+        ) % shard_count == shard_index]
 
     checked_count = 0
     profile_errors = 0
@@ -343,9 +354,11 @@ def main(selected_world: str | None = None) -> None:
                 death_events[identity] = {
                     "name": player["name"], "normalized_name": normalized, "world": world,
                     "death_time": death_time, "death_date": death_date, "level": level,
-                    "reason": reason, "recorded_at": timestamp, "source_truncated": truncated,
+                    "reason": reason, "recorded_at": timestamp, "last_verified_at": timestamp,
+                    "source_truncated": truncated,
                 }
-            elif existing_event.get("source_truncated") != truncated:
+            else:
+                existing_event["last_verified_at"] = timestamp
                 existing_event["source_truncated"] = truncated
             # Keep the first observation timestamp so repeated profile refreshes
             # do not rewrite old event rows on every hourly run.
@@ -421,7 +434,7 @@ def main(selected_world: str | None = None) -> None:
         f"Personagens ativos na janela de 30 dias: {len(players)}; "
         f"linhas de XP incluídas hoje: {xp_written}; rankings já coletados hoje: {xp_skipped}; "
         f"perfis consultados para mortes: {checked_count}; perfis pendentes: {max(0, len(due) - checked_count - profile_errors)}; "
-        f"erros: {profile_errors}."
+        f"erros: {profile_errors}; shard {shard_index + 1}/{shard_count}."
     )
 
 
@@ -429,5 +442,7 @@ if __name__ == "__main__":
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     parser = argparse.ArgumentParser()
     parser.add_argument("--world", help="Coleta somente este mundo (modo matrix do Actions).")
+    parser.add_argument("--shard-index", type=int, default=0)
+    parser.add_argument("--shard-count", type=int, default=1)
     args = parser.parse_args()
-    main(args.world)
+    main(args.world, args.shard_index, args.shard_count)

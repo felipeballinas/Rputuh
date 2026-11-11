@@ -5,7 +5,7 @@ import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from collect_active_characters import normalize_name, slugify
+from collect_active_characters import slugify
 
 ROOT = Path(__file__).resolve().parents[1]
 ACTIVE_DIR = ROOT / "data" / "players-ativos"
@@ -26,7 +26,18 @@ for path in ACTIVE_DIR.glob("*.csv"):
             except ValueError:
                 continue
 
-matrix = [{"name": world, "slug": slugify(world)} for world in sorted(worlds.values(), key=str.casefold)]
+split_worlds = {
+    "antica", "celesta", "bona", "harmonia", "farsabra",
+    "dia", "inabra", "belobra", "karmeya", "astera",
+}
+priority = ["antica", "celesta", "bona", "harmonia", "farsabra", "dia", "inabra", "belobra", "karmeya", "astera"]
+ordered = sorted(worlds.values(), key=lambda world: (priority.index(world.casefold()) if world.casefold() in priority else len(priority), world.casefold()))
+matrix = []
+for world in ordered:
+    slug = slugify(world)
+    shard_count = 4 if slug in split_worlds else 1
+    for shard_index in range(shard_count):
+        matrix.append({"name": world, "slug": slug, "shard": shard_index, "shards": shard_count})
 if not matrix:
     matrix = [{"name": "__none__", "slug": "none"}]
 print(json.dumps(matrix, ensure_ascii=False, separators=(",", ":")))
