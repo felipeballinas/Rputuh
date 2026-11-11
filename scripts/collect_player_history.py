@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -14,13 +15,9 @@ from collect_active_characters import API_BASE, fetch_json, normalize_name, slug
 ROOT = Path(__file__).resolve().parents[1]
 ACTIVE_DIR = ROOT / "data" / "players-ativos"
 DATA_DIR = ROOT / "data" / "player-history"
-XP_DIR = DATA_DIR / "experience"
-XP_CHECKPOINT_DIR = DATA_DIR / "highscore-checkpoints"
-DEATH_CHECK_DIR = DATA_DIR / "death-checks"
-XP_COVERAGE_PATH = DATA_DIR / "xp-coverage.csv"
+WORLDS_DIR = DATA_DIR / "worlds"
 
-RETENTION_DAYS = 90
-DEATH_PROFILE_BATCH_SIZE = 100
+RETENTION_DAYS = 30
 DEATH_PROFILE_DELAY_SECONDS = 1.0
 HIGHSCORE_PAGE_DELAY_SECONDS = 0.15
 MAX_HIGHSCORE_PAGES = 500
@@ -100,21 +97,23 @@ def load_active_players(cutoff: datetime) -> dict[str, dict[str, str]]:
                 if current is None or row.get("last_seen_at", "") > current.get("last_seen_at", ""):
                     row.update({"name": name, "world": world, "normalized_name": normalize_name(name)})
                     players[player_key] = row
-    if not players:
-        raise RuntimeError("Não há personagens com last_seen_at dentro dos últimos 90 dias.")
     return players
 
 
+def world_dir(world: str) -> Path:
+    return WORLDS_DIR / slugify(world)
+
+
 def xp_file(world: str) -> Path:
-    return XP_DIR / f"{slugify(world)}.csv"
+    return world_dir(world) / "experience.csv"
 
 
 def checkpoint_file(world: str) -> Path:
-    return XP_CHECKPOINT_DIR / f"{slugify(world)}.csv"
+    return world_dir(world) / "highscore-checkpoints.csv"
 
 
 def death_check_file(world: str) -> Path:
-    return DEATH_CHECK_DIR / f"{slugify(world)}.csv"
+    return world_dir(world) / "death-checks.csv"
 
 
 def fetch_world_highscores(world: str, player_names: set[str]) -> tuple[dict[str, dict], int, int, int]:
@@ -153,8 +152,8 @@ def fetch_world_highscores(world: str, player_names: set[str]) -> tuple[dict[str
     return matches, records_seen, total_pages, age
 
 
-def load_death_events() -> dict[tuple[str, ...], dict[str, str]]:
-    return read_csv(DATA_DIR / "death-events.csv", DEATH_EVENT_FIELDS,
+def load_death_events(world: str) -> dict[tuple[str, ...], dict[str, str]]:
+    return read_csv(world_dir(world) / "death-events.csv", DEATH_EVENT_FIELDS,
                     ("normalized_name", "world", "death_time", "level", "reason"))
 
 
@@ -173,16 +172,23 @@ def prune_by_date(rows: dict[tuple[str, ...], dict[str, str]], field: str, cutof
             del rows[identity]
 
 
-def main() -> None:
+def main(selected_world: str | None = None) -> None:
     today = local_date()
     now = utc_now()
     timestamp = stamp(now)
     cutoff_dt = now - timedelta(days=RETENTION_DAYS)
-    cutoff_date = (datetime.now(LOCAL_TZ).date() - timedelta(days=RETENTION_DAYS)).isoformat()
+    cutoff_date = (datetime.now(LOCAL_TZ).date() - timedelta(days=RETENTION_DAYS - 1)).isoformat()
     players = load_active_players(cutoff_dt)
     by_world: dict[str, dict[str, dict[str, str]]] = {}
     for player in players.values():
         by_world.setdefault(player["world"], {})[player["normalized_name"]] = player
+    if selected_world:
+        matched = next((world for world in by_world if world.casefold() == selected_world.casefold()), None)
+        if matched is None:
+            raise RuntimeError(f"O mundo {selected_world!r} não tem personagens vistos nos últimos 30 dias.")
+        by_world = {matched: by_world[matched]}
+    if not by_world:
+        raise RuntimeError("Não há personagens com last_seen_at nos últimos 30 dias.")
 
     # Pull one complete experience ranking per world per Tibia date, and keep
     # only ranking rows that match the active-player registry.
@@ -197,6 +203,9 @@ def main() -> None:
         checkpoints = read_csv(checkpoint_path, ["date", "world", "status", "records_seen", "pages", "updated_at"], ("date", "world"))
         checkpoint_key = (today, world)
         if checkpoints.get(checkpoint_key, {}).get("status") == "complete":
+            prune_by_date(checkpoints, "date", cutoff_date)
+            write_csv(checkpoint_path, ["date", "world", "status", "records_seen", "pages", "updated_at"],
+                      [checkpoints[key] for key in sorted(checkpoints)])
             xp_skipped += 1
             xp_rows_by_world[world] = xp_rows
             complete_worlds.add(world)
@@ -242,35 +251,36 @@ def main() -> None:
             "date": today, "world": world, "status": "complete", "records_seen": str(records_seen),
             "pages": str(pages), "updated_at": timestamp,
         }
+        prune_by_date(checkpoints, "date", cutoff_date)
         write_csv(checkpoint_path, ["date", "world", "status", "records_seen", "pages", "updated_at"],
                   [checkpoints[key] for key in sorted(checkpoints)])
 
     # A compact current status lets us distinguish an unranked character from
     # one whose world's ranking has not yet been collected today.
-    coverage = read_csv(XP_COVERAGE_PATH, XP_COVERAGE_FIELDS, ("normalized_name", "world"))
     for world, world_players in by_world.items():
-        if world not in complete_worlds:
-            continue
-        xp_rows = xp_rows_by_world[world]
-        for normalized, player in world_players.items():
-            xp_row = xp_rows.get((today, normalized, world))
-            coverage[(normalized, world)] = {
-                "name": player["name"], "normalized_name": normalized, "world": world,
-                "last_seen_at": player.get("last_seen_at", ""), "checked_date": today,
-                "xp_status": "found_in_experience_highscores" if xp_row else "not_listed_in_experience_highscores",
-                "experience_total": xp_row.get("experience_total", "") if xp_row else "",
-                "rank": xp_row.get("rank", "") if xp_row else "",
-            }
-    for identity in list(coverage):
-        if coverage[identity].get("last_seen_at", "")[:10] < cutoff_date:
-            del coverage[identity]
-    write_csv(XP_COVERAGE_PATH, XP_COVERAGE_FIELDS,
-              [coverage[key] for key in sorted(coverage)])
+        coverage_path = world_dir(world) / "xp-coverage.csv"
+        coverage = read_csv(coverage_path, XP_COVERAGE_FIELDS, ("normalized_name", "world"))
+        if world in complete_worlds:
+            xp_rows = xp_rows_by_world[world]
+            for normalized, player in world_players.items():
+                xp_row = xp_rows.get((today, normalized, world))
+                coverage[(normalized, world)] = {
+                    "name": player["name"], "normalized_name": normalized, "world": world,
+                    "last_seen_at": player.get("last_seen_at", ""), "checked_date": today,
+                    "xp_status": "found_in_experience_highscores" if xp_row else "not_listed_in_experience_highscores",
+                    "experience_total": xp_row.get("experience_total", "") if xp_row else "",
+                    "rank": xp_row.get("rank", "") if xp_row else "",
+                }
+        for identity in list(coverage):
+            if coverage[identity].get("last_seen_at", "")[:10] < cutoff_date:
+                del coverage[identity]
+        write_csv(coverage_path, XP_COVERAGE_FIELDS, [coverage[key] for key in sorted(coverage)])
 
-    # Query profiles in small hourly batches. Their recent death lists are
-    # deduplicated as events; deaths_truncated is preserved for honest counts.
-    death_events = load_death_events()
-    prune_by_date(death_events, "death_date", cutoff_date)
+    # Query every profile due for this world in this run. Death events are
+    # deduplicated; deaths_truncated is preserved for honest counts.
+    death_events_by_world = {world: load_death_events(world) for world in by_world}
+    for death_events in death_events_by_world.values():
+        prune_by_date(death_events, "death_date", cutoff_date)
     checks_by_world = {
         world: read_csv(death_check_file(world), DEATH_CHECK_FIELDS,
                         ("normalized_name", "world"))
@@ -293,7 +303,7 @@ def main() -> None:
 
     checked_count = 0
     profile_errors = 0
-    for index, (world, normalized, player, checks) in enumerate(due[:DEATH_PROFILE_BATCH_SIZE]):
+    for index, (world, normalized, player, checks) in enumerate(due):
         url = f"{API_BASE}/character/{quote(player['name'], safe='')}"
         try:
             payload = fetch_json(url)
@@ -304,7 +314,7 @@ def main() -> None:
                 "status": f"error: {exc}", "deaths_truncated": "",
             }
             profile_errors += 1
-            if index + 1 < min(len(due), DEATH_PROFILE_BATCH_SIZE):
+            if index + 1 < len(due):
                 time.sleep(DEATH_PROFILE_DELAY_SECONDS)
             continue
 
@@ -327,6 +337,7 @@ def main() -> None:
             level = str(death.get("level") or "")
             reason = str(death.get("reason") or "")
             identity = (normalized, world, death_time, level, reason)
+            death_events = death_events_by_world[world]
             existing_event = death_events.get(identity)
             if existing_event is None:
                 death_events[identity] = {
@@ -344,42 +355,44 @@ def main() -> None:
             "status": status, "deaths_truncated": truncated,
         }
         checked_count += 1
-        if index + 1 < min(len(due), DEATH_PROFILE_BATCH_SIZE):
+        if index + 1 < len(due):
             time.sleep(DEATH_PROFILE_DELAY_SECONDS)
 
     for world in by_world:
         checks = checks_by_world[world]
-        # Merge updates made above and discard characters outside the 90-day cohort.
+        # Merge updates made above and discard characters outside the 30-day cohort.
         for identity in list(checks):
             if f"{identity[1].casefold()}::{identity[0]}" not in players:
                 del checks[identity]
         write_csv(death_check_file(world), DEATH_CHECK_FIELDS, [checks[key] for key in sorted(checks)])
-    write_csv(DATA_DIR / "death-events.csv", DEATH_EVENT_FIELDS,
-              [death_events[key] for key in sorted(death_events)])
+    for world, death_events in death_events_by_world.items():
+        write_csv(world_dir(world) / "death-events.csv", DEATH_EVENT_FIELDS,
+                  [death_events[key] for key in sorted(death_events)])
 
     # Publish daily counts derived from distinct death events. A zero is
     # recorded only when that character's profile was successfully checked
     # today and the API did not report a truncated death list.
-    daily_deaths_path = DATA_DIR / "deaths-daily.csv"
-    daily_deaths = read_csv(daily_deaths_path, DEATH_DAILY_FIELDS,
-                            ("date", "normalized_name", "world"))
-    prune_by_date(daily_deaths, "date", cutoff_date)
-    counts: dict[tuple[str, str, str], int] = {}
-    for event in death_events.values():
-        count_key = (event["death_date"], event["normalized_name"], event["world"])
-        counts[count_key] = counts.get(count_key, 0) + 1
-    for (death_date, normalized, world), count in counts.items():
-        player = by_world.get(world, {}).get(normalized)
-        if not player:
-            continue
-        check = checks_by_world[world].get((normalized, world), {})
-        status = "parcial_lista_truncada" if check.get("deaths_truncated") == "true" else "morte_registrada"
-        daily_deaths[(death_date, normalized, world)] = {
-            "date": death_date, "name": player["name"], "normalized_name": normalized,
-            "world": world, "deaths_count": str(count), "status": status,
-            "verified_at": check.get("last_checked_at", ""),
-        }
     for world, checks in checks_by_world.items():
+        daily_deaths_path = world_dir(world) / "deaths-daily.csv"
+        daily_deaths = read_csv(daily_deaths_path, DEATH_DAILY_FIELDS,
+                                ("date", "normalized_name", "world"))
+        prune_by_date(daily_deaths, "date", cutoff_date)
+        death_events = death_events_by_world[world]
+        counts: dict[tuple[str, str, str], int] = {}
+        for event in death_events.values():
+            count_key = (event["death_date"], event["normalized_name"], event["world"])
+            counts[count_key] = counts.get(count_key, 0) + 1
+        for (death_date, normalized, event_world), count in counts.items():
+            player = by_world.get(event_world, {}).get(normalized)
+            if not player:
+                continue
+            check = checks_by_world[event_world].get((normalized, event_world), {})
+            status = "parcial_lista_truncada" if check.get("deaths_truncated") == "true" else "morte_registrada"
+            daily_deaths[(death_date, normalized, event_world)] = {
+                "date": death_date, "name": player["name"], "normalized_name": normalized,
+                "world": event_world, "deaths_count": str(count), "status": status,
+                "verified_at": check.get("last_checked_at", ""),
+            }
         for (normalized, checked_world), check in checks.items():
             if checked_world != world or check.get("status") != "loaded" or check.get("deaths_truncated") != "false":
                 continue
@@ -398,14 +411,14 @@ def main() -> None:
                 "world": world, "deaths_count": existing["deaths_count"] if existing else "0",
                 "status": "confirmado_sem_truncamento", "verified_at": check.get("last_checked_at", ""),
             }
-    for identity in list(daily_deaths):
-        if daily_deaths[identity]["date"] < cutoff_date:
-            del daily_deaths[identity]
-    write_csv(daily_deaths_path, DEATH_DAILY_FIELDS,
-              [daily_deaths[key] for key in sorted(daily_deaths)])
+        for identity in list(daily_deaths):
+            if daily_deaths[identity]["date"] < cutoff_date:
+                del daily_deaths[identity]
+        write_csv(daily_deaths_path, DEATH_DAILY_FIELDS,
+                  [daily_deaths[key] for key in sorted(daily_deaths)])
 
     print(
-        f"Personagens ativos na janela de 90 dias: {len(players)}; "
+        f"Personagens ativos na janela de 30 dias: {len(players)}; "
         f"linhas de XP incluídas hoje: {xp_written}; rankings já coletados hoje: {xp_skipped}; "
         f"perfis consultados para mortes: {checked_count}; perfis pendentes: {max(0, len(due) - checked_count - profile_errors)}; "
         f"erros: {profile_errors}."
@@ -414,4 +427,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--world", help="Coleta somente este mundo (modo matrix do Actions).")
+    args = parser.parse_args()
+    main(args.world)
