@@ -170,6 +170,43 @@ input{flex:1 1 14rem;min-width:0}
 .stat{background:var(--panel2);padding:.55rem .75rem}
 .stat dt{color:var(--muted);font-size:.9rem}
 .stat dd{margin:0;font-weight:500;word-break:break-word}
+.char-xp-tracker{width:min(100%,78rem);margin:1.2rem auto 1.4rem;padding:1rem;border:1px solid #382f35;border-radius:10px;background:linear-gradient(145deg,#171519,#111013);box-shadow:inset 0 1px #ffffff08}
+.char-profile-card{width:min(100%,58rem);margin:0 auto 1.2rem;padding:1rem;border:1px solid #382f35;border-radius:10px;background:linear-gradient(145deg,#171519,#111013);box-shadow:inset 0 1px #ffffff08}
+.char-profile-card .grid{margin-bottom:0}
+.char-related{width:min(100%,58rem);margin:0 auto 1rem}
+.char-xp-head{display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-bottom:.75rem}
+.char-xp-head h3{margin:0;color:var(--text);font:700 1.15rem var(--body)}
+.char-xp-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.55rem;margin-bottom:.7rem}
+.char-xp-card{min-width:0;padding:.6rem .7rem;border:1px solid #302c34;border-radius:7px;background:#111114}
+.char-xp-card small{display:block;color:var(--muted);font-size:.82rem}
+.char-xp-card b{display:block;margin-top:.15rem;color:#f3eee9;font:700 1.15rem/1.25 var(--display);overflow-wrap:anywhere}
+.char-xp-card em{display:block;margin-top:.1rem;color:var(--muted);font-size:.76rem;font-style:normal}
+.char-xp-charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}
+.char-xp-chart{min-width:0;padding:.65rem .75rem;border:1px solid #302c34;border-radius:7px;background:#111114}
+.char-xp-chart h4{margin:0 0 .35rem;font-size:.95rem}
+.char-xp-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.char-xp-gridline{stroke:#ffffff12;stroke-width:1;stroke-dasharray:3 4}
+.char-xp-axis{fill:var(--muted);font:10px var(--body)}
+.char-xp-line{fill:none;stroke:#00bd83;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.char-xp-area{fill:#00bd831c}
+.char-xp-point{fill:#00d99a;stroke:#111114;stroke-width:1.5}
+.char-xp-bar{fill:#00a978}.char-xp-bar.negative{fill:#dc3545}
+.char-xp-marker{font:16px system-ui,sans-serif;text-anchor:middle}
+.char-xp-legend{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.45rem;color:var(--muted);font-size:.82rem}
+.char-xp-legend strong{color:var(--text)}
+.char-xp-empty{margin:.6rem 0;color:var(--muted)}
+.char-xp-level{display:grid;grid-template-columns:1fr auto;gap:.25rem .75rem;margin-bottom:.75rem;padding:.7rem .8rem;border:1px solid #302c34;border-radius:7px;background:#111114}
+.char-xp-level>div:first-child{display:grid}.char-xp-level>div:first-child b{font:700 1.15rem var(--display)}.char-xp-level>div:first-child span,.char-xp-level-value small{color:var(--muted)}
+.char-xp-level-value{display:grid;text-align:right}.char-xp-level-value strong{font:700 1.35rem var(--display)}
+.char-xp-progress-label{grid-column:1/-1;display:flex;justify-content:space-between;gap:.5rem;color:var(--muted);font-size:.8rem}
+.char-xp-progress{grid-column:1/-1;height:.45rem;overflow:hidden;border-radius:99px;background:#343139}.char-xp-progress span{display:block;height:100%;border-radius:inherit;background:#00b984;transition:width .3s ease}
+.char-xp-forecast,.char-xp-table{margin-top:.75rem;border:1px solid #302c34;border-radius:8px;background:#111114;overflow:hidden}
+.char-xp-forecast{padding:.7rem .8rem}.char-xp-forecast h4,.char-xp-table h4{margin:0 0 .45rem;font-size:.98rem}
+.char-xp-forecast input{width:100%;padding:.55rem .7rem;border-color:#343139;background:#0b0b0d;font:500 .95rem ui-monospace,Consolas,monospace}
+.char-xp-forecast p{margin:.35rem 0 0;color:var(--muted);font-size:.88rem}
+.char-xp-table h4{padding:.7rem .8rem .45rem;margin:0;border-bottom:1px solid #302c34}
+.char-xp-table table{font-variant-numeric:tabular-nums}.char-xp-table th,.char-xp-table td{padding:.48rem .65rem;border-color:#302c34}
+.char-xp-gain{color:#00d79a}.char-xp-loss{color:#f04b55}.char-xp-death{color:#ff6670}.char-xp-star{color:#ffc64a}
 h3{font:500 1.15rem var(--display);margin:1.25rem 0 .5rem}
 .tbl{overflow-x:auto}
 table{width:100%;border-collapse:collapse}
@@ -267,6 +304,8 @@ textarea{width:100%;min-height:14rem;resize:vertical;font:500 .95rem/1.45 ui-mon
    .party-columns{grid-template-columns:minmax(0,1fr);width:100%}
    .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
    .stat{min-width:0;overflow-wrap:anywhere}
+   .char-xp-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+   .char-xp-charts{grid-template-columns:minmax(0,1fr)}
    .tbl{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
    table{min-width:34rem}
    textarea{min-height:11rem}
@@ -1673,6 +1712,148 @@ $('#loot-calc').addEventListener('click', calcLoot);
 $('#loot-clear').addEventListener('click', () => { $('#loot-input').value = ''; $('#out-loot').innerHTML = ''; });
 
 /* ---------- Personagem ---------- */
+function parseCsv(text) {
+  const lines = text.replace(/^\uFEFF/, '').split(/\r?\n/).filter(Boolean);
+  if (!lines.length) return [];
+  const cells = (line) => {
+    const result = []; let value = ''; let quoted = false;
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+      if (char === '"' && quoted && line[i + 1] === '"') { value += '"'; i++; }
+      else if (char === '"') quoted = !quoted;
+      else if (char === ',' && !quoted) { result.push(value); value = ''; }
+      else value += char;
+    }
+    result.push(value); return result;
+  };
+  const headers = cells(lines.shift());
+  return lines.map((line) => Object.fromEntries(cells(line).map((value, i) => [headers[i], value])));
+}
+function xpExpAtLevel(level) {
+  const n = Math.max(1, Number(level) || 1);
+  return Math.floor((50 * n ** 3 - 300 * n ** 2 + 850 * n - 600) / 3);
+}
+function xpLevelFromTotal(experience) {
+  let level = 1;
+  while (level < 10000 && xpExpAtLevel(level + 1) <= experience) level++;
+  return level;
+}
+function xpCompact(value) {
+  const n = Number(value) || 0; const sign = n > 0 ? '+' : n < 0 ? '−' : '';
+  const abs = Math.abs(n);
+  if (abs >= 1e6) return sign + (abs / 1e6).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + 'kk';
+  if (abs >= 1e3) return sign + (abs / 1e3).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + 'k';
+  return sign + Math.round(abs).toLocaleString('pt-BR');
+}
+function xpChartSvg(rows, type, bestDate, deathsByDate) {
+  const width = 760, height = 190, left = 42, right = 12, top = 18, bottom = 34;
+  const plotW = width - left - right, plotH = height - top - bottom;
+  const dates = rows.map((row) => row.date);
+  const xFor = (index) => left + (rows.length < 2 ? plotW / 2 : (index / (rows.length - 1)) * plotW);
+  const axis = [0, 1, 2, 3].map((i) => `<line class="char-xp-gridline" x1="${left}" x2="${width-right}" y1="${top + plotH * i / 3}" y2="${top + plotH * i / 3}"/><text class="char-xp-axis" x="${left-6}" y="${top + plotH * i / 3 + 3}" text-anchor="end">${i === 0 ? 'máx.' : i === 3 ? 'mín.' : ''}</text>`).join('');
+  let content = axis;
+  if (type === 'total') {
+    const vals = rows.map((r) => r.total).filter(Number.isFinite);
+    if (!vals.length) return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Sem snapshots de XP"><text class="char-xp-axis" x="${width/2}" y="${height/2}" text-anchor="middle">Sem snapshots de XP neste período</text></svg>`;
+    const min = Math.min(...vals), max = Math.max(...vals), spread = max - min || 1;
+    const points = rows.map((r, i) => ({ ...r, x: xFor(i), y: top + plotH - ((r.total - min) / spread) * plotH }));
+    const path = points.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+    content += `<path class="char-xp-area" d="${path} L${points.at(-1).x},${top+plotH} L${points[0].x},${top+plotH} Z"/><path class="char-xp-line" d="${path}"/>`;
+    content += points.map((p) => `<circle class="char-xp-point" cx="${p.x}" cy="${p.y}" r="3"><title>${esc(p.date)} · ${Number(p.total).toLocaleString('pt-BR')} XP</title></circle>`).join('');
+    content += points.filter((p) => p.date === bestDate).map((p) => `<text class="char-xp-marker" x="${p.x}" y="${Math.max(14,p.y-10)}" fill="#ffc64a"><title>Maior ganho diário</title>★</text>`).join('');
+  } else {
+    const vals = rows.map((r) => r.gain).filter((v) => v !== null);
+    if (!vals.length) return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Sem dados de ganho diário"><text class="char-xp-axis" x="${width/2}" y="${height/2}" text-anchor="middle">Ganho diário aparece após snapshots em dias consecutivos</text></svg>`;
+    const maxPos = Math.max(0, ...vals), maxNeg = Math.abs(Math.min(0, ...vals));
+    const maxAbs = Math.max(1, maxPos, maxNeg);
+    const posHeight = maxNeg ? plotH / 2 : plotH * .88;
+    const negHeight = maxPos ? plotH / 2 : plotH * .88;
+    const zeroY = top + posHeight;
+    content += `<line class="char-xp-gridline" x1="${left}" x2="${width-right}" y1="${zeroY}" y2="${zeroY}"/>`;
+    const step = plotW / Math.max(rows.length, 1), barW = Math.max(2, Math.min(18, step * .64));
+    content += rows.map((r, i) => {
+      const x = left + (i + .5) * step; const gain = r.gain;
+      const barH = gain === null ? 0 : Math.max(1.5, Math.abs(gain) / maxAbs * (gain >= 0 ? posHeight : negHeight));
+      const y = gain === null ? zeroY : gain >= 0 ? zeroY - barH : zeroY;
+      return `${gain === null ? '' : `<rect class="char-xp-bar${gain < 0 ? ' negative' : ''}" x="${x-barW/2}" y="${y}" width="${barW}" height="${barH}" rx="1"><title>${esc(r.date)} · ${xpCompact(gain)} XP</title></rect>`}${r.date === bestDate ? `<text class="char-xp-marker" x="${x}" y="${Math.max(14,y-5)}" fill="#ffc64a"><title>Maior ganho diário</title>★</text>` : ''}${(deathsByDate.get(r.date) || 0) > 0 ? `<text class="char-xp-marker" x="${x}" y="${top+plotH+18}" fill="#f06a6a"><title>${deathsByDate.get(r.date)} morte(s)</title>☠</text>` : ''}`;
+    }).join('');
+  }
+  const labelIndices = [...new Set([0, Math.floor((rows.length-1)/2), rows.length-1])];
+  content += labelIndices.map((i) => `<text class="char-xp-axis" x="${type === 'total' ? xFor(i) : left+(i+.5)*plotW/Math.max(rows.length,1)}" y="${height-8}" text-anchor="middle">${esc((dates[i] || '').slice(5))}</text>`).join('');
+  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${type === 'total' ? 'Gráfico de experiência total' : 'Gráfico de ganho diário'}">${content}</svg>`;
+}
+async function renderCharacterXp(character) {
+  const host = document.getElementById('char-xp-tracker');
+  if (!host || !character.world || !character.name) return;
+  host.innerHTML = '<p class="char-xp-empty">Carregando histórico de XP e mortes…</p>';
+  const slug = String(character.world).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const base = `data/player-history/worlds/${slug}/`;
+  const [xpResult, deathsResult] = await Promise.allSettled([
+    fetch(base + 'experience.csv', { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('xp'); return r.text(); }),
+    fetch(base + 'deaths-daily.csv', { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('deaths'); return r.text(); }),
+  ]);
+  if (xpResult.status !== 'fulfilled') {
+    host.innerHTML = '<p class="char-xp-empty">O histórico gráfico aparecerá após o workflow de XP concluir a primeira coleta e publicar os CSVs.</p>';
+    return;
+  }
+  const key = (v) => String(v || '').normalize('NFKC').trim().toLocaleLowerCase('pt-BR');
+  const xpRows = parseCsv(xpResult.value).filter((r) => key(r.name) === key(character.name) && key(r.world) === key(character.world))
+    .map((r) => ({ date: r.date, total: Number(r.experience_total), gain: r.experience_gain === '' ? null : Number(r.experience_gain), level: xpLevelFromTotal(Number(r.experience_total)) }))
+    .filter((r) => /^\d{4}-\d{2}-\d{2}$/.test(r.date) && Number.isFinite(r.total)).sort((a,b) => a.date.localeCompare(b.date));
+  const deathRows = deathsResult.status === 'fulfilled' ? parseCsv(deathsResult.value) : [];
+  const deathsByDate = new Map();
+  deathRows.filter((r) => key(r.name) === key(character.name) && key(r.world) === key(character.world) && Number(r.deaths_count) > 0)
+    .forEach((r) => deathsByDate.set(r.date, (deathsByDate.get(r.date) || 0) + Number(r.deaths_count)));
+  if (!xpRows.length) {
+    host.innerHTML = '<p class="char-xp-empty">Ainda não há snapshots de XP deste personagem. O gráfico começa a ser formado quando ele aparecer no ranking de experiência.</p>';
+    return;
+  }
+  const gains = xpRows.filter((r) => Number.isFinite(r.gain));
+  const best = gains.filter((r) => r.gain > 0).sort((a,b) => b.gain-a.gain)[0] || null;
+  const first = xpRows[0], last = xpRows.at(-1);
+  const totalGain = last.total - first.total;
+  const average = gains.length ? gains.reduce((sum,r) => sum+r.gain,0) / gains.length : null;
+  const trackedDays = xpRows.length;
+  const activeDays = gains.filter((r) => r.gain > 0).length;
+  const currentLevel = Number(character.level) || last.level;
+  const atLevel = xpExpAtLevel(currentLevel), nextLevelXp = xpExpAtLevel(currentLevel + 1);
+  const progress = Math.max(0, Math.min(1, (last.total - atLevel) / Math.max(1, nextLevelXp - atLevel)));
+  const remaining = Math.max(0, nextLevelXp - last.total);
+  const levelChange = Math.max(0, last.level - first.level);
+  const dates = [...new Set([...xpRows.map((r) => r.date), ...deathsByDate.keys()])].sort();
+  const dailyRows = dates.slice(-30).reverse().map((date) => {
+    const xp = xpRows.find((r) => r.date === date);
+    return { date, xp, deaths: deathsByDate.get(date) || 0 };
+  });
+  host.innerHTML = `
+    <div class="char-xp-level">
+      <div><b>${esc(character.name)}</b><span>${esc(character.world)}${character.residence ? ' · ' + esc(character.residence) : ''}</span></div>
+      <div class="char-xp-level-value"><strong>Level ${currentLevel.toLocaleString('pt-BR')}</strong><small>${levelChange ? '+' + levelChange + ' níveis no período' : 'Acompanhamento dos últimos 30 dias'}</small></div>
+      <div class="char-xp-progress-label"><span>Level ${currentLevel}</span><span>Level ${currentLevel+1} — ${remaining.toLocaleString('pt-BR')} restantes</span></div>
+      <div class="char-xp-progress"><span style="width:${(progress*100).toFixed(2)}%"></span></div>
+    </div>
+    <div class="char-xp-summary">
+      <div class="char-xp-card"><small>↗ XP total ganho</small><b>${xpCompact(totalGain)}</b><em>${last.total.toLocaleString('pt-BR')} XP no snapshot mais recente</em></div>
+      <div class="char-xp-card"><small>♨ Média diária</small><b>${average === null ? '—' : xpCompact(average)}</b><em>${activeDays} dias com ganho em ${trackedDays} dias rastreados</em></div>
+      <div class="char-xp-card"><small>↗ Melhor dia</small><b>${best ? xpCompact(best.gain) : '—'}</b><em>${best ? new Date(best.date+'T12:00:00').toLocaleDateString('pt-BR') : 'Aguardando ganhos diários'}</em></div>
+      <div class="char-xp-card"><small>▦ Dias rastreados</small><b>${trackedDays}</b><em>${first.date.slice(8,10)}/${first.date.slice(5,7)} — ${last.date.slice(8,10)}/${last.date.slice(5,7)}</em></div>
+    </div>
+    <div class="char-xp-charts">
+      <section class="char-xp-chart"><h4>Experiência total</h4>${xpChartSvg(xpRows, 'total', best?.date, deathsByDate)}</section>
+      <section class="char-xp-chart"><h4>Ganho diário</h4>${xpChartSvg(dates.slice(-30).map((date) => ({ date, gain: xpRows.find((r) => r.date === date)?.gain ?? null })), 'daily', best?.date, deathsByDate)}</section>
+    </div>
+    <section class="char-xp-forecast"><h4>◎ Previsão de level</h4><label class="sr-only" for="char-xp-target">Level alvo</label><input id="char-xp-target" type="number" min="${currentLevel+1}" placeholder="Level alvo (atual: ${currentLevel})"><p id="char-xp-target-result" aria-live="polite"></p></section>
+    <section class="char-xp-table"><h4>Progresso diário</h4><div class="tbl"><table><thead><tr><th>Data</th><th class="n">Ganho diário</th><th class="n">Level</th><th class="n">XP total</th></tr></thead><tbody>${dailyRows.map(({date,xp,deaths}) => `<tr><td>${esc(new Date(date+'T12:00:00').toLocaleDateString('pt-BR'))}${deaths ? ` <span class="char-xp-death" title="${deaths} morte(s)">☠</span>` : ''}</td><td class="n">${xp?.gain === null || !xp ? '—' : `<span class="${xp.gain < 0 ? 'char-xp-loss' : 'char-xp-gain'}">${xpCompact(xp.gain)}${best?.date === date ? ' <span class="char-xp-star" title="Maior pico de XP">★</span>' : ''}</span>`}</td><td class="n">${xp ? xp.level.toLocaleString('pt-BR') : '—'}</td><td class="n">${xp ? xp.total.toLocaleString('pt-BR') : '—'}</td></tr>`).join('')}</tbody></table></div></section>
+    <div class="char-xp-legend"><strong>☠</strong> dia com morte <strong class="char-xp-star">★</strong> maior ganho diário · Dados de XP disponíveis somente quando listado no ranking.</div>`;
+  const targetInput = document.getElementById('char-xp-target');
+  targetInput?.addEventListener('input', () => {
+    const target = Number(targetInput.value); const result = document.getElementById('char-xp-target-result');
+    if (!target || target <= currentLevel) { result.textContent = target ? `Informe um level acima do atual (${currentLevel}).` : ''; return; }
+    const xpNeeded = Math.max(0, xpExpAtLevel(target) - last.total);
+    result.textContent = average > 0 ? `Faltam ${xpNeeded.toLocaleString('pt-BR')} XP · estimativa de ${Math.ceil(xpNeeded / average)} dias na média atual.` : `Faltam ${xpNeeded.toLocaleString('pt-BR')} XP. A previsão aparece quando houver média diária positiva.`;
+  });
+}
+
 async function loadChar(name) {
   const out = $('#out-char');
   await run(out, async () => {
@@ -1683,6 +1864,7 @@ async function loadChar(name) {
     const others = data.other_characters ?? [];
     const stat = (k, v) => `<div class="stat"><dt>${k}</dt><dd>${v || '—'}</dd></div>`;
     out.innerHTML = `
+      <div class="char-profile-card">
       <div class="hero">
         <div class="plate"><b>${esc(c.level)}</b><span>nível</span></div>
         <div>
@@ -1702,6 +1884,9 @@ async function loadChar(name) {
         ${stat('Casamento', esc(c.married_to || c.marriage_status))}
       </dl>
       ${c.comment ? `<p class="stat"><dt>Comentário</dt>${esc(c.comment)}</p>` : ''}
+      </div>
+      <section id="char-xp-tracker" class="char-xp-tracker" aria-label="Rastreador de experiência"></section>
+      <div class="char-related">
       <h3>Mortes recentes</h3>
       ${deaths.length ? `<div class="tbl"><table><thead><tr><th>Quando</th><th class="n">Nível</th><th>Morto por</th></tr></thead><tbody>
         ${deaths.map((d) => `<tr><td>${fmtDate(d.time)}</td><td class="n">${esc(d.level)}</td>
@@ -1710,7 +1895,9 @@ async function loadChar(name) {
       ${others.length ? `<h3>Outros personagens da conta</h3><div class="tbl"><table><thead><tr><th>Nome</th><th>Mundo</th><th>Status</th></tr></thead><tbody>
         ${others.map((o) => `<tr><td>${charLink(o.name)}${o.main ? ' (principal)' : ''}</td><td>${esc(o.world)}</td>
           <td><span class="dot ${o.status === 'online' ? 'on' : ''}"></span>${esc(o.status)}${o.deleted ? ' • apagado' : ''}</td></tr>`).join('')}
-        </tbody></table></div>` : ''}`;
+        </tbody></table></div>` : ''}
+      </div>`;
+    await renderCharacterXp(c);
   });
 }
 
