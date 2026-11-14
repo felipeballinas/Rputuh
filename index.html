@@ -814,6 +814,11 @@ nav button[aria-selected=true]{background:linear-gradient(135deg,var(--gold-2),v
 .dmg-slot-btn{width:100%;aspect-ratio:auto;min-height:2.2rem;align-self:center}
 .dmg-tier{flex-wrap:wrap}
 .dmg-tier select{min-width:0;max-width:100%}
+/* Números de dano em fonte legível (a pixelada fica só nos títulos) */
+.dmg-compare-total strong,.dmg-turn b{font-family:var(--body);font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:#fff}
+.dmg-compare-total strong{font-size:2.6rem;line-height:1}
+.dmg-turn b{font-size:2rem}
+.dmg-compare-total span{font-size:.92rem;color:#c9bfb5}
 </style>
 </head>
 <body>
@@ -3152,7 +3157,8 @@ function renderDamageResult(side, result) {
 }
 function renderDamageComparison(results, payloads) {
   const total = {a: Number(results.a.summary?.effectiveDamagePerTurn) || 0, b: Number(results.b.summary?.effectiveDamagePerTurn) || 0};
-  const winner = total.a === total.b ? null : total.a > total.b ? 'a' : 'b';
+  // Diferença menor que 0,5% é ruído do motor de cálculo: conta como empate.
+  const winner = Math.abs(total.a - total.b) / Math.max(total.a, total.b, 1) < 0.005 ? null : total.a > total.b ? 'a' : 'b';
   const weaponName = (side) => damageCatalog.weapons.find((item) => item.id === Number(damageRoot(side).querySelector('[data-damage-weapon]').value))?.name || 'Arma';
   const card = (side) => {
     const other = side === 'a' ? 'b' : 'a';
