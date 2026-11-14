@@ -1,0 +1,79 @@
+{
+  "fonte": "Layout e textos do Wheel of Destiny Planner oficial (tibia.com); ícones da TibiaWiki BR. Conferido em 14/11/2026.",
+  "estagios": [250, 500, 1000],
+  "bonusEstagio": [0, 4, 9, 20],
+  "geometria": [
+    {"id":"QTL0","anel":0,"a0":180,"a1":270,"q":"TL","pontos":50},{"id":"QTL1","anel":1,"a0":180,"a1":225,"q":"TL","pontos":75},{"id":"QTL3","anel":1,"a0":225,"a1":270,"q":"TL","pontos":75},{"id":"QTL2","anel":2,"a0":180,"a1":210,"q":"TL","pontos":100},{"id":"QTL4","anel":2,"a0":210,"a1":240,"q":"TL","pontos":100},{"id":"QTL6","anel":2,"a0":240,"a1":270,"q":"TL","pontos":100},{"id":"QTL5","anel":3,"a0":195,"a1":225,"q":"TL","pontos":150},{"id":"QTL7","anel":3,"a0":225,"a1":255,"q":"TL","pontos":150},{"id":"QTL8","anel":4,"a0":195,"a1":255,"q":"TL","pontos":200},
+    {"id":"QTR0","anel":0,"a0":270,"a1":360,"q":"TR","pontos":50},{"id":"QTR3","anel":1,"a0":270,"a1":315,"q":"TR","pontos":75},{"id":"QTR1","anel":1,"a0":315,"a1":360,"q":"TR","pontos":75},{"id":"QTR6","anel":2,"a0":270,"a1":300,"q":"TR","pontos":100},{"id":"QTR4","anel":2,"a0":300,"a1":330,"q":"TR","pontos":100},{"id":"QTR2","anel":2,"a0":330,"a1":360,"q":"TR","pontos":100},{"id":"QTR7","anel":3,"a0":285,"a1":315,"q":"TR","pontos":150},{"id":"QTR5","anel":3,"a0":315,"a1":345,"q":"TR","pontos":150},{"id":"QTR8","anel":4,"a0":285,"a1":345,"q":"TR","pontos":200},
+    {"id":"QBL0","anel":0,"a0":90,"a1":180,"q":"BL","pontos":50},{"id":"QBL3","anel":1,"a0":90,"a1":135,"q":"BL","pontos":75},{"id":"QBL1","anel":1,"a0":135,"a1":180,"q":"BL","pontos":75},{"id":"QBL6","anel":2,"a0":90,"a1":120,"q":"BL","pontos":100},{"id":"QBL4","anel":2,"a0":120,"a1":150,"q":"BL","pontos":100},{"id":"QBL2","anel":2,"a0":150,"a1":180,"q":"BL","pontos":100},{"id":"QBL7","anel":3,"a0":105,"a1":135,"q":"BL","pontos":150},{"id":"QBL5","anel":3,"a0":135,"a1":165,"q":"BL","pontos":150},{"id":"QBL8","anel":4,"a0":105,"a1":165,"q":"BL","pontos":200},
+    {"id":"QBR0","anel":0,"a0":0,"a1":90,"q":"BR","pontos":50},{"id":"QBR1","anel":1,"a0":0,"a1":45,"q":"BR","pontos":75},{"id":"QBR3","anel":1,"a0":45,"a1":90,"q":"BR","pontos":75},{"id":"QBR2","anel":2,"a0":0,"a1":30,"q":"BR","pontos":100},{"id":"QBR4","anel":2,"a0":30,"a1":60,"q":"BR","pontos":100},{"id":"QBR6","anel":2,"a0":60,"a1":90,"q":"BR","pontos":100},{"id":"QBR5","anel":3,"a0":15,"a1":45,"q":"BR","pontos":150},{"id":"QBR7","anel":3,"a0":45,"a1":75,"q":"BR","pontos":150},{"id":"QBR8","anel":4,"a0":15,"a1":75,"q":"BR","pontos":200}
+  ],
+  "modelo": {
+    "QTL0":"VR","QTL1":"SKILL","QTL3":"LL","QTL2":"A1","QTL4":"A2","QTL6":"VR","QTL5":"VR","QTL7":"ML","QTL8":"U1",
+    "QTR0":"A3","QTR3":"VR","QTR1":"LL","QTR6":"SKILL","QTR4":"A4","QTR2":"VR","QTR7":"VR","QTR5":"ML","QTR8":"A5",
+    "QBL0":"A5","QBL3":"VR","QBL1":"ML","QBL6":"SKILL","QBL4":"A4","QBL2":"VR","QBL7":"VR","QBL5":"LL","QBL8":"A3",
+    "QBR0":"VR","QBR1":"SKILL","QBR3":"ML","QBR2":"A2","QBR4":"A1","QBR6":"VR","QBR5":"VR","QBR7":"LL","QBR8":"U2"
+  },
+  "comuns": {
+    "VR": {"nome":"Vessel Resonance","texto":"Cada nível de Vessel Resonance libera os Gem Mods equivalentes no domínio."},
+    "LL": {"nome":"Life Leech","texto":"+0.75% Life Leech","icone":"Life_Leech_(Conviction).gif"},
+    "ML": {"nome":"Mana Leech","texto":"+0.25% Mana Leech","icone":"Mana_Leech_(Conviction).gif"}
+  },
+  "vocacoes": {
+    "knight": {
+      "skill": {"nome":"Weapon Skill Boost","texto":"+1 Weapon Skill Boost (sword, axe e club fighting)","icone":"Weapon_Skill_Boost_(Conviction).gif","skills":["axe","club","sword"]},
+      "A1": ["Intense Wound Cleansing","+125% Base Healing","-60s Cooldown"],
+      "A2": ["Shield Slam","Adds 15% life leech to this spell","-25% damage from the next hostile auto attack"],
+      "A3": ["Fierce Berserk","-30 Mana Cost","+10% Base Damage"],
+      "A4": ["Groundshaker","-2s Cooldown","+12.5% Base Damage"],
+      "A5": ["Front Sweep","+40% Base Damage","Expanded Shape"],
+      "U1": ["Battle Instinct","Gain +6 shielding and +1 sword / axe / club fighting when 5 creatures are on adjacent squares (até 8)."],
+      "U2": ["Battle Healing","Healing Spells have 10% increased healing. This bonus is doubled when wearing a shield."],
+      "revelacoes": {"TL":"Gift of Life","TR":"Executioner's Throw","BL":"Combat Mastery","BR":"Avatar of Steel"}
+    },
+    "druid": {
+      "skill": {"nome":"Magic Skill Boost","texto":"+1 Magic Skill Boost","icone":"Magic_Skill_Boost_(Conviction).gif","skills":["magic"]},
+      "A1": ["Terra Wave","+6.5% Base Damage","Adds 10% life leech to this spell"],
+      "A2": ["Mass Healing","+4% Base Healing","Affected area enlarged"],
+      "A3": ["Strong Ice Wave","+6% Base Damage","Expanded Shape"],
+      "A4": ["Heal Friend","+4% Base Healing","+6% Base Healing"],
+      "A5": ["Forked Spells","-2s Cooldown for Forked Thorns and Forked Glacier","Jumps to +1 additional target for Forked Thorns and Forked Glacier"],
+      "U1": ["Healing Link","If you heal someone with Nature's Embrace or Heal Friend, you also heal yourself for 25% of the applied healing."],
+      "U2": ["Runic Mastery","If you use a rune, you have a 25% chance of increasing your magic level by 10%, or by 20% if you use a rune that can be created by your vocation."],
+      "revelacoes": {"TL":"Gift of Life","TR":"Blessing of the Grove","BL":"Twin Bursts","BR":"Avatar of Nature"}
+    },
+    "sorcerer": {
+      "skill": {"nome":"Magic Skill Boost","texto":"+1 Magic Skill Boost","icone":"Magic_Skill_Boost_(Conviction).gif","skills":["magic"]},
+      "A1": ["Energy Wave","Affected area enlarged","+10% Base Damage"],
+      "A2": ["Special Spells","-4s Cooldown for Lightning, Strong Energy Strike and Strong Flame Strike","+50% Base Damage for Lightning, Strong Energy Strike and Strong Flame Strike"],
+      "A3": ["Great Fire Wave","Adds 15% critical extra damage for this spell.","+5% Base Damage"],
+      "A4": ["Death Echo","-2s Cooldown","+12% Base Damage"],
+      "A5": ["Focus Spells","+5% Base Damage for Hell's Core and Rage of the Skies","-4s Cooldown; Focus secondary group cooldown -4s for Hell's Core and Rage of the Skies"],
+      "U1": ["Runic Mastery","If you use a rune, you have a 25% chance of increasing your magic level by 10%, or by 20% if you use a rune that can be created by your vocation."],
+      "U2": ["Focus Mastery","Increases the damage of your next damage spell by 35% within 12 seconds after casting a focus spell. Reduces the primary cooldown by 2 seconds."],
+      "revelacoes": {"TL":"Gift of Life","TR":"Beam Mastery","BL":"Lord of Destruction","BR":"Avatar of Storm"}
+    },
+    "paladin": {
+      "skill": {"nome":"Distance Skill Boost","texto":"+1 Distance Skill Boost","icone":"Distance_Skill_Boost_(Conviction).gif","skills":["distance"]},
+      "A1": ["Divine Barrage","+8% Base Damage","+12% Base Damage"],
+      "A2": ["Strong Ethereal Spear","-2s Cooldown","+380% Base Damage"],
+      "A3": ["Divine Caldera","-20 Mana Cost","+10% Base Damage"],
+      "A4": ["Divine Dazzle","Jumps to +2 additional targets","Duration increased; -8s Cooldown"],
+      "A5": ["Ethereal Barrage","Adds 10% life leech to this spell","Adds 10% critical hit chance for this spell."],
+      "U1": ["Positional Tactics","Gain +3 distance fighting while no monster is within 1 squares. Otherwise gain +3 holy magic level and +3 healing magic level."],
+      "U2": ["Ballistic Mastery","The critical extra damage for attacks with a crossbow is increased by 10%. While wielding a bow your attacks and spells have +4% physical and holy pierce."],
+      "revelacoes": {"TL":"Gift of Life","TR":"Divine Grenade","BL":"Divine Empowerment","BR":"Avatar of Light"}
+    },
+    "monk": {
+      "skill": {"nome":"Fist Fighting Skill Boost","texto":"+1 Fist Fighting Skill Boost","icone":"Fist_Fighting_Skill_Boost_(Conviction).gif","skills":["fist"]},
+      "A1": ["Flurry of Blows","Range increased by 1","+15% Base Damage"],
+      "A2": ["Mass Spirit Mend","+8% Base Healing","-4s Cooldown"],
+      "A3": ["Thousand Fist Blows","Adds 40% critical extra damage for this spell.","-4s Cooldown"],
+      "A4": ["Mystic Repulse","-4s Cooldown","+60% Base Damage"],
+      "A5": ["Chained Penance","Jumps to +1 additional target","+18% Base Damage"],
+      "U1": ["Guiding Presence","Gain an aura that shares your mantra with members of your group and increases your passive party bonuses by 33%."],
+      "U2": ["Sanctuary","Your damage and healing with attacks, spells and runes is increased by 10% when hitting adjacent targets; consuming Harmony creates a field that increases damage and healing by 2% per Harmony."],
+      "revelacoes": {"TL":"Gift of Life","TR":"Spiritual Outburst","BL":"Ascetic","BR":"Avatar of Balance"}
+    }
+  }
+}

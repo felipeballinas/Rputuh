@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="icone-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preload" as="image" href="heroi-fortaleza.webp" type="image/webp" fetchpriority="high">
+<script>if(!location.hash||/^#home/.test(location.hash)){const l=document.createElement('link');l.rel='preload';l.as='image';l.href='heroi-fortaleza.webp';l.type='image/webp';l.fetchPriority='high';document.head.appendChild(l);}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pixelify+Sans:wght@500;700&display=swap">
@@ -443,12 +443,13 @@ header{position:relative;z-index:100;overflow:visible}
   --ease:cubic-bezier(.2,.7,.2,1);
 }
 html{scroll-behavior:smooth}
+@media (min-width:75.01rem){.panel,#quest-article-start{scroll-margin-top:7.5rem}}
 body{font-size:1rem;line-height:1.6;letter-spacing:-.005em;-webkit-font-smoothing:antialiased;
   background-color:var(--bg);
   background-image:radial-gradient(60rem 40rem at 10% -10%,#ff6a0026,transparent 60%),radial-gradient(50rem 35rem at 100% 0%,#c2410c1f,transparent 60%),radial-gradient(40rem 30rem at 50% 110%,#7c2d1214,transparent 60%);
   background-size:auto;background-attachment:fixed}
 ::selection{background:#ff8a1f55;color:#fff}
-:focus-visible{outline:2px solid var(--gold-2);outline-offset:3px;border-radius:6px}
+:focus-visible{outline:2px solid var(--gold-2);outline-offset:3px}
 a{transition:color .15s var(--ease)}
 h3{font-weight:700;letter-spacing:.01em}
 
@@ -456,7 +457,7 @@ h3{font-weight:700;letter-spacing:.01em}
 header{background:#0c0a09b8;-webkit-backdrop-filter:saturate(160%) blur(14px);backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--border);box-shadow:0 8px 30px -18px #000}
 @media (min-width:75.01rem){
   /* Cabeçalho em linha: logo | menu | relógio e Yasir (evita sobreposição do menu centralizado em absoluto) */
-  header{position:sticky;top:0;z-index:50;flex-wrap:nowrap;gap:1rem;padding:.35rem 1.5rem}
+  header{position:sticky;top:0;z-index:100;flex-wrap:nowrap;gap:1rem;padding:.35rem 1.5rem}
   header>a:first-child{flex:none}
   .header-navigation{position:static;left:auto;transform:none;flex:1 1 auto;min-width:0;width:auto;max-width:none;justify-content:center;order:1}
   .header-utilities{order:2;flex:none;margin-left:0;transform:none}
@@ -492,7 +493,7 @@ header{background:#0c0a09b8;-webkit-backdrop-filter:saturate(160%) blur(14px);ba
 input,select,textarea{border:1px solid var(--border);border-radius:var(--radius-sm);background:#0000004d;transition:border-color .15s var(--ease),box-shadow .15s var(--ease)}
 input,select{padding:.65rem .9rem}
 input:hover,select:hover,textarea:hover{border-color:#ffffff2e}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px #ff8a1f26}
+input:focus,select:focus,textarea:focus{outline:2px solid transparent;border-color:var(--gold);box-shadow:0 0 0 4px #ff8a1f26}
 input::placeholder{color:#8a7f75}
 select option{background:#16120f}
 .btn,.landing-cta{border:0;border-radius:var(--radius-sm);background:linear-gradient(135deg,var(--gold-2),var(--gold) 55%,#f2600a);color:#1a0f05;font-family:var(--body);font-weight:700;box-shadow:0 1px 0 #ffffff59 inset,0 8px 20px -8px #ff7a1499;transition:transform .15s var(--ease),box-shadow .15s var(--ease),filter .15s var(--ease)}
@@ -505,11 +506,11 @@ nav button:hover{border-color:#ffffff2e}
 nav button[aria-selected=true]{background:linear-gradient(135deg,var(--gold-2),var(--gold));border-color:transparent}
 
 /* Tabelas */
-table{border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums}
-th{background:#15110e;color:var(--muted);font-size:.76rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-bottom:1px solid var(--border)}
-th,td{padding:.6rem .8rem;border-bottom:1px solid #ffffff0a}
-tbody tr{transition:background .12s var(--ease)}
-tbody tr:hover td{background:#ffffff07}
+.tbl table{border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums}
+.tbl th{background:#15110e;color:var(--muted);font-size:.76rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-bottom:1px solid var(--border)}
+.tbl th,.tbl td{padding:.6rem .8rem;border-bottom:1px solid #ffffff0a}
+.tbl tbody tr{transition:background .12s var(--ease)}
+.tbl tbody tr:hover td{background:#ffffff07}
 
 /* Destaque da página inicial */
 .carousel-panel{border:1px solid #ffffff1f;border-radius:20px;background:linear-gradient(135deg,#0c0a09b3,#0c0a0980);-webkit-backdrop-filter:blur(12px) saturate(140%);backdrop-filter:blur(12px) saturate(140%);box-shadow:0 30px 80px -20px #000e,0 0 0 1px #ff8a1f1a,inset 0 1px #ffffff14}
@@ -528,6 +529,291 @@ tbody tr:hover td{background:#ffffff07}
 *{scrollbar-width:thin;scrollbar-color:#ffffff26 transparent}
 
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+/* War - Guilds */
+.war-intro{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:.9rem}
+.war-intro h2{margin:0;color:var(--gold);font:700 1.6rem var(--display)}
+.war-intro p{margin:.2rem 0 0}
+.war-status{display:flex;align-items:center;gap:.6rem;font-size:.85rem}
+.war-refresh{padding:.45rem .8rem}
+.war-pickers select{flex:1 1 14rem;min-width:0}
+.war-options{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.1rem;margin:.75rem 0;color:var(--muted);font-size:.88rem}
+.war-options label{display:inline-flex;align-items:center;gap:.45rem}
+.war-options input[type=number]{flex:none;width:5.2rem;padding:.35rem .5rem}
+.war-check input{flex:none;accent-color:var(--gold);width:1rem;height:1rem;padding:0}
+.war-hint{font-size:.82rem;margin:.2rem 0 .8rem}
+.war-columns{display:grid;grid-template-columns:repeat(var(--war-cols,1),minmax(0,1fr));gap:1rem;align-items:start}
+@media (max-width:75rem){.war-columns{grid-template-columns:minmax(0,1fr)}}
+.war-placeholder{display:grid;gap:.3rem;padding:2rem 1rem;border:1px dashed var(--border);border-radius:var(--radius);text-align:center;color:var(--muted)}
+.war-placeholder b{color:var(--text);font-size:1.1rem}
+.war-col{min-width:0;padding:.9rem;border:1px solid var(--border);border-radius:var(--radius);background:#ffffff04}
+.war-col-head{display:flex;align-items:center;gap:.7rem;margin-bottom:.7rem}
+.war-col-head img{flex:none;border-radius:8px;background:#0006}
+.war-col-head>div{min-width:0;flex:1}
+.war-col-head h3{margin:0;font:700 1.2rem var(--body);overflow-wrap:anywhere}
+.war-col-head h3 a{color:var(--text)}
+.war-col-head small{color:var(--muted)}
+.war-flag{color:#ff6b5e}
+.war-online{display:inline-flex;align-items:center;gap:.4rem;flex:none;padding:.3rem .7rem;border:1px solid #3dd56d55;border-radius:999px;background:#3dd56d14;color:#a4efb5;font-weight:700;font-size:.9rem;white-space:nowrap}
+.war-online i{width:.5rem;height:.5rem;border-radius:50%;background:#3dd56d;box-shadow:0 0 0 3px #3dd56d2b}
+.war-close{flex:none;width:2rem;height:2rem;border:1px solid var(--border);border-radius:50%;background:transparent;color:var(--muted);cursor:pointer}
+.war-close:hover{border-color:#ff6b5e;color:#ff6b5e}
+.war-vocs{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.7rem}
+.war-vocs button{padding:.3rem .65rem;border:1px solid var(--border);border-radius:999px;background:#ffffff08;color:var(--text);font:700 .82rem var(--body);cursor:pointer}
+.war-vocs button span{margin-left:.2rem;color:var(--muted);font-weight:600}
+.war-vocs button[aria-pressed=true]{border-color:transparent;background:linear-gradient(135deg,var(--gold-2),var(--gold));color:#1a0f05}
+.war-vocs button[aria-pressed=true] span{color:#1a0f05}
+.war-group{margin-top:.6rem;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
+.war-group-head{display:flex;align-items:center;justify-content:center;gap:.35rem;width:100%;padding:.5rem .7rem;border:0;background:#ffffff0a;color:var(--text);font:700 .95rem var(--body);cursor:pointer}
+.war-group-head span{color:var(--muted);font-weight:600}
+.war-group-head i{margin-left:.2rem;color:var(--gold);font-style:normal}
+.war-group .tbl{margin:0;overflow-x:auto}
+.war-table th,.war-table td{padding:.35rem .5rem;font-size:.86rem;white-space:nowrap}
+.war-table th{position:static}
+.war-name small{display:block;color:var(--muted);font-size:.72rem}
+.war-time{font-variant-numeric:tabular-nums}
+.war-exp{text-align:center}
+.war-up{color:#3dd56d}.war-down{color:#ff6b5e}
+.war-note{width:100%;min-width:7rem;padding:.25rem .45rem!important;border-color:#ffffff14!important;background:transparent!important;font-size:.82rem}
+.war-note:hover,.war-note:focus{border-color:var(--border)!important;background:#0000004d!important}
+.war-table tr.war-new td{background:#c0262db3!important;color:#fff;font-weight:700}
+.war-table tr.war-new a{color:#fff}
+.war-table tr.war-recent td{background:#e0525a55!important}
+.war-table tr.war-off td{color:#b9aea3}.war-more{margin:.5rem .6rem}
+.war-empty{margin:0;padding:.6rem .8rem;font-size:.86rem}
+
+/* Dano / Builds — fluxo em etapas (Personagem → Builds → Alvos → Comparação) */
+#p-damage>h2{margin:0;color:var(--gold);font:700 1.6rem var(--display)}
+.dmg-topbar{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin:.6rem 0 1.2rem}
+.dmg-voc-emblem{display:inline-flex;align-items:baseline;gap:.5rem;padding:.45rem .9rem;border:1px solid var(--border-hi);border-radius:999px;background:#ff8a1f14;color:var(--gold-2);font:700 .95rem var(--body);cursor:pointer}
+.dmg-voc-emblem small{color:var(--muted);font-weight:600;font-size:.75rem}
+.dmg-voc-emblem:hover{background:#ff8a1f24}
+#damage-status{font-size:.85rem}
+.dmg-step{margin:0 0 1.4rem}
+.dmg-step-head{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:0 0 .6rem}
+.dmg-step-num{color:var(--gold);font:700 .85rem var(--display);letter-spacing:.08em}
+.dmg-step-head h3{margin:0;font:700 .95rem var(--body);letter-spacing:.12em;text-transform:uppercase}
+.dmg-step-head small{color:var(--muted);font-size:.82rem}
+.dmg-card{padding:1rem;border:1px solid var(--border);border-radius:var(--radius);background:#ffffff04}
+.dmg-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:.7rem}
+.dmg-stats label,.dmg-stats .dmg-stepper{display:grid;gap:.3rem;color:var(--muted);font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.dmg-stats input{width:100%;flex:none}
+.dmg-stepper>span:last-child{display:grid;grid-template-columns:2.4rem minmax(0,1fr) 2.4rem;align-items:stretch;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;background:#0000004d}
+.dmg-stepper input{border:0!important;border-radius:0!important;background:transparent!important;text-align:center;font:700 1.15rem var(--body);box-shadow:none!important;-moz-appearance:textfield}
+.dmg-stepper input::-webkit-inner-spin-button,.dmg-stepper input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.dmg-stepper button{border:0;background:#ffffff08;color:var(--text);font:700 1.1rem var(--body);cursor:pointer}
+.dmg-stepper button:hover{background:#ff8a1f26;color:var(--gold-2)}
+.dmg-advanced{margin-top:.8rem}
+.dmg-advanced summary{color:var(--muted);font-size:.85rem;cursor:pointer}
+.dmg-advanced .dmg-stats{margin-top:.7rem}
+#p-damage .damage-build-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:start}
+@media (max-width:56rem){#p-damage .damage-build-grid,.dmg-compare-grid,.dmg-sheet-grid{grid-template-columns:minmax(0,1fr)!important}}
+#p-damage .damage-build{position:relative;padding:1rem;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(180deg,#1a1512,#131010);box-shadow:var(--shadow);overflow:hidden}
+#p-damage .damage-build:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--dmg-accent)}
+.dmg-build-a{--dmg-accent:linear-gradient(90deg,#ff8a1f,#ffb547)}
+.dmg-build-b{--dmg-accent:linear-gradient(90deg,#4aa3ff,#7cc4ff)}
+#p-damage .damage-build-title{display:flex;align-items:center;gap:.55rem;margin-bottom:.8rem}
+#p-damage .damage-build-title h4{margin:0;flex:1;font:700 1.05rem var(--body)}
+.dmg-build-letter{display:inline-grid;place-items:center;width:1.9rem;height:1.9rem;border-radius:8px;background:var(--dmg-accent);color:#120c06;font:700 1rem var(--display)}
+.dmg-copy{padding:.3rem .65rem;border:1px solid var(--border);border-radius:999px;background:#ffffff08;color:var(--muted);font:600 .78rem var(--body);cursor:pointer}
+.dmg-copy:hover{border-color:var(--border-hi);color:var(--text)}
+#p-damage .damage-item-preview{border:1px solid var(--border);border-radius:var(--radius-sm);background:#ffffff05}
+#p-damage .damage-item-preview b{display:block;color:var(--gold-2);font-size:1.05rem}
+#p-damage .damage-item-preview small{display:block;color:var(--muted);font-size:.8rem}
+.dmg-voc-line{text-transform:uppercase;letter-spacing:.08em;font-size:.68rem!important}
+#p-damage .damage-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem;margin:.2rem 0 .2rem}
+#p-damage .damage-fields label{display:grid;gap:.3rem;color:var(--muted);font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+#p-damage .damage-fields select{width:100%;text-transform:none;letter-spacing:0}
+#p-damage .damage-section{margin-top:.8rem;padding:.75rem;border:1px solid var(--border);border-radius:var(--radius-sm);background:#ffffff04}
+#p-damage .damage-section>summary{cursor:pointer;font-weight:700}
+#p-damage .damage-section>summary small{margin-left:.3rem;padding:.05rem .45rem;border-radius:999px;background:#ffffff12;color:var(--muted);font-size:.75rem}
+.dmg-rotation-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.dmg-rotation-head .damage-check{margin:0}
+.dmg-rotation-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(4rem,.5fr) minmax(4rem,.5fr) 2.4rem;gap:.45rem;margin-top:.5rem;color:var(--muted);font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+#p-damage .damage-row{grid-template-columns:minmax(0,1fr) minmax(4rem,.5fr) minmax(4rem,.5fr) 2.4rem}
+#p-damage .damage-perk-row{grid-template-columns:minmax(0,1fr) minmax(4.5rem,.5fr) 2.4rem}
+#p-damage .damage-target-row{grid-template-columns:minmax(0,1.5fr) minmax(4rem,.45fr) minmax(0,1fr) minmax(5rem,.5fr) 2.4rem}
+@media (max-width:40rem){#p-damage .damage-target-row{grid-template-columns:minmax(0,1fr) minmax(3.8rem,.5fr) 2.4rem}}
+#p-damage .damage-row input,#p-damage .damage-row select{width:100%;min-width:0;flex:none}
+#p-damage .damage-remove{border:1px solid var(--border);border-radius:var(--radius-sm);background:transparent;color:var(--muted)}
+#p-damage .damage-remove:hover{border-color:#ff6b5e;color:#ff6b5e}
+.dmg-turn{display:flex;align-items:baseline;justify-content:space-between;gap:.6rem;margin-top:1rem;padding-top:.8rem;border-top:1px solid var(--border)}
+.dmg-turn span{color:var(--muted);font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.dmg-turn b{font:700 1.9rem var(--display);color:var(--text)}
+.dmg-targets-card>summary{cursor:pointer;color:var(--muted)}
+.dmg-targets-card[open]>summary{margin-bottom:.5rem}
+.dmg-compare-verdict{margin:0 0 .7rem;color:var(--muted)}
+.dmg-compare-verdict b{color:var(--text)}
+.dmg-compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.dmg-compare-card{position:relative;padding:1rem;border:1px solid var(--border);border-radius:var(--radius);background:#ffffff04;overflow:hidden}
+.dmg-compare-card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--dmg-accent)}
+.dmg-compare-card.is-winner{border-color:#3dd56d66;box-shadow:0 0 0 1px #3dd56d33,0 14px 30px -18px #3dd56d80}
+.dmg-compare-card .dmg-card-head{display:flex;align-items:center;gap:.55rem}
+.dmg-compare-card .dmg-card-head b{flex:1;min-width:0;overflow-wrap:anywhere}
+.dmg-winner{padding:.2rem .6rem;border-radius:999px;background:#3dd56d1f;color:#8ee6a0;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+.dmg-compare-total{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.7rem 0 .4rem}
+.dmg-compare-total strong{font:700 2.4rem/1 var(--display)}
+.dmg-compare-total span{color:var(--muted);font-size:.85rem}
+.dmg-compare-total em{font-style:normal;font-weight:700}
+.dmg-compare-total em.up{color:#8ee6a0}.dmg-compare-total em.down{color:#ff8f84}
+.dmg-compare-bar{height:.45rem;margin-bottom:.45rem;border-radius:99px;background:#ffffff0f;overflow:hidden}
+.dmg-compare-bar i{display:block;height:100%;border-radius:99px;background:var(--dmg-accent);transition:width .35s var(--ease)}
+.dmg-spell-list{display:grid;gap:.3rem;margin:.8rem 0 0;padding:0;list-style:none}
+.dmg-spell-list li{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:.6rem;padding:.4rem .6rem;border-radius:8px;background:#ffffff06;font-size:.88rem}
+.dmg-spell-list small{color:var(--muted)}
+.dmg-spell-list b{font-variant-numeric:tabular-nums}
+.dmg-sheet{margin-top:1rem}
+.dmg-sheet>summary{cursor:pointer;font-weight:700}
+.dmg-sheet>summary small{margin-left:.4rem;color:var(--muted);font-weight:500}
+.dmg-sheet-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:.8rem}
+.dmg-sheet-grid h5{margin:0 0 .4rem;font-size:.85rem}
+.dmg-sheet-grid table td{padding:.3rem .5rem;font-size:.82rem}
+.dmg-sheet-grid table td.n{white-space:normal}
+
+/* Dano / Builds — proficiências, equipamento e Wheel */
+.dmg-native{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem;margin:-.35rem 0 .75rem}
+.dmg-native small{color:var(--muted);font-size:.78rem;margin-right:.2rem}
+.dmg-native span{padding:.15rem .5rem;border:1px solid var(--border);border-radius:999px;background:#ffffff08;font-size:.75rem;font-weight:600}
+.dmg-block{margin-top:.8rem}
+.dmg-block-head{display:flex;align-items:baseline;gap:.4rem;margin-bottom:.5rem}
+.dmg-block-head b{color:var(--gold-2)}
+.dmg-block-head small{color:var(--muted);font-size:.78rem}
+.dmg-block-head span{margin-left:auto;color:var(--muted);font-size:.78rem}
+.dmg-prof{display:grid;grid-template-columns:repeat(var(--prof-cols,7),minmax(0,1fr));gap:.35rem;align-items:start}
+.dmg-prof-col{display:grid;gap:.3rem;justify-items:center}
+.dmg-prof-star{color:var(--gold-2);font-size:.72rem;font-weight:700}
+.dmg-prof-btn{position:relative;display:grid;place-items:center;width:100%;max-width:3.3rem;aspect-ratio:1;padding:0;border:1px solid var(--border);border-radius:8px;background:#0000004d;color:var(--text);cursor:pointer;overflow:hidden;transition:border-color .15s var(--ease),transform .15s var(--ease)}
+.dmg-prof-btn:hover{border-color:#ffffff40;transform:translateY(-1px)}
+.dmg-prof-btn img{width:70%;height:70%;object-fit:contain;image-rendering:pixelated}
+.dmg-prof-btn .g{font-size:1.15rem;line-height:1;opacity:.85}
+.dmg-prof-btn .g.crit{color:#ff6b5e}.dmg-prof-btn .g.ml{color:#c084fc}.dmg-prof-btn .g.sk{color:#fbbf24}.dmg-prof-btn .g.foe{color:#60a5fa}.dmg-prof-btn .g.leech{color:#f472b6}.dmg-prof-btn .g.heal{color:#4ade80}.dmg-prof-btn .g.def{color:#94a3b8}
+.dmg-prof-btn small{position:absolute;right:2px;bottom:1px;font-size:.62rem;font-weight:700;color:#ffd58a;text-shadow:0 1px 2px #000}
+.dmg-prof-btn.is-on{border-color:var(--gold);box-shadow:0 0 0 2px #ff8a1f55,inset 0 0 12px #ff8a1f40}
+.dmg-prof-btn.is-na{opacity:.45}
+.dmg-prof-btn.is-na.is-on{opacity:.8}
+.dmg-empty{margin:.2rem 0;font-size:.85rem}
+.dmg-equip-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(9.5rem,1fr));gap:.5rem;margin-top:.6rem}
+.dmg-slot{position:relative;display:grid;gap:.3rem;padding:.5rem;border:1px dashed var(--border);border-radius:var(--radius-sm);background:#0000002e;color:var(--muted);font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.dmg-slot.is-on{border-style:solid;border-color:var(--border-hi)}
+.dmg-slot img{position:absolute;top:.35rem;right:.4rem;width:24px;height:24px;object-fit:contain;image-rendering:pixelated}
+.dmg-slot select{width:100%;padding:.35rem .45rem;font-size:.8rem;text-transform:none;letter-spacing:0;font-weight:500}
+.dmg-equip-tiers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;margin-top:.6rem}
+.dmg-equip-tiers label{display:grid;gap:.3rem;color:var(--muted);font-size:.75rem;font-weight:700}
+.dmg-equip-tiers select{width:100%;padding:.4rem .5rem;font-size:.82rem}
+.dmg-equip-summary{margin-top:.7rem;padding:.7rem;border:1px dashed var(--border);border-radius:var(--radius-sm);font-size:.85rem}
+.dmg-equip-summary>b{color:var(--gold-2);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+.dmg-equip-summary ul{margin:.4rem 0;padding-left:1.1rem}
+.dmg-equip-summary p{margin:.4rem 0}
+.dmg-wheel-top{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.6rem 0 .3rem;font-size:.85rem;color:var(--muted)}
+.dmg-wheel-top b{color:var(--text)}.dmg-wheel-top b.warn{color:#ff8f84}
+.dmg-wheel-svg{display:block;width:min(100%,340px);margin:0 auto;user-select:none}
+.dmg-wslice{fill:#ffffff0a;stroke:#ffffff1f;stroke-width:1;cursor:pointer;transition:fill .15s}
+.dmg-wslice:hover{fill:color-mix(in srgb,var(--c) 25%,transparent)}
+.dmg-wfill{fill:var(--c);opacity:.75}
+.dmg-wcenter{fill:#0c0a09;stroke:var(--gold);stroke-width:2}
+.dmg-wlabel{fill:var(--muted);font:700 13px var(--body)}
+.dmg-hint{margin:.3rem 0 .6rem;font-size:.78rem;text-align:center}
+.dmg-sub{margin:.8rem 0 .4rem;color:var(--muted);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}
+.dmg-revs{display:grid;gap:.3rem;margin:0;padding:0;list-style:none}
+.dmg-revs li{display:grid;grid-template-columns:.6rem minmax(0,1fr) 4.6rem auto;align-items:center;gap:.5rem;padding:.35rem .5rem;border:1px solid var(--border);border-radius:8px;font-size:.85rem}
+.dmg-revs i{width:.6rem;height:.6rem;border-radius:50%}
+.dmg-revs input{width:100%;padding:.25rem .4rem;font-size:.82rem}
+.dmg-stage b{color:#ffffff26;font-size:.8rem}.dmg-stage b.on{color:var(--gold-2)}
+.dmg-augs{display:grid;grid-template-columns:repeat(auto-fill,minmax(11rem,1fr));gap:.35rem}
+.dmg-aug{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:.4rem;padding:.3rem .5rem;border:1px solid var(--border);border-radius:8px;font-size:.82rem}
+.dmg-aug select{padding:.2rem .35rem;font-size:.78rem}
+.dmg-aug.is-na{opacity:.55}
+.dmg-wheel-bonus{margin:.7rem 0 0;font-size:.88rem}
+.dmg-wheel-bonus b{color:var(--gold-2)}
+@media (max-width:40rem){.dmg-prof{gap:.2rem}.dmg-prof-btn small{font-size:.55rem}.dmg-equip-tiers{grid-template-columns:minmax(0,1fr)}}
+#p-damage.damage-vocation-required .dmg-step,#p-damage.damage-vocation-required .dmg-topbar #damage-status{display:none}
+
+/* Dano / Builds v2 — proficiências com imagens oficiais, boneco de equipamento e roda oficial */
+.dmg-prof-btn{max-width:3.4rem;background:#0b0d12;border-color:#ffffff1a}
+.dmg-prof-btn img{width:80%;height:80%;object-fit:contain;image-rendering:pixelated}
+.dmg-prof-btn img.dmg-prof-selo{position:absolute;top:2px;right:2px;width:38%;height:38%}
+.dmg-prof-btn small{font-size:.66rem;color:#ffd166}
+.dmg-prof-btn.is-on{border-color:#f2c14e;box-shadow:0 0 0 2px #f2c14e55,inset 0 0 14px #f2c14e33}
+.dmg-hint-left{margin:.5rem 0;font-size:.78rem}
+.dmg-equip-wrap{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.8rem;align-items:start}
+@media (max-width:40rem){.dmg-equip-wrap{grid-template-columns:minmax(0,1fr)}}
+.dmg-doll{display:grid;gap:.45rem;padding:.55rem;border:1px solid #ffffff26;border-radius:var(--radius-sm);background:#0b0d12}
+.dmg-doll-grid{display:grid;grid-template-columns:repeat(3,4rem);gap:.3rem}
+.dmg-slot{position:relative;display:grid;place-items:center;width:4rem;height:4rem;padding:0;border:1px solid #ffffff1f;border-radius:7px;background:linear-gradient(180deg,#1a1d24,#101217);color:#ffffff59;font:700 .6rem var(--body);letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:border-color .15s var(--ease)}
+.dmg-slot:hover{border-color:#ffffff45}
+.dmg-slot.is-on{border-color:#ffffff33;color:var(--text)}
+.dmg-slot.is-open{border-color:#f2c14e;box-shadow:0 0 0 1px #f2c14e66}
+.dmg-slot.is-off{border-style:dashed;background:transparent;cursor:default;color:#ffffff26}
+.dmg-slot-btn{width:4rem;height:2.4rem;align-self:center;color:var(--text);text-transform:none;letter-spacing:0;font-size:.8rem}
+.dmg-slot img,.dmg-equip-img{width:32px;height:32px;object-fit:contain;image-rendering:pixelated}
+.dmg-slot img{width:44px;height:44px}
+.dmg-tier{display:flex;align-items:center;justify-content:space-between;gap:.4rem;color:var(--muted);font-size:.78rem;font-weight:700;text-transform:none;letter-spacing:0}
+.dmg-tier select{padding:.25rem .4rem;font-size:.78rem}
+.dmg-equip-summary{margin:0;align-self:stretch;border:1px dashed #ffffff26;background:transparent}
+.dmg-equip-summary>b{color:#f2c14e}
+.dmg-equip-list{display:grid;grid-template-rows:auto auto minmax(0,1fr);max-height:22rem;padding:.6rem;border:1px solid #ffffff26;border-radius:var(--radius-sm);background:#0b0d12}
+.dmg-equip-list-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.4rem}
+.dmg-equip-list-head b{font-size:.85rem}
+.dmg-equip-search{width:100%;padding:.35rem .55rem!important;margin-bottom:.4rem;font-size:.82rem}
+.dmg-equip-list ul{margin:0;padding:0;list-style:none;overflow-y:auto;display:grid;gap:.3rem;align-content:start}
+.dmg-equip-list li[hidden]{display:none}
+.dmg-equip-list li button{display:grid;grid-template-columns:36px minmax(0,1fr) auto;align-items:center;gap:.5rem;width:100%;padding:.3rem .5rem;border:1px solid #ffffff1a;border-radius:8px;background:#ffffff06;color:var(--text);font:600 .82rem var(--body);text-align:left;cursor:pointer}
+.dmg-equip-list li button:hover{border-color:#ffffff40}
+.dmg-equip-list li button.is-on{border-color:#f2c14e;background:#f2c14e14}
+.dmg-equip-list li small{display:block;color:var(--muted);font-size:.7rem;font-weight:500}
+.dmg-equip-list li em{color:var(--muted);font:600 .72rem ui-monospace,Consolas,monospace;font-style:normal;white-space:nowrap}
+.dmg-equip-ph{display:grid;place-items:center;width:32px;height:32px;border:1px solid #ffffff26;border-radius:6px;color:var(--muted)}
+.dmg-wheel-svg{width:min(100%,420px)}
+.dmg-wbase{fill:#0b0d12;stroke:#ffffff1a;stroke-width:2}
+.dmg-wslice{cursor:pointer;outline:none}
+.dmg-wslice .bg{fill:#14171e;stroke:#2b2f3a;stroke-width:1.2;transition:fill .15s}
+.dmg-wslice:hover .bg,.dmg-wslice:focus-visible .bg{fill:color-mix(in srgb,var(--c) 22%,#14171e)}
+.dmg-wslice:focus-visible .bg{stroke:#f2c14e;stroke-width:2.5}
+.dmg-wslice .fill{fill:var(--c);opacity:.55;pointer-events:none}
+.dmg-wslice.is-full .bg{fill:color-mix(in srgb,var(--c) 45%,#14171e);stroke:color-mix(in srgb,var(--c) 70%,#fff)}
+.dmg-wslice.is-full .fill{opacity:0}
+.dmg-wslice .ico{pointer-events:none;opacity:.55;image-rendering:pixelated}
+.dmg-wslice.is-full .ico,.dmg-wslice:hover .ico{opacity:1}
+.dmg-wcenter{fill:#0b0d12;stroke:#f2c14e;stroke-width:2}
+.dmg-wrev .ring{fill:#0b0d12;stroke:color-mix(in srgb,var(--c) 50%,#333);stroke-width:3}
+.dmg-wrev.is-on .ring{stroke:var(--c);filter:drop-shadow(0 0 6px var(--c))}
+.dmg-wrev image{opacity:.5}
+.dmg-wrev.is-on image{opacity:1}
+.dmg-wlabel{fill:#f2c14e;font:700 14px var(--body);letter-spacing:2px}
+.dmg-revs li{grid-template-columns:.6rem minmax(0,1fr) auto auto}
+.dmg-revs li>b{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.8rem}
+.dmg-conv{margin:0;padding-left:1.1rem;font-size:.84rem;display:grid;gap:.15rem}
+
+.dmg-wheel-top{flex-wrap:wrap}
+.dmg-wmax{display:inline-flex;align-items:center;gap:.4rem;font-weight:700;color:var(--text)}
+.dmg-wmax input{width:5.5rem;padding:.3rem .45rem;font-size:.85rem}
+.dmg-wmsg{min-height:1.1em;margin:.2rem 0;color:#ffb36b;font-size:.8rem}
+.dmg-wheel-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:.6rem;justify-items:center}
+.dmg-wslice.is-locked .bg{fill:#0e1015;stroke:#1d2028}
+.dmg-wslice.is-locked .ico{opacity:.18}
+.dmg-wslice.is-open .bg{stroke:color-mix(in srgb,var(--c) 45%,#2b2f3a)}
+.dmg-wslice.is-sel .bg{stroke:#f2c14e;stroke-width:3}
+.dmg-wsel{width:100%;max-width:420px;padding:.6rem;border:1px solid #ffffff26;border-radius:var(--radius-sm);background:#0b0d12}
+.dmg-wsel-head{display:flex;gap:.6rem;align-items:flex-start}
+.dmg-wsel-head b{display:block}
+.dmg-wsel-head small{display:block;color:var(--muted);font-size:.78rem;line-height:1.35}
+.dmg-wsel-ico{width:34px;height:34px;flex:none;image-rendering:pixelated}
+.dmg-wsel-bar{position:relative;height:1.1rem;margin:.5rem 0;border-radius:99px;background:#ffffff12;overflow:hidden}
+.dmg-wsel-bar i{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,#f2c14e,#ff8a1f)}
+.dmg-wsel-bar span{position:relative;display:block;text-align:center;font:700 .75rem var(--body);line-height:1.1rem;text-shadow:0 1px 2px #000}
+.dmg-wsel-ctrl{display:grid;grid-template-columns:2.2rem 2.2rem minmax(0,1fr) 2.2rem 2.2rem;gap:.3rem}
+.dmg-wsel-ctrl button{border:1px solid #ffffff26;border-radius:8px;background:#ffffff0a;color:var(--text);font:700 1rem var(--body);cursor:pointer}
+.dmg-wsel-ctrl button:hover{border-color:#f2c14e}
+.dmg-wsel-ctrl input{width:100%;text-align:center;padding:.3rem;font-weight:700}
+.dmg-wsel-empty{max-width:420px;text-align:center;font-size:.82rem}
+/* Boneco de equipamento responsivo */
+.dmg-doll{min-width:0;max-width:15rem}
+.dmg-doll-grid{grid-template-columns:repeat(3,minmax(0,4rem))}
+.dmg-slot{width:100%;height:auto;aspect-ratio:1}
+.dmg-slot img{width:min(44px,80%);height:auto}
+.dmg-slot-btn{width:100%;aspect-ratio:auto;min-height:2.2rem;align-self:center}
+.dmg-tier{flex-wrap:wrap}
+.dmg-tier select{min-width:0;max-width:100%}
 </style>
 </head>
 <body>
@@ -552,6 +838,7 @@ tbody tr:hover td{background:#ffffff07}
               <a href="#world" data-route="world">🌐 Mundo</a>
               <a href="#scores" data-route="scores">💪 Highscores</a>
               <a href="#guild" data-route="guild">⚔️ Guilds</a>
+              <a href="#war" data-route="war">🛡️ War - Guilds</a>
             </div>
           </details>
           <a href="#quests" data-route="quests">⚔ Quests</a><a href="#party" data-route="party">XP compartilhada / PT</a><a href="#loot" data-route="loot">Dividir loot</a><a href="#damage" data-route="damage">⚔ Dano / Builds</a><a href="#about" data-route="about">Sobre</a><a href="#live" class="live-nav-link is-checking" id="nav-live" data-route="live" aria-label="Live: verificando"><span class="live-nav-dot" aria-hidden="true"></span><span id="nav-live-label">Verificando…</span></a>
@@ -638,6 +925,26 @@ tbody tr:hover td{background:#ffffff07}
     <div id="out-guild"></div>
   </section>
 
+  <section id="p-war" class="panel hidden">
+    <div class="war-intro">
+      <div><h2>War - Guilds</h2><p class="muted">Escolha o mundo e a guild para acompanhar os personagens. A lista atualiza sozinha a cada minuto (dados da TibiaData).</p></div>
+      <div class="war-status"><span id="war-updated" class="muted"></span><button type="button" class="btn war-refresh" id="war-refresh">↻ Atualizar</button></div>
+    </div>
+    <div class="row war-pickers">
+      <select id="war-world" aria-label="Mundo"><option value="">Carregando mundos…</option></select>
+      <select id="war-guild" aria-label="Guild" disabled><option value="">Escolha o mundo primeiro</option></select>
+    </div>
+    <div class="war-options">
+      <label>Maker abaixo do nível <input type="number" id="war-maker" min="1" max="5000" inputmode="numeric"></label>
+      <label>Main a partir do nível <input type="number" id="war-main" min="1" max="5000" inputmode="numeric"></label>
+      <label class="war-check"><input type="checkbox" id="war-offline"> Mostrar offline</label>
+      <label class="war-check"><input type="checkbox" id="war-sound"> Alerta sonoro de login</label>
+      <label class="war-check"><input type="checkbox" id="war-keep"> Guilds lado a lado (até 3)</label>
+    </div>
+    <p class="muted war-hint" id="war-add-hint" hidden>Login: tempo desde que o personagem foi visto online por esta página (“≥” indica que ele já estava online quando você abriu). Linhas vermelhas: login nos últimos 5 min; rosadas: até 15 min. ☠ = mortes nas últimas 24 h. As anotações ficam salvas só neste navegador.</p>
+    <div id="war-columns" class="war-columns"></div>
+  </section>
+
   <section id="p-quests" class="panel hidden">
     <h2>Explorador de Quests</h2>
     <p class="muted">Pesquise uma quest para abrir seu guia e spoiler. A lista e os artigos da TibiaWiki Brasil são priorizados; quests sem página disponível usam a fonte internacional e tradução automática das instruções.</p>
@@ -712,7 +1019,7 @@ tbody tr:hover td{background:#ffffff07}
 
   <section id="p-damage" class="panel hidden">
     <h2>Comparador de dano e builds</h2>
-    <p class="muted">Escolha a vocação para ver os atributos, as armas disponíveis e comparar duas builds dessa classe.</p>
+    <p class="muted">Compare duas builds da mesma vocação: o personagem e os alvos são compartilhados; arma, stance, perks e rotação são de cada build.</p>
     <dialog id="damage-vocation-dialog" class="damage-vocation-dialog" aria-labelledby="damage-vocation-title">
       <div class="damage-vocation-dialog-inner"><span class="damage-modal-kicker">DANO / BUILDS</span><h2 id="damage-vocation-title">Qual vocação vamos comparar?</h2><p>Selecione uma vocação. As duas builds serão configuradas para ela e as armas serão filtradas automaticamente.</p>
         <div class="damage-vocation-choices">
@@ -721,65 +1028,102 @@ tbody tr:hover td{background:#ffffff07}
           <button type="button" data-damage-vocation-choice="sorcerer"><img data-damage-vocation-image="sorcerer" src="https://www.tibiawiki.com.br/images/8/8c/Outfit_Conjurer_Male_Addon_3.gif" alt="Outfit Master Sorcerer" loading="lazy"><b>Master Sorcerer</b><small>Wands</small></button>
           <button type="button" data-damage-vocation-choice="druid"><img data-damage-vocation-image="druid" src="https://www.tibiawiki.com.br/images/d/d1/Outfit_Rune_Master_Female_Addon_3.gif" alt="Outfit Elder Druid" loading="lazy"><b>Elder Druid</b><small>Rods</small></button>
           <button type="button" data-damage-vocation-choice="monk"><img data-damage-vocation-image="monk" src="https://www.tibiawiki.com.br/images/c/c6/Outfit_Martial_Artist_Male_Addon_3.gif" alt="Outfit Exalted Monk" loading="lazy"><b>Exalted Monk</b><small>Armas de punho</small></button>
-        </div><button type="button" class="damage-vocation-cancel" data-damage-vocation-dismiss>Voltar ao site</button>
+        </div><p class="damage-error" id="damage-vocation-error" role="alert" hidden></p><button type="button" class="damage-vocation-cancel" data-damage-vocation-dismiss>Voltar ao site</button>
       </div>
     </dialog>
-    <div class="damage-source-note"><b>Estimativa:</b> o Tibia não publica a fórmula completa de combate. Os resultados são calculados pela API pública do TibiaTools.io; use como referência para comparar configurações, não como previsão exata de XP/h. <a href="https://tibiatools.io/tools/calculator/guide" target="_blank" rel="noopener noreferrer">Como funciona o cálculo ↗</a></div>
-    <div id="damage-comparison" class="damage-comparison" aria-live="polite"></div>
-    <div class="damage-toolbar"><button type="button" class="btn" id="damage-change-vocation">Trocar vocação</button><span id="damage-status" class="muted" role="status">A comparação atualiza automaticamente ao alterar os dados.</span></div>
-    <div class="damage-build-grid">
-      <article class="damage-build" data-damage-build="a">
-        <div class="damage-build-title"><h3>Build A</h3><span class="damage-vocation-badge" data-damage-vocation-label>Elite Knight</span></div>
-        <div class="damage-item-preview" data-damage-weapon-preview="a"><span class="damage-item-placeholder">⚔</span><span><b data-damage-weapon-name>Arma padrão</b><small data-damage-weapon-skill>Selecione a vocação e a arma</small></span></div>
-        <div class="damage-fields">
-          <input type="hidden" data-damage-stat="vocation" value="knight">
-          <label>Level<input type="number" min="1" step="1" data-damage-stat="level" value="500"></label>
-          <label><span data-damage-skill-label>Skill principal</span><input type="number" min="0" step="1" data-damage-stat="skill" value="130"></label>
-          <label>Magic Level<input type="number" min="0" step="1" data-damage-stat="magicLevel" value="10"></label>
-          <label>Chance crítica (%)<input type="number" min="0" max="100" step="0.1" data-damage-stat="critChance" value="10"></label>
-          <label>Dano crítico (%)<input type="number" min="0" step="0.1" data-damage-stat="critDamage" value="50"></label>
-          <label class="damage-field-wide">Arma<select data-damage-weapon><option value="1">Punhos (padrão)</option></select></label><label class="damage-field-wide">Stance<select data-damage-stance><option value="">Sem stance</option></select></label>
-        </div>
-        <details class="damage-advanced"><summary>Atributos avançados</summary><div class="damage-fields">
-          <label>Fatal chance (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="fatalChance"></label>
-          <label>Transcendence (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="transcendenceChance"></label>
-          <label>Base Magic Level<input type="number" min="0" step="1" data-damage-stat="baseMagicLevel"></label>
-          <label>HP<input type="number" min="1" step="1" data-damage-stat="hitPoints"></label>
-          <label>MP<input type="number" min="1" step="1" data-damage-stat="manaPoints"></label>
-          <label data-damage-skill-attribute="axe">Axe<input type="number" min="0" step="1" data-damage-stat="axe"></label><label data-damage-skill-attribute="club">Club<input type="number" min="0" step="1" data-damage-stat="club"></label><label data-damage-skill-attribute="sword">Sword<input type="number" min="0" step="1" data-damage-stat="sword"></label><label data-damage-skill-attribute="fist">Fist<input type="number" min="0" step="1" data-damage-stat="fist"></label><label data-damage-skill-attribute="distance">Distance<input type="number" min="0" step="1" data-damage-stat="distance"></label><label data-damage-skill-attribute="shielding">Shielding<input type="number" min="0" step="1" data-damage-stat="shielding"></label>
-        </div></details>
-        <details class="damage-section" open><summary>Rotação</summary><label class="damage-check"><input type="checkbox" data-damage-auto checked> Incluir auto-ataque a cada turno</label><div class="damage-rotation" data-damage-rotation="a"></div><button type="button" class="btn damage-add" data-damage-add-rotation="a">+ Adicionar spell</button></details>
-        <details class="damage-section"><summary>Perks e bônus</summary><div class="damage-perks" data-damage-perks="a"></div><button type="button" class="btn damage-add" data-damage-add-perk="a">+ Adicionar perk</button></details>
-        <details class="damage-section"><summary>Alvos e charms</summary><div class="damage-targets" data-damage-targets="a"></div><button type="button" class="btn damage-add" data-damage-add-target="a">+ Adicionar criatura</button></details>
-        <div class="damage-result" data-damage-result="a"><p class="muted">Configure e calcule para ver os resultados.</p></div>
-      </article>
-      <article class="damage-build" data-damage-build="b">
-        <div class="damage-build-title"><h3>Build B</h3><span class="damage-vocation-badge" data-damage-vocation-label>Elite Knight</span></div>
-        <div class="damage-item-preview" data-damage-weapon-preview="b"><span class="damage-item-placeholder">⚔</span><span><b data-damage-weapon-name>Arma padrão</b><small data-damage-weapon-skill>Selecione a vocação e a arma</small></span></div>
-        <div class="damage-fields">
-          <input type="hidden" data-damage-stat="vocation" value="knight">
-          <label>Level<input type="number" min="1" step="1" data-damage-stat="level" value="500"></label>
-          <label><span data-damage-skill-label>Skill principal</span><input type="number" min="0" step="1" data-damage-stat="skill" value="130"></label>
-          <label>Magic Level<input type="number" min="0" step="1" data-damage-stat="magicLevel" value="10"></label>
-          <label>Chance crítica (%)<input type="number" min="0" max="100" step="0.1" data-damage-stat="critChance" value="10"></label>
-          <label>Dano crítico (%)<input type="number" min="0" step="0.1" data-damage-stat="critDamage" value="50"></label>
-          <label class="damage-field-wide">Arma<select data-damage-weapon><option value="1">Punhos (padrão)</option></select></label><label class="damage-field-wide">Stance<select data-damage-stance><option value="">Sem stance</option></select></label>
-        </div>
-        <details class="damage-advanced"><summary>Atributos avançados</summary><div class="damage-fields">
-          <label>Fatal chance (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="fatalChance"></label>
-          <label>Transcendence (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="transcendenceChance"></label>
-          <label>Base Magic Level<input type="number" min="0" step="1" data-damage-stat="baseMagicLevel"></label>
-          <label>HP<input type="number" min="1" step="1" data-damage-stat="hitPoints"></label>
-          <label>MP<input type="number" min="1" step="1" data-damage-stat="manaPoints"></label>
-          <label data-damage-skill-attribute="axe">Axe<input type="number" min="0" step="1" data-damage-stat="axe"></label><label data-damage-skill-attribute="club">Club<input type="number" min="0" step="1" data-damage-stat="club"></label><label data-damage-skill-attribute="sword">Sword<input type="number" min="0" step="1" data-damage-stat="sword"></label><label data-damage-skill-attribute="fist">Fist<input type="number" min="0" step="1" data-damage-stat="fist"></label><label data-damage-skill-attribute="distance">Distance<input type="number" min="0" step="1" data-damage-stat="distance"></label><label data-damage-skill-attribute="shielding">Shielding<input type="number" min="0" step="1" data-damage-stat="shielding"></label>
-        </div></details>
-        <details class="damage-section" open><summary>Rotação</summary><label class="damage-check"><input type="checkbox" data-damage-auto checked> Incluir auto-ataque a cada turno</label><div class="damage-rotation" data-damage-rotation="b"></div><button type="button" class="btn damage-add" data-damage-add-rotation="b">+ Adicionar spell</button></details>
-        <details class="damage-section"><summary>Perks e bônus</summary><div class="damage-perks" data-damage-perks="b"></div><button type="button" class="btn damage-add" data-damage-add-perk="b">+ Adicionar perk</button></details>
-        <details class="damage-section"><summary>Alvos e charms</summary><div class="damage-targets" data-damage-targets="b"></div><button type="button" class="btn damage-add" data-damage-add-target="b">+ Adicionar criatura</button></details>
-        <div class="damage-result" data-damage-result="b"><p class="muted">Configure e calcule para ver os resultados.</p></div>
-      </article>
+    <div class="dmg-topbar">
+      <button type="button" class="dmg-voc-emblem" id="damage-change-vocation" title="Trocar vocação"><span data-damage-vocation-label>Elite Knight</span><small>trocar</small></button>
+      <span id="damage-status" class="muted" role="status">A comparação atualiza automaticamente ao alterar os dados.</span>
     </div>
-    <p class="damage-credit muted">Dados e motor de cálculo fornecidos pela <a href="https://tibiatools.io/tools/calculator/guide" target="_blank" rel="noopener noreferrer">TibiaTools.io</a>. Perks, rotação, alvos e resistências influenciam o resultado; se a rotação ou os alvos não forem informados, o resultado fica menos representativo.</p>
+
+    <section class="dmg-step" aria-labelledby="dmg-step-1">
+      <div class="dmg-step-head"><span class="dmg-step-num">01</span><h3 id="dmg-step-1">Personagem</h3><small>stats compartilhados pelas duas builds</small></div>
+      <div class="dmg-card" id="damage-character">
+        <div class="dmg-stats">
+          <div class="dmg-stepper" role="group">Level<span><button type="button" data-dmg-step="-1" aria-label="Diminuir level">−</button><input type="number" aria-label="Level" min="1" step="1" data-damage-stat="level" value="500"><button type="button" data-dmg-step="1" aria-label="Aumentar level">+</button></span></div>
+          <div class="dmg-stepper" role="group"><span data-damage-skill-label>Skill principal</span><span><button type="button" data-dmg-step="-1" aria-label="Diminuir skill">−</button><input type="number" aria-label="Skill" min="0" step="1" data-damage-stat="skill" value="130"><button type="button" data-dmg-step="1" aria-label="Aumentar skill">+</button></span></div>
+          <div class="dmg-stepper" role="group">Magic Level<span><button type="button" data-dmg-step="-1" aria-label="Diminuir magic level">−</button><input type="number" aria-label="Magic level" min="0" step="1" data-damage-stat="magicLevel" value="10"><button type="button" data-dmg-step="1" aria-label="Aumentar magic level">+</button></span></div>
+          <div class="dmg-stepper" role="group">Base Magic Level<span><button type="button" data-dmg-step="-1" aria-label="Diminuir base magic level">−</button><input type="number" aria-label="Base magic level" min="0" step="1" data-damage-stat="baseMagicLevel" placeholder="auto"><button type="button" data-dmg-step="1" aria-label="Aumentar base magic level">+</button></span></div>
+        </div>
+        <details class="dmg-advanced"><summary>⚙ mostrar configs. avançadas</summary>
+          <div class="dmg-stats">
+            <label>Chance crítica (%)<input type="number" min="0" max="100" step="0.1" data-damage-stat="critChance" value="10"></label>
+            <label>Dano crítico (%)<input type="number" min="0" step="0.1" data-damage-stat="critDamage" value="50"></label>
+            <label>Fatal chance (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="fatalChance"></label>
+            <label>Transcendence (%)<input type="number" min="0" max="100" step="0.01" data-damage-stat="transcendenceChance"></label>
+            <label>HP<input type="number" min="1" step="1" data-damage-stat="hitPoints"></label>
+            <label>MP<input type="number" min="1" step="1" data-damage-stat="manaPoints"></label>
+            <label data-damage-skill-attribute="axe">Axe<input type="number" min="0" step="1" data-damage-stat="axe"></label>
+            <label data-damage-skill-attribute="club">Club<input type="number" min="0" step="1" data-damage-stat="club"></label>
+            <label data-damage-skill-attribute="sword">Sword<input type="number" min="0" step="1" data-damage-stat="sword"></label>
+            <label data-damage-skill-attribute="fist">Fist<input type="number" min="0" step="1" data-damage-stat="fist"></label>
+            <label data-damage-skill-attribute="distance">Distance<input type="number" min="0" step="1" data-damage-stat="distance"></label>
+            <label data-damage-skill-attribute="shielding">Shielding<input type="number" min="0" step="1" data-damage-stat="shielding"></label>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="dmg-step" aria-labelledby="dmg-step-2">
+      <div class="dmg-step-head"><span class="dmg-step-num">02</span><h3 id="dmg-step-2">Builds</h3><small>edite A e B lado a lado — arma · stance · perks · rotação</small></div>
+      <div class="damage-build-grid">
+        <article class="damage-build dmg-build-a" data-damage-build="a">
+          <input type="hidden" data-damage-stat="vocation" value="knight">
+          <div class="damage-build-title"><span class="dmg-build-letter">A</span><h4>Build A</h4><button type="button" class="dmg-copy" data-dmg-copy="a" title="Copiar esta build para a outra">copiar A → B</button></div>
+          <div class="damage-item-preview" data-damage-weapon-preview="a"><span class="damage-item-placeholder">⚔</span><span><small class="dmg-voc-line" data-damage-vocation-label>Elite Knight</small><b data-damage-weapon-name>Arma padrão</b><small data-damage-weapon-skill>Selecione a vocação e a arma</small></span></div>
+          <div class="damage-fields">
+            <label>Arma<select data-damage-weapon><option value="1">Punhos (padrão)</option></select></label>
+            <label>Stance (mastery)<select data-damage-stance><option value="">Nenhuma</option></select></label>
+          </div>
+          <div class="dmg-native" data-dmg-native="a"></div>
+          <div class="dmg-block"><div class="dmg-block-head"><b>Proficiências</b><small>· 1 por nível</small><span data-dmg-prof-count>—</span></div><div class="dmg-prof" data-dmg-prof="a"><p class="muted dmg-empty">Escolha a vocação para carregar.</p></div></div>
+          <details class="damage-section"><summary>🛡️ Equipamento <small data-dmg-equip-count>0/7 slots</small></summary><div data-dmg-equip="a"></div></details>
+          <details class="damage-section"><summary>☸️ Wheel of Destiny <small data-dmg-wheel-count>0/4000 pts</small></summary><div data-dmg-wheel="a"></div></details>
+          <details class="damage-section"><summary>✨ Perks extras (manual) <small data-dmg-count="perks">0</small></summary><div class="damage-perks" data-damage-perks="a"></div><button type="button" class="btn damage-add" data-damage-add-perk="a">+ Adicionar perk</button></details>
+          <div class="damage-section dmg-rotation"><div class="dmg-rotation-head"><b>Rotação</b><label class="damage-check"><input type="checkbox" data-damage-auto checked> auto-ataque</label></div>
+            <div class="dmg-rotation-cols" aria-hidden="true"><span>Spell</span><span>Alvos</span><span>Ratio</span><span></span></div>
+            <div class="damage-rotation" data-damage-rotation="a"></div><button type="button" class="btn damage-add" data-damage-add-rotation="a">+ spell</button></div>
+          <div class="dmg-turn"><span>Dano / turno</span><b data-dmg-turn="a">—</b></div>
+        </article>
+
+        <article class="damage-build dmg-build-b" data-damage-build="b">
+          <input type="hidden" data-damage-stat="vocation" value="knight">
+          <div class="damage-build-title"><span class="dmg-build-letter">B</span><h4>Build B</h4><button type="button" class="dmg-copy" data-dmg-copy="b" title="Copiar esta build para a outra">copiar B → A</button></div>
+          <div class="damage-item-preview" data-damage-weapon-preview="b"><span class="damage-item-placeholder">⚔</span><span><small class="dmg-voc-line" data-damage-vocation-label>Elite Knight</small><b data-damage-weapon-name>Arma padrão</b><small data-damage-weapon-skill>Selecione a vocação e a arma</small></span></div>
+          <div class="damage-fields">
+            <label>Arma<select data-damage-weapon><option value="1">Punhos (padrão)</option></select></label>
+            <label>Stance (mastery)<select data-damage-stance><option value="">Nenhuma</option></select></label>
+          </div>
+          <div class="dmg-native" data-dmg-native="b"></div>
+          <div class="dmg-block"><div class="dmg-block-head"><b>Proficiências</b><small>· 1 por nível</small><span data-dmg-prof-count>—</span></div><div class="dmg-prof" data-dmg-prof="b"><p class="muted dmg-empty">Escolha a vocação para carregar.</p></div></div>
+          <details class="damage-section"><summary>🛡️ Equipamento <small data-dmg-equip-count>0/7 slots</small></summary><div data-dmg-equip="b"></div></details>
+          <details class="damage-section"><summary>☸️ Wheel of Destiny <small data-dmg-wheel-count>0/4000 pts</small></summary><div data-dmg-wheel="b"></div></details>
+          <details class="damage-section"><summary>✨ Perks extras (manual) <small data-dmg-count="perks">0</small></summary><div class="damage-perks" data-damage-perks="b"></div><button type="button" class="btn damage-add" data-damage-add-perk="b">+ Adicionar perk</button></details>
+          <div class="damage-section dmg-rotation"><div class="dmg-rotation-head"><b>Rotação</b><label class="damage-check"><input type="checkbox" data-damage-auto checked> auto-ataque</label></div>
+            <div class="dmg-rotation-cols" aria-hidden="true"><span>Spell</span><span>Alvos</span><span>Ratio</span><span></span></div>
+            <div class="damage-rotation" data-damage-rotation="b"></div><button type="button" class="btn damage-add" data-damage-add-rotation="b">+ spell</button></div>
+          <div class="dmg-turn"><span>Dano / turno</span><b data-dmg-turn="b">—</b></div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="dmg-step" aria-labelledby="dmg-step-3">
+      <div class="dmg-step-head"><span class="dmg-step-num">03</span><h3 id="dmg-step-3">🎯 Alvos &amp; charms</h3><small>opcional · vale para as duas builds</small></div>
+      <details class="dmg-card dmg-targets-card" id="damage-targets-card">
+        <summary><span data-damage-targets-summary>Sem alvos — dano sem resistência ou charms</span></summary>
+        <div class="damage-targets" data-damage-targets="shared"></div>
+        <button type="button" class="btn damage-add" data-damage-add-target="shared">+ Adicionar criatura</button>
+      </details>
+    </section>
+
+    <section class="dmg-step" aria-labelledby="dmg-step-4">
+      <div class="dmg-step-head"><span class="dmg-step-num">04</span><h3 id="dmg-step-4">Comparação</h3><small>dano por turno · pós rotação e charms</small></div>
+      <div id="damage-comparison" class="dmg-compare"><p class="muted">Escolha a vocação para começar.</p></div>
+      <details class="dmg-card dmg-sheet"><summary>📋 Ficha de stats <small>de onde vem o número</small></summary><div id="damage-sheet" class="dmg-sheet-body"><p class="muted">A ficha aparece depois do primeiro cálculo.</p></div></details>
+    </section>
+
+    <p class="damage-credit muted">Estimativa: o Tibia não publica a fórmula completa de combate. Dados e motor de cálculo da <a href="https://tibiatools.io/tools/calculator/guide" target="_blank" rel="noopener noreferrer">TibiaTools.io</a>. Proficiências e equipamentos: dados da <a href="https://tibia.fandom.com" target="_blank" rel="noopener noreferrer">TibiaWiki</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA</a>, adaptados); imagens da <a href="https://www.tibiawiki.com.br" target="_blank" rel="noopener noreferrer">TibiaWiki BR</a>; layout da Wheel conforme o planner oficial do tibia.com. Use como referência para comparar configurações, não como previsão exata.</p>
   </section>
 
   <footer class="site-footer">
@@ -1001,8 +1345,8 @@ function initTwitchEmbed() {
       const s = document.createElement('script');
       s.src = 'https://player.twitch.tv/js/embed/v1.js';
       s.async = true;
-      s.onload = () => { twitchScriptState = 'pronto'; initTwitchEmbed(); };
-      s.onerror = () => { twitchScriptState = 'erro'; initTwitchEmbed(); };
+      s.onload = () => { twitchScriptState = window.Twitch?.Player ? 'pronto' : 'erro'; initTwitchEmbed(); if (twitchScriptState === 'erro') twitchScriptState = 'ocioso'; };
+      s.onerror = () => { twitchScriptState = 'erro'; initTwitchEmbed(); twitchScriptState = 'ocioso'; };
       document.head.appendChild(s);
     }
     return;
@@ -1134,15 +1478,17 @@ async function go(h, remember = true) {
 
   stopYoutubeVideo();
   document.querySelector('.carousel-panel').classList.remove('has-player', 'has-youtube-player', 'has-live-player');
-  const t = ['char', 'world', 'scores', 'guild', 'quests', 'party', 'loot', 'damage', 'about', 'live'].includes(tab) ? tab : 'char';
-  const val = arg ? decodeURIComponent(arg) : '';
+  const t = ['char', 'world', 'scores', 'guild', 'war', 'quests', 'party', 'loot', 'damage', 'about', 'live'].includes(tab) ? tab : 'char';
+  const safeDecode = (s) => { try { return decodeURIComponent(s); } catch { return s; } };
+  const val = arg ? safeDecode(arg) : '';
   showTab(t);
   if (remember) setHash(h || t);
   try {
     if (t === 'live') { initTwitchEmbed(); renderLivePage(); }
-    if (t === 'damage') openDamageVocationPicker();
+    if (t === 'damage' && !damageVocationConfirmed) openDamageVocationPicker();
     if (t === 'char' && val) { document.querySelector('[data-form=char] input').value = val; await loadChar(val); }
     if (t === 'guild' && val) { document.querySelector('[data-form=guild] input').value = val; await loadGuild(val); }
+    if (t === 'war') { const [, w, gs] = h.split('/'); await openWar(w ? safeDecode(w) : '', gs ? gs.split('|').map(safeDecode).filter(Boolean) : []); }
     if (t === 'party' && val) { document.querySelector('[data-form=party] input').value = val; await findParty(val); }
     if (t === 'quests') { if (val) await openQuest(val); else await loadQuestDirectory(); }
     if (t === 'world') { msg('Carregando…'); await ensureWorlds(); if (val) $('#sel-world').value = val; await loadWorld(); }
@@ -2093,6 +2439,377 @@ async function loadGuild(name) {
   });
 }
 
+
+/* ---------- War - Guilds ---------- */
+// Acompanha guilds de um mundo em tempo quase real (TibiaData), no estilo de painel de war:
+// colunas lado a lado, grupos por nível (Mains, Bombs, Makers), tempo desde o login, EXP, mortes e anotações.
+const WAR_REFRESH_MS = 65_000;
+const WAR_MAX_COLUMNS = 3;
+const WAR_OFFLINE_LIMIT = 150;
+const WAR_VOCS = [['EK', 'Elite Knight'], ['ED', 'Elder Druid'], ['MS', 'Master Sorcerer'], ['RP', 'Royal Paladin'], ['EM', 'Exalted Monk']];
+const warState = { world: '', columns: [], timer: null, tick: null, worldsAt: 0, worldsPromise: null, listSeq: 0, pending: false, backoffUntil: 0, composing: false, offlineAll: {} };
+function warStore(key, fallback) { try { const v = JSON.parse(localStorage.getItem('rputuh-war-' + key)); return v ?? fallback; } catch { return fallback; } }
+function warSave(key, value) { try { localStorage.setItem('rputuh-war-' + key, JSON.stringify(value)); } catch {} }
+const warPrefs = Object.assign({ makerBelow: 200, mainFrom: 1200, showOffline: false, sound: false, keep: false, collapsed: {} }, warStore('prefs', {}));
+const warNotes = warStore('notes', {});
+const warSeen = warStore('seen', {});      // { "Guild|Nome": { since, last, firstLoad } }
+const warLevels = warStore('levels', {});  // { "Guild|Nome": { level, dir, at } }
+const warDeaths = {};                       // { Nome: { count, at } } (só em memória)
+// Poda o que já está velho para o localStorage não crescer sem limite.
+(function warPrune() {
+  const now = Date.now();
+  for (const [k, v] of Object.entries(warSeen)) if (!v || now - v.last > 6 * 3600_000) delete warSeen[k];
+  for (const [k, v] of Object.entries(warLevels)) if (!v || now - (v.seenAt || v.at || 0) > 3 * 86_400_000) delete warLevels[k];
+  const keys = Object.keys(warPrefs.collapsed || {});
+  if (keys.length > 60) for (const k of keys.slice(0, keys.length - 60)) delete warPrefs.collapsed[k];
+  warSave('seen', warSeen); warSave('levels', warLevels); warSave('prefs', warPrefs);
+})();
+const warVocCode = (v) => {
+  const s = String(v || '').toLowerCase();
+  if (s.includes('knight')) return 'EK';
+  if (s.includes('druid')) return 'ED';
+  if (s.includes('sorcerer')) return 'MS';
+  if (s.includes('paladin')) return 'RP';
+  if (s.includes('monk')) return 'EM';
+  return '—';
+};
+const warGroupOf = (level) => level < warPrefs.makerBelow ? 'makers' : level >= warPrefs.mainFrom ? 'mains' : 'bombs';
+const WAR_GROUPS = [['mains', 'Mains'], ['bombs', 'Bombs'], ['makers', 'Makers']];
+function warFormatSince(ms) {
+  const s = Math.max(0, Math.floor(ms / 1000));
+  const p = (n) => String(n).padStart(2, '0');
+  return `${p(Math.floor(s / 3600))}:${p(Math.floor(s / 60) % 60)}:${p(s % 60)}`;
+}
+// Um único AudioContext, criado/retomado num gesto do usuário (o navegador bloqueia som sem interação).
+let warAudio = null;
+function warAudioReady() { try { warAudio ??= new (window.AudioContext || window.webkitAudioContext)(); if (warAudio.state === 'suspended') warAudio.resume(); } catch {} }
+function warBeep() {
+  try {
+    if (!warAudio || warAudio.state !== 'running') return;
+    const o = warAudio.createOscillator(); const g = warAudio.createGain();
+    o.type = 'sine'; o.frequency.value = 880; g.gain.value = .08;
+    o.connect(g); g.connect(warAudio.destination); o.start(); o.stop(warAudio.currentTime + .25);
+  } catch {}
+}
+document.addEventListener('pointerdown', () => { if (warPrefs.sound) warAudioReady(); }, { once: true });
+function warSetHash() {
+  const parts = ['war'];
+  if (warState.world) parts.push(encodeURIComponent(warState.world));
+  if (warState.columns.length) parts.push(warState.columns.map((c) => encodeURIComponent(c.name)).join('|'));
+  setHash(parts.join('/'));
+}
+// Lista de mundos com contagem online; renova a cada 5 minutos.
+async function warLoadWorlds() {
+  if (warState.worldsPromise && Date.now() - warState.worldsAt < 5 * 60_000) return warState.worldsPromise;
+  warState.worldsAt = Date.now();
+  cache.delete('/worlds');
+  warState.worldsPromise = api('/worlds').then(({ worlds }) => {
+    const list = (worlds.regular_worlds ?? []).slice().sort((a, b) => a.name.localeCompare(b.name));
+    const sel = $('#war-world');
+    sel.innerHTML = '<option value="">Escolha o mundo…</option>' + list.map((w) => `<option value="${esc(w.name)}">${esc(w.name)} (${esc(w.players_online)} online)</option>`).join('');
+    if (warState.world) sel.value = warState.world;
+    return list.map((w) => w.name);
+  }).catch((e) => { warState.worldsPromise = null; throw e; });
+  return warState.worldsPromise;
+}
+async function warLoadGuildList(world) {
+  const sel = $('#war-guild');
+  const token = ++warState.listSeq;
+  sel.disabled = true;
+  sel.innerHTML = '<option value="">Carregando guilds…</option>';
+  try {
+    const { guilds } = await api('/guilds/' + encodeURIComponent(world));
+    if (token !== warState.listSeq || world !== warState.world) return; // resposta de um mundo que já não está selecionado
+    const list = (guilds?.active ?? []).map((g) => g.name).sort((a, b) => a.localeCompare(b));
+    sel.innerHTML = list.length ? `<option value="">Escolha a guild (${list.length})…</option>` + list.map((n) => `<option value="${esc(n)}">${esc(n)}</option>`).join('') : '<option value="">Nenhuma guild ativa neste mundo</option>';
+    sel.disabled = !list.length;
+    warSyncGuildSelect();
+  } catch (e) {
+    if (token !== warState.listSeq) return;
+    sel.innerHTML = '<option value="">Erro ao carregar guilds — troque o mundo ou use ↻ Atualizar</option>';
+    sel.disabled = false;
+    throw e;
+  }
+}
+const warNewColumn = (name) => ({ name, data: null, voc: null, error: '', okAt: 0 });
+async function openWar(world = '', guildNames = []) {
+  const worlds = await warLoadWorlds();
+  if (world) {
+    const canonical = worlds.find((w) => w.toLowerCase() === world.toLowerCase());
+    if (!canonical) { msg(`Mundo "${world}" não encontrado.`, true); return; }
+    if (canonical !== warState.world) {
+      warState.world = canonical;
+      warState.columns = [];
+      $('#war-world').value = canonical;
+      await warLoadGuildList(canonical);
+    }
+  }
+  // Link com guilds: substitui as colunas (ou soma, se "lado a lado" estiver marcado).
+  if (guildNames.length) {
+    const fromHash = guildNames.filter((n) => !warState.columns.some((c) => c.name.toLowerCase() === n.toLowerCase()));
+    if (fromHash.length) {
+      if (!warPrefs.keep) warState.columns = warState.columns.filter((c) => guildNames.some((n) => n.toLowerCase() === c.name.toLowerCase()));
+      warState.columns.push(...fromHash.map(warNewColumn));
+    }
+  }
+  warState.columns = warState.columns.slice(-WAR_MAX_COLUMNS);
+  if (warState.world) warSetHash();
+  warRender();
+  warSyncGuildSelect();
+  await warRefresh();
+  warStartTimers();
+}
+function warSyncGuildSelect() {
+  const last = warState.columns[warState.columns.length - 1];
+  const sel = $('#war-guild');
+  sel.value = last && [...sel.options].some((o) => o.value === last.name) ? last.name : '';
+}
+async function warFetchGuild(col) {
+  const path = '/guild/' + encodeURIComponent(col.name);
+  cache.delete(path);
+  let newLogins = 0;
+  try {
+    const { guild } = await api(path);
+    if (!guild?.name) throw new Error(`Guild "${col.name}" não encontrada.`);
+    const now = Date.now();
+    // Primeira leitura, ou leitura depois de um intervalo longo (aba em segundo plano, erros): não dá para saber
+    // quem logou no meio do caminho, então o tempo fica aproximado e não toca alerta.
+    const firstLoad = !col.data || now - col.okAt > 3 * WAR_REFRESH_MS;
+    col.name = guild.name;
+    col.error = '';
+    for (const m of guild.members ?? []) {
+      const key = guild.name + '|' + m.name;
+      const lv = warLevels[key];
+      if (lv && lv.level !== m.level) {
+        warLevels[key] = { level: m.level, dir: m.level > lv.level ? 1 : -1, at: now, seenAt: now };
+        if (m.level < lv.level) delete warDeaths[m.name]; // perdeu nível: provável morte, recarrega as mortes
+      } else if (!lv) warLevels[key] = { level: m.level, dir: 0, at: 0, seenAt: now };
+      else lv.seenAt = now;
+      if (m.status === 'online') {
+        const seen = warSeen[key];
+        if (seen && (firstLoad || now - seen.last < 3 * WAR_REFRESH_MS)) seen.last = now;
+        else {
+          warSeen[key] = { since: now, last: now, firstLoad };
+          if (!firstLoad) { newLogins++; delete warDeaths[m.name]; }
+        }
+      } else if (warSeen[key]) delete warSeen[key];
+    }
+    col.data = guild;
+    col.okAt = now;
+  } catch (e) {
+    col.error = e.message;
+    if (/Muitas consultas/.test(e.message)) warState.backoffUntil = Date.now() + 3 * 60_000;
+  }
+  return newLogins;
+}
+// Mortes nas últimas 24 h: só consulta quem acabou de logar, perdeu nível ou ainda não foi consultado,
+// no máximo 10 por rodada, e pausa se a API pedir calma (429).
+async function warFetchDeaths() {
+  if (Date.now() < warState.backoffUntil) return;
+  const names = warState.columns.flatMap((c) => (c.data?.members ?? []).filter((m) => m.status === 'online').map((m) => m.name));
+  const due = names.filter((n) => !warDeaths[n] || Date.now() - warDeaths[n].at > 15 * 60_000).slice(0, 10);
+  let i = 0;
+  const worker = async () => {
+    while (i < due.length && Date.now() >= warState.backoffUntil) {
+      const name = due[i++];
+      try {
+        const { character } = await api('/character/' + encodeURIComponent(name));
+        const dayAgo = Date.now() - 86_400_000;
+        const count = (character?.deaths ?? []).filter((d) => Date.parse(d.time) >= dayAgo).length;
+        warDeaths[name] = { count, at: Date.now() };
+      } catch (e) {
+        warDeaths[name] = { count: null, at: Date.now() };
+        if (/Muitas consultas/.test(e.message)) warState.backoffUntil = Date.now() + 3 * 60_000;
+      }
+    }
+  };
+  await Promise.all([worker(), worker()]);
+}
+let warRefreshing = false;
+async function warRefresh() {
+  if (!warState.columns.length) return;
+  if (warRefreshing) { warState.pending = true; return; } // repete assim que a atualização atual terminar
+  warRefreshing = true;
+  $('#war-updated').textContent = 'Atualizando…';
+  try {
+    const logins = (await Promise.all(warState.columns.map((c) => warFetchGuild(c)))).reduce((a, b) => a + b, 0);
+    if (logins && warPrefs.sound) warBeep(); // no máximo um alerta por rodada
+    warSave('seen', warSeen); warSave('levels', warLevels);
+    warRender();
+    await warFetchDeaths();
+    warUpdateDeathCells();
+    const erro = warState.columns.find((c) => c.error);
+    $('#war-updated').textContent = erro ? 'Falha em parte da atualização' : 'Atualizado às ' + new Date().toLocaleTimeString('pt-BR');
+  } finally {
+    warRefreshing = false;
+    if (warState.pending) { warState.pending = false; warRefresh(); }
+  }
+}
+function warStartTimers() {
+  clearInterval(warState.timer); clearInterval(warState.tick);
+  warState.timer = setInterval(() => {
+    if (!$('#p-war').classList.contains('hidden') && document.visibilityState === 'visible') warRefresh();
+  }, WAR_REFRESH_MS);
+  warState.tick = setInterval(() => {
+    if ($('#p-war').classList.contains('hidden')) return;
+    const now = Date.now();
+    document.querySelectorAll('#war-columns [data-since]').forEach((el) => {
+      const since = Number(el.dataset.since);
+      el.textContent = (el.dataset.approx ? '≥ ' : '') + warFormatSince(now - since);
+      const row = el.closest('tr');
+      row.classList.toggle('war-new', now - since < 5 * 60_000 && !el.dataset.approx);
+      row.classList.toggle('war-recent', now - since >= 5 * 60_000 && now - since < 15 * 60_000 && !el.dataset.approx);
+    });
+  }, 1000);
+}
+// Ao voltar para a aba do navegador, atualiza na hora.
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && warState.columns.length && !$('#p-war').classList.contains('hidden')) warRefresh();
+});
+const warDeathText = (m) => { const d = warDeaths[m.name]; return m.status !== 'online' ? '' : d ? (d.count === 0 ? '<span class="muted">0</span>' : (d.count ?? '?')) : '…'; };
+function warUpdateDeathCells() {
+  document.querySelectorAll('#war-columns [data-death]').forEach((td) => { td.innerHTML = warDeathText({ name: td.dataset.death, status: 'online' }); });
+}
+function warRow(guildName, m, index) {
+  const key = guildName + '|' + m.name;
+  const seen = warSeen[key];
+  const lv = warLevels[key];
+  const exp = lv?.dir && Date.now() - lv.at < 60 * 60_000 ? (lv.dir > 0 ? '<span class="war-up" title="Subiu de nível" aria-label="Subiu de nível">▲</span>' : '<span class="war-down" title="Perdeu nível" aria-label="Perdeu nível">▼</span>') : '';
+  const since = seen && m.status === 'online'
+    ? `<td class="war-time" data-since="${Number(seen.since) || 0}"${seen.firstLoad ? ' data-approx="1" title="Já estava online quando a página abriu: o tempo real é maior."' : ''}>${seen.firstLoad ? '≥ ' : ''}${warFormatSince(Date.now() - seen.since)}</td>`
+    : '<td class="war-time muted">offline</td>';
+  const note = warNotes[key] || '';
+  return `<tr class="${m.status === 'online' ? '' : 'war-off'}">
+    <td class="n">${index}</td><td class="n">${esc(m.level)}</td>
+    <td class="war-name" title="${esc(m.rank || '')}">${charLink(m.name)}</td>
+    <td>${warVocCode(m.vocation)}</td>${since}<td class="war-exp">${exp}</td><td class="n"${m.status === 'online' ? ` data-death="${esc(m.name)}"` : ''}>${warDeathText(m)}</td>
+    <td><input class="war-note" data-note="${esc(key)}" value="${esc(note)}" placeholder="anotar…" aria-label="Anotação para ${esc(m.name)}" maxlength="60"></td></tr>`;
+}
+function warTable(guildName, title, list, groupKey, extra = '') {
+  const collapsed = !!warPrefs.collapsed[groupKey];
+  const id = 'war-g-' + groupKey.replace(/[^\w-]/g, '_');
+  return `<div class="war-group${collapsed ? ' is-collapsed' : ''}">
+    <button type="button" class="war-group-head" data-war-collapse="${esc(groupKey)}" aria-expanded="${!collapsed}" aria-controls="${esc(id)}">${esc(title)} <span>(${list.length})</span><i aria-hidden="true">${collapsed ? '▸' : '▾'}</i></button>
+    <div id="${esc(id)}">${collapsed ? '' : list.length ? `<div class="tbl"><table class="war-table"><thead><tr><th class="n">#</th><th class="n">Level</th><th>Nome</th><th>Voc</th><th>Login</th><th>EXP</th><th class="n" title="Mortes nas últimas 24 h"><span aria-hidden="true">☠</span><span class="sr-only">Mortes nas últimas 24 h</span></th><th>Anotações</th></tr></thead><tbody>
+      ${list.map((m, i) => warRow(guildName, m, i + 1)).join('')}</tbody></table></div>${extra}` : '<p class="muted war-empty">Ninguém neste grupo agora.</p>'}</div>
+  </div>`;
+}
+function warColumn(col, idx) {
+  if (!col.data) return `<article class="war-col"><div class="war-col-head"><h3>${esc(col.name)}</h3><button type="button" class="war-close" data-war-close="${idx}" aria-label="Remover ${esc(col.name)}">✕</button></div>
+    <p class="${col.error ? 'msg err' : 'muted'}">${esc(col.error || 'Carregando membros…')}</p></article>`;
+  const g = col.data;
+  const members = g.members ?? [];
+  const filter = col.voc;
+  const visible = members.filter((m) => !filter || warVocCode(m.vocation) === filter);
+  const online = visible.filter((m) => m.status === 'online');
+  const sinceOf = (m) => warSeen[g.name + '|' + m.name]?.since ?? 0;
+  online.sort((a, b) => sinceOf(b) - sinceOf(a) || b.level - a.level);
+  const counts = Object.fromEntries(WAR_VOCS.map(([c]) => [c, members.filter((m) => m.status === 'online' && warVocCode(m.vocation) === c).length]));
+  const groups = WAR_GROUPS.map(([k, label]) => warTable(g.name, label, online.filter((m) => warGroupOf(m.level) === k), g.name + ':' + k)).join('');
+  let offline = '';
+  if (warPrefs.showOffline) {
+    const off = visible.filter((m) => m.status !== 'online').sort((a, b) => b.level - a.level);
+    const all = warState.offlineAll[g.name];
+    const shown = all ? off : off.slice(0, WAR_OFFLINE_LIMIT);
+    const more = off.length > shown.length ? `<button type="button" class="dmg-copy war-more" data-war-offline-all="${esc(g.name)}">Mostrar todos os ${off.length} offline</button>` : '';
+    offline = warTable(g.name, `Offline${shown.length < off.length ? ` — top ${shown.length} por nível` : ''}`, shown, g.name + ':offline', more).replace(`<span>(${shown.length})</span>`, `<span>(${off.length})</span>`);
+  }
+  return `<article class="war-col">
+    <div class="war-col-head">
+      <img src="${esc(g.logo_url)}" alt="" width="40" height="40" loading="lazy">
+      <div><h3><a href="#guild/${encodeURIComponent(g.name)}">${esc(g.name)}</a></h3><small>${esc(g.world)} · ${members.length} membros${g.in_war ? ' · <b class="war-flag">em guerra</b>' : ''}</small></div>
+      <span class="war-online"><i aria-hidden="true"></i>${members.filter((m) => m.status === 'online').length} Online</span>
+      <button type="button" class="war-close" data-war-close="${idx}" aria-label="Remover ${esc(g.name)}">✕</button>
+    </div>
+    ${col.error ? `<p class="msg err">${esc(col.error)}</p>` : ''}
+    <div class="war-vocs" role="group" aria-label="Filtrar por vocação">
+      ${WAR_VOCS.map(([c, n]) => `<button type="button" data-war-voc="${idx}:${c}" aria-pressed="${filter === c}" title="${n}" aria-label="${n}, ${counts[c]} online">${c} <span>${counts[c]}</span></button>`).join('')}
+    </div>
+    ${groups}${offline}
+  </article>`;
+}
+// Identifica o elemento com foco de forma estável, para devolver o foco depois de redesenhar.
+function warFocusKey(el) {
+  if (!el || !$('#war-columns').contains(el)) return null;
+  for (const a of ['data-note', 'data-war-voc', 'data-war-collapse', 'data-war-close', 'data-war-offline-all']) if (el.hasAttribute(a)) return `[${a}="${CSS.escape(el.getAttribute(a))}"]`;
+  if (el.matches('a[href]')) return `a[href="${CSS.escape(el.getAttribute('href'))}"]`;
+  return null;
+}
+function warRender() {
+  if (warState.composing) return; // não interrompe acentuação/IME na anotação
+  const box = $('#war-columns');
+  const active = document.activeElement;
+  const focusKey = warFocusKey(active);
+  const sel = active?.dataset?.note ? [active.selectionStart, active.selectionEnd] : null;
+  const scrolls = [...box.querySelectorAll('.tbl')].map((t) => t.scrollLeft);
+  box.style.setProperty('--war-cols', Math.max(1, warState.columns.length));
+  box.innerHTML = warState.columns.length ? warState.columns.map(warColumn).join('')
+    : `<div class="war-placeholder"><b>${warState.world ? 'Escolha uma guild' : 'Escolha um mundo'}</b><span>${warState.world ? 'Os membros aparecem agrupados em Mains, Bombs e Makers, com tempo de login, EXP e mortes.' : 'Depois selecione a guild para acompanhar os personagens online.'}</span></div>`;
+  box.querySelectorAll('.tbl').forEach((t, i) => { if (scrolls[i]) t.scrollLeft = scrolls[i]; });
+  if (focusKey) { const el = box.querySelector(focusKey); if (el) { el.focus({ preventScroll: true }); if (sel) el.setSelectionRange(...sel); } }
+  $('#war-add-hint').hidden = warState.columns.length === 0;
+}
+$('#war-world').addEventListener('change', async (e) => {
+  const world = e.target.value;
+  warState.world = world; warState.columns = [];
+  warRender(); warSetHash();
+  if (world) { try { await warLoadGuildList(world); } catch (err) { msg(err.message, true); } }
+});
+$('#war-guild').addEventListener('change', async (e) => {
+  const name = e.target.value;
+  if (!name) return;
+  if (!warPrefs.keep) warState.columns = [];
+  if (!warState.columns.some((c) => c.name === name)) warState.columns.push(warNewColumn(name));
+  warState.columns = warState.columns.slice(-WAR_MAX_COLUMNS);
+  warRender(); warSetHash();
+  await warRefresh();
+  warStartTimers();
+});
+$('#war-columns').addEventListener('click', (e) => {
+  const close = e.target.closest('[data-war-close]');
+  if (close) { warState.columns.splice(Number(close.dataset.warClose), 1); warRender(); warSetHash(); warSyncGuildSelect(); return; }
+  const voc = e.target.closest('[data-war-voc]');
+  if (voc) { const [i, c] = voc.dataset.warVoc.split(':'); const col = warState.columns[i]; col.voc = col.voc === c ? null : c; warRender(); return; }
+  const all = e.target.closest('[data-war-offline-all]');
+  if (all) { warState.offlineAll[all.dataset.warOfflineAll] = true; warRender(); return; }
+  const head = e.target.closest('[data-war-collapse]');
+  if (head) { const k = head.dataset.warCollapse; warPrefs.collapsed[k] = !warPrefs.collapsed[k]; warSave('prefs', warPrefs); warRender(); }
+});
+$('#war-columns').addEventListener('compositionstart', () => { warState.composing = true; });
+$('#war-columns').addEventListener('compositionend', () => { warState.composing = false; });
+$('#war-columns').addEventListener('input', (e) => {
+  const key = e.target.dataset?.note;
+  if (!key) return;
+  const v = e.target.value;
+  if (v.trim()) warNotes[key] = v; else delete warNotes[key];
+  warSave('notes', warNotes);
+});
+$('#war-columns').addEventListener('focusout', (e) => {
+  const key = e.target.dataset?.note;
+  if (key && warNotes[key]) { warNotes[key] = warNotes[key].trim(); warSave('notes', warNotes); }
+});
+for (const [id, key] of [['#war-maker', 'makerBelow'], ['#war-main', 'mainFrom']]) {
+  $(id).value = warPrefs[key];
+  $(id).addEventListener('change', (e) => {
+    const v = Math.max(1, Math.min(5000, Number(e.target.value) || 1));
+    warPrefs[key] = v;
+    // Mantém maker < main.
+    if (warPrefs.makerBelow >= warPrefs.mainFrom) {
+      if (key === 'makerBelow') warPrefs.mainFrom = warPrefs.makerBelow + 1; else warPrefs.makerBelow = Math.max(1, warPrefs.mainFrom - 1);
+    }
+    $('#war-maker').value = warPrefs.makerBelow; $('#war-main').value = warPrefs.mainFrom;
+    warSave('prefs', warPrefs); warRender();
+  });
+}
+for (const [id, key] of [['#war-offline', 'showOffline'], ['#war-sound', 'sound'], ['#war-keep', 'keep']]) {
+  $(id).checked = !!warPrefs[key];
+  $(id).addEventListener('change', (e) => { warPrefs[key] = e.target.checked; warSave('prefs', warPrefs); if (key === 'sound' && e.target.checked) { warAudioReady(); setTimeout(warBeep, 50); } warRender(); });
+}
+$('#war-refresh').addEventListener('click', async () => {
+  if (warState.world && $('#war-guild').disabled) { try { await warLoadGuildList(warState.world); } catch (err) { msg(err.message, true); } }
+  warRefresh();
+});
+
 /* ---------- Yasir / Oriental Trader ---------- */
 const YASIR_TRADE_API = 'https://tibiatrade.gg/trpc/miniWorldChange';
 let yasirWorldCache = null;
@@ -2159,14 +2876,14 @@ yasirDialog.addEventListener('click', (event) => { if (event.target === yasirDia
 
 /* ---------- Comparador de dano (TibiaTools API) ---------- */
 const DAMAGE_API = 'https://tibiatools.io/api/v1';
-const DAMAGE_VOCATIONS = {knight:'knight', paladin:'paladin', sorcerer:'sorcerer', druid:'druid', monk:'monk'};
 const DAMAGE_VOCATION_LABELS = {knight:'Elite Knight', paladin:'Royal Paladin', sorcerer:'Master Sorcerer', druid:'Elder Druid', monk:'Exalted Monk'};
 const DAMAGE_VOCATION_WEAPON_SKILLS = {knight:['axe','club','sword'], paladin:['distance'], sorcerer:[null], druid:[null], monk:['fist']};
 const DAMAGE_VOCATION_SKILL_ATTRIBUTES = {knight:['axe','club','sword','shielding'], paladin:['distance','shielding'], sorcerer:[], druid:[], monk:['fist','shielding']};
-const DAMAGE_VOCATION_ART = {knight:'Outfit_Bat_Knight_Female_Addon_3',paladin:'Outfit_Celestial_Avenger_Male_Addon_3',sorcerer:'Outfit_Conjurer_Male_Addon_3',druid:'Outfit_Rune_Master_Female_Addon_3',monk:'Outfit_Monk_Male_Addon_3'};
+const DAMAGE_VOCATION_ART = {knight:'Outfit_Bat_Knight_Female_Addon_3',paladin:'Outfit_Celestial_Avenger_Male_Addon_3',sorcerer:'Outfit_Conjurer_Male_Addon_3',druid:'Outfit_Rune_Master_Female_Addon_3',monk:'Outfit_Martial_Artist_Male_Addon_3'};
 let damageCatalog = null;
 let damageCatalogPromise = null;
 let damageVocationConfirmed = false;
+let damageCurrentVocation = '';
 const damageWikiImageCache = new Map();
 let damageAutoTimer = 0;
 let damageCalculationInProgress = false;
@@ -2180,31 +2897,46 @@ function openDamageVocationPicker() {
 }
 $('#damage-vocation-dialog').addEventListener('click', async (event) => {
   const choice = event.target.closest('[data-damage-vocation-choice]');
-  if (event.target.closest('[data-damage-vocation-dismiss]')) { $('#damage-vocation-dialog').close(); return; }
+  if (event.target.closest('[data-damage-vocation-dismiss]')) { $('#damage-vocation-dialog').close(); if (!damageCurrentVocation) go('home'); else { damageVocationConfirmed = true; $('#p-damage').classList.remove('damage-vocation-required'); } return; }
   if (!choice) return;
   const vocation = choice.dataset.damageVocationChoice;
   for (const side of ['a','b']) {
     const root = damageRoot(side);
     root.querySelector('[data-damage-stat="vocation"]').value = vocation;
-    root.querySelector('[data-damage-vocation-label]').textContent = DAMAGE_VOCATION_LABELS[vocation];
-    damageUpdateSkillAttributes(root, vocation);
   }
-  choice.disabled = true;
+  document.querySelectorAll('[data-damage-vocation-label]').forEach((el) => { el.textContent = DAMAGE_VOCATION_LABELS[vocation]; });
+  damageUpdateSkillAttributes(null, vocation);
+  const choices = [...document.querySelectorAll('[data-damage-vocation-choice]')];
+  choices.forEach((b) => { b.disabled = true; });
   $('#damage-status').textContent = 'Preparando armas e atributos da vocação…';
+  const dialogError = $('#damage-vocation-error');
+  dialogError.hidden = true;
   try {
     const catalogWasLoaded = Boolean(damageCatalog);
     await loadDamageCatalog();
+    await dmgLoadData(); // tenta de novo se a primeira leitura dos dados extras falhou
     if (catalogWasLoaded) for (const side of ['a','b']) damageRefreshBuildOptions(damageRoot(side));
     damageVocationConfirmed = true;
+    if (vocation !== damageCurrentVocation) { dmgExtras.a = dmgNewExtras(); dmgExtras.b = dmgNewExtras(); }
+    damageCurrentVocation = vocation;
+    dmgRefreshAllExtras();
     $('#p-damage').classList.remove('damage-vocation-required');
     $('#damage-vocation-dialog').close();
     damageScheduleComparison();
   } catch (error) {
     $('#damage-status').textContent = `Não foi possível carregar os dados: ${error.message}`;
-    choice.disabled = false;
+    // Mostra o erro dentro da janela, que fica por cima do status da página.
+    dialogError.textContent = `Não foi possível carregar a calculadora: ${error.message}. Verifique a conexão e tente novamente.`;
+    dialogError.hidden = false;
+  } finally {
+    choices.forEach((b) => { b.disabled = false; });
   }
 });
-$('#damage-vocation-dialog').addEventListener('cancel', () => { $('#p-damage').classList.add('damage-vocation-required'); });
+$('#damage-vocation-dialog').addEventListener('cancel', () => {
+  // Esc: se já havia vocação escolhida, continua com ela.
+  if (damageCurrentVocation) { damageVocationConfirmed = true; $('#p-damage').classList.remove('damage-vocation-required'); }
+  else $('#p-damage').classList.add('damage-vocation-required');
+});
 const damageNumber = (root, key, fallback = 0) => {
   const input = root.querySelector(`[data-damage-stat="${key}"]`);
   const value = input ? Number(input.value) : fallback;
@@ -2262,7 +2994,7 @@ async function damageUpdateWeaponPreview(root) {
   preview.dataset.imageRequest = requestId;
   preview.querySelector('[data-damage-weapon-name]').textContent = weapon.name;
   preview.querySelector('[data-damage-weapon-skill]').textContent = `${weapon.skill ? weapon.skill.replace(/^./, (letter) => letter.toUpperCase()) + ' Fighting' : 'Arma'} · Attack ${weapon.attack ?? '—'}`;
-  root.querySelector('[data-damage-skill-label]').textContent = weapon.skill ? `${weapon.skill.replace(/^./, (letter) => letter.toUpperCase())} Fighting` : 'Skill principal';
+  if (root.dataset.damageBuild === 'a') $('#damage-character [data-damage-skill-label]').textContent = weapon.skill ? `${weapon.skill.replace(/^./, (letter) => letter.toUpperCase())} Fighting` : 'Skill principal';
   const placeholder = preview.querySelector('.damage-item-placeholder');
   preview.querySelectorAll('img').forEach((image) => image.remove());
   if (placeholder) placeholder.hidden = false;
@@ -2280,7 +3012,7 @@ async function loadDamageCatalog() {
   if (damageCatalogPromise) return damageCatalogPromise;
   const status = $('#damage-status');
   status.textContent = 'Carregando armas, spells, perks, criaturas e charms…';
-  damageCatalogPromise = Promise.all(['spells','weapons','perks','creatures','charms','stances'].map((name) => damageFetch(`/meta/${name}`)))
+  damageCatalogPromise = Promise.all([...['spells','weapons','perks','creatures','charms','stances'].map((name) => damageFetch(`/meta/${name}`)), dmgLoadData()])
     .then(([spells,weapons,perks,creatures,charms,stances]) => {
       damageCatalog = {spells,weapons,perks,creatures,charms,stances};
       for (const side of ['a','b']) {
@@ -2289,6 +3021,7 @@ async function loadDamageCatalog() {
         const firstSpell = damageSpellsFor(root).find((spell) => spell.id !== 1);
         if (firstSpell) damageAddRotation(side, firstSpell.id);
       }
+      dmgRefreshAllExtras();
       status.textContent = 'Dados carregados. Configure as duas builds e calcule a comparação.';
       damageScheduleComparison();
       return damageCatalog;
@@ -2306,7 +3039,7 @@ function damageSpellsFor(root) {
 }
 function damageUpdateSkillAttributes(root, vocation) {
   const allowed = DAMAGE_VOCATION_SKILL_ATTRIBUTES[vocation] || [];
-  root.querySelectorAll('[data-damage-skill-attribute]').forEach((label) => {
+  $('#damage-character').querySelectorAll('[data-damage-skill-attribute]').forEach((label) => {
     const enabled = allowed.includes(label.dataset.damageSkillAttribute);
     label.hidden = !enabled;
     label.querySelector('input').disabled = !enabled;
@@ -2326,7 +3059,7 @@ function damageRefreshBuildOptions(root, initial = false) {
   const stanceSelect = root.querySelector('[data-damage-stance]');
   const oldStance = initial ? '' : stanceSelect.value;
   const stances = damageCatalog.stances.filter((item) => (!item.vocation || item.vocation === vocation) && item.selectable !== false);
-  stanceSelect.innerHTML = damageOptions(stances, oldStance, 'Sem stance');
+  stanceSelect.innerHTML = damageOptions(stances, oldStance, 'Nenhuma');
   const spellItems = damageSpellsFor(root);
   root.querySelectorAll('[data-damage-rotation-row]').forEach((row) => {
     const select = row.querySelector('[data-damage-spell]');
@@ -2361,22 +3094,21 @@ function damageAddPerk(side) {
   row.innerHTML = `<select data-damage-perk aria-label="Perk">${damageOptions(perks, '', 'Selecione um perk')}</select><input type="number" step="0.1" value="0" data-damage-perk-value aria-label="Valor do perk"><button type="button" class="damage-remove" data-damage-remove aria-label="Remover perk">×</button>`;
   root.querySelector('[data-damage-perks]').append(row);
 }
-function damageAddTarget(side) {
-  const root = damageRoot(side);
+function damageAddTarget() {
   const row = document.createElement('div');
   row.className = 'damage-row damage-target-row'; row.dataset.damageTargetRow = '';
   const creatures = damageCatalog.creatures.slice().sort((a,b) => a.name.localeCompare(b.name, 'en'));
   const charms = damageCatalog.charms;
   row.innerHTML = `<select data-damage-creature aria-label="Criatura">${damageOptions(creatures, '', 'Selecione uma criatura')}</select><input type="number" min="0" step="0.1" value="1" data-damage-creature-ratio aria-label="Proporção do alvo"><select data-damage-charm aria-label="Charm">${damageOptions(charms, '', 'Sem charm')}</select><select data-damage-charm-tier aria-label="Nível do charm"><option value="1">Tier 1</option><option value="2">Tier 2</option><option value="3">Tier 3</option></select><button type="button" class="damage-remove" data-damage-remove aria-label="Remover criatura">×</button>`;
-  root.querySelector('[data-damage-targets]').append(row);
+  document.querySelector('[data-damage-targets="shared"]').append(row);
 }
 function damagePayload(side) {
   const root = damageRoot(side);
   const statFields = ['level','skill','magicLevel','critChance','critDamage','fatalChance','transcendenceChance','baseMagicLevel','hitPoints','manaPoints','axe','club','sword','fist','distance','shielding'];
   const stats = {vocation:root.querySelector('[data-damage-stat="vocation"]').value, stanceIds:root.querySelector('[data-damage-stance]').value ? [Number(root.querySelector('[data-damage-stance]').value)] : [], bonus:0};
   for (const key of statFields) {
-    const input = root.querySelector(`[data-damage-stat="${key}"]`);
-    if (input && !input.disabled && input.value.trim() !== '') stats[key] = damageNumber(root, key);
+    const input = $('#damage-character').querySelector(`[data-damage-stat="${key}"]`);
+    if (input && !input.disabled && input.value.trim() !== '') stats[key] = damageNumber($('#damage-character'), key);
   }
   const rotation = [];
   if (root.querySelector('[data-damage-auto]').checked) rotation.push({id:1, targets:1, ratio:1});
@@ -2385,13 +3117,19 @@ function damagePayload(side) {
     if (id) rotation.push({id, targets:Math.max(1, Number(row.querySelector('[data-damage-target-count]').value) || 1), ratio:Math.max(0, Number(row.querySelector('[data-damage-ratio]').value) || 0)});
   });
   const perks = [...root.querySelectorAll('[data-damage-perk-row]')].map((row) => ({id:Number(row.querySelector('[data-damage-perk]').value), value:Number(row.querySelector('[data-damage-perk-value]').value) || 0})).filter((item) => item.id);
-  const targets = [...root.querySelectorAll('[data-damage-target-row]')].map((row) => {
+  const targets = [...document.querySelectorAll('[data-damage-target-row]')].map((row) => {
     const item = {id:Number(row.querySelector('[data-damage-creature]').value), ratio:Math.max(0, Number(row.querySelector('[data-damage-creature-ratio]').value) || 0)};
     const charmId = Number(row.querySelector('[data-damage-charm]').value);
     if (charmId) { item.charmId = charmId; item.charmTier = Number(row.querySelector('[data-damage-charm-tier]').value) || 1; }
     return item;
   }).filter((item) => item.id);
-  return {stats, weapon:{id:Number(root.querySelector('[data-damage-weapon]').value) || 1}, perks, rotation, targets};
+  const extra = dmgExtraPayload(side);
+  const merged = new Map();
+  for (const p of [...perks, ...extra.perks]) merged.set(p.id, (merged.get(p.id) || 0) + p.value);
+  stats.bonus = extra.bonus;
+  if (extra.fatal) stats.fatalChance = (stats.fatalChance || 0) + extra.fatal;
+  if (extra.transcendence) stats.transcendenceChance = (stats.transcendenceChance || 0) + extra.transcendence;
+  return {stats, weapon:{id:Number(root.querySelector('[data-damage-weapon]').value) || 1}, perks:[...merged].map(([id, value]) => ({id, value})), rotation, targets};
 }
 async function calculateDamage(payload) {
   const response = await fetch(`${DAMAGE_API}/damage`, {method:'POST', headers:{'Content-Type':'application/json',Accept:'application/json'}, body:JSON.stringify(payload)});
@@ -2402,23 +3140,78 @@ async function calculateDamage(payload) {
   return data;
 }
 const damageFmt = (value) => Number(value || 0).toLocaleString('pt-BR', {maximumFractionDigits:1});
-function renderDamageResult(side, result, payload) {
-  const root = damageRoot(side);
-  const target = root.querySelector('[data-damage-result]');
-  const summary = result.summary || {};
+function damageSpellRows(result, payload) {
   const ids = new Set(payload.rotation.map((item) => item.id));
   for (const item of damageCatalog.spells) if (ids.has(item.id)) for (const id of item.bundledSpellIds || []) ids.add(id);
-  const spells = (result.spells || []).filter((item) => ids.has(item.id));
-  target.innerHTML = `<h4>Resultado da Build ${side.toUpperCase()}</h4><div class="damage-kpis"><div class="damage-kpi"><span>Dano efetivo por turno</span><b>${damageFmt(summary.effectiveDamagePerTurn)}</b></div><div class="damage-kpi"><span>Dano efetivo por hit</span><b>${damageFmt(summary.effectiveDamagePerHit)}</b></div><div class="damage-kpi"><span>Dano de charms</span><b>${damageFmt(summary.damageFromCharms)}</b></div></div>${spells.length ? `<table><thead><tr><th>Spell</th><th>Bruto mín./méd./máx.</th><th>Efetivo médio</th></tr></thead><tbody>${spells.map((spell) => `<tr><td>${esc(spell.name)}</td><td>${damageFmt(spell.raw?.min)} / ${damageFmt(spell.raw?.avg)} / ${damageFmt(spell.raw?.max)}</td><td>${damageFmt(spell.effective?.avg)}</td></tr>`).join('')}</tbody></table>` : '<p class="muted">A API não retornou detalhes de spells para esta rotação.</p>'}`;
+  const bySpell = new Map(payload.rotation.map((item) => [item.id, item]));
+  return (result.spells || []).filter((item) => ids.has(item.id)).map((spell) => ({...spell, cfg: bySpell.get(spell.id)}));
 }
-function renderDamageComparison(results) {
-  const a = Number(results.a.summary?.effectiveDamagePerTurn) || 0;
-  const b = Number(results.b.summary?.effectiveDamagePerTurn) || 0;
-  const top = Math.max(a, b, 1);
-  const delta = a ? ((b - a) / a) * 100 : null;
-  const winner = a === b ? 'Empate' : `Build ${a > b ? 'A' : 'B'} está ${damageFmt(Math.abs(a - b))} de dano/turno à frente`;
+function renderDamageResult(side, result) {
+  const el = document.querySelector(`[data-dmg-turn="${side}"]`);
+  if (el) el.textContent = damageFmt(result.summary?.effectiveDamagePerTurn);
+}
+function renderDamageComparison(results, payloads) {
+  const total = {a: Number(results.a.summary?.effectiveDamagePerTurn) || 0, b: Number(results.b.summary?.effectiveDamagePerTurn) || 0};
+  const winner = total.a === total.b ? null : total.a > total.b ? 'a' : 'b';
   const weaponName = (side) => damageCatalog.weapons.find((item) => item.id === Number(damageRoot(side).querySelector('[data-damage-weapon]').value))?.name || 'Arma';
-  $('#damage-comparison').innerHTML = `<div class="damage-comparison-head"><b>${winner}</b><span>${delta === null ? 'Diferença percentual indisponível porque a Build A está zerada.' : `Build B ${delta >= 0 ? 'fica' : 'fica'} ${damageFmt(Math.abs(delta))}% ${delta >= 0 ? 'acima' : 'abaixo'} da Build A em dano por turno.`}</span></div><div class="damage-compare-cards"><article class="damage-compare-card a"><b><i>A</i> ${esc(weaponName('a'))}</b><strong>${damageFmt(a)}</strong><span>dano efetivo por turno</span><small>${damageFmt(results.a.summary?.effectiveDamagePerHit)} por hit · ${damageFmt(results.a.summary?.damageFromCharms)} de charms</small></article><article class="damage-compare-card b"><b><i>B</i> ${esc(weaponName('b'))}</b><strong>${damageFmt(b)}</strong><span>dano efetivo por turno</span><small>${damageFmt(results.b.summary?.effectiveDamagePerHit)} por hit · ${damageFmt(results.b.summary?.damageFromCharms)} de charms</small></article></div><div class="damage-compare-bars" role="img" aria-label="Gráfico horizontal comparando o dano efetivo por turno das builds A e B"><div class="damage-compare-row"><span>Build A</span><div class="damage-compare-track"><div class="damage-compare-fill a" style="width:${(a / top) * 100}%"></div></div><b>${damageFmt(a)}</b></div><div class="damage-compare-row"><span>Build B</span><div class="damage-compare-track"><div class="damage-compare-fill b" style="width:${(b / top) * 100}%"></div></div><b>${damageFmt(b)}</b></div></div>`;
+  const card = (side) => {
+    const other = side === 'a' ? 'b' : 'a';
+    const diff = total[other] ? ((total[side] - total[other]) / total[other]) * 100 : null;
+    const rows = damageSpellRows(results[side], payloads[side]);
+    const s = results[side].summary || {};
+    return `<article class="dmg-compare-card dmg-build-${side}${winner === side ? ' is-winner' : ''}">
+      <div class="dmg-card-head"><span class="dmg-build-letter">${side.toUpperCase()}</span><b>${esc(weaponName(side))}</b>${winner === side ? '<span class="dmg-winner">★ vencedora</span>' : ''}</div>
+      <div class="dmg-compare-total"><strong>${damageFmt(total[side])}</strong><span>dano por turno${diff !== null && winner ? ` · <em class="${diff >= 0 ? 'up' : 'down'}">${diff >= 0 ? '+' : '−'}${damageFmt(Math.abs(diff))}%</em>` : ''}</span></div>
+      <div class="dmg-compare-bar"><i style="width:${(total[side] / Math.max(total.a, total.b, 1)) * 100}%"></i></div>
+      <small class="muted">${damageFmt(s.effectiveDamagePerHit)} por hit · ${damageFmt(s.damageFromCharms)} de charms</small>
+      ${rows.length ? `<ul class="dmg-spell-list">${rows.map((r) => `<li><span>${esc(r.name)}</span><small>${r.cfg ? `×${r.cfg.targets} · p${damageFmt(r.cfg.ratio)}` : 'incluída'}</small><b>${damageFmt(r.effective?.avg)}</b></li>`).join('')}</ul>` : '<p class="muted">Sem detalhes de spells para esta rotação.</p>'}
+    </article>`;
+  };
+  $('#damage-comparison').innerHTML = `<p class="dmg-compare-verdict">${winner ? `<b>Build ${winner.toUpperCase()}</b> causa ${damageFmt(Math.abs(total.a - total.b))} de dano/turno a mais` : '<b>Empate</b> entre as duas builds'}</p><div class="dmg-compare-grid">${card('a')}${card('b')}</div>`;
+  const statLabel = {level:'Level',skill:'Skill principal',magicLevel:'Magic Level',baseMagicLevel:'Base Magic Level',critChance:'Chance crítica (%)',critDamage:'Dano crítico (%)',fatalChance:'Fatal (%)',transcendenceChance:'Transcendence (%)',hitPoints:'HP',manaPoints:'MP',axe:'Axe',club:'Club',sword:'Sword',fist:'Fist',distance:'Distance',shielding:'Shielding'};
+  const stats = payloads.a.stats;
+  const perkList = (side) => payloads[side].perks.map((p) => `${esc(damageCatalog.perks.find((x) => x.id === p.id)?.name || 'Perk')} (${damageFmt(p.value)})`).join(', ') || '—';
+  const stanceName = (side) => esc(damageCatalog.stances.find((x) => x.id === payloads[side].stats.stanceIds[0])?.name || 'Nenhuma');
+  const summaryRows = (side) => Object.entries(results[side].summary || {}).filter(([, v]) => typeof v === 'number').map(([k, v]) => `<tr><td>${esc(({effectiveDamagePerTurn:'Dano efetivo por turno',effectiveDamagePerHit:'Dano efetivo por hit',damageFromCharms:'Dano de charms'})[k] || k)}</td><td class="n">${damageFmt(v)}</td></tr>`).join('');
+  $('#damage-sheet').innerHTML = `<div class="dmg-sheet-grid">
+    <div><h5>Personagem (A e B)</h5><table><tbody><tr><td>Vocação</td><td class="n">${esc(DAMAGE_VOCATION_LABELS[stats.vocation] || stats.vocation)}</td></tr>${Object.entries(statLabel).filter(([k]) => stats[k] !== undefined).map(([k, l]) => `<tr><td>${l}</td><td class="n">${damageFmt(stats[k])}</td></tr>`).join('')}</tbody></table></div>
+    ${['a', 'b'].map((side) => `<div><h5>Build ${side.toUpperCase()}</h5><table><tbody><tr><td>Arma</td><td class="n">${esc(weaponName(side))}</td></tr><tr><td>Stance</td><td class="n">${stanceName(side)}</td></tr><tr><td>Perks</td><td class="n">${perkList(side)}</td></tr><tr><td>Alvos</td><td class="n">${payloads[side].targets.length || 'sem resistências'}</td></tr>${summaryRows(side)}</tbody></table></div>`).join('')}
+  </div>`;
+}
+function damageCopyBuild(from) {
+  const to = from === 'a' ? 'b' : 'a';
+  const src = damageRoot(from), dst = damageRoot(to);
+  dst.querySelector('[data-damage-weapon]').value = src.querySelector('[data-damage-weapon]').value;
+  dst.querySelector('[data-damage-stance]').value = src.querySelector('[data-damage-stance]').value;
+  dst.querySelector('[data-damage-auto]').checked = src.querySelector('[data-damage-auto]').checked;
+  dst.querySelector('[data-damage-rotation]').replaceChildren();
+  src.querySelectorAll('[data-damage-rotation-row]').forEach((row) => {
+    damageAddRotation(to, row.querySelector('[data-damage-spell]').value);
+    const added = dst.querySelector('[data-damage-rotation]').lastElementChild;
+    added.querySelector('[data-damage-target-count]').value = row.querySelector('[data-damage-target-count]').value;
+    added.querySelector('[data-damage-ratio]').value = row.querySelector('[data-damage-ratio]').value;
+  });
+  dst.querySelector('[data-damage-perks]').replaceChildren();
+  src.querySelectorAll('[data-damage-perk-row]').forEach((row) => {
+    damageAddPerk(to);
+    const added = dst.querySelector('[data-damage-perks]').lastElementChild;
+    added.querySelector('[data-damage-perk]').value = row.querySelector('[data-damage-perk]').value;
+    added.querySelector('[data-damage-perk-value]').value = row.querySelector('[data-damage-perk-value]').value;
+  });
+  damageUpdateWeaponPreview(dst);
+  dmgExtras[to] = JSON.parse(JSON.stringify(dmgExtras[from]));
+  dmgRenderExtras(to);
+  damageUpdateCounts();
+  $('#damage-status').textContent = `Build ${from.toUpperCase()} copiada para a Build ${to.toUpperCase()}.`;
+}
+function damageUpdateCounts() {
+  for (const side of ['a', 'b']) {
+    const el = damageRoot(side).querySelector('[data-dmg-count="perks"]');
+    if (el) el.textContent = damageRoot(side).querySelectorAll('[data-damage-perk-row]').length;
+  }
+  const n = document.querySelectorAll('[data-damage-target-row]').length;
+  const label = document.querySelector('[data-damage-targets-summary]');
+  if (label) label.textContent = n ? `${n} ${n === 1 ? 'alvo configurado' : 'alvos configurados'} — resistências e charms aplicados às duas builds` : 'Sem alvos — dano sem resistência ou charms';
 }
 async function damageCalculateComparison() {
   if (damageCalculationInProgress) { damageCalculationQueued = true; return; }
@@ -2429,13 +3222,13 @@ async function damageCalculateComparison() {
     await loadDamageCatalog();
     const payloads = {a:damagePayload('a'), b:damagePayload('b')};
     const [a,b] = await Promise.all([calculateDamage(payloads.a), calculateDamage(payloads.b)]);
-    renderDamageResult('a', a, payloads.a); renderDamageResult('b', b, payloads.b);
-    renderDamageComparison({a,b});
+    renderDamageResult('a', a); renderDamageResult('b', b);
+    renderDamageComparison({a,b}, payloads);
     status.textContent = 'Comparação automática atualizada. Valores estimados pelo motor de cálculo.';
   } catch (error) {
     status.textContent = `Falha no cálculo: ${error.message}`;
     $('#damage-comparison').innerHTML = `<span class="damage-error">Não foi possível comparar as builds: ${esc(error.message)}</span>`;
-    for (const side of ['a','b']) damageRoot(side).querySelector('[data-damage-result]').innerHTML = `<p class="damage-error">${esc(error.message)}</p>`;
+    document.querySelectorAll('[data-dmg-turn]').forEach((el) => { el.textContent = '—'; });
   } finally {
     damageCalculationInProgress = false;
     if (damageCalculationQueued) { damageCalculationQueued = false; damageScheduleComparison(); }
@@ -2453,10 +3246,19 @@ $('#p-damage').addEventListener('click', async (event) => {
   const remove = event.target.closest('[data-damage-remove]');
   if (addRotation) { await loadDamageCatalog(); damageAddRotation(addRotation.dataset.damageAddRotation); }
   if (addPerk) { await loadDamageCatalog(); damageAddPerk(addPerk.dataset.damageAddPerk); }
-  if (addTarget) { await loadDamageCatalog(); damageAddTarget(addTarget.dataset.damageAddTarget); }
+  if (addTarget) { await loadDamageCatalog(); damageAddTarget(); }
   if (remove) remove.closest('[data-damage-rotation-row],[data-damage-perk-row],[data-damage-target-row]')?.remove();
-  if (addRotation || addPerk || addTarget || remove) damageScheduleComparison();
-  if (event.target.id === 'damage-change-vocation') openDamageVocationPicker();
+  if (addRotation || addPerk || addTarget || remove) { damageUpdateCounts(); damageScheduleComparison(); }
+  if (event.target.closest('#damage-change-vocation')) openDamageVocationPicker();
+  const copy = event.target.closest('[data-dmg-copy]');
+  if (copy && damageCatalog) { damageCopyBuild(copy.dataset.dmgCopy); damageScheduleComparison(); }
+  const step = event.target.closest('[data-dmg-step]');
+  if (step) {
+    const input = step.parentElement.querySelector('input');
+    const base = input.value.trim() === '' ? Number(input.placeholder) || Number(input.min) || 0 : Number(input.value);
+    input.value = Math.max(Number(input.min) || 0, base + Number(step.dataset.dmgStep));
+    input.dispatchEvent(new Event('change', { bubbles: true }));
+  }
 });
 $('#p-damage').addEventListener('change', (event) => {
   if (event.target.matches('[data-damage-stat="vocation"]') && damageCatalog) damageRefreshBuildOptions(event.target.closest('[data-damage-build]'));
@@ -2465,7 +3267,601 @@ $('#p-damage').addEventListener('change', (event) => {
 });
 $('#p-damage').addEventListener('input', (event) => { if (event.target.matches('input')) damageScheduleComparison(); });
 
+
+/* ---------- Dano / Builds: proficiências, equipamento e Wheel of Destiny ---------- */
+// Dados: data/builds/*.json (TibiaWiki e Wheel of Destiny Planner oficial). Imagens: TibiaWiki BR (com reserva na TibiaWiki em inglês).
+const DMG_DATA_URL = 'data/builds/';
+const DMG_FANDOM_API = 'https://tibia.fandom.com/api.php';
+// Disposição do "boneco" de equipamento, como no inventário do jogo (null = posição decorativa).
+const DMG_DOLL = [['amulet', 'Amuleto'], ['helmet', 'Capacete'], [null, 'Mochila'], ['weapon', 'Arma'], ['armor', 'Armadura'], ['offhand', 'Escudo'], ['ring', 'Anel'], ['legs', 'Calça'], [null, 'Trinket'], ['clear', ''], ['boots', 'Bota'], [null, '']];
+const DMG_EQUIP_SLOTS = DMG_DOLL.filter(([s]) => s && s !== 'weapon' && s !== 'clear');
+const DMG_QUARTER_COLORS = { TL: '#46b21c', TR: '#d0213f', BL: '#19a86a', BR: '#a23cc2' };
+const DMG_QUARTER_NAMES = { TL: 'superior esquerdo', TR: 'superior direito', BL: 'inferior esquerdo', BR: 'inferior direito' };
+let dmgData = null;
+let dmgDataError = '';
+const dmgExtras = { a: null, b: null };
+const dmgNewExtras = () => ({ prof: {}, equip: {}, onslaught: 0, transcendence: 0, wheel: {}, wheelSel: null, wheelMax: null });
+dmgExtras.a = dmgNewExtras(); dmgExtras.b = dmgNewExtras();
+const dmgEquipOpen = { a: null, b: null }; // slot com a lista aberta em cada build
+const dmgNorm = (s) => String(s || '').toLowerCase().replace(/[‐-―]/g, '-').replace(/\s+/g, ' ').trim();
+let dmgPerkIndex = null;
+function dmgPerkId(name) {
+  if (!dmgPerkIndex) { dmgPerkIndex = new Map(); for (const p of damageCatalog.perks) { const k = dmgNorm(p.name); if (p.selectable !== false && !dmgPerkIndex.has(k)) dmgPerkIndex.set(k, p.id); } }
+  return dmgPerkIndex.get(dmgNorm(name)) || 0;
+}
+// Os dados extras são opcionais: se não carregarem (pasta data/builds não publicada ou página aberta direto do disco),
+// o comparador continua funcionando só com o motor do TibiaTools.
+async function dmgLoadData() {
+  if (dmgData) return dmgData;
+  try {
+    const [prof, equip, wheel] = await Promise.all(['proficiencias', 'equipamentos', 'wheel'].map((f) => fetch(`${DMG_DATA_URL}${f}.json?v=20261114`).then((r) => { if (!r.ok) throw new Error(`${f}.json respondeu ${r.status}`); return r.json(); })));
+    const armas = new Map(Object.entries(prof.armas).map(([k, v]) => [dmgNorm(k), v]));
+    dmgData = { prof, armas, equip, wheel, itemByName: new Map(equip.itens.map((i) => [i.n.toLowerCase(), i])) };
+    dmgDataError = '';
+  } catch (error) {
+    dmgDataError = location.protocol === 'file:' ? 'a página foi aberta direto do disco; abra pelo site publicado ou por um servidor local' : `não foi possível ler a pasta data/builds (${error.message})`;
+  }
+  return dmgData;
+}
+
+// ---------- Texto → perk do motor TibiaTools ----------
+function dmgPerkFromText(text, spellHint = '') {
+  const t = dmgNorm(text).replace(/^adds /, '+');
+  let m;
+  const out = (name, v) => { const pid = dmgPerkId(name); return pid ? { id: pid, value: Number(v) } : null; };
+  if (/bosses|sinister embraced/.test(t)) return null; // condicional: o motor não sabe se o alvo é boss
+  if ((m = t.match(/^([+-]?[\d.]+) (axe|club|sword|fist|distance) fighting$/))) return out(`+ ${m[2]} fighting`, m[1]);
+  if ((m = t.match(/^([+-]?[\d.]+) magic level$/))) return out('+ magic level', m[1]);
+  if ((m = t.match(/^([+-]?[\d.]+) (fire|energy|ice|earth|death|holy|physical) magic level$/))) return out(`+ ${m[2]} magic level`, m[1]);
+  if ((m = t.match(/^\+([\d.]+) attack$/))) return out('+ attack', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical extra damage$/))) return out('critical hit extra damage', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical hit chance$/))) return out('critical hit chance', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical extra damage for auto-attacks$/))) return out('critical % extra damage for auto-attacks', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical hit chance for auto-attacks$/))) return out('critical hit chance for auto-attacks', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical extra damage for offensive runes$/))) return out('critical % extra damage for runes', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical hit chance for offensive runes$/))) return out('critical hit chance for runes', m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical extra damage for (\w+) spells and runes$/))) return out(`critical % extra damage for ${m[2]} spells and runes`, m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical extra hit chance for (\w+) spells and runes$/))) return out(`${m[2]} critical hit chance`, m[1]);
+  if ((m = t.match(/^\+([\d.]+)% of your (axe fighting|club fighting|sword fighting|fist fighting|distance fighting|magic level|shielding|fishing) as extra damage for (auto-attacks|your spells)$/)))
+    return out(`% ${m[2]} as extra damage for ${m[3] === 'your spells' ? 'spells' : 'auto-attacks'}`, m[1]);
+  if ((m = t.match(/^\+([\d.]+)% damage against (.+)$/))) return out(`damage against ${m[2]}`, m[1]);
+  if ((m = t.match(/^\+([\d.]+)% base (?:damage|power)(?: for (.+))?$/))) return out(`${m[2] || spellHint} base damage`, m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical extra damage(?: for (.+))?$/))) return out(`${m[2] || spellHint} critical hit damage`, m[1]);
+  if ((m = t.match(/^\+([\d.]+)% critical (?:hit )?chance(?: for (.+))?$/))) return out(`${m[2] || spellHint} critical hit chance`, m[1]);
+  return null;
+}
+// Augmentação da Wheel: "+50% Base Damage for Lightning, Strong Energy Strike and Strong Flame Strike" vale para cada spell citada;
+// sem "for", vale para a própria augmentação ("this spell").
+function dmgPerksFromAugmentation(name, text) {
+  const t = dmgNorm(text);
+  const lista = t.match(/ for ((?!this spell)[^.;]+)$/);
+  const spells = lista ? lista[1].split(/, | and /).map((s) => s.trim()).filter(Boolean) : [name];
+  const perks = [];
+  let m;
+  for (const s of spells) {
+    if ((m = t.match(/\+([\d.]+)% base (?:damage|power)/))) perks.push(dmgPerkFromText(`+${m[1]}% base damage for ${s}`));
+    if ((m = t.match(/([\d.]+)% critical extra damage/))) perks.push(dmgPerkFromText(`+${m[1]}% critical extra damage for ${s}`));
+    if ((m = t.match(/([\d.]+)% critical (?:hit )?chance/))) perks.push(dmgPerkFromText(`+${m[1]}% critical hit chance for ${s}`));
+  }
+  return perks.filter(Boolean);
+}
+function dmgAttribPerks(item) {
+  const perks = [];
+  if (!item) return perks;
+  for (const part of String(item.a || '').split(',')) {
+    const p = dmgNorm(part);
+    let m;
+    if ((m = p.match(/^(axe|club|sword|fist|distance) fighting ([+-]?[\d.]+)/))) perks.push(dmgPerkFromText(`${m[2]} ${m[1]} fighting`));
+    else if ((m = p.match(/^magic level ([+-]?[\d.]+)/))) perks.push(dmgPerkFromText(`${m[1]} magic level`));
+    else if ((m = p.match(/^(fire|energy|ice|earth|death|holy|physical) magic level ([+-]?[\d.]+)/))) perks.push(dmgPerkFromText(`${m[2]} ${m[1]} magic level`));
+  }
+  const pct = (v) => Number(String(v || '').replace(/[^\d.-]/g, '')) || 0;
+  if (pct(item.cc)) perks.push(dmgPerkFromText(`+${pct(item.cc)}% critical hit chance`));
+  if (pct(item.cd)) perks.push(dmgPerkFromText(`+${pct(item.cd)}% critical extra damage`));
+  return perks.filter(Boolean);
+}
+const dmgVocation = () => damageRoot('a').querySelector('[data-damage-stat="vocation"]').value;
+const dmgWeaponName = (side) => damageCatalog.weapons.find((w) => w.id === Number(damageRoot(side).querySelector('[data-damage-weapon]').value))?.name || '';
+const dmgProfTableName = (side) => dmgData?.armas.get(dmgNorm(dmgWeaponName(side))) || '';
+const dmgProfTable = (side) => { const t = dmgProfTableName(side); return t ? dmgData.prof.tabelas[t] : null; };
+
+// ---------- Wheel: estado por fatia ----------
+const dmgWheelVoc = () => dmgData.wheel.vocacoes[dmgVocation()];
+function dmgWheelSliceInfo(id) {
+  const tipo = dmgData.wheel.modelo[id];
+  const v = dmgWheelVoc();
+  const g = dmgData.wheel.geometria.find((x) => x.id === id);
+  if (tipo === 'VR') return { tipo, nome: 'Vessel Resonance', texto: dmgData.wheel.comuns.VR.texto, icone: `Vessel_Resonance_${{ TL: 'Top_Left', TR: 'Top_Right', BL: 'Bottom_Left', BR: 'Bottom_Right' }[g.q]}.gif` };
+  if (tipo === 'LL' || tipo === 'ML') return { tipo, ...dmgData.wheel.comuns[tipo] };
+  if (tipo === 'SKILL') return { tipo, ...v.skill };
+  if (/^A\d$/.test(tipo)) { const [nome, s1, s2] = v[tipo]; return { tipo, nome, texto: `Estágio 1: ${s1} · Estágio 2: ${s2}`, s1, s2, icone: `Augmented_${nome.replace(/ /g, '_')}.gif` }; }
+  const [nome, texto] = v[tipo];
+  return { tipo, nome, texto, icone: `${nome.replace(/ /g, '_')}.gif` };
+}
+const dmgWheelFull = (ex, g) => (ex.wheel[g.id] || 0) >= g.pontos;
+function dmgWheelSummary(side) {
+  const ex = dmgExtras[side];
+  const geo = dmgData.wheel.geometria;
+  const pontos = { TL: 0, TR: 0, BL: 0, BR: 0 };
+  let total = 0;
+  const contagem = {};
+  for (const g of geo) {
+    const p = Math.min(g.pontos, ex.wheel[g.id] || 0);
+    pontos[g.q] += p; total += p;
+    if (p >= g.pontos) { const tipo = dmgData.wheel.modelo[g.id]; contagem[tipo] = (contagem[tipo] || 0) + 1; }
+  }
+  const st = dmgData.wheel.estagios;
+  const estagio = (p) => p >= st[2] ? 3 : p >= st[1] ? 2 : p >= st[0] ? 1 : 0;
+  const estagios = Object.fromEntries(Object.entries(pontos).map(([q, p]) => [q, estagio(p)]));
+  const bonus = Object.values(estagios).reduce((a, s) => a + dmgData.wheel.bonusEstagio[s], 0);
+  return { pontos, total, contagem, estagios, bonus };
+}
+
+// Junta tudo o que vem de proficiência, equipamento e Wheel para a build.
+function dmgExtraPayload(side) {
+  const res = { perks: [], bonus: 0, fatal: 0, transcendence: 0 };
+  if (!dmgData || !damageCatalog) return res;
+  const ex = dmgExtras[side];
+  const table = dmgProfTable(side);
+  if (table) for (const [lvl, idx] of Object.entries(ex.prof)) { const b = table[lvl]?.[idx]; const p = b && dmgPerkFromText(b.t); if (p) res.perks.push(p); }
+  // Atributos nativos da arma (o motor do TibiaTools recebe só id/ataque/skill da arma, não os bônus de skill/crítico).
+  res.perks.push(...dmgAttribPerks(dmgData.itemByName.get(dmgWeaponName(side).toLowerCase())));
+  for (const name of Object.values(ex.equip)) res.perks.push(...dmgAttribPerks(dmgData.itemByName.get(String(name).toLowerCase())));
+  res.fatal = dmgData.equip.onslaught[ex.onslaught] || 0;
+  res.transcendence = dmgData.equip.transcendence[ex.transcendence] || 0;
+  const v = dmgWheelVoc();
+  if (!v) return res;
+  const s = dmgWheelSummary(side);
+  res.bonus = s.bonus;
+  for (const [q, stage] of Object.entries(s.estagios)) {
+    const rev = v.revelacoes[q];
+    if (!stage) continue;
+    if (['Combat Mastery', 'Lord of Destruction', 'Ascetic'].includes(rev)) { const id = dmgPerkId(rev); if (id) res.perks.push({ id, value: stage }); }
+  }
+  const boosts = s.contagem.SKILL || 0;
+  if (boosts) for (const sk of v.skill.skills) res.perks.push(dmgPerkFromText(sk === 'magic' ? `+${boosts} magic level` : `+${boosts} ${sk} fighting`));
+  for (const a of ['A1', 'A2', 'A3', 'A4', 'A5']) {
+    const estagio = Math.min(2, s.contagem[a] || 0);
+    const [nome, s1, s2] = v[a];
+    if (estagio >= 1) res.perks.push(...dmgPerksFromAugmentation(nome, s1));
+    if (estagio >= 2) res.perks.push(...dmgPerksFromAugmentation(nome, s2));
+  }
+  res.perks = res.perks.filter(Boolean);
+  return res;
+}
+
+// ---------- Imagens (TibiaWiki BR, com reserva na TibiaWiki em inglês) ----------
+const dmgIconCache = new Map();
+async function dmgWikiLookup(api, prefixo, arquivos) {
+  const urls = new Map();
+  for (let i = 0; i < arquivos.length; i += 40) {
+    const chunk = arquivos.slice(i, i + 40);
+    try {
+      const params = new URLSearchParams({ action: 'query', titles: chunk.map((f) => prefixo + f).join('|'), prop: 'imageinfo', iiprop: 'url', format: 'json', formatversion: '2', origin: '*' });
+      const r = await fetch(`${api}?${params}`);
+      if (!r.ok) throw new Error(String(r.status));
+      const data = await r.json();
+      const norm = new Map((data.query?.normalized || []).map((x) => [x.to, x.from]));
+      for (const p of data.query?.pages || []) { const url = p.imageinfo?.[0]?.url; if (url) urls.set((norm.get(p.title) || p.title).slice(prefixo.length), url); }
+    } catch {}
+  }
+  return urls;
+}
+function dmgIconUrl(arquivo) {
+  if (!dmgIconCache.has(arquivo)) dmgIconCache.set(arquivo, dmgIconBatch(arquivo));
+  return dmgIconCache.get(arquivo);
+}
+let dmgIconQueue = null;
+function dmgIconBatch(arquivo) {
+  // Junta os pedidos feitos na mesma volta do loop num lote só.
+  if (!dmgIconQueue) {
+    const fila = { arquivos: new Set() };
+    fila.promessa = new Promise((res) => setTimeout(async () => {
+      dmgIconQueue = null;
+      const lista = [...fila.arquivos];
+      const br = await dmgWikiLookup(WIKI_BR_API, 'Arquivo:', lista);
+      const faltam = lista.filter((f) => !br.has(f));
+      const en = faltam.length ? await dmgWikiLookup(DMG_FANDOM_API, 'File:', faltam) : new Map();
+      res(new Map([...br, ...en]));
+    }, 0));
+    dmgIconQueue = fila;
+  }
+  dmgIconQueue.arquivos.add(arquivo);
+  return dmgIconQueue.promessa.then((m) => { const url = m.get(arquivo) || ''; if (!url) dmgIconCache.delete(arquivo); return url; });
+}
+async function dmgLoadIcons(root) {
+  const els = [...root.querySelectorAll('img[data-wiki-file]:not([src]), image[data-wiki-file]:not([href])')];
+  await Promise.all(els.map(async (el) => {
+    const url = await dmgIconUrl(el.dataset.wikiFile);
+    if (!el.isConnected) return;
+    if (!url) { if (el.dataset.fallback) el.outerHTML = el.dataset.fallback; else el.remove(); return; }
+    if (el.tagName.toLowerCase() === 'image') el.setAttribute('href', url);
+    else { el.src = url; el.addEventListener('error', () => el.remove(), { once: true }); }
+  }));
+}
+const dmgImg = (arquivo, cls = '', alt = '') => `<img data-wiki-file="${esc(arquivo)}" class="${cls}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+
+// Proficiência → imagem oficial (TibiaWiki BR: Proficiency_Type_* / Proficiency_Spell_* + selo Proficiency_Augment_*).
+function dmgProfImages(text) {
+  const t = dmgNorm(text);
+  const cap = (s) => s.split(' ').map((w) => w[0].toUpperCase() + w.slice(1)).join('_');
+  const skill = { 'axe fighting': 'Axe', 'club fighting': 'Club', 'sword fighting': 'Sword', 'fist fighting': 'Fist', 'distance fighting': 'Distance', 'magic level': 'Magic', 'shielding': 'Shield', 'fishing': 'Fishing' };
+  const tipo = (n) => ({ base: `Proficiency_Type_${n}.gif` });
+  let m;
+  if ((m = t.match(/ for (?!auto-attacks|offensive runes|your spells|\w+ spells and runes)(.+)$/))) {
+    const spell = m[1].replace(/'/g, "'");
+    const selo = /base damage|base power/.test(t) ? 'Damage' : /critical extra damage/.test(t) ? 'Critical_Dmg' : /critical (hit )?chance/.test(t) ? 'Critical_Chance' : /life leech/.test(t) ? 'Life_Leech' : /mana leech/.test(t) ? 'Mana_Leech' : /cooldown/.test(t) ? 'Cooldown' : /healing/.test(t) ? 'Healing' : /target|chain/.test(t) ? 'Chain' : '';
+    return { base: `Proficiency_Spell_${spell.split(' ').map((w) => w[0].toUpperCase() + w.slice(1)).join('_')}.gif`, selo: selo && `Proficiency_Augment_${selo}.gif` };
+  }
+  if ((m = t.match(/^[+-]?[\d.]+ (axe fighting|club fighting|sword fighting|fist fighting|distance fighting|magic level|shielding|fishing)$/))) return tipo(`Skill_${skill[m[1]]}`);
+  if ((m = t.match(/^[+-]?[\d.]+ (fire|energy|ice|earth|death|holy|healing) magic level$/))) return tipo(`Magic_Boost_${cap(m[1])}`);
+  if ((m = t.match(/% of your (.+?) as extra (damage|healing) for (auto-attacks|your spells)$/))) {
+    const s = skill[m[1]] || 'Highest_Combat';
+    return tipo(m[2] === 'healing' ? `Perc_Spell_Heal_${s}` : m[3] === 'auto-attacks' ? `Perc_Auto_Atk_${s}` : `Perc_Spell_Dmg_${s}`);
+  }
+  if (/critical extra damage for auto-attacks/.test(t)) return tipo('Auto_Atk_Critical_Dmg');
+  if (/critical hit chance for auto-attacks/.test(t)) return tipo('Auto_Atk_Critical_Chance');
+  if (/critical extra damage for offensive runes/.test(t)) return tipo('Rune_Critical_Dmg');
+  if (/critical hit chance for offensive runes/.test(t)) return tipo('Rune_Critical_Chance');
+  if ((m = t.match(/critical extra damage for (\w+) spells and runes/))) return tipo(`Element_Critical_Dmg_${cap(m[1])}`);
+  if ((m = t.match(/critical extra hit chance for (\w+) spells and runes/))) return tipo(`Element_Critical_Chance_${cap(m[1])}`);
+  if (/critical extra damage$/.test(t)) return tipo('Critical_Dmg');
+  if (/critical hit chance$/.test(t)) return tipo('Critical_Chance');
+  if (/bosses|sinister embraced/.test(t)) return tipo('Powerful_Foe_Bonus');
+  if ((m = t.match(/damage against (.+)$/))) return tipo(`Bestiary_Dmg_${cap(m[1])}`);
+  if ((m = t.match(/(\w+) pierce/))) return tipo(`Element_Pierce_${cap(m[1])}`);
+  if (/armou?r penetration/.test(t)) return tipo('Armor_Penetration');
+  if ((m = t.match(/homing missiles? \((\w+)\)|(\w+) homing missile/))) return tipo(`Homing_Missile_${cap(m[1] || m[2])}`);
+  if (/hit points on kill/.test(t)) return tipo('Life_On_Kill');
+  if (/mana on kill/.test(t)) return tipo('Mana_On_Kill');
+  if (/hit points on hit|life on hit/.test(t)) return tipo('Life_On_Hit');
+  if (/mana on hit/.test(t)) return tipo('Mana_On_Hit');
+  if (/life leech/.test(t)) return tipo('Life_Leech');
+  if (/mana leech/.test(t)) return tipo('Mana_Leech');
+  if (/damage at range/.test(t)) return tipo('Perfect_Shot_Damage');
+  if (/hit chance/.test(t)) return tipo('Range_Hit_Chance');
+  if (/defen[cs]e modifier/.test(t)) return tipo('Shield_Mod');
+  if (/defen[cs]e/.test(t)) return tipo('Defence');
+  if (/attack$/.test(t)) return tipo('Attack');
+  if (/alpha/.test(t)) return tipo('Alpha_Dmg');
+  if (/omega/.test(t)) return tipo('Omega_Dmg');
+  return tipo('Critical_Dmg');
+}
+const dmgProfValue = (t) => (String(t).match(/[+-]?[\d.]+%?/) || [''])[0].replace(/^\+/, '');
+
+// ---------- Proficiências ----------
+function dmgRenderProf(side) {
+  const box = damageRoot(side).querySelector('[data-dmg-prof]');
+  const count = damageRoot(side).querySelector('[data-dmg-prof-count]');
+  const table = dmgProfTable(side);
+  const ex = dmgExtras[side];
+  if (!table) { box.innerHTML = '<p class="muted dmg-empty">Esta arma não tem árvore de proficiência na TibiaWiki.</p>'; count.textContent = '—'; return; }
+  count.textContent = `${Object.keys(ex.prof).length}/${table.length} níveis`;
+  box.style.setProperty('--prof-cols', table.length);
+  box.innerHTML = table.map((opts, lvl) => `<div class="dmg-prof-col"><span class="dmg-prof-star">★${lvl + 1}</span>${opts.map((b, i) => {
+    const supported = !!dmgPerkFromText(b.t);
+    const img = dmgProfImages(b.t);
+    const on = ex.prof[lvl] === i;
+    return `<button type="button" class="dmg-prof-btn${on ? ' is-on' : ''}${supported ? '' : ' is-na'}" data-dmg-prof-pick="${side}:${lvl}:${i}" title="${esc(b.t)}${supported ? '' : ' — não altera o cálculo de dano'}" aria-pressed="${on}" aria-label="Nível ${lvl + 1}: ${esc(b.t)}">
+      <img data-wiki-file="${esc(img.base)}" alt="" data-fallback="<span class=&quot;g&quot;>•</span>">${img.selo ? `<img data-wiki-file="${esc(img.selo)}" alt="" class="dmg-prof-selo">` : ''}<small>${esc(dmgProfValue(b.t))}</small></button>`;
+  }).join('')}</div>`).join('');
+  dmgLoadIcons(box);
+}
+
+// ---------- Equipamento ----------
+function dmgItemsFor(slot) {
+  const voc = dmgVocation();
+  return dmgData.equip.itens.filter((i) => i.s === slot && (!i.vs || i.vs.includes(voc)));
+}
+// "distance fighting +2, shielding +2" → "dist +2 · shield +2"
+const dmgShortAttr = (a) => String(a || '').split(',').map((p) => p.trim().replace(/ fighting/, '').replace(/^distance/, 'dist').replace(/^shielding/, 'shield').replace(/magic level/, 'ml')).filter(Boolean).slice(0, 3).join(' · ');
+function dmgEquipList(side, slot) {
+  const ex = dmgExtras[side];
+  const label = DMG_DOLL.find(([s]) => s === slot)?.[1] || slot;
+  const itens = dmgItemsFor(slot);
+  return `<div class="dmg-equip-list" role="dialog" aria-label="Escolher ${esc(label)}">
+    <div class="dmg-equip-list-head"><b>trocar · ${esc(label)}</b><button type="button" class="war-close" data-dmg-equip-close="${side}" aria-label="Fechar lista">✕</button></div>
+    <input type="search" class="dmg-equip-search" data-dmg-equip-search="${side}" placeholder="Buscar item…" aria-label="Buscar item">
+    <ul>
+      <li><button type="button" data-dmg-equip-pick="${side}:${slot}:" class="${ex.equip[slot] ? '' : 'is-on'}"><span class="dmg-equip-ph">—</span><span>deixar vazio</span></button></li>
+      ${itens.map((i) => `<li data-name="${esc(i.n.toLowerCase())}"><button type="button" data-dmg-equip-pick="${side}:${slot}:${esc(i.n)}" class="${ex.equip[slot] === i.n ? 'is-on' : ''}" title="${esc([i.n, i.l ? 'level ' + i.l : '', i.a, i.r && 'resist: ' + i.r].filter(Boolean).join(' · '))}">${dmgImg(i.n + '.gif', 'dmg-equip-img')}<span>${esc(i.n)}${i.l ? `<small>lv ${i.l}</small>` : ''}</span><em>${esc(dmgShortAttr(i.a))}</em></button></li>`).join('')}
+    </ul></div>`;
+}
+function dmgRenderEquip(side) {
+  const box = damageRoot(side).querySelector('[data-dmg-equip]');
+  const ex = dmgExtras[side];
+  const aberto = dmgEquipOpen[side];
+  const tiers = (cur, arr) => arr.map((v, t) => `<option value="${t}"${t === cur ? ' selected' : ''}>${t ? `Tier ${t} (${v}%)` : 'sem tier'}</option>`).join('');
+  const weaponName = dmgWeaponName(side);
+  const weapon = dmgData.itemByName.get(weaponName.toLowerCase());
+  const extra = dmgExtraPayload(side);
+  damageRoot(side).querySelector('[data-dmg-equip-count]').textContent = `${Object.values(ex.equip).filter(Boolean).length}/${DMG_EQUIP_SLOTS.length} slots`;
+  const sum = new Map();
+  for (const name of Object.values(ex.equip)) for (const p of dmgAttribPerks(dmgData.itemByName.get(String(name).toLowerCase()))) sum.set(p.id, (sum.get(p.id) || 0) + p.value);
+  const resumo = [...sum.entries()].map(([id, v]) => `<li>${esc(damageCatalog.perks.find((p) => p.id === id)?.name.trim() || id)} <b>${v > 0 ? '+' : ''}${damageFmt(v)}</b></li>`).join('');
+  const slotHtml = ([slot, label]) => {
+    if (slot === 'clear') return `<button type="button" class="dmg-slot dmg-slot-btn" data-dmg-equip-clear="${side}">limpar</button>`;
+    if (!slot) return `<div class="dmg-slot is-off" aria-hidden="true"><span>${esc(label)}</span></div>`;
+    if (slot === 'weapon') return `<div class="dmg-slot is-on" title="Arma: ${esc(weaponName)} (troque no campo Arma)">${weaponName ? dmgImg(weaponName + '.gif', 'dmg-equip-img', weaponName) : ''}<span class="sr-only">Arma: ${esc(weaponName)}</span></div>`;
+    const item = ex.equip[slot];
+    return `<button type="button" class="dmg-slot${item ? ' is-on' : ''}${aberto === slot ? ' is-open' : ''}" data-dmg-equip-slot="${side}:${slot}" aria-expanded="${aberto === slot}" title="${esc(item ? `${label}: ${item}` : `${label} vazio`)}">${item ? dmgImg(item + '.gif', 'dmg-equip-img', item) : `<span>${esc(label)}</span>`}</button>`;
+  };
+  box.innerHTML = `<p class="muted dmg-hint-left">clique num slot para trocar</p>
+    <div class="dmg-equip-wrap">
+      <div class="dmg-doll">
+        <div class="dmg-doll-grid">${DMG_DOLL.map(slotHtml).join('')}</div>
+        <label class="dmg-tier">Onslaught<select data-dmg-tier="${side}:onslaught" aria-label="Tier de Onslaught da arma">${tiers(ex.onslaught, dmgData.equip.onslaught)}</select></label>
+        <label class="dmg-tier">Transcendence<select data-dmg-tier="${side}:transcendence" aria-label="Tier de Transcendence da calça">${tiers(ex.transcendence, dmgData.equip.transcendence)}</select></label>
+      </div>
+      ${aberto ? dmgEquipList(side, aberto) : `<div class="dmg-equip-summary"><b>Resumo — só o equipamento</b>${resumo ? `<ul>${resumo}</ul>` : '<p>Nenhuma peça equipada — o set não soma nada ao dano ainda.</p>'}
+        ${weapon?.a || weapon?.cc || weapon?.cd ? `<p class="muted">A arma também soma: ${esc([weapon.a, weapon.cc && `crítico ${weapon.cc}`, weapon.cd && `dano crítico ${weapon.cd}`].filter(Boolean).join(' · '))}.</p>` : ''}
+        ${extra.fatal || extra.transcendence ? `<p class="muted">Fatal ${damageFmt(extra.fatal)}% · Transcendence ${damageFmt(extra.transcendence)}% (somados à chance do personagem).</p>` : ''}
+        <p class="muted">Já somados ao dano deste lado. Clique num slot para trocar uma peça.</p></div>`}
+    </div>`;
+  dmgLoadIcons(box);
+  if (aberto) box.querySelector('[data-dmg-equip-search]')?.focus({ preventScroll: true });
+}
+
+// ---------- Wheel of Destiny (layout oficial por vocação) ----------
+function dmgArc(cx, cy, r0, r1, a0, a1) {
+  const rad = (a) => a * Math.PI / 180;
+  const p = (r, a) => `${(cx + r * Math.cos(rad(a))).toFixed(2)} ${(cy + r * Math.sin(rad(a))).toFixed(2)}`;
+  const large = a1 - a0 > 180 ? 1 : 0;
+  return `M${p(r0, a0)} L${p(r1, a0)} A${r1} ${r1} 0 ${large} 1 ${p(r1, a1)} L${p(r0, a1)} A${r0} ${r0} 0 ${large} 0 ${p(r0, a0)}Z`;
+}
+// A Wheel é uma grade 6×6 (36 fatias). Cada domínio é um bloco 3×3 cujo canto interno é a fatia do centro (anel 0).
+// Uma fatia só pode receber pontos se for do centro (anel 0) ou se tiver uma vizinha (lado a lado na grade) completa
+// e ligada ao centro — ou seja, a roda é preenchida do centro para as bordas.
+let dmgWheelGridCache = null;
+function dmgWheelGrid() {
+  if (dmgWheelGridCache) return dmgWheelGridCache;
+  const eixos = { // [célula do centro, direção do início do arco, direção do fim do arco] em (linha, coluna)
+    TL: [[2, 2], [0, -1], [-1, 0]], TR: [[2, 3], [-1, 0], [0, 1]], BR: [[3, 3], [0, 1], [1, 0]], BL: [[3, 2], [1, 0], [0, -1]],
+  };
+  const pos = new Map(), porCelula = new Map();
+  for (const q of Object.keys(eixos)) {
+    const [centro, ini, fim] = eixos[q];
+    for (let anel = 0; anel <= 4; anel++) {
+      const fatias = dmgData.wheel.geometria.filter((g) => g.q === q && g.anel === anel).sort((x, y) => x.a0 - y.a0);
+      fatias.forEach((g, i) => {
+        const b = i + Math.max(0, anel - 2), a = anel - b;
+        const cel = [centro[0] + ini[0] * a + fim[0] * b, centro[1] + ini[1] * a + fim[1] * b];
+        pos.set(g.id, cel); porCelula.set(cel.join(','), g.id);
+      });
+    }
+  }
+  const vizinhos = new Map([...pos].map(([id, [r, c]]) => [id, [[r - 1, c], [r + 1, c], [r, c - 1], [r, c + 1]].map((p) => porCelula.get(p.join(','))).filter(Boolean)]));
+  dmgWheelGridCache = { vizinhos, geo: new Map(dmgData.wheel.geometria.map((g) => [g.id, g])) };
+  return dmgWheelGridCache;
+}
+// Fatias completas ligadas ao centro por outras fatias completas.
+function dmgWheelConnected(wheel) {
+  const { vizinhos, geo } = dmgWheelGrid();
+  const cheia = (id) => (wheel[id] || 0) >= geo.get(id).pontos;
+  const fila = [...geo.values()].filter((g) => g.anel === 0 && cheia(g.id)).map((g) => g.id);
+  const ok = new Set(fila);
+  while (fila.length) for (const v of vizinhos.get(fila.shift())) if (!ok.has(v) && cheia(v)) { ok.add(v); fila.push(v); }
+  return ok;
+}
+function dmgWheelUnlocked(wheel, id, ligadas = dmgWheelConnected(wheel)) {
+  const { vizinhos, geo } = dmgWheelGrid();
+  return geo.get(id).anel === 0 || vizinhos.get(id).some((v) => ligadas.has(v));
+}
+// Estado válido: toda fatia com pontos é do centro ou vizinha de uma fatia completa ligada ao centro.
+function dmgWheelValid(wheel) {
+  const ligadas = dmgWheelConnected(wheel);
+  return Object.entries(wheel).every(([id, p]) => !p || dmgWheelUnlocked(wheel, id, ligadas));
+}
+const dmgWheelAvail = (side) => {
+  const ex = dmgExtras[side];
+  const level = damageNumber($('#damage-character'), 'level', 0);
+  return Number.isFinite(ex.wheelMax) && ex.wheelMax >= 0 ? ex.wheelMax : Math.max(0, level - 50);
+};
+const dmgWheelMsg = { a: '', b: '' };
+// Define os pontos de uma fatia respeitando a ordem centro→bordas e o total disponível.
+function dmgWheelSet(side, id, pts) {
+  const ex = dmgExtras[side];
+  const g = dmgWheelGrid().geo.get(id);
+  const atual = ex.wheel[id] || 0;
+  let alvo = Math.max(0, Math.min(g.pontos, Math.round(Number(pts) || 0)));
+  dmgWheelMsg[side] = '';
+  if (alvo > atual) {
+    if (!dmgWheelUnlocked(ex.wheel, id)) { dmgWheelMsg[side] = 'Essa fatia ainda está bloqueada: complete primeiro uma fatia vizinha, do centro para as bordas.'; return false; }
+    const usados = Object.values(ex.wheel).reduce((a, b) => a + b, 0);
+    const livres = dmgWheelAvail(side) - usados;
+    if (livres <= 0) { dmgWheelMsg[side] = 'Não há pontos livres. Aumente os pontos disponíveis ou tire pontos de outra fatia.'; return false; }
+    if (alvo - atual > livres) { alvo = atual + livres; dmgWheelMsg[side] = `Só havia ${livres} pontos livres; a fatia ficou com ${alvo}/${g.pontos}.`; }
+  }
+  const novo = { ...ex.wheel, [id]: alvo };
+  if (!alvo) delete novo[id];
+  if (alvo < atual && !dmgWheelValid(novo)) { dmgWheelMsg[side] = 'Não dá para tirar pontos desta fatia: há fatias mais externas que dependem dela. Esvazie-as primeiro.'; return false; }
+  ex.wheel = novo;
+  return true;
+}
+function dmgRenderWheel(side) {
+  const box = damageRoot(side).querySelector('[data-dmg-wheel]');
+  const ex = dmgExtras[side];
+  const v = dmgWheelVoc();
+  if (!v) { box.innerHTML = '<p class="muted dmg-empty">Wheel indisponível para esta vocação.</p>'; return; }
+  const s = dmgWheelSummary(side);
+  const level = damageNumber($('#damage-character'), 'level', 0);
+  const avail = dmgWheelAvail(side);
+  const ligadas = dmgWheelConnected(ex.wheel);
+  const sel = ex.wheelSel && dmgWheelGrid().geo.has(ex.wheelSel) ? ex.wheelSel : null;
+  damageRoot(side).querySelector('[data-dmg-wheel-count]').textContent = `${s.total}/${avail} pts`;
+  const C = 300, R0 = (i) => 30 + i * 46, R1 = (i) => 30 + i * 46 + 44;
+  let fatias = '';
+  for (const g of dmgData.wheel.geometria) {
+    const info = dmgWheelSliceInfo(g.id);
+    const pts = Math.min(g.pontos, ex.wheel[g.id] || 0);
+    const livre = dmgWheelUnlocked(ex.wheel, g.id, ligadas);
+    const r0 = R0(g.anel) + 1, r1 = R1(g.anel) - 1, a0 = g.a0 + 0.6, a1 = g.a1 - 0.6;
+    const meio = (g.a0 + g.a1) / 2 * Math.PI / 180, rm = (r0 + r1) / 2, tam = g.anel === 0 ? 30 : 28;
+    const frac = pts / g.pontos;
+    const estado = pts >= g.pontos ? ' is-full' : pts ? ' is-part' : livre ? ' is-open' : ' is-locked';
+    fatias += `<g class="dmg-wslice${estado}${sel === g.id ? ' is-sel' : ''}" style="--c:${DMG_QUARTER_COLORS[g.q]}" tabindex="0" role="button" data-dmg-wheel-slice="${side}:${g.id}"
+      aria-label="${esc(`${info.nome} — ${pts}/${g.pontos} pontos (${DMG_QUARTER_NAMES[g.q]})${!pts && !livre ? ', bloqueada' : ''}`)}" aria-pressed="${sel === g.id}">
+      <title>${esc(`${info.nome} (${pts}/${g.pontos})${!pts && !livre ? ' — bloqueada' : ''}\n${info.texto || ''}`)}</title>
+      <path d="${dmgArc(C, C, r0, r1, a0, a1)}" class="bg"/>
+      ${frac ? `<path d="${dmgArc(C, C, r0, r0 + (r1 - r0) * frac, a0, a1)}" class="fill"/>` : ''}
+      ${info.icone ? `<image data-wiki-file="${esc(info.icone)}" x="${(C + rm * Math.cos(meio) - tam / 2).toFixed(1)}" y="${(C + rm * Math.sin(meio) - tam / 2).toFixed(1)}" width="${tam}" height="${tam}" class="ico"/>` : ''}
+    </g>`;
+  }
+  const cantos = { TL: [-1, -1], TR: [1, -1], BL: [-1, 1], BR: [1, 1] };
+  const revs = Object.entries(v.revelacoes).map(([q, nome]) => {
+    const [dx, dy] = cantos[q];
+    const x = C + dx * 236, y = C + dy * 236, st = s.estagios[q];
+    return `<g class="dmg-wrev${st ? ' is-on' : ''}" style="--c:${DMG_QUARTER_COLORS[q]}"><title>${esc(`${nome} — ${s.pontos[q]} pontos no domínio (estágio ${st})`)}</title>
+      <circle cx="${x}" cy="${y}" r="34" class="ring"/><image data-wiki-file="${esc(nome.replace(/ /g, '_') + '.gif')}" x="${x - 24}" y="${y - 24}" width="48" height="48"/>
+      <text x="${x}" y="${y + 50}" text-anchor="middle" class="dmg-wlabel">${'●'.repeat(st)}${'○'.repeat(3 - st)}</text></g>`;
+  }).join('');
+  let painel = '<p class="muted dmg-wsel-empty">Clique numa fatia para selecioná-la e definir os pontos. Comece pelas fatias do centro.</p>';
+  if (sel) {
+    const g = dmgWheelGrid().geo.get(sel), info = dmgWheelSliceInfo(sel), pts = ex.wheel[sel] || 0;
+    const livre = dmgWheelUnlocked(ex.wheel, sel, ligadas);
+    painel = `<div class="dmg-wsel">
+      <div class="dmg-wsel-head">${info.icone ? dmgImg(info.icone, 'dmg-wsel-ico') : ''}<div><b>${esc(info.nome)}</b><small>${esc(info.texto || '')}</small></div></div>
+      <div class="dmg-wsel-bar" aria-hidden="true"><i style="width:${(pts / g.pontos) * 100}%"></i><span>${pts}/${g.pontos}</span></div>
+      <div class="dmg-wsel-ctrl" role="group" aria-label="Pontos da fatia selecionada">
+        <button type="button" data-dmg-wheel-step="${side}:${sel}:min" aria-label="Esvaziar a fatia">«</button>
+        <button type="button" data-dmg-wheel-step="${side}:${sel}:-1" aria-label="Tirar 1 ponto">−</button>
+        <input type="number" min="0" max="${g.pontos}" step="1" value="${pts}" data-dmg-wheel-pts="${side}:${sel}" aria-label="Pontos em ${esc(info.nome)} (0 a ${g.pontos})"${!livre && !pts ? ' disabled' : ''}>
+        <button type="button" data-dmg-wheel-step="${side}:${sel}:1" aria-label="Pôr 1 ponto">+</button>
+        <button type="button" data-dmg-wheel-step="${side}:${sel}:max" aria-label="Encher a fatia">»</button>
+      </div>
+      ${!livre && !pts ? '<p class="dmg-wmsg">Bloqueada: complete primeiro uma fatia vizinha (do centro para fora).</p>' : ''}
+    </div>`;
+  }
+  const conv = [];
+  const c = s.contagem;
+  if (c.SKILL) conv.push(`${v.skill.nome} ×${c.SKILL}`);
+  for (const a of ['A1', 'A2', 'A3', 'A4', 'A5']) if (c[a]) { const [nome, s1, s2] = v[a]; const est = Math.min(2, c[a]); const afeta = dmgPerksFromAugmentation(nome, s1).length + (est > 1 ? dmgPerksFromAugmentation(nome, s2).length : 0); conv.push(`${nome} — estágio ${est}${afeta ? '' : ' (não altera o dano)'}`); }
+  for (const u of ['U1', 'U2']) if (c[u]) conv.push(`${v[u][0]} (não modelado no cálculo)`);
+  if (c.LL) conv.push(`Life Leech ×${c.LL}`);
+  if (c.ML) conv.push(`Mana Leech ×${c.ML}`);
+  box.innerHTML = `<div class="dmg-wheel-top">
+      <label class="dmg-wmax">Pontos disponíveis <input type="number" min="0" max="4000" step="1" value="${avail}" data-dmg-wheel-max="${side}" aria-describedby="dmg-wmax-hint-${side}"></label>
+      <span>Usados <b class="${s.total > avail ? 'warn' : ''}">${s.total}</b> · livres <b>${Math.max(0, avail - s.total)}</b></span>
+      <button type="button" class="dmg-copy" data-dmg-wheel-clear="${side}">zerar</button></div>
+    <p class="muted dmg-hint-left" id="dmg-wmax-hint-${side}">Padrão: 1 ponto por level acima do 50 (level ${level} → ${Math.max(0, level - 50)}). Some aqui os pontos extras de Promotion Scrolls, Task Shop, quests e mods.</p>
+    <p class="dmg-wmsg" role="status">${esc(dmgWheelMsg[side])}</p>
+    <div class="dmg-wheel-layout">
+      <svg class="dmg-wheel-svg" viewBox="0 0 600 600" role="group" aria-label="Wheel of Destiny de ${esc(DAMAGE_VOCATION_LABELS[dmgVocation()])}">
+        <circle cx="${C}" cy="${C}" r="${R1(4) + 6}" class="dmg-wbase"/>${fatias}<circle cx="${C}" cy="${C}" r="26" class="dmg-wcenter"/>${revs}</svg>
+      ${painel}
+    </div>
+    <p class="muted dmg-hint">Clique numa fatia para selecioná-la · botão direito enche ou esvazia. Fatias apagadas estão bloqueadas até uma vizinha ficar completa.</p>
+    <h5 class="dmg-sub">Revelations e domínios</h5>
+    <ul class="dmg-revs">${Object.entries(v.revelacoes).map(([q, nome]) => `<li><i style="background:${DMG_QUARTER_COLORS[q]}"></i><span>${esc(nome)}</span><b>${s.pontos[q]}</b><span class="dmg-stage">${[1, 2, 3].map((n) => `<b class="${s.estagios[q] >= n ? 'on' : ''}">●</b>`).join('')}</span></li>`).join('')}</ul>
+    <h5 class="dmg-sub">Conviction ativos</h5>${conv.length ? `<ul class="dmg-conv">${conv.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="muted">Nenhuma fatia completa ainda.</p>'}
+    <p class="dmg-wheel-bonus">Wheel Damage <b>+${s.bonus}</b> <small class="muted">(4 / 9 / 20 por revelation nos estágios 1 / 2 / 3 — 250 / 500 / 1000 pontos no domínio)</small></p>`;
+  dmgLoadIcons(box);
+}
+function dmgWheelApply(side, id, pts, foco) {
+  const mudou = dmgWheelSet(side, id, pts);
+  dmgRenderWheel(side);
+  damageRoot(side).querySelector(foco)?.focus({ preventScroll: true });
+  if (mudou) damageScheduleComparison();
+}
+function dmgToggleSlice(side, id) {
+  const g = dmgWheelGrid().geo.get(id);
+  const ex = dmgExtras[side];
+  ex.wheelSel = id;
+  dmgWheelApply(side, id, (ex.wheel[id] || 0) >= g.pontos ? 0 : g.pontos, `[data-dmg-wheel-slice="${side}:${id}"]`);
+}
+function dmgSelectSlice(side, id) {
+  dmgExtras[side].wheelSel = id;
+  dmgWheelMsg[side] = '';
+  dmgRenderWheel(side);
+  damageRoot(side).querySelector(`[data-dmg-wheel-slice="${side}:${id}"]`)?.focus({ preventScroll: true });
+}
+
+function dmgRenderExtras(side) {
+  if (!damageCatalog) return;
+  const root = damageRoot(side);
+  if (!dmgData) {
+    const aviso = `<p class="muted dmg-empty">Proficiências, equipamento e Wheel indisponíveis: ${esc(dmgDataError || 'dados não carregados')}.</p>`;
+    root.querySelector('[data-dmg-native]').innerHTML = '';
+    root.querySelector('[data-dmg-prof]').innerHTML = aviso;
+    root.querySelector('[data-dmg-equip]').innerHTML = aviso;
+    root.querySelector('[data-dmg-wheel]').innerHTML = aviso;
+    return;
+  }
+  const weapon = dmgData.itemByName.get(dmgWeaponName(side).toLowerCase());
+  const chips = [...String(weapon?.a || '').split(',').map((s) => s.trim()).filter(Boolean), weapon?.cc && `crítico ${weapon.cc}`, weapon?.cd && `dano crítico +${weapon.cd}`].filter(Boolean);
+  root.querySelector('[data-dmg-native]').innerHTML = `${weapon?.e ? `<small>Elemento: ${esc(weapon.e)}</small>` : ''}${chips.map((c) => `<span>${esc(c)}</span>`).join('')}`;
+  dmgRenderProf(side); dmgRenderEquip(side); dmgRenderWheel(side);
+}
+function dmgRefreshAllExtras() { for (const s of ['a', 'b']) dmgRenderExtras(s); }
+$('#p-damage').addEventListener('click', (e) => {
+  const pick = e.target.closest('[data-dmg-prof-pick]');
+  if (pick) { const [side, lvl, i] = pick.dataset.dmgProfPick.split(':'); const ex = dmgExtras[side]; if (ex.prof[lvl] === Number(i)) delete ex.prof[lvl]; else ex.prof[lvl] = Number(i); dmgRenderProf(side); damageRoot(side).querySelector(`[data-dmg-prof-pick="${side}:${lvl}:${i}"]`)?.focus({ preventScroll: true }); damageScheduleComparison(); return; }
+  const slice = e.target.closest('[data-dmg-wheel-slice]');
+  if (slice) { const [side, id] = slice.dataset.dmgWheelSlice.split(':'); dmgSelectSlice(side, id); return; }
+  const passo = e.target.closest('[data-dmg-wheel-step]');
+  if (passo) {
+    const [side, id, op] = passo.dataset.dmgWheelStep.split(':');
+    const g = dmgWheelGrid().geo.get(id), atual = dmgExtras[side].wheel[id] || 0;
+    const novo = op === 'min' ? 0 : op === 'max' ? g.pontos : atual + Number(op);
+    dmgWheelApply(side, id, novo, `[data-dmg-wheel-step="${side}:${id}:${op}"]`); return;
+  }
+  const wclear = e.target.closest('[data-dmg-wheel-clear]');
+  if (wclear) { const s = wclear.dataset.dmgWheelClear; dmgExtras[s].wheel = {}; dmgWheelMsg[s] = ''; dmgRenderWheel(s); damageScheduleComparison(); return; }
+  const slot = e.target.closest('[data-dmg-equip-slot]');
+  if (slot) { const [side, s] = slot.dataset.dmgEquipSlot.split(':'); dmgEquipOpen[side] = dmgEquipOpen[side] === s ? null : s; dmgRenderEquip(side); return; }
+  const close = e.target.closest('[data-dmg-equip-close]');
+  if (close) { const side = close.dataset.dmgEquipClose; const s = dmgEquipOpen[side]; dmgEquipOpen[side] = null; dmgRenderEquip(side); damageRoot(side).querySelector(`[data-dmg-equip-slot="${side}:${s}"]`)?.focus(); return; }
+  const item = e.target.closest('[data-dmg-equip-pick]');
+  if (item) {
+    const [side, s, ...nome] = item.dataset.dmgEquipPick.split(':');
+    const n = nome.join(':');
+    if (n) dmgExtras[side].equip[s] = n; else delete dmgExtras[side].equip[s];
+    dmgEquipOpen[side] = null; dmgRenderEquip(side);
+    damageRoot(side).querySelector(`[data-dmg-equip-slot="${side}:${s}"]`)?.focus({ preventScroll: true });
+    damageScheduleComparison(); return;
+  }
+  const eclear = e.target.closest('[data-dmg-equip-clear]');
+  if (eclear) { const s = eclear.dataset.dmgEquipClear; Object.assign(dmgExtras[s], { equip: {}, onslaught: 0, transcendence: 0 }); dmgEquipOpen[s] = null; dmgRenderEquip(s); damageScheduleComparison(); }
+});
+$('#p-damage').addEventListener('contextmenu', (e) => {
+  const slice = e.target.closest('[data-dmg-wheel-slice]');
+  if (!slice) return;
+  e.preventDefault();
+  const [side, id] = slice.dataset.dmgWheelSlice.split(':');
+  dmgToggleSlice(side, id);
+});
+$('#p-damage').addEventListener('keydown', (e) => {
+  const slice = e.target.closest?.('[data-dmg-wheel-slice]');
+  if (slice && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); const [side, id] = slice.dataset.dmgWheelSlice.split(':'); if (e.key === ' ') dmgToggleSlice(side, id); else dmgSelectSlice(side, id); }
+  if (e.key === 'Escape') for (const side of ['a', 'b']) if (dmgEquipOpen[side] && damageRoot(side).contains(e.target)) { const s = dmgEquipOpen[side]; dmgEquipOpen[side] = null; dmgRenderEquip(side); damageRoot(side).querySelector(`[data-dmg-equip-slot="${side}:${s}"]`)?.focus(); }
+});
+$('#p-damage').addEventListener('input', (e) => {
+  const busca = e.target.closest?.('[data-dmg-equip-search]');
+  if (!busca) return;
+  const q = dmgNorm(busca.value);
+  const lista = busca.parentElement.querySelectorAll('li[data-name]');
+  lista.forEach((li) => { li.hidden = q && !li.dataset.name.includes(q); });
+  dmgLoadIcons(busca.parentElement);
+});
+$('#p-damage').addEventListener('change', (e) => {
+  const t = e.target;
+  if (t.matches('[data-dmg-tier]')) { const [side, k] = t.dataset.dmgTier.split(':'); dmgExtras[side][k] = Number(t.value) || 0; dmgRenderEquip(side); damageRoot(side).querySelector(`[data-dmg-tier="${side}:${k}"]`)?.focus({ preventScroll: true }); }
+  if (t.matches('[data-damage-weapon]')) { const side = t.closest('[data-damage-build]').dataset.damageBuild; const tabela = dmgProfTableName(side); if (tabela !== dmgExtras[side].profTable) { dmgExtras[side].prof = {}; dmgExtras[side].profTable = tabela; } dmgRenderExtras(side); }
+  if (t.matches('#damage-character [data-damage-stat="level"]')) for (const s of ['a', 'b']) if (dmgData) dmgRenderWheel(s);
+  if (t.matches('[data-dmg-wheel-pts]')) { const [side, id] = t.dataset.dmgWheelPts.split(':'); dmgWheelApply(side, id, t.value, `[data-dmg-wheel-pts="${side}:${id}"]`); }
+  if (t.matches('[data-dmg-wheel-max]')) {
+    const side = t.dataset.dmgWheelMax;
+    const v = t.value.trim() === '' ? null : Math.max(0, Math.min(4000, Math.round(Number(t.value) || 0)));
+    dmgExtras[side].wheelMax = v;
+    const usados = Object.values(dmgExtras[side].wheel).reduce((a, b) => a + b, 0);
+    dmgWheelMsg[side] = v !== null && usados > v ? `Há ${usados} pontos distribuídos, mais que os ${v} disponíveis. Tire pontos das fatias externas.` : '';
+    dmgRenderWheel(side); damageRoot(side).querySelector(`[data-dmg-wheel-max="${side}"]`)?.focus({ preventScroll: true });
+  }
+});
+
+
 go(location.hash || 'home', false);
+addEventListener('load', () => setTimeout(() => { if (!twitchPlayer) initTwitchEmbed(); }, 1500), { once: true });
 renderClock();
 setInterval(renderClock, 1000);
 loadLatestNewsSlide();
