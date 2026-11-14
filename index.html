@@ -22,9 +22,13 @@
 <meta name="twitter:title" content="PORTAL RPUTUH | Consulta Tibia">
 <meta name="twitter:description" content="Consultas, quests, builds e conteúdo para a comunidade Tibiana.">
 <meta name="twitter:image" content="https://rputuh.com.br/Miniatura-whatsapp.jpg">
-<link rel="icon" type="image/png" href="Icone%20Site.png">
-<link rel="apple-touch-icon" href="Icone%20Site.png"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Pixelify+Sans:wght@500;700&display=swap">
+<link rel="icon" type="image/png" sizes="32x32" href="icone-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" as="image" href="heroi-fortaleza.webp" type="image/webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pixelify+Sans:wght@500;700&display=swap">
 <style>
 :root{
   --bg:#100d0b; --panel:#1b1714; --panel2:#100e0d; --line-hi:#70401b; --line-lo:#080706;
@@ -73,7 +77,7 @@ nav button[aria-selected=true]{color:#1a1007;background:linear-gradient(180deg,#
 .site-footer nav{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;margin:0}
 .site-footer nav a,.site-footer-top{color:var(--muted)}
 .site-footer nav a:hover,.site-footer-top:hover{color:var(--gold)}
-.landing-hero{position:relative;isolation:isolate;height:calc(100vh - 74px);min-height:650px;max-height:900px;overflow:hidden;display:block;margin:0 0 1rem;padding:0;border:0;border-radius:0;background-color:#120b08;background-image:linear-gradient(90deg,#090706de 0%,#0b0805a8 32%,#100a0640 60%,#09070612 100%),linear-gradient(0deg,#070605d9 0%,transparent 34%),url("Herói do Dragão na Fortaleza em Chamas.png");background-size:cover,cover,cover;background-position:center,center,center 42%;background-repeat:no-repeat;box-shadow:none}
+.landing-hero{position:relative;isolation:isolate;height:calc(100vh - 74px);min-height:650px;max-height:900px;overflow:hidden;display:block;margin:0 0 1rem;padding:0;border:0;border-radius:0;background-color:#120b08;background-image:linear-gradient(90deg,#090706de 0%,#0b0805a8 32%,#100a0640 60%,#09070612 100%),linear-gradient(0deg,#070605d9 0%,transparent 34%),url("heroi-fortaleza.jpg");background-image:linear-gradient(90deg,#090706de 0%,#0b0805a8 32%,#100a0640 60%,#09070612 100%),linear-gradient(0deg,#070605d9 0%,transparent 34%),image-set(url("heroi-fortaleza.webp") type("image/webp"),url("heroi-fortaleza.jpg") type("image/jpeg"));background-size:cover,cover,cover;background-position:center,center,center 42%;background-repeat:no-repeat;box-shadow:none}
 .landing-hero{display:none}
 body.home-mode .landing-hero{display:block}
 .landing-hero:before{content:"";position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at 45% 42%,transparent 12%,#08060536 66%),linear-gradient(0deg,#070605b8 0%,transparent 28%)}
@@ -428,12 +432,108 @@ header{position:relative;z-index:100;overflow:visible}
 @media(max-width:36rem){.damage-fields{grid-template-columns:minmax(0,1fr)}.damage-fields .damage-field-wide{grid-column:auto}.damage-row,.damage-perk-row,.damage-target-row{grid-template-columns:minmax(0,1fr) minmax(3.8rem,.55fr) auto}.damage-row select:first-child{grid-column:1/-1}.damage-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.damage-result table{font-size:.78rem}.damage-result th,.damage-result td{padding:.35rem .2rem}}
 @media(max-width:36rem){.damage-compare-cards{grid-template-columns:minmax(0,1fr)}.damage-compare-row{grid-template-columns:4.25rem minmax(0,1fr) 4rem}.damage-comparison-head{align-items:flex-start;flex-direction:column}}
 @media(max-width:32rem){.damage-vocation-dialog-inner{padding:1rem}.damage-vocation-choices{grid-template-columns:minmax(0,1fr)}}
+/* ===== Camada visual moderna (sobrepõe o estilo base; mantém layout e identidade) ===== */
+:root{
+  --body:"Inter","Segoe UI",system-ui,sans-serif;
+  --bg:#0c0a09; --panel:#16120fcc; --panel2:#ffffff06;
+  --text:#f5efe8; --muted:#a89c90; --gold:#ff8a1f; --gold-2:#ffb547;
+  --border:#ffffff14; --border-hi:#ff8a1f66;
+  --radius:16px; --radius-sm:10px;
+  --shadow:0 1px 0 #ffffff0d inset,0 10px 30px -12px #000c,0 2px 6px -2px #0008;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+html{scroll-behavior:smooth}
+body{font-size:1rem;line-height:1.6;letter-spacing:-.005em;-webkit-font-smoothing:antialiased;
+  background-color:var(--bg);
+  background-image:radial-gradient(60rem 40rem at 10% -10%,#ff6a0026,transparent 60%),radial-gradient(50rem 35rem at 100% 0%,#c2410c1f,transparent 60%),radial-gradient(40rem 30rem at 50% 110%,#7c2d1214,transparent 60%);
+  background-size:auto;background-attachment:fixed}
+::selection{background:#ff8a1f55;color:#fff}
+:focus-visible{outline:2px solid var(--gold-2);outline-offset:3px;border-radius:6px}
+a{transition:color .15s var(--ease)}
+h3{font-weight:700;letter-spacing:.01em}
+
+/* Cabeçalho em vidro */
+header{background:#0c0a09b8;-webkit-backdrop-filter:saturate(160%) blur(14px);backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--border);box-shadow:0 8px 30px -18px #000}
+@media (min-width:75.01rem){
+  /* Cabeçalho em linha: logo | menu | relógio e Yasir (evita sobreposição do menu centralizado em absoluto) */
+  header{position:sticky;top:0;z-index:50;flex-wrap:nowrap;gap:1rem;padding:.35rem 1.5rem}
+  header>a:first-child{flex:none}
+  .header-navigation{position:static;left:auto;transform:none;flex:1 1 auto;min-width:0;width:auto;max-width:none;justify-content:center;order:1}
+  .header-utilities{order:2;flex:none;margin-left:0;transform:none}
+  .top-links{gap:.15rem}
+  .top-links a,.community-dropdown>summary,.top-links .live-nav-link{font-size:.88rem;padding:.42rem .62rem}
+  .channel-links{display:none} /* os canais continuam no rodapé */
+}
+@media (min-width:75.01rem) and (max-width:90rem){.site-logo{width:6.25rem}.header-utilities .yasir-shortcut span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.header-utilities .yasir-shortcut{min-width:0;padding:.3rem .45rem}.top-links a,.community-dropdown>summary,.top-links .live-nav-link{font-size:.82rem;padding:.38rem .48rem}}
+@media (min-width:110rem){.channel-links{display:flex}}
+.top-links a,.community-dropdown>summary,.channel-links a{border-radius:999px;font-weight:600;transition:background .15s var(--ease),color .15s var(--ease)}
+.top-links a:hover,.community-dropdown>summary:hover,.channel-links a:hover{background:#ffffff0f;color:var(--text)}
+.top-links a[aria-current="page"]{background:linear-gradient(135deg,var(--gold-2),var(--gold));color:#1a0f05;box-shadow:0 4px 16px -4px #ff8a1f99}
+.top-links .live-nav-link{border-radius:999px;border-color:var(--border);background:#ffffff08;font-family:var(--body)}
+.header-clock{border-color:var(--border);border-radius:var(--radius-sm);background:#ffffff08;box-shadow:none;font-family:var(--body)}
+.header-clock time{font-family:var(--body)}
+.header-clock i{background:var(--border)}
+.mobile-menu-toggle{border-color:var(--border)!important;border-radius:var(--radius-sm)!important;background:#ffffff08!important;transition:border-color .15s var(--ease)}
+.mobile-menu-toggle:hover,.mobile-menu-toggle[aria-expanded="true"]{border-color:var(--border-hi)!important}
+
+/* Painéis e cartões */
+.panel{background:linear-gradient(180deg,#1a1512e6,#120f0de6);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:1.4rem}
+.char-profile-card,.char-xp-tracker{border-color:var(--border);border-radius:var(--radius);background:linear-gradient(180deg,#1a1512,#131010);box-shadow:var(--shadow)}
+.char-xp-card,.char-xp-chart,.char-xp-level,.char-xp-forecast,.char-xp-table{border-color:var(--border);border-radius:var(--radius-sm);background:#ffffff05}
+.stat{border:1px solid var(--border);border-radius:var(--radius-sm);background:#ffffff05;padding:.7rem .85rem;transition:border-color .2s var(--ease),background .2s var(--ease)}
+.stat:hover{border-color:#ffffff24;background:#ffffff08}
+.stat dt{font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.result{border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:var(--radius-sm);background:#ffffff06}
+.live-offline,.damage-source-note{border-color:var(--border);border-radius:var(--radius-sm)}
+.quest-item{border-color:var(--border);border-radius:var(--radius-sm);background:#ffffff05;font-family:var(--body);transition:transform .18s var(--ease),border-color .18s var(--ease),background .18s var(--ease),box-shadow .18s var(--ease)}
+.quest-item:hover{transform:translateY(-2px);border-color:var(--border-hi);background:#ff8a1f0d;box-shadow:0 10px 24px -14px #ff8a1f80;color:var(--text)}
+
+/* Formulários e botões */
+input,select,textarea{border:1px solid var(--border);border-radius:var(--radius-sm);background:#0000004d;transition:border-color .15s var(--ease),box-shadow .15s var(--ease)}
+input,select{padding:.65rem .9rem}
+input:hover,select:hover,textarea:hover{border-color:#ffffff2e}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px #ff8a1f26}
+input::placeholder{color:#8a7f75}
+select option{background:#16120f}
+.btn,.landing-cta{border:0;border-radius:var(--radius-sm);background:linear-gradient(135deg,var(--gold-2),var(--gold) 55%,#f2600a);color:#1a0f05;font-family:var(--body);font-weight:700;box-shadow:0 1px 0 #ffffff59 inset,0 8px 20px -8px #ff7a1499;transition:transform .15s var(--ease),box-shadow .15s var(--ease),filter .15s var(--ease)}
+.btn{padding:.65rem 1.1rem}
+.btn:hover,.landing-cta:hover{background:linear-gradient(135deg,var(--gold-2),var(--gold) 55%,#f2600a);filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 1px 0 #ffffff59 inset,0 12px 26px -8px #ff7a14b3}
+.btn:active,.landing-cta:active{transform:translateY(0)}
+.btn:disabled{transform:none;filter:none}
+nav button{border-color:var(--border);border-radius:999px;background:#ffffff08}
+nav button:hover{border-color:#ffffff2e}
+nav button[aria-selected=true]{background:linear-gradient(135deg,var(--gold-2),var(--gold));border-color:transparent}
+
+/* Tabelas */
+table{border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums}
+th{background:#15110e;color:var(--muted);font-size:.76rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-bottom:1px solid var(--border)}
+th,td{padding:.6rem .8rem;border-bottom:1px solid #ffffff0a}
+tbody tr{transition:background .12s var(--ease)}
+tbody tr:hover td{background:#ffffff07}
+
+/* Destaque da página inicial */
+.carousel-panel{border:1px solid #ffffff1f;border-radius:20px;background:linear-gradient(135deg,#0c0a09b3,#0c0a0980);-webkit-backdrop-filter:blur(12px) saturate(140%);backdrop-filter:blur(12px) saturate(140%);box-shadow:0 30px 80px -20px #000e,0 0 0 1px #ff8a1f1a,inset 0 1px #ffffff14}
+.landing-copy .eyebrow{display:inline-block;padding:.3rem .8rem;border:1px solid #ffffff24;border-radius:999px;background:#ffffff0d;font-size:clamp(.78rem,1.3vw,.92rem);letter-spacing:.14em}
+.landing-copy p{color:#ddd3c8}
+.landing-cta{padding:.8rem 1.4rem}
+.carousel-controls button{border:1px solid #ffffff2e;background:#0c0a0999;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:background .15s var(--ease),border-color .15s var(--ease)}
+.carousel-controls button:hover{border-color:var(--gold);background:var(--gold)}
+.stream-widget,.youtube-widget{border-radius:var(--radius-sm)}
+.live-page-video,.live-page-chat{border-color:var(--border);border-radius:var(--radius-sm)}
+
+/* Rodapé */
+.site-footer{border-top:1px solid var(--border);border-radius:var(--radius) var(--radius) 0 0;background:#ffffff05}
+
+/* Barra de rolagem */
+*{scrollbar-width:thin;scrollbar-color:#ffffff26 transparent}
+
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <a href="#home" aria-label="RPUTUH — início"><img class="site-logo" src="rputuh-logo.png" alt="Gameplay RPUTUH"></a>
+    <a href="#home" aria-label="RPUTUH — início"><picture><source srcset="rputuh-logo.webp" type="image/webp"><img class="site-logo" src="rputuh-logo.png" alt="Gameplay RPUTUH" width="150" height="150" fetchpriority="high"></picture></a>
     <div class="header-utilities">
       <div class="header-clock" role="group" aria-label="Ver horário atual na Terra e no Tibia"><span><small>Terra</small><time id="corner-earth-time">--:--</time></span><i aria-hidden="true"></i><span><small>Tibia</small><time id="corner-tibia-time">--:--</time></span></div>
       <button class="yasir-shortcut" id="yasir-open" type="button" aria-haspopup="dialog" aria-controls="yasir-dialog" aria-label="Localizar Yasir, ver os mundos com Oriental Trader ativa">
@@ -689,7 +789,6 @@ header{position:relative;z-index:100;overflow:visible}
   </footer>
 </div>
 
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
 <script>
 const API = 'https://api.tibiadata.com/v5';
 const WIKI_API = 'https://tibia.fandom.com/api.php';
@@ -885,6 +984,7 @@ function renderLivePage() {
   try { twitchPlayer?.play(); } catch {}
 }
 $('#live-slide').addEventListener('click', () => go('live'));
+let twitchScriptState = 'ocioso';
 function initTwitchEmbed() {
   if (twitchPlayer) return;
   const host = window.location.hostname;
@@ -892,6 +992,19 @@ function initTwitchEmbed() {
     $('#stream-status').textContent = 'Bem-vindo';
     setLiveNavStatus(false);
     $('#twitch-player').innerHTML = '<div class="embed-help"><b>Bem-vindo ao RPUTUH!</b><span>A transmissão de @rputuh aparece neste espaço quando o site estiver publicado e o canal estiver ao vivo.</span><small>O player da Twitch precisa de um domínio HTTPS ou localhost.</small></div>';
+    return;
+  }
+  if (!window.Twitch?.Player && twitchScriptState !== 'erro') {
+    // O script da Twitch é carregado de forma assíncrona para não atrasar a renderização da página.
+    if (twitchScriptState === 'ocioso') {
+      twitchScriptState = 'carregando';
+      const s = document.createElement('script');
+      s.src = 'https://player.twitch.tv/js/embed/v1.js';
+      s.async = true;
+      s.onload = () => { twitchScriptState = 'pronto'; initTwitchEmbed(); };
+      s.onerror = () => { twitchScriptState = 'erro'; initTwitchEmbed(); };
+      document.head.appendChild(s);
+    }
     return;
   }
   if (!window.Twitch?.Player) {
@@ -1906,7 +2019,7 @@ let worldsReady = null;
 function ensureWorlds() {
   return (worldsReady ??= api('/worlds').then(({ worlds }) => {
     const list = (worlds.regular_worlds ?? []).slice().sort((a, b) => a.name.localeCompare(b.name));
-    const opts = list.map((w) => `<option value="${esc(w.name)}">${esc(w.name)} (${w.players_online_count} online)</option>`).join('');
+    const opts = list.map((w) => `<option value="${esc(w.name)}">${esc(w.name)} (${w.players_online} online)</option>`).join('');
     $('#sel-world').innerHTML = opts; $('#sel-sw').innerHTML = opts;
     $('#sel-cat').innerHTML = Object.entries(CATS).map(([k, v]) => `<option value="${k}">${v}</option>`).join('');
   }).catch((e) => { worldsReady = null; throw e; }));
@@ -1926,12 +2039,12 @@ function renderOnline(world) {
   const f = $('#flt-world').value.trim().toLowerCase();
   const list = online.filter((p) => !f || p.name.toLowerCase().includes(f) || p.vocation.toLowerCase().includes(f));
   $('#out-world').innerHTML = `
-    <p><span class="dot ${world.status === 'online' ? 'on' : ''}"></span><b>${esc(world.name)}</b> — ${esc(world.players_online_count)} jogadores online
+    <p><span class="dot ${world.status === 'online' ? 'on' : ''}"></span><b>${esc(world.name)}</b> — ${esc(world.players_online)} jogadores online
       • ${esc(world.pvp_type)} • ${esc(world.location)}</p>
     <div class="tbl"><table><thead><tr><th>Nome</th><th>Vocação</th><th class="n">Nível</th></tr></thead><tbody>
       ${list.map((p) => `<tr><td>${charLink(p.name)}</td><td>${esc(p.vocation)}</td><td class="n">${esc(p.level)}</td></tr>`).join('') || '<tr><td colspan="3">Nenhum jogador encontrado.</td></tr>'}
     </tbody></table></div>`;
-  $('#out-world').dataset.world = JSON.stringify({ name: world.name, status: world.status, players_online_count: world.players_online_count, pvp_type: world.pvp_type, location: world.location });
+  $('#out-world').dataset.world = JSON.stringify({ name: world.name, status: world.status, players_online: world.players_online, pvp_type: world.pvp_type, location: world.location });
 }
 $('#sel-world').addEventListener('change', () => go('world/' + encodeURIComponent($('#sel-world').value)));
 $('#flt-world').addEventListener('input', () => {
