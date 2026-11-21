@@ -1,10 +1,10 @@
 ﻿name,normalized_name,world,level,vocation,guild_name,guild_rank,residence,last_login,achievement_points,sex,account_status,house,married_to,first_seen_at,last_seen_at,profile_updated_at,profile_status
 Aarthur Pendragon,aarthur pendragon,Gladera,68,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Abby Marley Mallais,abby marley mallais,Gladera,75,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Abis Graunta,abis graunta,Gladera,635,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T17:27:32Z,,pending
+Abis Graunta,abis graunta,Gladera,636,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T17:27:32Z,,pending
 Abreexx,abreexx,Gladera,175,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
 Abul Djabar,abul djabar,Gladera,1285,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Abylenee,abylenee,Gladera,1081,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
+Abylenee,abylenee,Gladera,1084,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T23:10:05Z,,pending
 Abyss Sol,abyss sol,Gladera,396,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-17T23:29:35Z,,pending
 Adasqu,adasqu,Gladera,861,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Adran Karto,adran karto,Gladera,8,Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
@@ -14,7 +14,7 @@ Afgooi,afgooi,Gladera,130,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-
 Agallon Mafafas,agallon mafafas,Gladera,750,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Agatery,agatery,Gladera,46,Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-20T01:45:50Z,,pending
 Aguantador,aguantador,Gladera,8,None,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
-Aidualc Ana,aidualc ana,Gladera,171,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
+Aidualc Ana,aidualc ana,Gladera,174,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T23:10:05Z,,pending
 Aikuros Bloth,aikuros bloth,Gladera,8,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Aimismito,aimismito,Gladera,487,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Ajiro Shimpei,ajiro shimpei,Gladera,376,Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-18T17:13:21Z,,pending
@@ -27,10 +27,10 @@ Aldum Kivenaker,aldum kivenaker,Gladera,275,Elite Knight,,,,,,,,,,2026-11-15T21:
 Alesek,alesek,Gladera,1199,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-18T17:13:21Z,,pending
 Alex of Dragons,alex of dragons,Gladera,88,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Alex Oso,alex oso,Gladera,25,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-13T21:59:42Z,,pending
-Alex Reider,alex reider,Gladera,634,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
-Alex Zodria,alex zodria,Gladera,286,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
+Alex Reider,alex reider,Gladera,637,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
+Alex Zodria,alex zodria,Gladera,291,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Algarth Meza,algarth meza,Gladera,100,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-14T02:24:18Z,,pending
-Ali Jose,ali jose,Gladera,760,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
+Ali Jose,ali jose,Gladera,765,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Alinin Tura,alinin tura,Gladera,143,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Alrin Eras,alrin eras,Gladera,153,Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Alucard Darknes,alucard darknes,Gladera,419,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-15T21:01:09Z,,pending
@@ -45,8 +45,9 @@ Amigo Fura Olho,amigo fura olho,Gladera,29,Paladin,,,,,,,,,,2026-11-14T22:19:43Z
 Amizas Thornus,amizas thornus,Gladera,8,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Amonrak,amonrak,Gladera,336,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Anakhim,anakhim,Gladera,867,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Anarady Gwen,anarady gwen,Gladera,131,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Anayi Milley,anayi milley,Gladera,264,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-20T18:35:38Z,,pending
-Ancient Electro,ancient electro,Gladera,1088,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
+Ancient Electro,ancient electro,Gladera,1089,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
 Andre Swordmaster,andre swordmaster,Gladera,221,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Aneczka Aneczka,aneczka aneczka,Gladera,75,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-16T20:25:18Z,,pending
 Anelysgo,anelysgo,Gladera,618,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-13T21:59:42Z,,pending
@@ -72,15 +73,15 @@ Arctic Ice Queendrake,arctic ice queendrake,Gladera,182,Master Sorcerer,,,,,,,,,
 Arctic von Floyd,arctic von floyd,Gladera,90,Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Areus Kira,areus kira,Gladera,60,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Arfanor,arfanor,Gladera,314,Royal Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-19T18:59:45Z,,pending
-Argo Lawyna,argo lawyna,Gladera,382,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-20T18:35:38Z,,pending
+Argo Lawyna,argo lawyna,Gladera,383,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T23:10:05Z,,pending
 Ariel Lanceloth,ariel lanceloth,Gladera,217,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Ark Leik,ark leik,Gladera,65,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-20T01:45:50Z,,pending
-Arkus Zlor,arkus zlor,Gladera,343,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
+Arkus Zlor,arkus zlor,Gladera,345,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Arqueiro do Fumo,arqueiro do fumo,Gladera,534,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Arrow Blacksmith,arrow blacksmith,Gladera,84,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Arrqueiro Verde,arrqueiro verde,Gladera,167,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-20T18:35:38Z,,pending
 Artemis Dark Chronos,artemis dark chronos,Gladera,122,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-16T20:25:18Z,,pending
-Arth Spectrum,arth spectrum,Gladera,267,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
+Arth Spectrum,arth spectrum,Gladera,268,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T23:10:05Z,,pending
 Arthak Cirdan,arthak cirdan,Gladera,577,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T01:45:50Z,,pending
 Arukan,arukan,Gladera,602,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Arwen Moonshadow,arwen moonshadow,Gladera,115,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
@@ -94,25 +95,27 @@ Assassin Matatudo,assassin matatudo,Gladera,163,Royal Paladin,,,,,,,,,,2026-11-2
 Aster Zahan,aster zahan,Gladera,148,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-18T17:13:21Z,,pending
 Astro Fist,astro fist,Gladera,56,Exalted Monk,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Asukinha,asukinha,Gladera,224,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Atemis,atemis,Gladera,53,Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
+Atemis,atemis,Gladera,60,Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T23:10:05Z,,pending
 Atolfinho,atolfinho,Gladera,55,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Attaki,attaki,Gladera,801,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-21T09:43:17Z,,pending
 Aura Zedrin,aura zedrin,Gladera,127,Elder Druid,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Aura'ice,aura'ice,Gladera,20,Elder Druid,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Aurakas Jerleel,aurakas jerleel,Gladera,310,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Auror Avaloc,auror avaloc,Gladera,415,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-20T09:58:14Z,,pending
+Ava Sitter,ava sitter,Gladera,154,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Avalon Kes,avalon kes,Gladera,160,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Avas Jerio,avas jerio,Gladera,29,Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Awsmia,awsmia,Gladera,385,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-19T00:19:21Z,,pending
 Axe The Giantkiller,axe the giantkiller,Gladera,212,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-20T18:35:38Z,,pending
 Axiris Draska,axiris draska,Gladera,853,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-21T09:43:17Z,,pending
 Aya Aixa,aya aixa,Gladera,70,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
+Aya Kito,aya kito,Gladera,71,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Ayler,ayler,Gladera,193,Paladin,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-21T09:43:17Z,,pending
 Azgair Zoldyck,azgair zoldyck,Gladera,788,Elder Druid,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T01:28:19Z,,pending
 Azin aderek,azin aderek,Gladera,34,Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Azthran,azthran,Gladera,978,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T00:19:21Z,,pending
 Aztrev,aztrev,Gladera,846,Master Sorcerer,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
-Azuki Trel,azuki trel,Gladera,34,Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
+Azuki Trel,azuki trel,Gladera,40,Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Babal Gand,babal gand,Gladera,118,Sorcerer,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Babiie Blue,babiie blue,Gladera,279,Elder Druid,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Badtimes,badtimes,Gladera,533,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
@@ -129,6 +132,7 @@ Bara de pan,bara de pan,Gladera,691,Elite Knight,,,,,,,,,,2026-11-20T09:58:14Z,2
 Barlas de Dark,barlas de dark,Gladera,108,Exalted Monk,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Barn Ampib,barn ampib,Gladera,70,Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Barnabyn,barnabyn,Gladera,113,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
+Batooters,batooters,Gladera,16,Monk,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Beelzeboss Royal,beelzeboss royal,Gladera,499,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-15T21:01:09Z,,pending
 Beermonk,beermonk,Gladera,159,Exalted Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Befitaa pro,befitaa pro,Gladera,197,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-15T21:01:09Z,,pending
@@ -141,7 +145,7 @@ Best Donko Las,best donko las,Gladera,140,Elder Druid,,,,,,,,,,2026-11-11T18:41:
 Beta Alpha Gamma,beta alpha gamma,Gladera,35,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Bevon Siteus knight,bevon siteus knight,Gladera,311,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Bgladz,bgladz,Gladera,53,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-17T23:29:35Z,,pending
-Bhishma Cross,bhishma cross,Gladera,115,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T00:19:21Z,,pending
+Bhishma Cross,bhishma cross,Gladera,127,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Bielzinho Pitica,bielzinho pitica,Gladera,311,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Big Bad Dave,big bad dave,Gladera,30,Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-16T20:25:18Z,,pending
 Big brockie,big brockie,Gladera,72,Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
@@ -149,13 +153,14 @@ Bilbo Smaug Slayer,bilbo smaug slayer,Gladera,171,Elite Knight,,,,,,,,,,2026-11-
 Bilokasz,bilokasz,Gladera,2103,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T00:19:21Z,,pending
 Bisk the White,bisk the white,Gladera,242,Elder Druid,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-21T17:27:32Z,,pending
 Bjode Xgladera,bjode xgladera,Gladera,29,Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Bjoyca Mage,bjoyca mage,Gladera,853,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-18T07:20:56Z,,pending
+Bjoyca Mage,bjoyca mage,Gladera,857,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Blackei,blackei,Gladera,455,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-15T15:38:52Z,,pending
 Blackei Sorc,blackei sorc,Gladera,189,Master Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Blackstorm Jimmi,blackstorm jimmi,Gladera,24,Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Blackxnake,blackxnake,Gladera,561,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
 Blade Conjurer,blade conjurer,Gladera,49,Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-15T21:01:09Z,,pending
 Bladhet,bladhet,Gladera,248,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T17:27:32Z,,pending
+Blakjcks,blakjcks,Gladera,411,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Blazerok Night,blazerok night,Gladera,16,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Blittzt,blittzt,Gladera,34,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-16T01:59:32Z,,pending
 Blue Sword,blue sword,Gladera,126,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -165,6 +170,7 @@ Bob Benedictus,bob benedictus,Gladera,615,Elder Druid,,,,,,,,,,2026-11-19T00:19:
 Bob Fusion,bob fusion,Gladera,172,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Bobuz,bobuz,Gladera,460,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-20T01:45:50Z,,pending
 Bocho fly,bocho fly,Gladera,136,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
+Bodhidharma Grio,bodhidharma grio,Gladera,32,Exalted Monk,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Boimega,boimega,Gladera,82,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Bolzano Weierstrass,bolzano weierstrass,Gladera,424,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-14T22:19:43Z,,pending
 Bongo of Destiny,bongo of destiny,Gladera,415,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T09:58:14Z,,pending
@@ -188,40 +194,41 @@ Butoski,butoski,Gladera,51,Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:
 Caboose,caboose,Gladera,426,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Calis Fox,calis fox,Gladera,384,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Calista Moonfox,calista moonfox,Gladera,301,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Camo Yngtormo,camo yngtormo,Gladera,180,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
+Camo Yngtormo,camo yngtormo,Gladera,182,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
 Caobo,caobo,Gladera,217,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
-Caozs,caozs,Gladera,237,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-18T17:13:21Z,,pending
+Caozs,caozs,Gladera,240,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Capibara el druid,capibara el druid,Gladera,75,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Capibara el knight,capibara el knight,Gladera,169,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Capibara el sorcerer,capibara el sorcerer,Gladera,647,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-20T01:45:50Z,,pending
+Capibara el sorcerer,capibara el sorcerer,Gladera,650,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T23:10:05Z,,pending
+Capitan Futuro,capitan futuro,Gladera,77,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Carlinhus Fenrir,carlinhus fenrir,Gladera,447,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T09:58:14Z,,pending
 Carp deim,carp deim,Gladera,309,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Cartabio,cartabio,Gladera,104,Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Cashpending,cashpending,Gladera,295,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
 Casous Tare,casous tare,Gladera,8,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Cego Cesn,cego cesn,Gladera,790,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T09:58:14Z,,pending
+Cego Cesn,cego cesn,Gladera,795,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Cevia Marder,cevia marder,Gladera,49,Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-21T17:27:32Z,,pending
-Chad Pros,chad pros,Gladera,463,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-19T00:19:21Z,,pending
+Chad Pros,chad pros,Gladera,466,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T23:10:05Z,,pending
 Chadronet,chadronet,Gladera,1350,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Chamekynha,chamekynha,Gladera,161,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
-Chantecler,chantecler,Gladera,554,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
+Chantecler,chantecler,Gladera,555,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T23:10:05Z,,pending
 Chaos Shrine,chaos shrine,Gladera,225,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-20T01:45:50Z,,pending
 Charles do Brownie,charles do brownie,Gladera,8,Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Charliys,charliys,Gladera,466,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Charro Arrow,charro arrow,Gladera,152,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Cheff Cur,cheff cur,Gladera,25,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Chewie Wolfen,chewie wolfen,Gladera,459,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
-Child of Emery,child of emery,Gladera,970,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
+Child of Emery,child of emery,Gladera,973,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-21T23:10:05Z,,pending
 Choliqueta,choliqueta,Gladera,455,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Choponsitho,choponsitho,Gladera,99,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Chrisostrozomo,chrisostrozomo,Gladera,118,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Chuthy,chuthy,Gladera,37,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Cilo North,cilo north,Gladera,109,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-17T15:55:55Z,,pending
+Cilo North,cilo north,Gladera,113,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T23:10:05Z,,pending
 Circumference,circumference,Gladera,100,Elder Druid,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Ciro Boltada,ciro boltada,Gladera,110,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-20T01:45:50Z,,pending
 Clarintero,clarintero,Gladera,370,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
 Claudi,claudi,Gladera,200,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
-Clicla,clicla,Gladera,460,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Clicla,clicla,Gladera,463,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Clip Death,clip death,Gladera,37,Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Clubber Brokenshield,clubber brokenshield,Gladera,45,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Cnile,cnile,Gladera,373,Master Sorcerer,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
@@ -237,12 +244,13 @@ Cord Kile,cord kile,Gladera,134,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-1
 Coronel Marcial,coronel marcial,Gladera,188,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-21T17:27:32Z,,pending
 Crept sun,crept sun,Gladera,154,Elite Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Crocadilli,crocadilli,Gladera,35,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
+Cromm,cromm,Gladera,485,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Cryn Meroh,cryn meroh,Gladera,192,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-15T21:01:09Z,,pending
 Curl,curl,Gladera,66,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Da Costa,da costa,Gladera,115,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Daedric Arrow,daedric arrow,Gladera,103,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Daemon Mcartur,daemon mcartur,Gladera,24,Paladin,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
-Daer Sain,daer sain,Gladera,474,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
+Daer Sain,daer sain,Gladera,475,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T23:10:05Z,,pending
 Dagobah,dagobah,Gladera,30,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Daldel Tyreth,daldel tyreth,Gladera,170,Exalted Monk,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Daly of Gladera,daly of gladera,Gladera,33,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -256,7 +264,8 @@ Danny Pantom,danny pantom,Gladera,249,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,
 Dante Nightwhisper,dante nightwhisper,Gladera,310,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
 Dantinho,dantinho,Gladera,378,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
 Dar of helsing,dar of helsing,Gladera,363,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
-Darck Nepee,darck nepee,Gladera,65,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-20T18:35:38Z,,pending
+Darck Nepee,darck nepee,Gladera,69,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-21T23:10:05Z,,pending
+Darick Reganaril,darick reganaril,Gladera,248,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Daring Dash,daring dash,Gladera,171,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-17T23:29:35Z,,pending
 Darinnew,darinnew,Gladera,1332,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T18:35:38Z,,pending
 Dark Garitero,dark garitero,Gladera,42,Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
@@ -276,22 +285,24 @@ Darximu Tayder,darximu tayder,Gladera,70,Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,
 Daspimowy,daspimowy,Gladera,633,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-18T17:13:21Z,,pending
 Dedhedmlkman,dedhedmlkman,Gladera,30,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Dekiru,dekiru,Gladera,104,Exalted Monk,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
+Deleve Rusha Facil,deleve rusha facil,Gladera,257,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Demon Titanium,demon titanium,Gladera,196,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
-Demonis Hunter,demonis hunter,Gladera,808,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T01:28:19Z,,pending
-Dena Deschain,dena deschain,Gladera,451,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Demonis Hunter,demonis hunter,Gladera,810,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T01:28:19Z,,pending
+Dena Deschain,dena deschain,Gladera,452,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Denniszitiz,denniszitiz,Gladera,854,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Deokaa,deokaa,Gladera,535,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T09:43:17Z,,pending
 Depewill,depewill,Gladera,25,None,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Derivere,derivere,Gladera,229,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-15T15:38:52Z,,pending
 Desempregado,desempregado,Gladera,120,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-15T21:01:09Z,,pending
-Destruktor Druid,destruktor druid,Gladera,113,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-19T00:19:21Z,,pending
+Destruktor Druid,destruktor druid,Gladera,114,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T23:10:05Z,,pending
 Dinamic Monkey,dinamic monkey,Gladera,160,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-14T17:58:01Z,,pending
 Dipsy Doodle,dipsy doodle,Gladera,530,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
-Diron Thalizo,diron thalizo,Gladera,361,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Diron Thalizo,diron thalizo,Gladera,363,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Disaster weapon,disaster weapon,Gladera,76,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-19T00:19:21Z,,pending
-Disconnecting of Hell,disconnecting of hell,Gladera,140,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T01:28:19Z,,pending
+Disconnecting of Hell,disconnecting of hell,Gladera,141,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T01:28:19Z,,pending
 Disrupxion,disrupxion,Gladera,361,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Divano Rex,divano rex,Gladera,822,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T01:28:19Z,,pending
+Dochas,dochas,Gladera,175,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Dog Thommy,dog thommy,Gladera,223,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Dominican Soul,dominican soul,Gladera,129,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-16T01:59:32Z,,pending
 Don Benedetti,don benedetti,Gladera,223,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T09:43:17Z,,pending
@@ -302,6 +313,7 @@ Doom Fire,doom fire,Gladera,57,Master Sorcerer,,,,,,,,,,2026-11-21T09:43:17Z,202
 Dope Sorc,dope sorc,Gladera,909,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Dopeshot,dopeshot,Gladera,615,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Dotzly Archer,dotzly archer,Gladera,608,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Douguinho,douguinho,Gladera,108,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Draco Maximus,draco maximus,Gladera,158,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Draconius Blaze,draconius blaze,Gladera,90,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Dragon Arkonia,dragon arkonia,Gladera,1157,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
@@ -314,6 +326,7 @@ Dramira,dramira,Gladera,195,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12
 Dramot Luttarkon,dramot luttarkon,Gladera,8,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Dran Mix,dran mix,Gladera,1005,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-18T07:20:56Z,,pending
 Draway,draway,Gladera,26,Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
+Dream of Dragoon,dream of dragoon,Gladera,215,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Dreth Sasus,dreth sasus,Gladera,391,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Drocan snow,drocan snow,Gladera,172,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-17T23:29:35Z,,pending
 Droidd,droidd,Gladera,73,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
@@ -327,7 +340,7 @@ Druida Leviatan,druida leviatan,Gladera,160,Druid,,,,,,,,,,2026-11-21T17:27:32Z,
 Du Samus,du samus,Gladera,8,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Ducontra,ducontra,Gladera,120,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Dukhe,dukhe,Gladera,350,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
-Duryn Sons palamito,duryn sons palamito,Gladera,117,Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
+Duryn Sons palamito,duryn sons palamito,Gladera,119,Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
 Durzak do folk,durzak do folk,Gladera,181,Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Dyh Luh,dyh luh,Gladera,113,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Dyrho,dyrho,Gladera,162,Elite Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
@@ -351,7 +364,7 @@ Elattar,elattar,Gladera,331,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-1
 Elbarbas junior,elbarbas junior,Gladera,425,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
 Elcitarr,elcitarr,Gladera,1650,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Elder Aldum,elder aldum,Gladera,127,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
-Elder Heero,elder heero,Gladera,971,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
+Elder Heero,elder heero,Gladera,972,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
 Eldramm,eldramm,Gladera,42,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-18T17:13:21Z,,pending
 Eldrestis,eldrestis,Gladera,47,Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Eletrogod,eletrogod,Gladera,249,Royal Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T01:28:19Z,,pending
@@ -369,7 +382,7 @@ Ember Soul,ember soul,Gladera,520,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026
 Empress Junon,empress junon,Gladera,79,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T01:28:19Z,,pending
 Ender Oso,ender oso,Gladera,596,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Engreido,engreido,Gladera,1216,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
-Eninoininaini,eninoininaini,Gladera,146,Exalted Monk,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T17:27:32Z,,pending
+Eninoininaini,eninoininaini,Gladera,147,Exalted Monk,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T17:27:32Z,,pending
 Eolo,eolo,Gladera,68,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-20T18:35:38Z,,pending
 Epharaa,epharaa,Gladera,55,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Erioz,erioz,Gladera,92,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
@@ -377,7 +390,7 @@ Erito Onokishi Masaichi,erito onokishi masaichi,Gladera,766,Elite Knight,,,,,,,,
 Erza Colorada,erza colorada,Gladera,299,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Erzye Shil,erzye shil,Gladera,9,Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Esdeathc vortigen,esdeathc vortigen,Gladera,669,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-20T01:45:50Z,,pending
-Espetrankilho,espetrankilho,Gladera,129,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
+Espetrankilho,espetrankilho,Gladera,129,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T23:10:05Z,,pending
 Estrella Eli,estrella eli,Gladera,200,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Estrellita de Miel,estrellita de miel,Gladera,221,Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Etena Hanorudor,etena hanorudor,Gladera,74,Elder Druid,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
@@ -405,7 +418,7 @@ Fall Lorius,fall lorius,Gladera,32,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2
 Fan'farrao,fan'farrao,Gladera,255,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-18T17:13:21Z,,pending
 Farahom,farahom,Gladera,1159,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Fausto Carmona,fausto carmona,Gladera,28,Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
-Fenix Jacs,fenix jacs,Gladera,332,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Fenix Jacs,fenix jacs,Gladera,333,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Fenomenal Fenomenal,fenomenal fenomenal,Gladera,23,Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Fenta Propofol,fenta propofol,Gladera,72,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Fer Hellish,fer hellish,Gladera,124,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T17:27:32Z,,pending
@@ -420,10 +433,11 @@ Filloner,filloner,Gladera,984,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-
 Finoso,finoso,Gladera,491,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Fiol Ek,fiol ek,Gladera,321,Elite Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Fionandand Blai,fionandand blai,Gladera,141,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-12T18:21:40Z,,pending
+Firloxx,firloxx,Gladera,132,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Flamp,flamp,Gladera,100,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Flecha Insana,flecha insana,Gladera,9,Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
-Foisen,foisen,Gladera,861,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
-Force Magge,force magge,Gladera,270,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
+Foisen,foisen,Gladera,862,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
+Force Magge,force magge,Gladera,275,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
 Forked Damage,forked damage,Gladera,43,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-15T21:01:09Z,,pending
 Forsett,forsett,Gladera,928,Elder Druid,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T01:28:19Z,,pending
 Forsumas,forsumas,Gladera,85,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
@@ -435,9 +449,10 @@ Frosty One,frosty one,Gladera,1098,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,202
 Frozt Moort,frozt moort,Gladera,151,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Full Alchemist Knight,full alchemist knight,Gladera,928,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-18T07:20:56Z,,pending
 Full parallyze,full parallyze,Gladera,349,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
+Fulluf Laphoopia,fulluf laphoopia,Gladera,154,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Furias Dido,furias dido,Gladera,223,Druid,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Furias Monk,furias monk,Gladera,18,Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-19T18:59:45Z,,pending
-Gabbyxs,gabbyxs,Gladera,482,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
+Gabbyxs,gabbyxs,Gladera,486,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
 Gabez cheox,gabez cheox,Gladera,675,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
 Galababa,galababa,Gladera,213,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Gali Cypax,gali cypax,Gladera,26,Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
@@ -451,27 +466,29 @@ Garktod Odin,garktod odin,Gladera,52,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:1
 Garurumonk,garurumonk,Gladera,94,Exalted Monk,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Garylu Jashin,garylu jashin,Gladera,166,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-19T00:19:21Z,,pending
 Gata sin Luna,gata sin luna,Gladera,223,Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
-General John Connor,general john connor,Gladera,305,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
-Geon Fenix,geon fenix,Gladera,585,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-16T20:25:18Z,,pending
+General John Connor,general john connor,Gladera,308,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
+Geon Fenix,geon fenix,Gladera,588,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T23:10:05Z,,pending
 Geralt de Gladera,geralt de gladera,Gladera,128,Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Gerar Aprendiz,gerar aprendiz,Gladera,899,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
+Gerg,gerg,Gladera,182,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Gerune,gerune,Gladera,598,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
 Gewaljano Grunaunna,gewaljano grunaunna,Gladera,116,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Gexynder,gexynder,Gladera,565,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Ghael Ek,ghael ek,Gladera,936,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Ghost Severus,ghost severus,Gladera,14,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Gi witch,gi witch,Gladera,305,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T01:28:19Z,,pending
+Gi witch,gi witch,Gladera,306,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T01:28:19Z,,pending
 Gid Lucione,gid lucione,Gladera,475,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Gitwerc,gitwerc,Gladera,103,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Gladeador Junior,gladeador junior,Gladera,8,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Gladera Cron,gladera cron,Gladera,8,Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
+Gladerita Del Amor,gladerita del amor,Gladera,110,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Gladi Joana,gladi joana,Gladera,657,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Gladtimes,gladtimes,Gladera,74,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Glaiden,glaiden,Gladera,580,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Godlike Leo,godlike leo,Gladera,345,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-17T15:55:55Z,,pending
+Godlike Leo,godlike leo,Gladera,346,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T23:10:05Z,,pending
 Gokhzin,gokhzin,Gladera,100,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Gomessin,gomessin,Gladera,609,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
-Gonfose,gonfose,Gladera,791,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T15:55:55Z,,pending
+Gonfose,gonfose,Gladera,792,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T23:10:05Z,,pending
 Grammatico,grammatico,Gladera,487,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Gran'ell,gran'ell,Gladera,198,Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Grek Dorn,grek dorn,Gladera,73,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
@@ -481,11 +498,13 @@ Gripipoca,gripipoca,Gladera,475,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-1
 Guajo,guajo,Gladera,1017,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Guerrero Mordor,guerrero mordor,Gladera,8,Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Gunwi Kormroyan,gunwi kormroyan,Gladera,401,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T01:28:19Z,,pending
+Guphs'Sky,guphs'sky,Gladera,334,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Gupperella,gupperella,Gladera,33,Druid,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Gustang Warsinger,gustang warsinger,Gladera,513,Royal Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Gustavo Del Angel,gustavo del angel,Gladera,168,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Guty Is Back,guty is back,Gladera,356,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T18:35:38Z,,pending
 Hagane No Roulette,hagane no roulette,Gladera,285,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Hagane No Warcry,hagane no warcry,Gladera,116,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Hagnar Longbear,hagnar longbear,Gladera,146,Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Hakku Silverwolf,hakku silverwolf,Gladera,155,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Haldhr,haldhr,Gladera,828,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
@@ -502,12 +521,15 @@ Hazzus,hazzus,Gladera,859,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15
 Heeraa,heeraa,Gladera,63,Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Heiquan,heiquan,Gladera,118,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Heiromonk,heiromonk,Gladera,160,Exalted Monk,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
-Hell Fredd,hell fredd,Gladera,359,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Hell Fredd,hell fredd,Gladera,364,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Helldown,helldown,Gladera,104,Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
+Helmetdelos Ancianos,helmetdelos ancianos,Gladera,72,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Hendrick von Kleber,hendrick von kleber,Gladera,69,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-20T09:58:14Z,,pending
+Herasios,herasios,Gladera,555,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Heredero Cronika,heredero cronika,Gladera,46,Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Hero Spartan,hero spartan,Gladera,714,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Hero Vo,hero vo,Gladera,961,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
+Heron Evarus,heron evarus,Gladera,43,Monk,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Hexbear,hexbear,Gladera,65,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Hi Cintureo,hi cintureo,Gladera,232,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-21T01:28:19Z,,pending
 Higashi Knight,higashi knight,Gladera,471,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T01:28:19Z,,pending
@@ -519,22 +541,23 @@ Hobolulu Piri,hobolulu piri,Gladera,41,Master Sorcerer,,,,,,,,,,2026-11-21T17:27
 Hodanli,hodanli,Gladera,411,Royal Paladin,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Hombre Azteca,hombre azteca,Gladera,225,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Honey Shine,honey shine,Gladera,319,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
-Horusx,horusx,Gladera,840,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Horusx,horusx,Gladera,841,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Hoth Arel,hoth arel,Gladera,42,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
 Huck Verdinaze,huck verdinaze,Gladera,269,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
+Hugonixx,hugonixx,Gladera,145,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Hxhzoev,hxhzoev,Gladera,42,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-19T10:15:49Z,,pending
-Hyeta,hyeta,Gladera,838,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T09:43:17Z,,pending
+Hyeta,hyeta,Gladera,839,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T09:43:17Z,,pending
 Iarwian,iarwian,Gladera,610,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Ice knith of the shadow,ice knith of the shadow,Gladera,207,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Ice Otsuka,ice otsuka,Gladera,17,Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Icezito knight,icezito knight,Gladera,607,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Ictu,ictu,Gladera,537,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Icy Magik,icy magik,Gladera,545,Elder Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
-Ieza,ieza,Gladera,301,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
+Ieza,ieza,Gladera,302,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Ii Dominate,ii dominate,Gladera,198,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Ii Letal,ii letal,Gladera,644,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Ij Ij,ij ij,Gladera,299,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
-Ikaro Ziroz,ikaro ziroz,Gladera,41,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
+Ikaro Ziroz,ikaro ziroz,Gladera,44,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T23:10:05Z,,pending
 Ikarysz,ikarysz,Gladera,734,Exalted Monk,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-17T23:29:35Z,,pending
 Ikki Fidera,ikki fidera,Gladera,85,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Ill Nino,ill nino,Gladera,264,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
@@ -553,10 +576,10 @@ Ises Aquan,ises aquan,Gladera,8,Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15
 Isidorito,isidorito,Gladera,177,Master Sorcerer,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Isionir Feligolius,isionir feligolius,Gladera,8,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Isis Adel,isis adel,Gladera,33,Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
-Itachi Sharingam,itachi sharingam,Gladera,38,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T01:45:50Z,,pending
+Itachi Sharingam,itachi sharingam,Gladera,38,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T23:10:05Z,,pending
 Itarille,itarille,Gladera,355,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Itaurille,itaurille,Gladera,646,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
-Ithamesil Aulurim,ithamesil aulurim,Gladera,863,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
+Ithamesil Aulurim,ithamesil aulurim,Gladera,864,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
 Itz Methon,itz methon,Gladera,380,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T09:43:17Z,,pending
 Iva Hatsune,iva hatsune,Gladera,22,Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Izato Kaiza,izato kaiza,Gladera,163,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
@@ -564,7 +587,8 @@ Izgif,izgif,Gladera,123,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:
 Iztali forge,iztali forge,Gladera,58,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Jack Dewolfe,jack dewolfe,Gladera,650,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
 Jacob Levy Moreno,jacob levy moreno,Gladera,228,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
-Jaime el duendee,jaime el duendee,Gladera,271,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Jag Fil,jag fil,Gladera,98,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
+Jaime el duendee,jaime el duendee,Gladera,280,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Jamar Amart,jamar amart,Gladera,228,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T09:43:17Z,,pending
 Jane Melvar,jane melvar,Gladera,541,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-14T11:25:50Z,,pending
 Jasper Player,jasper player,Gladera,31,Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
@@ -581,6 +605,7 @@ Jhonson Ek,jhonson ek,Gladera,1080,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,20
 Jhony Barreiro,jhony barreiro,Gladera,913,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T01:45:50Z,,pending
 Jhuly,jhuly,Gladera,258,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-16T01:59:32Z,,pending
 Jiro de Rook,jiro de rook,Gladera,28,None,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
+John Deeoz,john deeoz,Gladera,125,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 John Jairo,john jairo,Gladera,85,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T01:45:50Z,,pending
 John Mcklaine,john mcklaine,Gladera,609,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-14T17:58:01Z,,pending
 Jond Willas,jond willas,Gladera,44,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
@@ -591,6 +616,7 @@ Jughhead,jughhead,Gladera,1282,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-1
 Juk Phin,juk phin,Gladera,252,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T00:19:21Z,,pending
 Juk Sung,juk sung,Gladera,333,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
 Julciak Gladerian,julciak gladerian,Gladera,8,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-16T20:25:18Z,,pending
+Julen Guna,julen guna,Gladera,122,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Julito Tanke,julito tanke,Gladera,317,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Junior Eks,junior eks,Gladera,1002,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Junk Gardna,junk gardna,Gladera,302,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
@@ -611,9 +637,10 @@ Kartagos Hell,kartagos hell,Gladera,537,Royal Paladin,,,,,,,,,,2026-11-11T18:41:
 Karvaduria Lion,karvaduria lion,Gladera,434,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Kassajhin,kassajhin,Gladera,367,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T09:43:17Z,,pending
 Katerine Scarlet,katerine scarlet,Gladera,56,Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
-Kavachi,kavachi,Gladera,444,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
+Kavachi,kavachi,Gladera,447,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T23:10:05Z,,pending
 Kavis Scol,kavis scol,Gladera,761,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-18T17:13:21Z,,pending
 Kayile,kayile,Gladera,142,Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
+Kazatan,kazatan,Gladera,33,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Kaztorjakk,kaztorjakk,Gladera,106,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Keen lisss tooo,keen lisss tooo,Gladera,6,Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Keillenor,keillenor,Gladera,77,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
@@ -649,12 +676,13 @@ Koishi,koishi,Gladera,165,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T
 Kolt Strom,kolt strom,Gladera,172,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Koningin,koningin,Gladera,160,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Kramb,kramb,Gladera,584,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
-Krampuis,krampuis,Gladera,410,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
+Krampuis,krampuis,Gladera,413,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Kranko Barbarian,kranko barbarian,Gladera,172,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-14T22:19:43Z,,pending
 Kratos Skywolker,kratos skywolker,Gladera,50,Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Krawchi,krawchi,Gladera,440,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
 Krombopulos Michael,krombopulos michael,Gladera,117,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Kronie,kronie,Gladera,677,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
+Kruzo Pall,kruzo pall,Gladera,450,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Kurama Kyubi,kurama kyubi,Gladera,25,Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Kurapika Noo,kurapika noo,Gladera,324,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Kurg Krag,kurg krag,Gladera,51,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
@@ -671,10 +699,11 @@ Lady Kepper,lady kepper,Gladera,126,Royal Paladin,,,,,,,,,,2026-11-20T01:45:50Z,
 Lady ludark,lady ludark,Gladera,371,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Lady Samona,lady samona,Gladera,180,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T18:35:38Z,,pending
 Lady The Green,lady the green,Gladera,284,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
+Lady Yasum,lady yasum,Gladera,33,Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Lady yoshio,lady yoshio,Gladera,220,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Laid Comme Diable,laid comme diable,Gladera,114,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Lanzx,lanzx,Gladera,377,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
-Lanzzeer,lanzzeer,Gladera,223,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
+Lanzzeer,lanzzeer,Gladera,226,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Lara Shir,lara shir,Gladera,175,Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Lattyfa,lattyfa,Gladera,103,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Lavia Iron,lavia iron,Gladera,140,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
@@ -686,7 +715,7 @@ Lebohn James,lebohn james,Gladera,407,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35
 Ledzh,ledzh,Gladera,223,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
 Lee Ronron,lee ronron,Gladera,47,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-16T01:59:32Z,,pending
 Leedoty shadow,leedoty shadow,Gladera,55,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Leexy,leexy,Gladera,404,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-20T18:35:38Z,,pending
+Leexy,leexy,Gladera,404,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T23:10:05Z,,pending
 Lego Lah,lego lah,Gladera,230,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T09:43:17Z,,pending
 Lehahel,lehahel,Gladera,418,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Lehahiah,lehahiah,Gladera,94,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -694,21 +723,21 @@ Leisar,leisar,Gladera,104,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T1
 Lejonet fran Norden,lejonet fran norden,Gladera,1006,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Lemao Aluflex,lemao aluflex,Gladera,161,Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T17:27:32Z,,pending
 Lemniscata,lemniscata,Gladera,322,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
-Lemonkcler,lemonkcler,Gladera,734,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Lemonkcler,lemonkcler,Gladera,735,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Lenhord Bakan,lenhord bakan,Gladera,8,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Lenixo Troderbus,lenixo troderbus,Gladera,8,Monk,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
-Lenrimtis,lenrimtis,Gladera,305,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-20T01:45:50Z,,pending
+Lenrimtis,lenrimtis,Gladera,310,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T23:10:05Z,,pending
 Leo Almeida,leo almeida,Gladera,320,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Lery The Green,lery the green,Gladera,678,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Leviia Snas,leviia snas,Gladera,39,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Leya princes,leya princes,Gladera,38,Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Leyenda Viva,leyenda viva,Gladera,857,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Leyenda Viva,leyenda viva,Gladera,858,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Libby Drazo,libby drazo,Gladera,50,Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
-Life Ly,life ly,Gladera,51,Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-13T16:16:56Z,,pending
+Life Ly,life ly,Gladera,57,Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Liindinhasz,liindinhasz,Gladera,31,Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Liittle Soul,liittle soul,Gladera,507,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T01:28:19Z,,pending
 Liiz Fox,liiz fox,Gladera,8,Sorcerer,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
-Lil Bagul,lil bagul,Gladera,176,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T01:28:19Z,,pending
+Lil Bagul,lil bagul,Gladera,180,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T01:28:19Z,,pending
 Lilavathy,lilavathy,Gladera,219,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Linaeth,linaeth,Gladera,596,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T09:43:17Z,,pending
 Linde Mann,linde mann,Gladera,421,Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
@@ -721,9 +750,9 @@ Little kaigen,little kaigen,Gladera,73,Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026
 Little Pepper,little pepper,Gladera,243,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-16T01:59:32Z,,pending
 Little Rise,little rise,Gladera,222,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
 Liuja,liuja,Gladera,729,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-21T17:27:32Z,,pending
-Liustfrix Jesta,liustfrix jesta,Gladera,215,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Liustfrix Jesta,liustfrix jesta,Gladera,216,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Lixtor death,lixtor death,Gladera,87,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-20T01:45:50Z,,pending
-Loadcranes,loadcranes,Gladera,189,Royal Paladin,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
+Loadcranes,loadcranes,Gladera,190,Royal Paladin,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-21T23:10:05Z,,pending
 Locuts retorna,locuts retorna,Gladera,421,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T09:58:14Z,,pending
 Loki Strife,loki strife,Gladera,68,Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
 Lomas Ajeo,lomas ajeo,Gladera,435,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
@@ -736,29 +765,29 @@ Lord Inde,lord inde,Gladera,381,Elder Druid,,,,,,,,,,2026-11-19T00:19:21Z,2026-1
 Lord Manzatto,lord manzatto,Gladera,362,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T09:43:17Z,,pending
 Lord Moshunter,lord moshunter,Gladera,566,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Lord of Moria,lord of moria,Gladera,134,Master Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
-Lord Orquito,lord orquito,Gladera,328,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-21T17:27:32Z,,pending
-Lord osvald,lord osvald,Gladera,343,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-19T00:19:21Z,,pending
+Lord Orquito,lord orquito,Gladera,330,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-21T17:27:32Z,,pending
+Lord osvald,lord osvald,Gladera,343,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T23:10:05Z,,pending
 Lord Rhett,lord rhett,Gladera,95,Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Lord Santana,lord santana,Gladera,320,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Lord Timayus,lord timayus,Gladera,283,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
+Lord Timayus,lord timayus,Gladera,285,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Lord Viollent,lord viollent,Gladera,153,Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Lorde Vako,lorde vako,Gladera,87,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T01:45:50Z,,pending
 Lordremy,lordremy,Gladera,191,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-19T00:19:21Z,,pending
 Lordysz,lordysz,Gladera,700,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-19T00:19:21Z,,pending
-Lost Megs,lost megs,Gladera,790,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
+Lost Megs,lost megs,Gladera,792,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
 Lost soul saver,lost soul saver,Gladera,211,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-18T17:13:21Z,,pending
 Lothom Jigha,lothom jigha,Gladera,25,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Louckout,louckout,Gladera,50,Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Lucandal Pubann,lucandal pubann,Gladera,264,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
 Luchardo Grio,luchardo grio,Gladera,563,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Lud the Legend,lud the legend,Gladera,88,Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
-Luffy Luke,luffy luke,Gladera,821,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
+Luffy Luke,luffy luke,Gladera,822,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Luna de Astera,luna de astera,Gladera,537,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Luna Flake,luna flake,Gladera,562,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Ly Auditore,ly auditore,Gladera,258,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Lynatura Seph,lynatura seph,Gladera,8,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
-Maaudioo,maaudioo,Gladera,559,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T09:43:17Z,,pending
-Mackad,mackad,Gladera,449,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Maaudioo,maaudioo,Gladera,562,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T09:43:17Z,,pending
+Mackad,mackad,Gladera,450,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Mad Rabid,mad rabid,Gladera,186,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Madambonet,madambonet,Gladera,307,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Madek on Fidera,madek on fidera,Gladera,2,None,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
@@ -788,7 +817,7 @@ Markisio Slonoban,markisio slonoban,Gladera,152,Elite Knight,,,,,,,,,,2026-11-15
 Markus Rimay tikray,markus rimay tikray,Gladera,152,Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Marllon Bon,marllon bon,Gladera,115,Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Maro Leya,maro leya,Gladera,2,Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
-Martinjose,martinjose,Gladera,784,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
+Martinjose,martinjose,Gladera,788,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
 Martinjosee,martinjosee,Gladera,414,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T17:27:32Z,,pending
 Massimo Engineer,massimo engineer,Gladera,8,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Master do Paladins,master do paladins,Gladera,187,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-20T18:35:38Z,,pending
@@ -809,11 +838,12 @@ Melaxo En Tusmuertos,melaxo en tusmuertos,Gladera,8,Knight,,,,,,,,,,2026-11-18T1
 Meleke,meleke,Gladera,594,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Melthra,melthra,Gladera,834,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T01:28:19Z,,pending
 Menfis Retro Style,menfis retro style,Gladera,953,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
-Menino harquer apenas,menino harquer apenas,Gladera,83,Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
+Menino harquer apenas,menino harquer apenas,Gladera,86,Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
 Menor Kentao,menor kentao,Gladera,11,Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
-Mera Gaia,mera gaia,Gladera,453,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
+Mera Gaia,mera gaia,Gladera,454,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
+Merix Tajan,merix tajan,Gladera,158,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Merm Mawynatin,merm mawynatin,Gladera,529,Exalted Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T01:28:19Z,,pending
-Meryadoc,meryadoc,Gladera,135,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
+Meryadoc,meryadoc,Gladera,140,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-21T23:10:05Z,,pending
 Meryuxs,meryuxs,Gladera,573,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-18T07:20:56Z,,pending
 Meta Furia,meta furia,Gladera,284,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Metalica black,metalica black,Gladera,104,Royal Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
@@ -821,8 +851,8 @@ Meteriol Trus,meteriol trus,Gladera,42,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026
 Metro Araw,metro araw,Gladera,414,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Mia Ausa,mia ausa,Gladera,80,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Mia Grey,mia grey,Gladera,211,Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T17:27:32Z,,pending
-Mick Elo,mick elo,Gladera,322,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
-Mickaelle,mickaelle,Gladera,460,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
+Mick Elo,mick elo,Gladera,323,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
+Mickaelle,mickaelle,Gladera,461,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
 Miclo Flechas,miclo flechas,Gladera,220,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Mictlan Archmage,mictlan archmage,Gladera,729,Master Sorcerer,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Migdalys,migdalys,Gladera,1001,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-18T07:20:56Z,,pending
@@ -830,7 +860,7 @@ Miguel Trevino,miguel trevino,Gladera,63,Elite Knight,,,,,,,,,,2026-11-19T00:19:
 Miguelitto,miguelitto,Gladera,216,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Migvel,migvel,Gladera,776,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
 Mike El Castigador,mike el castigador,Gladera,438,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Millkavian,millkavian,Gladera,508,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T17:27:32Z,,pending
+Millkavian,millkavian,Gladera,511,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T17:27:32Z,,pending
 Ming El Despiadado,ming el despiadado,Gladera,217,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-16T01:59:32Z,,pending
 Mininimi,mininimi,Gladera,8,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Mira Kamiunten,mira kamiunten,Gladera,122,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
@@ -838,6 +868,7 @@ Miro Ardo,miro ardo,Gladera,204,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,20
 Mishifu,mishifu,Gladera,126,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Miss Kyttin,miss kyttin,Gladera,277,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Mitico Aang,mitico aang,Gladera,36,Exalted Monk,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
+Miwinia Quin,miwinia quin,Gladera,120,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Mohamed Zesur,mohamed zesur,Gladera,103,Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Monclovense,monclovense,Gladera,71,Elder Druid,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Mondragon tales,mondragon tales,Gladera,556,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T09:58:14Z,,pending
@@ -850,14 +881,15 @@ Monk Kronie,monk kronie,Gladera,167,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2
 Monk Tesaurio,monk tesaurio,Gladera,25,Exalted Monk,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T09:43:17Z,,pending
 Monkbron,monkbron,Gladera,525,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-19T00:19:21Z,,pending
 Monkiskong,monkiskong,Gladera,265,Exalted Monk,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
+Moon Alsa,moon alsa,Gladera,133,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Mori Shan,mori shan,Gladera,112,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-18T17:13:21Z,,pending
-Mory Elodrin,mory elodrin,Gladera,8,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-19T00:19:21Z,,pending
+Mory Elodrin,mory elodrin,Gladera,8,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T23:10:05Z,,pending
 Moshiini,moshiini,Gladera,44,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Moss of Gladera,moss of gladera,Gladera,80,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-20T09:58:14Z,,pending
 Mozila Man,mozila man,Gladera,124,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T17:27:32Z,,pending
 Mumia Guerreira,mumia guerreira,Gladera,367,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Muncheg,muncheg,Gladera,483,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T01:45:50Z,,pending
-Munkel,munkel,Gladera,254,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
+Munkel,munkel,Gladera,258,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
 Murderer of Royal,murderer of royal,Gladera,23,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 My little hunter,my little hunter,Gladera,280,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-18T07:20:56Z,,pending
 Mystic Stayer,mystic stayer,Gladera,137,None,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
@@ -867,6 +899,7 @@ Nadeskinho,nadeskinho,Gladera,196,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,20
 Nadosx,nadosx,Gladera,371,Exalted Monk,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Najemnik Suzoki,najemnik suzoki,Gladera,170,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Nakiristan Kaeda,nakiristan kaeda,Gladera,8,Monk,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
+Nan Cort,nan cort,Gladera,29,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Nanddu Silva,nanddu silva,Gladera,300,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Naram Skyan,naram skyan,Gladera,8,Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Nartleb,nartleb,Gladera,965,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-18T17:13:21Z,,pending
@@ -874,7 +907,7 @@ Nasty canasta,nasty canasta,Gladera,125,Royal Paladin,,,,,,,,,,2026-11-12T01:33:
 Nathanzin da Ufes,nathanzin da ufes,Gladera,238,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
 Natty crab,natty crab,Gladera,348,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-21T09:43:17Z,,pending
 Natural Rustic,natural rustic,Gladera,929,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-21T09:43:17Z,,pending
-Naudyxs,naudyxs,Gladera,210,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
+Naudyxs,naudyxs,Gladera,216,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T23:10:05Z,,pending
 Necna,necna,Gladera,8,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Neena,neena,Gladera,1443,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Nemeru,nemeru,Gladera,638,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-19T10:15:49Z,,pending
@@ -895,7 +928,7 @@ Nimrodel Elentari,nimrodel elentari,Gladera,8,Monk,,,,,,,,,,2026-11-14T17:58:01Z
 Ninja Atletic,ninja atletic,Gladera,882,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Niriana,niriana,Gladera,254,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Nitronio,nitronio,Gladera,73,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-17T23:29:35Z,,pending
-Nitz,nitz,Gladera,419,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
+Nitz,nitz,Gladera,420,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Nizquitoo,nizquitoo,Gladera,847,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T09:58:14Z,,pending
 Nobari Uanasias,nobari uanasias,Gladera,43,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-17T15:55:55Z,,pending
 Nolariel,nolariel,Gladera,325,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
@@ -913,11 +946,12 @@ Ochy geo,ochy geo,Gladera,343,Elder Druid,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-
 Ohagi,ohagi,Gladera,241,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Ohh Antonieta,ohh antonieta,Gladera,601,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T17:27:32Z,,pending
 Ohoyer,ohoyer,Gladera,211,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-20T09:58:14Z,,pending
-Ohtooodles,ohtooodles,Gladera,1074,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Ohtooodles,ohtooodles,Gladera,1076,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Okarun in Gladera,okarun in gladera,Gladera,8,Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Oleodermo,oleodermo,Gladera,8,Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
+Oluaq,oluaq,Gladera,64,Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Olymar,olymar,Gladera,435,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-16T20:25:18Z,,pending
-Om Ghael,om ghael,Gladera,954,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
+Om Ghael,om ghael,Gladera,955,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
 Omarskip,omarskip,Gladera,343,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-20T18:35:38Z,,pending
 Oniba Vumberya,oniba vumberya,Gladera,8,Knight,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Onniwabanshu,onniwabanshu,Gladera,37,Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
@@ -929,15 +963,15 @@ Otneve Htneetxis,otneve htneetxis,Gladera,43,Elite Knight,,,,,,,,,,2026-11-20T01
 Ozz Rosa,ozz rosa,Gladera,155,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-14T17:58:01Z,,pending
 Paipz,paipz,Gladera,260,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Pakaal,pakaal,Gladera,67,Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Paladino Wins,paladino wins,Gladera,480,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Paladino Wins,paladino wins,Gladera,483,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Pamon Zoma,pamon zoma,Gladera,38,Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
-Pan Pinita,pan pinita,Gladera,818,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
+Pan Pinita,pan pinita,Gladera,820,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Pancholo Colombia,pancholo colombia,Gladera,81,Exalted Monk,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Panda Macias Gladera,panda macias gladera,Gladera,8,Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
-Pandorinhah,pandorinhah,Gladera,126,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
+Pandorinhah,pandorinhah,Gladera,126,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Patocards,patocards,Gladera,24,Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-15T21:01:09Z,,pending
 Paul Rick,paul rick,Gladera,57,Royal Paladin,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
-Peacefull Knight,peacefull knight,Gladera,448,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T17:27:32Z,,pending
+Peacefull Knight,peacefull knight,Gladera,450,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T17:27:32Z,,pending
 Peliabros Atardon,peliabros atardon,Gladera,135,Royal Paladin,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Penador,penador,Gladera,5,None,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Penellopinha,penellopinha,Gladera,803,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-19T00:19:21Z,,pending
@@ -951,7 +985,7 @@ Pichi Pennywize,pichi pennywize,Gladera,214,Royal Paladin,,,,,,,,,,2026-11-14T17
 Piieniu,piieniu,Gladera,1099,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T17:27:32Z,,pending
 Pilgore the Toad,pilgore the toad,Gladera,658,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Pink Stark,pink stark,Gladera,274,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-19T00:19:21Z,,pending
-Pipala,pipala,Gladera,67,Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
+Pipala,pipala,Gladera,69,Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T23:10:05Z,,pending
 Piqueno Mestre,piqueno mestre,Gladera,1083,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Piter Hiliux,piter hiliux,Gladera,2,None,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Plashiiii,plashiiii,Gladera,51,Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
@@ -969,16 +1003,17 @@ Potpot Prime,potpot prime,Gladera,22,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z
 Potter The Prime,potter the prime,Gladera,130,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-19T00:19:21Z,,pending
 Prime potter,prime potter,Gladera,16,Monk,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Prince war,prince war,Gladera,482,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T17:27:32Z,,pending
-Princess Zana,princess zana,Gladera,203,Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
+Princess Zana,princess zana,Gladera,203,Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Prismatic Bolter,prismatic bolter,Gladera,76,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Profesor Rakkun,profesor rakkun,Gladera,984,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Proteziak,proteziak,Gladera,176,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Pure Bone,pure bone,Gladera,791,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
+Psicodoida,psicodoida,Gladera,857,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
+Pure Bone,pure bone,Gladera,796,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Purple Poplar,purple poplar,Gladera,33,Exalted Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-19T00:19:21Z,,pending
 Qai Ironman,qai ironman,Gladera,11,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Quiintin,quiintin,Gladera,122,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Quil Fenry,quil fenry,Gladera,50,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
-Rael Ophen,rael ophen,Gladera,190,Master Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
+Rael Ophen,rael ophen,Gladera,193,Master Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T23:10:05Z,,pending
 Raideyn,raideyn,Gladera,352,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Railoks,railoks,Gladera,128,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-21T01:28:19Z,,pending
 Rainbow Rain,rainbow rain,Gladera,335,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
@@ -987,18 +1022,19 @@ Ramem,ramem,Gladera,216,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:
 Ramic Zedrin,ramic zedrin,Gladera,382,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-18T17:13:21Z,,pending
 Ratocards,ratocards,Gladera,40,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
 Raul Decari,raul decari,Gladera,286,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
+Raybrujah,raybrujah,Gladera,105,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Raykashy hatake,raykashy hatake,Gladera,161,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Raymarth,raymarth,Gladera,174,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T17:27:32Z,,pending
-Real black snake,real black snake,Gladera,176,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
+Real black snake,real black snake,Gladera,178,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Reeal Toxic,reeal toxic,Gladera,1602,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Reina Yagami,reina yagami,Gladera,171,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Rekasake,rekasake,Gladera,189,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-16T20:25:18Z,,pending
-Rels Turian,rels turian,Gladera,237,Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
+Rels Turian,rels turian,Gladera,237,Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T23:10:05Z,,pending
 Renmy,renmy,Gladera,181,Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Reset Oxz,reset oxz,Gladera,266,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Revengelara,revengelara,Gladera,200,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-18T17:13:21Z,,pending
 Revsar,revsar,Gladera,153,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-15T21:01:09Z,,pending
-Rextylz,rextylz,Gladera,527,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Rextylz,rextylz,Gladera,530,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Rhor Nika,rhor nika,Gladera,364,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-13T21:59:42Z,,pending
 Riddsh,riddsh,Gladera,70,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Rikura,rikura,Gladera,116,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
@@ -1019,6 +1055,7 @@ Rosa Myste,rosa myste,Gladera,96,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,202
 Rosdelis,rosdelis,Gladera,542,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Rost Murdock,rost murdock,Gladera,391,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Royal ramsess,royal ramsess,Gladera,345,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-19T10:15:49Z,,pending
+Royal Salmo,royal salmo,Gladera,72,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Royal Santos Lemos,royal santos lemos,Gladera,340,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Royal Yashee,royal yashee,Gladera,318,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-17T23:29:35Z,,pending
 Royalsito cherrys,royalsito cherrys,Gladera,320,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-17T15:55:55Z,,pending
@@ -1036,7 +1073,7 @@ Sadtimes,sadtimes,Gladera,629,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11
 Saidin,saidin,Gladera,272,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Saintus Maba,saintus maba,Gladera,737,Elder Druid,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-19T00:19:21Z,,pending
 Sairas,sairas,Gladera,283,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
-Sali Xarpi,sali xarpi,Gladera,21,Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
+Sali Xarpi,sali xarpi,Gladera,35,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T23:10:05Z,,pending
 Saman Bize,saman bize,Gladera,9,Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Samu An,samu an,Gladera,10,Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Samurai Murillo,samurai murillo,Gladera,151,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-18T07:20:56Z,,pending
@@ -1071,7 +1108,7 @@ Sham Surilius,sham surilius,Gladera,354,Exalted Monk,,,,,,,,,,2026-11-14T02:24:1
 Shan Shina,shan shina,Gladera,51,Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Shana Abert,shana abert,Gladera,44,Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-21T01:28:19Z,,pending
 Shana Saralonde,shana saralonde,Gladera,133,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
-Shano on gladera,shano on gladera,Gladera,71,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-19T00:19:21Z,,pending
+Shano on gladera,shano on gladera,Gladera,86,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T23:10:05Z,,pending
 Shauni Leviathann,shauni leviathann,Gladera,830,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-21T01:28:19Z,,pending
 Sheelly Cooper,sheelly cooper,Gladera,200,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Shelter Birdy,shelter birdy,Gladera,1254,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T09:58:14Z,,pending
@@ -1089,7 +1126,7 @@ Shruik,shruik,Gladera,238,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:
 Shun Goku Zatsu,shun goku zatsu,Gladera,46,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Si So Ele,si so ele,Gladera,88,Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Silvrmstr,silvrmstr,Gladera,4,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
-Simdax,simdax,Gladera,430,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Simdax,simdax,Gladera,432,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Simu Jesi,simu jesi,Gladera,109,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T15:55:55Z,,pending
 Sina Cange,sina cange,Gladera,2,None,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Sipheas Timon,sipheas timon,Gladera,2,None,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T01:45:50Z,,pending
@@ -1103,17 +1140,18 @@ Sir Demyan,sir demyan,Gladera,441,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,202
 Sir Exthor,sir exthor,Gladera,207,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Sir Frogguert Sky,sir frogguert sky,Gladera,154,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-14T22:19:43Z,,pending
 Sir Grump,sir grump,Gladera,144,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-16T01:59:32Z,,pending
+Sir Guinnefort,sir guinnefort,Gladera,466,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Sir Joze,sir joze,Gladera,161,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Sir of Hells,sir of hells,Gladera,174,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Sir Pangarezinho,sir pangarezinho,Gladera,109,Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Sir Patadita,sir patadita,Gladera,365,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
-Sir Peryster Hero,sir peryster hero,Gladera,887,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Sir Peryster Hero,sir peryster hero,Gladera,888,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Sir Porobon Mocho,sir porobon mocho,Gladera,11,Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Sir Sass,sir sass,Gladera,146,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-13T21:59:42Z,,pending
 Sir Zengum,sir zengum,Gladera,198,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T10:15:49Z,,pending
 Siraguna Andon,siraguna andon,Gladera,462,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Sixtor Death,sixtor death,Gladera,145,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
-Skull Rap,skull rap,Gladera,72,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T17:27:32Z,,pending
+Skull Rap,skull rap,Gladera,77,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T17:27:32Z,,pending
 Sky Vian,sky vian,Gladera,36,Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-17T23:29:35Z,,pending
 Skydivin,skydivin,Gladera,316,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Skyszek,skyszek,Gladera,141,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
@@ -1131,6 +1169,7 @@ Solo Vizzyon,solo vizzyon,Gladera,161,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,
 Soloforlife,soloforlife,Gladera,325,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-20T01:45:50Z,,pending
 Sombra de Izan,sombra de izan,Gladera,233,Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Song Jinwo,song jinwo,Gladera,8,Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
+Sonyc Kents,sonyc kents,Gladera,157,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Sor Duncan,sor duncan,Gladera,211,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-18T17:13:21Z,,pending
 Sor Redwyne,sor redwyne,Gladera,121,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Sorcerer diavlo,sorcerer diavlo,Gladera,233,Master Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
@@ -1152,10 +1191,10 @@ Srleo,srleo,Gladera,817,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17
 Stalloneone,stalloneone,Gladera,97,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Stan of Nova,stan of nova,Gladera,499,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Stardustt,stardustt,Gladera,60,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Stark Manny,stark manny,Gladera,459,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Stark Manny,stark manny,Gladera,463,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Stoneage Hippy,stoneage hippy,Gladera,220,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Stor Berion,stor berion,Gladera,317,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-15T15:38:52Z,,pending
-Straight Fist,straight fist,Gladera,503,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-17T23:29:35Z,,pending
+Straight Fist,straight fist,Gladera,506,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Stredimus,stredimus,Gladera,1110,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T01:28:19Z,,pending
 Street Sounds,street sounds,Gladera,168,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T09:43:17Z,,pending
 Strongest,strongest,Gladera,1107,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T09:43:17Z,,pending
@@ -1172,7 +1211,9 @@ Swampertt,swampertt,Gladera,8,Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:
 Sweet Starsz,sweet starsz,Gladera,326,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Ta Vi,ta vi,Gladera,1055,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-20T18:35:38Z,,pending
 Taciana,taciana,Gladera,136,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
+Tacos on Gladera,tacos on gladera,Gladera,74,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Taj Holydox,taj holydox,Gladera,265,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
+Taj Mahhal,taj mahhal,Gladera,92,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Takespin Dans,takespin dans,Gladera,8,Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Talito Druid,talito druid,Gladera,249,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Tanjaro,tanjaro,Gladera,63,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
@@ -1180,12 +1221,12 @@ Tanking Troll,tanking troll,Gladera,329,Paladin,,,,,,,,,,2026-11-13T16:16:56Z,20
 Tar Miriell,tar miriell,Gladera,190,Exalted Monk,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Taraknos,taraknos,Gladera,174,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Tattyxs,tattyxs,Gladera,43,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Taty Curando,taty curando,Gladera,249,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T00:19:21Z,,pending
+Taty Curando,taty curando,Gladera,254,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Taurgarand Anion,taurgarand anion,Gladera,8,Monk,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Tecblad,tecblad,Gladera,54,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Teh Lady,teh lady,Gladera,343,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-15T15:38:52Z,,pending
 Teh Reas,teh reas,Gladera,510,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
-Tenebroso Gix,tenebroso gix,Gladera,315,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
+Tenebroso Gix,tenebroso gix,Gladera,317,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Teririon Fallimar,teririon fallimar,Gladera,67,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Tezin,tezin,Gladera,39,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Than Kamykazy,than kamykazy,Gladera,200,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T01:45:50Z,,pending
@@ -1197,16 +1238,17 @@ Theo Eloi,theo eloi,Gladera,79,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-1
 Theo Wells,theo wells,Gladera,151,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Therden,therden,Gladera,110,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-17T15:55:55Z,,pending
 Thia Jessa,thia jessa,Gladera,8,Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
-Thon Wath,thon wath,Gladera,121,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Thon Wath,thon wath,Gladera,125,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Thor Blazin,thor blazin,Gladera,341,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Thor Erum,thor erum,Gladera,50,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
+Thorcen,thorcen,Gladera,252,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Thorgo Stend,thorgo stend,Gladera,155,Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Thorkex,thorkex,Gladera,351,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Thuraga,thuraga,Gladera,51,Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Thus Zalo,thus zalo,Gladera,161,Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
-Tiaozinho archer,tiaozinho archer,Gladera,570,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Tiaozinho archer,tiaozinho archer,Gladera,572,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Tide Podz,tide podz,Gladera,156,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
-Tihidan Holleso,tihidan holleso,Gladera,60,Elite Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
+Tihidan Holleso,tihidan holleso,Gladera,61,Elite Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-21T23:10:05Z,,pending
 Tiihkal,tiihkal,Gladera,232,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Tikespit,tikespit,Gladera,895,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Tiledalion,tiledalion,Gladera,12,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
@@ -1217,10 +1259,10 @@ Titan Chrono,titan chrono,Gladera,62,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,
 Titania,titania,Gladera,212,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Tlaloc Oscuro,tlaloc oscuro,Gladera,245,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Tobysz,tobysz,Gladera,1021,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
-Toga kina,toga kina,Gladera,924,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T18:35:38Z,,pending
+Toga kina,toga kina,Gladera,925,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T23:10:05Z,,pending
 Toin Carrapato,toin carrapato,Gladera,1091,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Tommy Mothy,tommy mothy,Gladera,157,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
-Tomoe Shikikedo,tomoe shikikedo,Gladera,564,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
+Tomoe Shikikedo,tomoe shikikedo,Gladera,567,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Tono Thur,tono thur,Gladera,1029,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Topheroo,topheroo,Gladera,474,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-19T00:19:21Z,,pending
 Toruc Yam,toruc yam,Gladera,15,Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
@@ -1248,7 +1290,7 @@ Urashimataro san,urashimataro san,Gladera,142,Master Sorcerer,,,,,,,,,,2026-11-2
 Urdothador Vandriath,urdothador vandriath,Gladera,8,Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Uruna Elverigo,uruna elverigo,Gladera,52,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Vabassa Feninari,vabassa feninari,Gladera,8,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
-Valen Skyhunter,valen skyhunter,Gladera,185,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T09:43:17Z,,pending
+Valen Skyhunter,valen skyhunter,Gladera,188,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T09:43:17Z,,pending
 Valhalla of Magera,valhalla of magera,Gladera,260,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T17:27:32Z,,pending
 Valion Evolution,valion evolution,Gladera,447,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Valria Tanir,valria tanir,Gladera,126,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
@@ -1275,7 +1317,7 @@ Vonze Bo,vonze bo,Gladera,123,Elite Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11
 Vorobeyshestvo,vorobeyshestvo,Gladera,103,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T17:27:32Z,,pending
 Vriell,vriell,Gladera,865,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-16T01:59:32Z,,pending
 Vulpini,vulpini,Gladera,95,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T01:45:50Z,,pending
-Vuma Chalth,vuma chalth,Gladera,27,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
+Vuma Chalth,vuma chalth,Gladera,37,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T23:10:05Z,,pending
 Wall Emberflayer,wall emberflayer,Gladera,230,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-19T18:59:45Z,,pending
 Wapz One,wapz one,Gladera,485,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T17:27:32Z,,pending
 Wars Stephy,wars stephy,Gladera,852,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
@@ -1312,9 +1354,10 @@ Xisteback,xisteback,Gladera,401,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-
 Xyd Bak,xyd bak,Gladera,73,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-16T20:25:18Z,,pending
 Yakloy,yakloy,Gladera,783,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T09:58:14Z,,pending
 Yakuzami Owahanaga,yakuzami owahanaga,Gladera,443,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-19T00:19:21Z,,pending
-Yams ek,yams ek,Gladera,629,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Yams ek,yams ek,Gladera,630,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Yasopp Sam,yasopp sam,Gladera,210,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Yatoman,yatoman,Gladera,40,Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
+Yazuel,yazuel,Gladera,73,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Yedzij,yedzij,Gladera,207,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Yellow Fuji,yellow fuji,Gladera,876,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Yert Litus,yert litus,Gladera,24,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
@@ -1322,16 +1365,18 @@ Yijin Jing,yijin jing,Gladera,511,Exalted Monk,,,,,,,,,,2026-11-20T01:45:50Z,202
 Yolaa,yolaa,Gladera,8,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Younlerash,younlerash,Gladera,59,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-16T01:59:32Z,,pending
 Yoyaa,yoyaa,Gladera,13,Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
+Yuffie Rebirth,yuffie rebirth,Gladera,253,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Yzidr Khan,yzidr khan,Gladera,271,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-17T15:55:55Z,,pending
 Zafar Shan,zafar shan,Gladera,765,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T09:58:14Z,,pending
 Zafirod Hakai,zafirod hakai,Gladera,102,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Zalgark Dard,zalgark dard,Gladera,177,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Zangly Ozzy,zangly ozzy,Gladera,789,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T00:19:21Z,,pending
+Zangly Ozzy,zangly ozzy,Gladera,790,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Zaolane Vivinger,zaolane vivinger,Gladera,101,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Zapup Pupaz,zapup pupaz,Gladera,333,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Zargons,zargons,Gladera,206,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Zaromba,zaromba,Gladera,149,Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Zaru Menky,zaru menky,Gladera,44,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-14T02:24:18Z,,pending
+Zaryah,zaryah,Gladera,52,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Zathil Sindy,zathil sindy,Gladera,32,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Zaza Golix,zaza golix,Gladera,78,Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Zazabat Aziht,zazabat aziht,Gladera,220,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-17T23:29:35Z,,pending
@@ -1352,13 +1397,14 @@ Zeratoz,zeratoz,Gladera,1264,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11
 Zero Synthesis One,zero synthesis one,Gladera,561,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T09:43:17Z,,pending
 Zhenzu,zhenzu,Gladera,414,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T09:43:17Z,,pending
 Ziby,ziby,Gladera,12,None,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Ziesty,ziesty,Gladera,262,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Zivago,zivago,Gladera,76,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-14T22:19:43Z,,pending
-Zoa Kbrona,zoa kbrona,Gladera,386,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T09:43:17Z,,pending
-Zom boi,zom boi,Gladera,1099,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
+Zoa Kbrona,zoa kbrona,Gladera,387,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T09:43:17Z,,pending
+Zom boi,zom boi,Gladera,1100,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Zooker,zooker,Gladera,72,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Zopzi,zopzi,Gladera,222,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T09:43:17Z,,pending
 Zoriuran Anear,zoriuran anear,Gladera,8,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Zork Club,zork club,Gladera,74,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Zoro Skydiver,zoro skydiver,Gladera,107,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
+Zoro Skydiver,zoro skydiver,Gladera,112,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
 Zuvissob Duros,zuvissob duros,Gladera,54,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Zwyx Golden Knight,zwyx golden knight,Gladera,263,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
