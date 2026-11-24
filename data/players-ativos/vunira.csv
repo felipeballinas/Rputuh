@@ -1,7 +1,7 @@
 ﻿name,normalized_name,world,level,vocation,guild_name,guild_rank,residence,last_login,achievement_points,sex,account_status,house,married_to,first_seen_at,last_seen_at,profile_updated_at,profile_status
 Aagema Karagafos,aagema karagafos,Vunira,60,Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Aaronito,aaronito,Vunira,659,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T18:35:38Z,,pending
-Aasten,aasten,Vunira,10,Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
+Aasten,aasten,Vunira,22,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Aath Conclen,aath conclen,Vunira,42,None,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Aavador Tibjouk,aavador tibjouk,Vunira,28,Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Aavin Erys,aavin erys,Vunira,262,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T16:14:16Z,,pending
@@ -21,7 +21,7 @@ Abys Alrio,abys alrio,Vunira,37,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-17T
 Acaciuss,acaciuss,Vunira,460,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T16:14:16Z,,pending
 Achmed,achmed,Vunira,274,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Acipter,acipter,Vunira,30,Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-15T15:38:52Z,,pending
-Acros Atlar,acros atlar,Vunira,548,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
+Acros Atlar,acros atlar,Vunira,553,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Adaewyn Lyku,adaewyn lyku,Vunira,55,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
 Adeokx,adeokx,Vunira,342,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-13T16:16:56Z,,pending
 Adikko,adikko,Vunira,133,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
@@ -88,7 +88,7 @@ Aloshii,aloshii,Vunira,1129,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-1
 Alriken,alriken,Vunira,1259,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Altayeer,altayeer,Vunira,678,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-23T02:43:04Z,,pending
 Alui,alui,Vunira,231,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
-Aluucard,aluucard,Vunira,1027,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-22T06:40:07Z,,pending
+Aluucard,aluucard,Vunira,1028,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
 Ameizin Sinister,ameizin sinister,Vunira,509,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Amelia Chronic,amelia chronic,Vunira,182,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T14:32:01Z,,pending
 Amelia Cortez,amelia cortez,Vunira,12,Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -100,7 +100,7 @@ Amil Zagoss,amil zagoss,Vunira,167,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z
 Amine,amine,Vunira,167,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T18:35:38Z,,pending
 Amirodek Fein,amirodek fein,Vunira,84,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Ammaruu,ammaruu,Vunira,136,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-14T22:19:43Z,,pending
-Amn Amn,amn amn,Vunira,381,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Amn Amn,amn amn,Vunira,384,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Amon Re,amon re,Vunira,399,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Amon Seledian,amon seledian,Vunira,36,Elite Knight,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
 Amon Xar,amon xar,Vunira,473,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
@@ -179,7 +179,7 @@ Arth Lino,arth lino,Vunira,460,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-
 Artiquno,artiquno,Vunira,101,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-20T01:45:50Z,,pending
 Arto Stel,arto stel,Vunira,254,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Arturas,arturas,Vunira,533,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
-Arumik,arumik,Vunira,319,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
+Arumik,arumik,Vunira,321,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Arwaa,arwaa,Vunira,1283,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-12T18:21:40Z,,pending
 Arwen Felis,arwen felis,Vunira,225,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
 Arwiel,arwiel,Vunira,51,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
@@ -199,7 +199,7 @@ Asmok Rawa,asmok rawa,Vunira,149,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2
 Ason Setra,ason setra,Vunira,65,Master Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Asooth Anathortip,asooth anathortip,Vunira,2,Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Asredynlaz,asredynlaz,Vunira,288,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T09:43:17Z,,pending
-Assein,assein,Vunira,242,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Assein,assein,Vunira,243,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Asto Cioteles,asto cioteles,Vunira,35,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Astra Fire,astra fire,Vunira,320,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T16:14:16Z,,pending
 Astriel Sheron,astriel sheron,Vunira,104,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T18:35:38Z,,pending
@@ -216,7 +216,7 @@ Auphirin,auphirin,Vunira,39,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-22
 Auromonk,auromonk,Vunira,1073,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T09:43:17Z,,pending
 Auron Sigon,auron sigon,Vunira,1077,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-15T15:38:52Z,,pending
 Aurora Sphere,aurora sphere,Vunira,468,Royal Paladin,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-22T06:40:07Z,,pending
-Auroras Fist,auroras fist,Vunira,430,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T21:45:01Z,,pending
+Auroras Fist,auroras fist,Vunira,433,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 Autumn Sun,autumn sun,Vunira,374,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T06:40:07Z,,pending
 Autztik,autztik,Vunira,226,Exalted Monk,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Avatarwo,avatarwo,Vunira,325,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
@@ -241,6 +241,7 @@ Babsie,babsie,Vunira,362,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-22T2
 Baby Luipishi,baby luipishi,Vunira,1272,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
 Bacresian Mare,bacresian mare,Vunira,6,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Bad Decision,bad decision,Vunira,842,Elder Druid,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-22T21:45:01Z,,pending
+Baem Garth,baem garth,Vunira,55,Paladin,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Baeru Tarus,baeru tarus,Vunira,40,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Bakus Lapiduch,bakus lapiduch,Vunira,900,Elite Knight,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-22T06:40:07Z,,pending
 Balbania,balbania,Vunira,135,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-20T18:35:38Z,,pending
@@ -252,7 +253,7 @@ Bandezu Junior,bandezu junior,Vunira,559,Elite Knight,,,,,,,,,,2026-11-11T18:41:
 Bank Vuni,bank vuni,Vunira,8,Sorcerer,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Baqu Dertvon,baqu dertvon,Vunira,740,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T14:32:01Z,,pending
 Barba Mystic,barba mystic,Vunira,408,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
-Barbie Mandraka,barbie mandraka,Vunira,363,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
+Barbie Mandraka,barbie mandraka,Vunira,366,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Bardzo Niewinna,bardzo niewinna,Vunira,338,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-16T20:25:18Z,,pending
 Baretas,baretas,Vunira,507,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 Baretoos,baretoos,Vunira,9,Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
@@ -306,12 +307,12 @@ Billyspeed Legend,billyspeed legend,Vunira,100,Master Sorcerer,,,,,,,,,,2026-11-
 Binding Grasp,binding grasp,Vunira,13,Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Bira Hart,bira hart,Vunira,887,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T16:14:16Z,,pending
 Biscuitboy,biscuitboy,Vunira,932,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
-Biszekk,biszekk,Vunira,660,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
+Biszekk,biszekk,Vunira,662,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Bixohome,bixohome,Vunira,352,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Bixuban,bixuban,Vunira,218,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-15T21:01:09Z,,pending
 Bizzy Skillz,bizzy skillz,Vunira,143,Elite Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Black Joker San,black joker san,Vunira,123,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
-Black Menace,black menace,Vunira,937,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
+Black Menace,black menace,Vunira,938,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Black Tora,black tora,Vunira,86,Elder Druid,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Bladecjusz,bladecjusz,Vunira,24,Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Blader Azcaron,blader azcaron,Vunira,573,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
@@ -330,7 +331,7 @@ Blood Sikeer,blood sikeer,Vunira,400,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z
 Bloodrynka,bloodrynka,Vunira,126,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T17:27:32Z,,pending
 Bloodstone the second,bloodstone the second,Vunira,258,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T06:40:07Z,,pending
 Bloody Wednes,bloody wednes,Vunira,598,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-22T16:14:16Z,,pending
-Bluemoon Kimimaro,bluemoon kimimaro,Vunira,1400,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Bluemoon Kimimaro,bluemoon kimimaro,Vunira,1401,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Bob Destruktor,bob destruktor,Vunira,68,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T15:55:55Z,,pending
 Bober Backk,bober backk,Vunira,365,Master Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Bober Legionista,bober legionista,Vunira,556,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-22T21:45:01Z,,pending
@@ -361,7 +362,7 @@ Brave Rave,brave rave,Vunira,455,Elite Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026
 Braxor Warborn,braxor warborn,Vunira,1141,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
 Brenor Heavy Axe,brenor heavy axe,Vunira,419,Elite Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Briitney Toco Spears,briitney toco spears,Vunira,156,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-19T00:19:21Z,,pending
-Bro da,bro da,Vunira,920,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
+Bro da,bro da,Vunira,922,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-24T02:53:54Z,,pending
 Bro schooter,bro schooter,Vunira,171,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T09:43:17Z,,pending
 Broakind Froz,broakind froz,Vunira,48,Knight,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-23T02:43:04Z,,pending
 Broda on Druid,broda on druid,Vunira,123,Elder Druid,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
@@ -492,7 +493,7 @@ Cuacte,cuacte,Vunira,601,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-2
 Cupcakedos,cupcakedos,Vunira,35,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Cura lotodo,cura lotodo,Vunira,74,Druid,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Curp,curp,Vunira,35,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
-Cursed Piercer,cursed piercer,Vunira,143,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
+Cursed Piercer,cursed piercer,Vunira,144,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-24T02:53:54Z,,pending
 Cutten eye Joe,cutten eye joe,Vunira,152,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
 Cybrexerin Shain,cybrexerin shain,Vunira,35,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Cygii,cygii,Vunira,574,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-19T18:59:45Z,,pending
@@ -529,7 +530,7 @@ Dani Gump,dani gump,Vunira,390,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,202
 Dante Of Knight,dante of knight,Vunira,115,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Daoro,daoro,Vunira,289,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
 Dapei,dapei,Vunira,620,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-22T16:14:16Z,,pending
-Dara Zaljo,dara zaljo,Vunira,159,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Dara Zaljo,dara zaljo,Vunira,164,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Darck Caos,darck caos,Vunira,26,Paladin,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Darck lucario,darck lucario,Vunira,192,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Dari Maxineco,dari maxineco,Vunira,8,Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
@@ -623,6 +624,7 @@ Don Kedarro,don kedarro,Vunira,239,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,20
 Don Kocur,don kocur,Vunira,675,Elder Druid,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Don Krzew,don krzew,Vunira,88,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-20T18:35:38Z,,pending
 Don Lala,don lala,Vunira,793,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T06:40:07Z,,pending
+Don Sunborn,don sunborn,Vunira,185,Elite Knight,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Donink,donink,Vunira,433,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Donnia Gafan,donnia gafan,Vunira,28,Elder Druid,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Doom Priest,doom priest,Vunira,909,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T16:14:16Z,,pending
@@ -632,14 +634,14 @@ Dorian Davidoff,dorian davidoff,Vunira,362,Elite Knight,,,,,,,,,,2026-11-21T09:4
 Dostawca do Temple,dostawca do temple,Vunira,60,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Douglas,douglas,Vunira,151,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Dous Galus,dous galus,Vunira,170,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
-Dousethan Adrin,dousethan adrin,Vunira,1141,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
+Dousethan Adrin,dousethan adrin,Vunira,1141,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Draakz,draakz,Vunira,1161,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-13T21:59:42Z,,pending
 Drag Tovenorn,drag tovenorn,Vunira,160,Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-16T01:59:32Z,,pending
 Dragneel Uzumaki,dragneel uzumaki,Vunira,542,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 Drago Orin,drago orin,Vunira,8,Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Dragon Crosano,dragon crosano,Vunira,150,Exalted Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T21:45:01Z,,pending
 Dragon Guardia,dragon guardia,Vunira,1271,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
-Dragon Maniatico,dragon maniatico,Vunira,1067,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Dragon Maniatico,dragon maniatico,Vunira,1068,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Dragon Raymont,dragon raymont,Vunira,58,Master Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Dragon Rex,dragon rex,Vunira,271,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T23:10:05Z,,pending
 Drakam,drakam,Vunira,978,Elder Druid,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-22T16:14:16Z,,pending
@@ -707,7 +709,7 @@ Echo of Vortumnus,echo of vortumnus,Vunira,194,Master Sorcerer,,,,,,,,,,2026-11-
 Echori Gran,echori gran,Vunira,756,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Eczura,eczura,Vunira,1366,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T21:45:01Z,,pending
 Eddison,eddison,Vunira,791,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
-Edgar Watz,edgar watz,Vunira,964,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
+Edgar Watz,edgar watz,Vunira,966,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Edgemund,edgemund,Vunira,415,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T09:43:17Z,,pending
 Edie Paralizer,edie paralizer,Vunira,173,Elder Druid,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Ediinsarranela,ediinsarranela,Vunira,155,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
@@ -722,7 +724,7 @@ Egalsito luaco,egalsito luaco,Vunira,82,Elite Knight,,,,,,,,,,2026-11-22T21:45:0
 Egon Mag,egon mag,Vunira,312,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-23T02:43:04Z,,pending
 Eh Ya Nas,eh ya nas,Vunira,791,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-22T16:14:16Z,,pending
 Einjerhar,einjerhar,Vunira,261,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
-Eis Shenron,eis shenron,Vunira,252,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T21:45:01Z,,pending
+Eis Shenron,eis shenron,Vunira,254,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-24T02:53:54Z,,pending
 Eisenbahnn,eisenbahnn,Vunira,57,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-20T09:58:14Z,,pending
 Eitsh,eitsh,Vunira,1032,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 El araby,el araby,Vunira,702,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
@@ -774,7 +776,7 @@ Elwyn Ruana,elwyn ruana,Vunira,35,Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-2
 Emad Erton,emad erton,Vunira,212,Elite Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Emaderau,emaderau,Vunira,65,Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Emanuelly Lancetti,emanuelly lancetti,Vunira,129,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
-Emeh,emeh,Vunira,86,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
+Emeh,emeh,Vunira,96,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Emenop,emenop,Vunira,215,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Emmieal,emmieal,Vunira,343,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
 Emperatriz of fire,emperatriz of fire,Vunira,46,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
@@ -909,6 +911,7 @@ Gabath Maermsa,gabath maermsa,Vunira,8,Monk,,,,,,,,,,2026-11-21T01:28:19Z,2026-1
 Gabs the Wise,gabs the wise,Vunira,1037,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Gaenus Phiroth,gaenus phiroth,Vunira,8,Monk,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Gahkas,gahkas,Vunira,357,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
+Gaia Diabulus,gaia diabulus,Vunira,55,Elder Druid,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Gala Diys,gala diys,Vunira,889,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
 Galen Malox,galen malox,Vunira,138,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Galenkros Rasiras,galenkros rasiras,Vunira,437,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
@@ -1017,7 +1020,7 @@ Grzybovy,grzybovy,Vunira,687,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-2
 Grzybura,grzybura,Vunira,66,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Guaio,guaio,Vunira,1008,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
 Guana,guana,Vunira,648,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
-Guiggo,guiggo,Vunira,51,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
+Guiggo,guiggo,Vunira,57,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 Guillermega,guillermega,Vunira,569,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
 Gulag,gulag,Vunira,54,Elite Knight,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Gumaiwonskie Drzwi,gumaiwonskie drzwi,Vunira,538,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-23T14:32:01Z,,pending
@@ -1075,7 +1078,7 @@ Heras Hanipacu,heras hanipacu,Vunira,72,Elite Knight,,,,,,,,,,2026-11-15T15:38:5
 Herja the Valkyrie,herja the valkyrie,Vunira,27,Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Herkulano,herkulano,Vunira,50,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Hermansik,hermansik,Vunira,439,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
-Herr Monkx,herr monkx,Vunira,596,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-23T02:43:04Z,,pending
+Herr Monkx,herr monkx,Vunira,600,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-24T02:53:54Z,,pending
 Herros,herros,Vunira,1051,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Herull,herull,Vunira,144,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
 Heruur,heruur,Vunira,96,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
@@ -1098,13 +1101,13 @@ Holy Hejmi,holy hejmi,Vunira,534,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,202
 Holy Oe,holy oe,Vunira,46,Exalted Monk,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Holy Shotter,holy shotter,Vunira,153,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Holyyyy Molyyyy,holyyyy molyyyy,Vunira,931,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
-Honert Druid,honert druid,Vunira,402,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
+Honert Druid,honert druid,Vunira,405,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Hoperius,hoperius,Vunira,228,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T16:14:16Z,,pending
 Horacy Wiercidupka,horacy wiercidupka,Vunira,80,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Horon Aoldas,horon aoldas,Vunira,1129,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Horror Pop,horror pop,Vunira,331,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Horse Army,horse army,Vunira,236,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
-Hotdog Baloney,hotdog baloney,Vunira,138,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
+Hotdog Baloney,hotdog baloney,Vunira,139,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-24T02:53:54Z,,pending
 Hoween,hoween,Vunira,889,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T09:43:17Z,,pending
 Howl Pendragon,howl pendragon,Vunira,50,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
 Hraczeautomaty,hraczeautomaty,Vunira,564,Exalted Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
@@ -1143,7 +1146,7 @@ Incun,incun,Vunira,1078,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-18T1
 Index Trader,index trader,Vunira,480,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-15T21:01:09Z,,pending
 Indyferentny,indyferentny,Vunira,73,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Indygo Monk,indygo monk,Vunira,896,Exalted Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
-Inepto,inepto,Vunira,227,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
+Inepto,inepto,Vunira,227,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-24T02:53:54Z,,pending
 Inero,inero,Vunira,8,Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Infernal Fluxen,infernal fluxen,Vunira,1080,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Infernal Pal,infernal pal,Vunira,231,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-19T00:19:21Z,,pending
@@ -1157,7 +1160,7 @@ Inserty,inserty,Vunira,388,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-1
 Inteligent,inteligent,Vunira,619,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T21:45:01Z,,pending
 Interesseiraa,interesseiraa,Vunira,369,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-17T15:55:55Z,,pending
 Inthe Bening Thiago,inthe bening thiago,Vunira,668,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
-Introwertyk Psychopata,introwertyk psychopata,Vunira,332,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Introwertyk Psychopata,introwertyk psychopata,Vunira,336,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Invincible Destrucko,invincible destrucko,Vunira,592,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Iqitex,iqitex,Vunira,8,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Ireneuszek Krentacz Auslander,ireneuszek krentacz auslander,Vunira,1208,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
@@ -1179,7 +1182,7 @@ Izashie,izashie,Vunira,164,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21
 Jabolociag,jabolociag,Vunira,206,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Jach Elven,jach elven,Vunira,127,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T14:32:01Z,,pending
 Jack Crown,jack crown,Vunira,646,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-20T18:35:38Z,,pending
-Jack de Galinhaa,jack de galinhaa,Vunira,194,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
+Jack de Galinhaa,jack de galinhaa,Vunira,200,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
 Jack lil,jack lil,Vunira,497,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Jack the Bull,jack the bull,Vunira,499,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
 Jackudora Pyno,jackudora pyno,Vunira,276,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
@@ -1208,11 +1211,11 @@ Jelbi,jelbi,Vunira,510,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T16
 Jellowy,jellowy,Vunira,1267,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Jemary,jemary,Vunira,441,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T18:35:38Z,,pending
 Jeonus Teigo,jeonus teigo,Vunira,56,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T09:43:17Z,,pending
-Jereno Elnidicer,jereno elnidicer,Vunira,627,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T14:32:01Z,,pending
+Jereno Elnidicer,jereno elnidicer,Vunira,628,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Jeryan Ragon,jeryan ragon,Vunira,264,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Jess Leewyn,jess leewyn,Vunira,1047,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T09:43:17Z,,pending
 Jhonn Stark,jhonn stark,Vunira,101,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T14:32:01Z,,pending
-Jhonny Venus,jhonny venus,Vunira,706,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Jhonny Venus,jhonny venus,Vunira,708,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Jigimake Faga,jigimake faga,Vunira,130,Elder Druid,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
 Jigvnr,jigvnr,Vunira,73,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-14T17:58:01Z,,pending
 Jimy Sky,jimy sky,Vunira,109,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
@@ -1238,6 +1241,7 @@ Juancii,juancii,Vunira,202,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20
 Juice Mucha,juice mucha,Vunira,122,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-20T01:45:50Z,,pending
 Julkauwu,julkauwu,Vunira,482,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-14T22:19:43Z,,pending
 Jullizs,jullizs,Vunira,867,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T06:40:07Z,,pending
+Julyetha,julyetha,Vunira,267,Elite Knight,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Junimszy,junimszy,Vunira,719,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Junin Tadala,junin tadala,Vunira,662,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Junkers Oblivion,junkers oblivion,Vunira,97,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
@@ -1254,6 +1258,7 @@ Kabuuum,kabuuum,Vunira,287,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11
 Kadavre,kadavre,Vunira,156,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Kado Lolok,kado lolok,Vunira,159,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Kador Mokil,kador mokil,Vunira,237,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
+Kadra,kadra,Vunira,210,Royal Paladin,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Kael Fist,kael fist,Vunira,903,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T16:14:16Z,,pending
 Kafar Vlad,kafar vlad,Vunira,373,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T06:40:07Z,,pending
 Kajoras,kajoras,Vunira,736,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-17T15:55:55Z,,pending
@@ -1271,7 +1276,7 @@ Kappa Redd,kappa redd,Vunira,55,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026
 Karakasha,karakasha,Vunira,40,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T00:19:21Z,,pending
 Karakulec,karakulec,Vunira,195,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Karate Kiid,karate kiid,Vunira,378,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T16:14:16Z,,pending
-Karatekaa,karatekaa,Vunira,237,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
+Karatekaa,karatekaa,Vunira,250,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 Karbasek,karbasek,Vunira,1092,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
 Karo Linaa,karo linaa,Vunira,29,Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Karoliinka,karoliinka,Vunira,87,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
@@ -1304,7 +1309,7 @@ Kelgath,kelgath,Vunira,158,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20
 Keli Gobine,keli gobine,Vunira,151,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Kelian Maerang,kelian maerang,Vunira,60,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Kelif Banucci,kelif banucci,Vunira,3,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
-Kelif Invitisy,kelif invitisy,Vunira,405,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T06:40:07Z,,pending
+Kelif Invitisy,kelif invitisy,Vunira,408,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-24T02:53:54Z,,pending
 Kelif Monkk,kelif monkk,Vunira,15,Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Kelin Saian,kelin saian,Vunira,2,None,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Kelky,kelky,Vunira,659,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T16:14:16Z,,pending
@@ -1318,7 +1323,7 @@ Ketchup Body Rockefeller,ketchup body rockefeller,Vunira,123,Elite Knight,,,,,,,
 Kevdef,kevdef,Vunira,492,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T09:43:17Z,,pending
 Kevik,kevik,Vunira,626,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Kevro Sarie,kevro sarie,Vunira,890,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T09:43:17Z,,pending
-Khandayat,khandayat,Vunira,521,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
+Khandayat,khandayat,Vunira,521,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T02:53:54Z,,pending
 Kharm,kharm,Vunira,722,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-19T00:19:21Z,,pending
 Kherd Moriel,kherd moriel,Vunira,157,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T17:27:32Z,,pending
 Kheri Toord,kheri toord,Vunira,17,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-16T20:25:18Z,,pending
@@ -1350,7 +1355,7 @@ Kissa Haze,kissa haze,Vunira,56,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026
 Kitten Pati,kitten pati,Vunira,95,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T06:40:07Z,,pending
 Kizoku Ek,kizoku ek,Vunira,345,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T21:45:01Z,,pending
 Kkppooo,kkppooo,Vunira,830,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Klantiga Snubben,klantiga snubben,Vunira,1063,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Klantiga Snubben,klantiga snubben,Vunira,1064,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Klarisq,klarisq,Vunira,149,Royal Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T17:27:32Z,,pending
 Klementor,klementor,Vunira,161,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Klepniak,klepniak,Vunira,894,Master Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T02:43:04Z,,pending
@@ -1361,7 +1366,7 @@ Kmi,kmi,Vunira,1071,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T23:10:0
 Knaekten,knaekten,Vunira,516,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
 Knife Classic,knife classic,Vunira,275,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
 Knight Alpi,knight alpi,Vunira,150,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
-Knight Assessine,knight assessine,Vunira,52,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-20T18:35:38Z,,pending
+Knight Assessine,knight assessine,Vunira,54,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T02:53:54Z,,pending
 Knight Centurio,knight centurio,Vunira,341,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Knight Exiled,knight exiled,Vunira,570,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-23T02:43:04Z,,pending
 Knight Giani,knight giani,Vunira,53,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-23T14:32:01Z,,pending
@@ -1397,7 +1402,7 @@ Kowano,kowano,Vunira,264,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T1
 Koyanisqaatsi,koyanisqaatsi,Vunira,391,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-22T21:45:01Z,,pending
 Kozah,kozah,Vunira,662,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T14:32:01Z,,pending
 Kozoitsuak suge,kozoitsuak suge,Vunira,421,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T23:10:05Z,,pending
-Kozpecker,kozpecker,Vunira,952,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Kozpecker,kozpecker,Vunira,953,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Kradne Loot,kradne loot,Vunira,42,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Krawedziarz,krawedziarz,Vunira,733,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Krecik Ojoj,krecik ojoj,Vunira,203,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
@@ -1411,7 +1416,7 @@ Kropla Beskitu,kropla beskitu,Vunira,281,Elite Knight,,,,,,,,,,2026-11-20T18:35:
 Krysson,krysson,Vunira,1182,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T02:43:04Z,,pending
 Krzycholek,krzycholek,Vunira,475,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-22T16:14:16Z,,pending
 Ksenius,ksenius,Vunira,109,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
-Kserdes,kserdes,Vunira,61,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-23T14:32:01Z,,pending
+Kserdes,kserdes,Vunira,62,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-24T02:53:54Z,,pending
 Ksiezyc Marcina,ksiezyc marcina,Vunira,43,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Ksywa,ksywa,Vunira,413,Master Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-22T16:14:16Z,,pending
 Kub Ekk,kub ekk,Vunira,461,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
@@ -1448,7 +1453,7 @@ Largee Profesor,largee profesor,Vunira,704,Elite Knight,,,,,,,,,,2026-11-11T18:4
 Latigaszo,latigaszo,Vunira,32,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Latulerpe,latulerpe,Vunira,101,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-20T18:35:38Z,,pending
 Latxjacy,latxjacy,Vunira,159,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T09:43:17Z,,pending
-Laura Hellstorm,laura hellstorm,Vunira,1539,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
+Laura Hellstorm,laura hellstorm,Vunira,1540,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T02:53:54Z,,pending
 Laura Rossi,laura rossi,Vunira,241,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Lava utbak,lava utbak,Vunira,162,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Lazy Snorlax,lazy snorlax,Vunira,841,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T21:45:01Z,,pending
@@ -1497,6 +1502,7 @@ Lisuch,lisuch,Vunira,491,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-2
 Liton Neik,liton neik,Vunira,51,Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Little Aloshii,little aloshii,Vunira,157,Royal Paladin,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-23T02:43:04Z,,pending
 Liuz Kion,liuz kion,Vunira,715,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T16:14:16Z,,pending
+Lizzis Pizza,lizzis pizza,Vunira,4,None,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Loba Res,loba res,Vunira,675,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Lobo Marcos,lobo marcos,Vunira,939,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T06:40:07Z,,pending
 Loco Criises,loco criises,Vunira,682,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
@@ -1512,7 +1518,7 @@ Loorb,loorb,Vunira,449,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T23
 Lopezito,lopezito,Vunira,235,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-22T06:40:07Z,,pending
 Lopkik,lopkik,Vunira,105,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T23:10:05Z,,pending
 Loppmarknad,loppmarknad,Vunira,106,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Loquiiito,loquiiito,Vunira,205,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
+Loquiiito,loquiiito,Vunira,210,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-24T02:53:54Z,,pending
 Lorcasarch,lorcasarch,Vunira,985,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T21:45:01Z,,pending
 Lord Abner Saxe,lord abner saxe,Vunira,100,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-19T18:59:45Z,,pending
 Lord Baszan,lord baszan,Vunira,397,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T18:35:38Z,,pending
@@ -1619,7 +1625,7 @@ Makaronpudding,makaronpudding,Vunira,89,Master Sorcerer,,,,,,,,,,2026-11-21T09:4
 Makaveli Maximus,makaveli maximus,Vunira,129,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-15T15:38:52Z,,pending
 Mala Guilla,mala guilla,Vunira,272,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Mala mina,mala mina,Vunira,116,Master Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-20T18:35:38Z,,pending
-Malak daam,malak daam,Vunira,434,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T06:40:07Z,,pending
+Malak daam,malak daam,Vunira,439,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Malanowski,malanowski,Vunira,478,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T17:27:32Z,,pending
 Maldoz,maldoz,Vunira,700,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
 Maleficent Druidka,maleficent druidka,Vunira,55,Elder Druid,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
@@ -1639,7 +1645,7 @@ Manatarian,manatarian,Vunira,453,Elder Druid,,,,,,,,,,2026-11-19T10:15:49Z,2026-
 Mando Feriphiraf,mando feriphiraf,Vunira,329,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Mango Mage,mango mage,Vunira,1013,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T16:14:16Z,,pending
 Maniak tesli,maniak tesli,Vunira,125,Master Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
-Maniekonius,maniekonius,Vunira,1249,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-23T02:43:04Z,,pending
+Maniekonius,maniekonius,Vunira,1249,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-24T02:53:54Z,,pending
 Manu Drunk,manu drunk,Vunira,656,Royal Paladin,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-22T16:14:16Z,,pending
 Many Top,many top,Vunira,650,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-15T21:01:09Z,,pending
 Manyak Musti,manyak musti,Vunira,51,Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T23:10:05Z,,pending
@@ -1671,7 +1677,7 @@ Mary Juano,mary juano,Vunira,54,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-1
 Masakra Tu,masakra tu,Vunira,796,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T14:32:01Z,,pending
 Masakrator Zwlok,masakrator zwlok,Vunira,113,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-20T09:58:14Z,,pending
 Masnus,masnus,Vunira,1533,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
-Maspix,maspix,Vunira,53,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
+Maspix,maspix,Vunira,60,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Masserah Possiive,masserah possiive,Vunira,31,Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Mastaroth,mastaroth,Vunira,215,Master Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T09:43:17Z,,pending
 Master Guita,master guita,Vunira,503,Master Sorcerer,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
@@ -1724,6 +1730,7 @@ Mezokin,mezokin,Vunira,762,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T
 Mezukin,mezukin,Vunira,241,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Michal Mysliciel,michal mysliciel,Vunira,327,Exalted Monk,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Michallski,michallski,Vunira,155,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T06:40:07Z,,pending
+Michigan magician,michigan magician,Vunira,380,Elder Druid,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Midnattssol,midnattssol,Vunira,794,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Mielony Mielony,mielony mielony,Vunira,896,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T06:40:07Z,,pending
 Miga Mikes,miga mikes,Vunira,610,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-22T21:45:01Z,,pending
@@ -1745,7 +1752,7 @@ Mini Rycek,mini rycek,Vunira,430,Knight,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22
 Minii Gabs,minii gabs,Vunira,372,Royal Paladin,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
 Mino Mak,mino mak,Vunira,550,Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T17:27:32Z,,pending
 Miotam Cebula,miotam cebula,Vunira,387,Royal Paladin,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-23T14:32:01Z,,pending
-Miouzz,miouzz,Vunira,859,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-23T02:43:04Z,,pending
+Miouzz,miouzz,Vunira,860,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-24T02:53:54Z,,pending
 Mirathr Fremarakas,mirathr fremarakas,Vunira,38,Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-21T01:28:19Z,,pending
 Mircyn,mircyn,Vunira,375,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-23T14:32:01Z,,pending
 Misik,misik,Vunira,285,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
@@ -1757,6 +1764,7 @@ Miss Situation,miss situation,Vunira,132,Master Sorcerer,,,,,,,,,,2026-11-17T15:
 Miss Tabita,miss tabita,Vunira,80,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
 Missar Alltid,missar alltid,Vunira,59,Master Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Misses Tauriel,misses tauriel,Vunira,68,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
+Missing her,missing her,Vunira,179,Elder Druid,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Missisipi,missisipi,Vunira,210,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Misssara,misssara,Vunira,74,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-14T22:19:43Z,,pending
 Mister Pabllo,mister pabllo,Vunira,413,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
@@ -1787,7 +1795,7 @@ Monk Kombinator,monk kombinator,Vunira,50,Exalted Monk,,,,,,,,,,2026-11-19T10:15
 Monk Wolff,monk wolff,Vunira,8,Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Monkgrubaszi,monkgrubaszi,Vunira,10,Monk,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Monkhek,monkhek,Vunira,251,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-19T10:15:49Z,,pending
-Monkiiee,monkiiee,Vunira,110,Elder Druid,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-23T14:32:01Z,,pending
+Monkiiee,monkiiee,Vunira,110,Elder Druid,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-24T02:53:54Z,,pending
 Monkinero,monkinero,Vunira,21,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-17T15:55:55Z,,pending
 Monkmajstero,monkmajstero,Vunira,117,Exalted Monk,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T14:32:01Z,,pending
 Monksterion,monksterion,Vunira,232,Exalted Monk,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
@@ -1817,7 +1825,7 @@ Moula,moula,Vunira,290,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16
 Mrse Eldolis,mrse eldolis,Vunira,79,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Muay Ties,muay ties,Vunira,126,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
 Muka Erutin,muka erutin,Vunira,201,Elder Druid,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
-Muleke Favelado,muleke favelado,Vunira,165,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
+Muleke Favelado,muleke favelado,Vunira,167,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Mummus,mummus,Vunira,180,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Munczini,munczini,Vunira,50,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Munkmannen,munkmannen,Vunira,328,Exalted Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-17T15:55:55Z,,pending
@@ -1843,7 +1851,7 @@ Nalewa,nalewa,Vunira,82,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21
 Nalldos on Askara,nalldos on askara,Vunira,100,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Nalokcia Padaszgosciu,nalokcia padaszgosciu,Vunira,187,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Namozolny Obciagnik,namozolny obciagnik,Vunira,8,Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Namozolny Rolnik,namozolny rolnik,Vunira,887,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Namozolny Rolnik,namozolny rolnik,Vunira,888,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Namsajow,namsajow,Vunira,361,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Nappzik,nappzik,Vunira,550,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Nastey,nastey,Vunira,205,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
@@ -1869,7 +1877,7 @@ Neptun Emes,neptun emes,Vunira,110,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z
 Neravi,neravi,Vunira,65,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Nero the Assassin,nero the assassin,Vunira,819,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Neros,neros,Vunira,474,Elder Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-20T18:35:38Z,,pending
-Nerwuz,nerwuz,Vunira,273,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
+Nerwuz,nerwuz,Vunira,277,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-24T02:53:54Z,,pending
 Nestian,nestian,Vunira,790,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Never Again Sio,never again sio,Vunira,1568,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Nevin Akumac,nevin akumac,Vunira,2,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -1928,7 +1936,7 @@ Nozyk,nozyk,Vunira,1809,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T0
 Nubs Hunter,nubs hunter,Vunira,89,Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-22T16:14:16Z,,pending
 Nuevo Chico,nuevo chico,Vunira,120,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Nuke Highwalker,nuke highwalker,Vunira,82,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-15T21:01:09Z,,pending
-Nundiox,nundiox,Vunira,225,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
+Nundiox,nundiox,Vunira,228,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-24T02:53:54Z,,pending
 Nurzecki Rozrabiaka,nurzecki rozrabiaka,Vunira,103,Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Nuvunizi Louco Demais,nuvunizi louco demais,Vunira,43,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-16T20:25:18Z,,pending
 Nymerja,nymerja,Vunira,783,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T01:28:19Z,,pending
@@ -1955,7 +1963,7 @@ Oko Prawe,oko prawe,Vunira,418,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11
 Okult Duszek,okult duszek,Vunira,39,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-22T21:45:01Z,,pending
 Olambik,olambik,Vunira,324,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T09:58:14Z,,pending
 Oliver Makedon,oliver makedon,Vunira,255,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
-Olliver People,olliver people,Vunira,73,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-20T01:45:50Z,,pending
+Olliver People,olliver people,Vunira,74,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-24T02:53:54Z,,pending
 Olsenn,olsenn,Vunira,412,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-19T10:15:49Z,,pending
 Olsztyn Sto Mil,olsztyn sto mil,Vunira,579,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-19T00:19:21Z,,pending
 Olusia Kanadyjka,olusia kanadyjka,Vunira,49,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-20T18:35:38Z,,pending
@@ -1983,6 +1991,7 @@ Owszem Cztery,owszem cztery,Vunira,4,Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-1
 Owszem Osiem,owszem osiem,Vunira,5,Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Oz Hero,oz hero,Vunira,524,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
 Ozinator,ozinator,Vunira,462,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
+Ozzyfex,ozzyfex,Vunira,25,Elder Druid,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Pa Pita,pa pita,Vunira,512,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Paczemu,paczemu,Vunira,74,Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Painbane,painbane,Vunira,29,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
@@ -1996,6 +2005,7 @@ Paladin Exeqution,paladin exeqution,Vunira,272,Royal Paladin,,,,,,,,,,2026-11-14
 Paladin Rajadao,paladin rajadao,Vunira,249,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Paladino Omran,paladino omran,Vunira,368,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-23T14:32:01Z,,pending
 Paladyn Krzysztof,paladyn krzysztof,Vunira,352,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
+Palek Staszek,palek staszek,Vunira,41,Royal Paladin,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Palia Malka,palia malka,Vunira,8,Monk,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Pallatinn,pallatinn,Vunira,157,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
 Pallger,pallger,Vunira,49,Sorcerer,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
@@ -2081,6 +2091,7 @@ Plamistus,plamistus,Vunira,136,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-
 Playhard Vunira,playhard vunira,Vunira,8,Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Plik Zielonych,plik zielonych,Vunira,9,Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Plom,plom,Vunira,572,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Plomisio,plomisio,Vunira,112,Master Sorcerer,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Plugged,plugged,Vunira,745,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T14:32:01Z,,pending
 Pocs Bruts,pocs bruts,Vunira,39,Master Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T23:10:05Z,,pending
 Pogromca Haluny,pogromca haluny,Vunira,248,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T21:45:01Z,,pending
@@ -2091,7 +2102,7 @@ Pole Starstone,pole starstone,Vunira,105,Elite Knight,,,,,,,,,,2026-11-20T18:35:
 Polewasz,polewasz,Vunira,34,Monk,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Pollsiak Prime,pollsiak prime,Vunira,1460,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Ponury Zombie,ponury zombie,Vunira,204,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
-Popoccinox,popoccinox,Vunira,209,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-22T16:14:16Z,,pending
+Popoccinox,popoccinox,Vunira,211,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
 Poprzecznik,poprzecznik,Vunira,106,Master Sorcerer,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Porgarius,porgarius,Vunira,685,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
 Porlore,porlore,Vunira,46,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
@@ -2226,7 +2237,7 @@ Rawoo,rawoo,Vunira,408,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01
 Raya Vood,raya vood,Vunira,258,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
 Razdwatrzy lezyszty,razdwatrzy lezyszty,Vunira,91,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Razehan,razehan,Vunira,998,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
-Reahim,reahim,Vunira,260,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
+Reahim,reahim,Vunira,263,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Really bad man,really bad man,Vunira,122,Elder Druid,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Rebelde mambo,rebelde mambo,Vunira,184,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-16T01:59:32Z,,pending
 Redmoriz,redmoriz,Vunira,139,Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
@@ -2277,7 +2288,7 @@ Rockring,rockring,Vunira,469,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-
 Rockstar Aferrafter,rockstar aferrafter,Vunira,720,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
 Rocky Vergoa,rocky vergoa,Vunira,202,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Roevbetan,roevbetan,Vunira,414,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T21:45:01Z,,pending
-Roffdogg The Bountyhunter,roffdogg the bountyhunter,Vunira,1766,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
+Roffdogg The Bountyhunter,roffdogg the bountyhunter,Vunira,1766,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 Roggvir,roggvir,Vunira,710,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T15:55:55Z,,pending
 Rohaminah Theia,rohaminah theia,Vunira,8,Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Rohan Kishibe,rohan kishibe,Vunira,33,Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T23:10:05Z,,pending
@@ -2289,7 +2300,7 @@ Ron aka monk,ron aka monk,Vunira,673,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,
 Ronald Vilijn,ronald vilijn,Vunira,274,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Rondozz Slingshot,rondozz slingshot,Vunira,540,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T09:43:17Z,,pending
 Roomeoo,roomeoo,Vunira,735,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
-Ropeless,ropeless,Vunira,146,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
+Ropeless,ropeless,Vunira,148,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Ropusza,ropusza,Vunira,44,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Rorkrum,rorkrum,Vunira,752,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T23:10:05Z,,pending
 Roslix,roslix,Vunira,116,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
@@ -2307,6 +2318,7 @@ Royal Nevada,royal nevada,Vunira,188,Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-
 Royal Pallx,royal pallx,Vunira,201,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Royal Saheer,royal saheer,Vunira,123,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T16:14:16Z,,pending
 Royal Starszzy,royal starszzy,Vunira,80,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-15T21:01:09Z,,pending
+Royal Tag,royal tag,Vunira,101,Master Sorcerer,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Royal Wolf,royal wolf,Vunira,169,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T06:40:07Z,,pending
 Royal Zephy,royal zephy,Vunira,392,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Royal'Barney,royal'barney,Vunira,162,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
@@ -2471,7 +2483,7 @@ Shooter Scotty,shooter scotty,Vunira,829,Royal Paladin,,,,,,,,,,2026-11-19T10:15
 Shosilo,shosilo,Vunira,7,None,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Shotter Rushfull,shotter rushfull,Vunira,660,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Showbizzer,showbizzer,Vunira,439,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
-Shum Shum,shum shum,Vunira,151,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Shum Shum,shum shum,Vunira,152,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Shupe,shupe,Vunira,172,Exalted Monk,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Shus Mal,shus mal,Vunira,855,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
 Sibon Faur,sibon faur,Vunira,1276,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-23T02:43:04Z,,pending
@@ -2500,13 +2512,13 @@ Sippe Mas,sippe mas,Vunira,292,Royal Paladin,,,,,,,,,,2026-11-18T07:20:56Z,2026-
 Sir Argan,sir argan,Vunira,855,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-22T16:14:16Z,,pending
 Sir Bazzalot,sir bazzalot,Vunira,95,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-14T22:19:43Z,,pending
 Sir Bigpee,sir bigpee,Vunira,131,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
-Sir Boltzinho,sir boltzinho,Vunira,110,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
+Sir Boltzinho,sir boltzinho,Vunira,129,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-24T02:53:54Z,,pending
 Sir Draconir,sir draconir,Vunira,66,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T17:27:32Z,,pending
 Sir Feszti,sir feszti,Vunira,135,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
 Sir Hossam,sir hossam,Vunira,508,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
 Sir Lord Lopez,sir lord lopez,Vunira,909,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
 Sir Mevius,sir mevius,Vunira,222,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Sir Miltretas,sir miltretas,Vunira,641,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Sir Miltretas,sir miltretas,Vunira,641,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Sir Mumin,sir mumin,Vunira,659,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-15T21:01:09Z,,pending
 Sir Muthadoz,sir muthadoz,Vunira,1151,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 Sir Nerwus,sir nerwus,Vunira,303,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
@@ -2515,7 +2527,7 @@ Sir Punxeon,sir punxeon,Vunira,43,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026
 Sir Riomas,sir riomas,Vunira,185,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T14:32:01Z,,pending
 Sir Solar,sir solar,Vunira,19,Sorcerer,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18T07:20:56Z,,pending
 Sir Swirusek,sir swirusek,Vunira,1073,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
-Sir Szczensk,sir szczensk,Vunira,66,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
+Sir Szczensk,sir szczensk,Vunira,70,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Sir Torta De'La Barda,sir torta de'la barda,Vunira,137,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Sir Veluci,sir veluci,Vunira,56,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Sir Verm,sir verm,Vunira,416,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
@@ -2534,7 +2546,7 @@ Skalziik,skalziik,Vunira,294,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-
 Skar Rukon,skar rukon,Vunira,219,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-22T16:14:16Z,,pending
 Skavulskoww,skavulskoww,Vunira,256,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T09:43:17Z,,pending
 Skif Delowe,skif delowe,Vunira,120,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Skiladosz,skiladosz,Vunira,1157,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T14:32:01Z,,pending
+Skiladosz,skiladosz,Vunira,1158,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T02:53:54Z,,pending
 Skilleerr,skilleerr,Vunira,374,Druid,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Skillir,skillir,Vunira,441,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T21:45:01Z,,pending
 Skitztrakt,skitztrakt,Vunira,539,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
@@ -2586,6 +2598,7 @@ Solutionnnyy,solutionnnyy,Vunira,1662,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:
 Somaris,somaris,Vunira,607,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
 Sonia Smith,sonia smith,Vunira,418,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Sorcbrother,sorcbrother,Vunira,162,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
+Sorcerer Dovo,sorcerer dovo,Vunira,105,Master Sorcerer,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Soul jail,soul jail,Vunira,663,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Soulwarprimal rottenfree,soulwarprimal rottenfree,Vunira,678,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
 Spajdii,spajdii,Vunira,312,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-20T09:58:14Z,,pending
@@ -2648,7 +2661,7 @@ Supermowgli,supermowgli,Vunira,130,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z
 Surfin Bird,surfin bird,Vunira,192,Master Sorcerer,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-20T18:35:38Z,,pending
 Surguttinio,surguttinio,Vunira,258,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
 Sven Ingvar,sven ingvar,Vunira,236,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Sweet gorl,sweet gorl,Vunira,294,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-21T09:43:17Z,,pending
+Sweet gorl,sweet gorl,Vunira,295,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-24T02:53:54Z,,pending
 Swifty Mcvay,swifty mcvay,Vunira,279,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
 Swinia we fraku,swinia we fraku,Vunira,82,Elite Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Swinnie Osvetnik,swinnie osvetnik,Vunira,59,None,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-19T18:59:45Z,,pending
@@ -2663,7 +2676,7 @@ Szachu,szachu,Vunira,27,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20
 Szallony Sprawiedliwy,szallony sprawiedliwy,Vunira,514,Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Szalona Bozenka,szalona bozenka,Vunira,98,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Szalony Bolter,szalony bolter,Vunira,86,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
-Szalony Kogut,szalony kogut,Vunira,422,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T06:40:07Z,,pending
+Szalony Kogut,szalony kogut,Vunira,426,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
 Szarmancki Sandacz,szarmancki sandacz,Vunira,513,Exalted Monk,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Szarmani,szarmani,Vunira,527,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
 Szczupakjest krol wody,szczupakjest krol wody,Vunira,199,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T23:10:05Z,,pending
@@ -2683,7 +2696,7 @@ Szysha,szysha,Vunira,1411,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T
 Taburazu,taburazu,Vunira,374,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Tad Dzik,tad dzik,Vunira,1229,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-23T02:43:04Z,,pending
 Tadala Faum,tadala faum,Vunira,31,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-22T21:45:01Z,,pending
-Tadron Theta,tadron theta,Vunira,1294,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T06:40:07Z,,pending
+Tadron Theta,tadron theta,Vunira,1296,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T02:53:54Z,,pending
 Tahyaa,tahyaa,Vunira,986,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-23T14:32:01Z,,pending
 Tai Otoshi,tai otoshi,Vunira,345,Exalted Monk,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-23T02:43:04Z,,pending
 Takada Jagurus,takada jagurus,Vunira,8,Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
@@ -2713,9 +2726,9 @@ Taty Waizemann,taty waizemann,Vunira,224,Master Sorcerer,,,,,,,,,,2026-11-12T22:
 Tavares Mineiro,tavares mineiro,Vunira,132,Elder Druid,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Tavearanos,tavearanos,Vunira,358,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
 Tayhak Avados,tayhak avados,Vunira,307,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
-Tecket,tecket,Vunira,314,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
+Tecket,tecket,Vunira,314,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
 Tegin Swok,tegin swok,Vunira,54,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
-Temple Runner,temple runner,Vunira,590,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Temple Runner,temple runner,Vunira,592,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Temporary Employee,temporary employee,Vunira,150,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T21:45:01Z,,pending
 Ten Bez Talentny,ten bez talentny,Vunira,1108,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-18T07:20:56Z,,pending
 Tenente Caveira,tenente caveira,Vunira,1013,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-22T16:14:16Z,,pending
@@ -2729,7 +2742,7 @@ Texaxo,texaxo,Vunira,279,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-16T2
 Teyaz,teyaz,Vunira,624,Elder Druid,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-21T23:10:05Z,,pending
 Thai Bandit,thai bandit,Vunira,393,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T23:10:05Z,,pending
 Tham Atan,tham atan,Vunira,589,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
-Thanatos Crusher,thanatos crusher,Vunira,306,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
+Thanatos Crusher,thanatos crusher,Vunira,307,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-24T02:53:54Z,,pending
 Thanatos Nemesis,thanatos nemesis,Vunira,15,Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Thar Sokin,thar sokin,Vunira,271,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Tharkek,tharkek,Vunira,603,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T01:28:19Z,,pending
@@ -2800,7 +2813,7 @@ Toro Sato Bomb,toro sato bomb,Vunira,561,Master Sorcerer,,,,,,,,,,2026-11-14T17:
 Tosikin,tosikin,Vunira,8,Sorcerer,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
 Toskawfke,toskawfke,Vunira,607,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T09:43:17Z,,pending
 Total Disaster,total disaster,Vunira,488,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-22T21:45:01Z,,pending
-Tottysn,tottysn,Vunira,163,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T02:43:04Z,,pending
+Tottysn,tottysn,Vunira,164,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-24T02:53:54Z,,pending
 Toudii Ek,toudii ek,Vunira,784,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T14:32:01Z,,pending
 Toxcisfoog,toxcisfoog,Vunira,23,Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Toxic Ascon,toxic ascon,Vunira,765,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-23T02:43:04Z,,pending
@@ -2813,7 +2826,7 @@ Tratov,tratov,Vunira,102,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-1
 Treh Mare,treh mare,Vunira,513,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T06:40:07Z,,pending
 Trem Penixor,trem penixor,Vunira,8,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Trenka Closques,trenka closques,Vunira,201,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T01:28:19Z,,pending
-Trenka Swiftshot,trenka swiftshot,Vunira,521,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Trenka Swiftshot,trenka swiftshot,Vunira,522,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Trenuje Dista,trenuje dista,Vunira,592,Royal Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Treves Du Trinca,treves du trinca,Vunira,21,Druid,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Trick Plys,trick plys,Vunira,443,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T06:40:07Z,,pending
@@ -2825,7 +2838,7 @@ Trivadar,trivadar,Vunira,149,Exalted Monk,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-
 Trollenklopper,trollenklopper,Vunira,2,Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Trombka,trombka,Vunira,357,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T10:15:49Z,,pending
 Troviz,troviz,Vunira,173,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
-Troxydogg The Bountyhunter,troxydogg the bountyhunter,Vunira,1340,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
+Troxydogg The Bountyhunter,troxydogg the bountyhunter,Vunira,1341,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T02:53:54Z,,pending
 Trrifflock,trrifflock,Vunira,45,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 True Abdosz,true abdosz,Vunira,1783,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
 True Hayder,true hayder,Vunira,1544,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T01:28:19Z,,pending
@@ -2834,7 +2847,7 @@ True Messi,true messi,Vunira,1615,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,202
 Truwa,truwa,Vunira,188,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Trzecie Oko,trzecie oko,Vunira,72,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Trzpieniu,trzpieniu,Vunira,387,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-22T16:14:16Z,,pending
-Tsukuyomi Susanoo,tsukuyomi susanoo,Vunira,1126,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T14:32:01Z,,pending
+Tsukuyomi Susanoo,tsukuyomi susanoo,Vunira,1126,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Tubular,tubular,Vunira,1356,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-19T18:59:45Z,,pending
 Tucano Skywalker,tucano skywalker,Vunira,19,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Tudologo Dialetico,tudologo dialetico,Vunira,328,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
@@ -2853,6 +2866,7 @@ Tyrion Fejico,tyrion fejico,Vunira,155,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026
 Tyskaczowy Mus,tyskaczowy mus,Vunira,254,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Ubi'hib,ubi'hib,Vunira,423,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T14:32:01Z,,pending
 Uchiha Sara,uchiha sara,Vunira,131,Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
+Uchiha Sharingan,uchiha sharingan,Vunira,285,Royal Paladin,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Uciekajacy kurczak,uciekajacy kurczak,Vunira,19,Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Ujum,ujum,Vunira,37,Paladin,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Ukasz,ukasz,Vunira,1071,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T09:58:14Z,,pending
@@ -2876,7 +2890,7 @@ Vadrius,vadrius,Vunira,426,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-2
 Vajii,vajii,Vunira,772,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
 Vajran,vajran,Vunira,64,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Valhallad,valhallad,Vunira,254,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
-Vammala warrior,vammala warrior,Vunira,538,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-21T17:27:32Z,,pending
+Vammala warrior,vammala warrior,Vunira,541,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-24T02:53:54Z,,pending
 Van Graaf,van graaf,Vunira,261,Elder Druid,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T17:27:32Z,,pending
 Van Poyen,van poyen,Vunira,189,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Van Sunzet,van sunzet,Vunira,162,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
@@ -2966,6 +2980,7 @@ Walg,walg,Vunira,366,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T14:32:
 Wallahorse,wallahorse,Vunira,216,Master Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Walt Warz,walt warz,Vunira,1534,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-23T02:43:04Z,,pending
 War lines,war lines,Vunira,591,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
+Warhawks,warhawks,Vunira,345,Elite Knight,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Warlock Maldito,warlock maldito,Vunira,635,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-23T02:43:04Z,,pending
 Warren Harding,warren harding,Vunira,171,None,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Warriors Aduu,warriors aduu,Vunira,478,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
@@ -3028,7 +3043,7 @@ Wyatso,wyatso,Vunira,64,Exalted Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23
 Wylajtoowany,wylajtoowany,Vunira,431,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Wyznawca Essy,wyznawca essy,Vunira,320,Royal Paladin,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
 Wzorowa Transakcja,wzorowa transakcja,Vunira,182,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-19T18:59:45Z,,pending
-Xahius Thor,xahius thor,Vunira,950,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-22T06:40:07Z,,pending
+Xahius Thor,xahius thor,Vunira,952,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-24T02:53:54Z,,pending
 Xainen,xainen,Vunira,252,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Xaltchar,xaltchar,Vunira,897,Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-17T15:55:55Z,,pending
 Xamirion,xamirion,Vunira,166,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-18T17:13:21Z,,pending
@@ -3093,6 +3108,7 @@ Yoshiyuko,yoshiyuko,Vunira,356,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,202
 You Know Who,you know who,Vunira,913,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T17:27:32Z,,pending
 Young Kakti,young kakti,Vunira,545,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-23T02:43:04Z,,pending
 Young Knoxville,young knoxville,Vunira,224,Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
+Young Lajcepss,young lajcepss,Vunira,74,Elder Druid,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Your Nemessis,your nemessis,Vunira,840,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Yther,yther,Vunira,517,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T09:43:17Z,,pending
 Yudai Yuki,yudai yuki,Vunira,243,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-18T07:20:56Z,,pending
@@ -3159,7 +3175,7 @@ Zeru druid,zeru druid,Vunira,274,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-
 Zeth Rycerzyk,zeth rycerzyk,Vunira,178,Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Zetito,zetito,Vunira,20,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Zeus Demonic,zeus demonic,Vunira,216,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T21:45:01Z,,pending
-Zevelinaaaa,zevelinaaaa,Vunira,565,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
+Zevelinaaaa,zevelinaaaa,Vunira,565,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
 Zevyy,zevyy,Vunira,205,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Zgorszony,zgorszony,Vunira,90,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T09:43:17Z,,pending
 Ziazia,ziazia,Vunira,78,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
