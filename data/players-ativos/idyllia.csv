@@ -7,12 +7,12 @@ Alen Aigo,alen aigo,Idyllia,5,Knight,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00
 Aleryssos,aleryssos,Idyllia,43,Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Alma Lavini,alma lavini,Idyllia,23,Master Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Alphahouse,alphahouse,Idyllia,117,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
-Altaxa,altaxa,Idyllia,47,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-22T16:14:16Z,,pending
+Altaxa,altaxa,Idyllia,49,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-25T11:13:45Z,,pending
 Ananasas,ananasas,Idyllia,906,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-13T16:16:56Z,,pending
 Anch Heno,anch heno,Idyllia,22,Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Aniuu,aniuu,Idyllia,498,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-13T21:59:42Z,,pending
 Anna Llinguus,anna llinguus,Idyllia,27,Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-22T21:45:01Z,,pending
-Anthh,anthh,Idyllia,8,Knight,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
+Anthh,anthh,Idyllia,8,Knight,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-25T11:13:45Z,,pending
 Arakusso,arakusso,Idyllia,220,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Ardyn Stormforge,ardyn stormforge,Idyllia,8,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
 Arelyn The Second,arelyn the second,Idyllia,37,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T16:14:16Z,,pending
@@ -45,16 +45,16 @@ Dark Michalek,dark michalek,Idyllia,549,Royal Paladin,,,,,,,,,,2026-11-12T22:43:
 Dark Senior,dark senior,Idyllia,139,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Darkverqua,darkverqua,Idyllia,656,Elite Knight,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
 Dawyn Nart,dawyn nart,Idyllia,546,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
-Degustator Dopaminy,degustator dopaminy,Idyllia,17,Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
+Degustator Dopaminy,degustator dopaminy,Idyllia,17,Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-25T11:13:45Z,,pending
 Degustator Kreatyny,degustator kreatyny,Idyllia,7,Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Dexmor,dexmor,Idyllia,364,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
 Draeron,draeron,Idyllia,41,Knight,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Drunk Dion,drunk dion,Idyllia,45,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-24T14:49:26Z,,pending
-Drunk Hades,drunk hades,Idyllia,125,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-22T16:14:16Z,,pending
+Drunk Hades,drunk hades,Idyllia,141,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-25T11:13:45Z,,pending
 Durchuck,durchuck,Idyllia,21,Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Eef Hoos,eef hoos,Idyllia,33,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
-Ek Pet,ek pet,Idyllia,470,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
-El Rumano,el rumano,Idyllia,431,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
+Ek Pet,ek pet,Idyllia,473,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
+El Rumano,el rumano,Idyllia,433,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Elder Metyl,elder metyl,Idyllia,59,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T09:43:17Z,,pending
 Elite Mario,elite mario,Idyllia,190,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-23T14:32:01Z,,pending
 Emporeo,emporeo,Idyllia,246,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-14T17:58:01Z,,pending
@@ -64,6 +64,7 @@ Erdvirn,erdvirn,Idyllia,211,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-2
 Esl El,esl el,Idyllia,778,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
 Evax Crin,evax crin,Idyllia,68,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Even Grovoniz,even grovoniz,Idyllia,49,Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-16T01:59:32Z,,pending
+Extreme Taterka,extreme taterka,Idyllia,90,Royal Paladin,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Fenloor,fenloor,Idyllia,103,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-19T10:15:49Z,,pending
 Fire Child,fire child,Idyllia,2,Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Firgosonha Azus,firgosonha azus,Idyllia,23,Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
@@ -72,15 +73,17 @@ Flaszka na dwoch,flaszka na dwoch,Idyllia,72,Elite Knight,,,,,,,,,,2026-11-20T09
 Fofinkos,fofinkos,Idyllia,238,Elite Knight,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Fravdriz,fravdriz,Idyllia,75,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-19T18:59:45Z,,pending
 Gadziorro Warrior,gadziorro warrior,Idyllia,130,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
-Gafone,gafone,Idyllia,302,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T14:32:01Z,,pending
+Gafone,gafone,Idyllia,303,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T11:13:45Z,,pending
 Gaspar Meiabomba,gaspar meiabomba,Idyllia,398,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T23:10:05Z,,pending
 Gerus Mohntonblo,gerus mohntonblo,Idyllia,69,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
+Gideon Vance,gideon vance,Idyllia,27,Master Sorcerer,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Giexmen,giexmen,Idyllia,9,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Gran Kameltana,gran kameltana,Idyllia,23,Monk,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Grand Captain,grand captain,Idyllia,555,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T06:40:07Z,,pending
 Green Bluered Yellow,green bluered yellow,Idyllia,905,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Grim Fern,grim fern,Idyllia,50,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-22T16:14:16Z,,pending
 Grina Dekin,grina dekin,Idyllia,548,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
+Gwardia,gwardia,Idyllia,370,Elite Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Halvdan rovhalt,halvdan rovhalt,Idyllia,8,Monk,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Hellhunter Infernia,hellhunter infernia,Idyllia,188,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Hersztu,hersztu,Idyllia,756,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
@@ -91,6 +94,7 @@ Hyggs,hyggs,Idyllia,213,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23
 Iblisik,iblisik,Idyllia,148,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T23:10:05Z,,pending
 Idillio,idillio,Idyllia,116,Sorcerer,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Idy llia,idy llia,Idyllia,7,Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
+Idyllias Secret,idyllias secret,Idyllia,453,Exalted Monk,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Idyllus,idyllus,Idyllia,50,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T09:58:14Z,,pending
 Ill Dodoettore,ill dodoettore,Idyllia,55,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T09:43:17Z,,pending
 Includeio Lazy Shooter,includeio lazy shooter,Idyllia,43,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
@@ -100,7 +104,7 @@ Itz Matys,itz matys,Idyllia,536,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-
 Jan Druid Pierwszy,jan druid pierwszy,Idyllia,250,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Jellalel ultimate,jellalel ultimate,Idyllia,413,Master Sorcerer,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-23T14:32:01Z,,pending
 Kagenohikari,kagenohikari,Idyllia,534,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
-Kamil Dawid Radwan,kamil dawid radwan,Idyllia,29,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-19T10:15:49Z,,pending
+Kamil Dawid Radwan,kamil dawid radwan,Idyllia,34,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T11:13:45Z,,pending
 Kamzey,kamzey,Idyllia,736,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
 Kapec na offa,kapec na offa,Idyllia,142,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Karlito Mordinhi,karlito mordinhi,Idyllia,937,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
@@ -132,7 +136,7 @@ Manifest pain,manifest pain,Idyllia,11,Monk,,,,,,,,,,2026-11-16T01:59:32Z,2026-1
 Marreta Du Buddah,marreta du buddah,Idyllia,154,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Maskuliisa,maskuliisa,Idyllia,177,Exalted Monk,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-22T21:45:01Z,,pending
 Maxa Eladimo,maxa eladimo,Idyllia,9,Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T16:14:16Z,,pending
-Mikeful,mikeful,Idyllia,326,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
+Mikeful,mikeful,Idyllia,329,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Mimus Syfenda,mimus syfenda,Idyllia,291,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Mischief Healer,mischief healer,Idyllia,390,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
 Moalisa,moalisa,Idyllia,181,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-22T06:40:07Z,,pending
@@ -147,7 +151,7 @@ Nayron Ulter,nayron ulter,Idyllia,396,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,
 Nazan Palin,nazan palin,Idyllia,410,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
 Nephalion,nephalion,Idyllia,27,Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Nirhes,nirhes,Idyllia,310,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T18:35:38Z,,pending
-Nobel skywind,nobel skywind,Idyllia,106,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-15T21:01:09Z,,pending
+Nobel skywind,nobel skywind,Idyllia,122,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Noharos,noharos,Idyllia,35,Monk,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-16T01:59:32Z,,pending
 Nonozz,nonozz,Idyllia,90,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-18T17:13:21Z,,pending
 Not Chris,not chris,Idyllia,913,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
@@ -156,7 +160,7 @@ Nycolicious,nycolicious,Idyllia,68,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,20
 Odin Bloosom,odin bloosom,Idyllia,82,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T18:35:38Z,,pending
 Ofuczana,ofuczana,Idyllia,262,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T06:40:07Z,,pending
 Ojczulek Denke,ojczulek denke,Idyllia,615,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
-Onenut Dutchie,onenut dutchie,Idyllia,84,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-22T21:45:01Z,,pending
+Onenut Dutchie,onenut dutchie,Idyllia,94,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-25T11:13:45Z,,pending
 Oris Edibar,oris edibar,Idyllia,12,Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Ostra Przygoda,ostra przygoda,Idyllia,483,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
 Owld,owld,Idyllia,450,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
@@ -172,17 +176,17 @@ Player Twelve,player twelve,Idyllia,222,Royal Paladin,,,,,,,,,,2026-11-21T09:43:
 Poterzny Czarodziej,poterzny czarodziej,Idyllia,36,Sorcerer,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Princess Grace Vanpelt,princess grace vanpelt,Idyllia,14,Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-19T00:19:21Z,,pending
 Prins Emil,prins emil,Idyllia,329,Exalted Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-16T20:25:18Z,,pending
-Propably Idyllia,propably idyllia,Idyllia,19,Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
+Propably Idyllia,propably idyllia,Idyllia,26,Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-25T11:13:45Z,,pending
 Prosze Pokasz,prosze pokasz,Idyllia,378,Exalted Monk,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-22T16:14:16Z,,pending
 Puffuffe,puffuffe,Idyllia,120,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T09:43:17Z,,pending
 Quicky Skadi,quicky skadi,Idyllia,311,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-22T21:45:01Z,,pending
 Rakerii,rakerii,Idyllia,998,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
 Riel Krysa,riel krysa,Idyllia,73,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-17T15:55:55Z,,pending
-Rokan Of Idyllia,rokan of idyllia,Idyllia,138,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T18:35:38Z,,pending
-Ruppo,ruppo,Idyllia,759,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-24T14:49:26Z,,pending
+Rokan Of Idyllia,rokan of idyllia,Idyllia,161,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
+Ruppo,ruppo,Idyllia,760,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T11:13:45Z,,pending
 Rzucam ii uciekam,rzucam ii uciekam,Idyllia,49,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Sehrin,sehrin,Idyllia,704,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
-Sephiros Ikin,sephiros ikin,Idyllia,199,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-22T16:14:16Z,,pending
+Sephiros Ikin,sephiros ikin,Idyllia,200,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-25T11:13:45Z,,pending
 Setiendrul Doyus,setiendrul doyus,Idyllia,154,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Sherlock Miau Miau,sherlock miau miau,Idyllia,295,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
 Sir Cuddly,sir cuddly,Idyllia,400,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
@@ -202,6 +206,7 @@ Suvakin Peludio,suvakin peludio,Idyllia,30,Master Sorcerer,,,,,,,,,,2026-11-15T1
 Sweany Swouny,sweany swouny,Idyllia,58,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-22T16:14:16Z,,pending
 Swedjene,swedjene,Idyllia,79,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Sylvan the Rookie,sylvan the rookie,Idyllia,4,None,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
+Szybkieeee Nooooogi Wezzzza,szybkieeee nooooogi wezzzza,Idyllia,261,Sorcerer,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Takkato,takkato,Idyllia,657,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 Tapana Chavasca,tapana chavasca,Idyllia,16,Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Tari Amar,tari amar,Idyllia,67,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-16T01:59:32Z,,pending
@@ -224,7 +229,7 @@ Urulion,urulion,Idyllia,400,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-2
 Utopiony Bober,utopiony bober,Idyllia,311,Elder Druid,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Uziel Druido,uziel druido,Idyllia,65,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
 Valentis Solenski,valentis solenski,Idyllia,64,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T16:14:16Z,,pending
-Victor Vlad,victor vlad,Idyllia,196,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-21T17:27:32Z,,pending
+Victor Vlad,victor vlad,Idyllia,203,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-25T11:13:45Z,,pending
 Violet Sorcere,violet sorcere,Idyllia,658,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-17T23:29:35Z,,pending
 Violet Violet,violet violet,Idyllia,113,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Vitudpft,vitudpft,Idyllia,479,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
@@ -241,7 +246,7 @@ Xampinho,xampinho,Idyllia,43,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-
 Yanka,yanka,Idyllia,211,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Ye So Ho,ye so ho,Idyllia,37,Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-21T01:28:19Z,,pending
 Yekim,yekim,Idyllia,20,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
-Yoda Bestia,yoda bestia,Idyllia,611,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
+Yoda Bestia,yoda bestia,Idyllia,612,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Yot Zet,yot zet,Idyllia,344,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 Yuna Raquel,yuna raquel,Idyllia,101,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
 Zatina Abiw,zatina abiw,Idyllia,34,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-17T23:29:35Z,,pending

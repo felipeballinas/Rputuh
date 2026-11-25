@@ -1,11 +1,11 @@
 ﻿name,normalized_name,world,level,vocation,guild_name,guild_rank,residence,last_login,achievement_points,sex,account_status,house,married_to,first_seen_at,last_seen_at,profile_updated_at,profile_status
 Aalmeiida,aalmeiida,Ourobra,866,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-24T02:53:54Z,,pending
-Aarx,aarx,Ourobra,325,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
+Aarx,aarx,Ourobra,327,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Abeia Druid,abeia druid,Ourobra,186,Elder Druid,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Abobrora,abobrora,Ourobra,8,Paladin,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Abs Lilozin,abs lilozin,Ourobra,2017,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
 Abs Theuziik,abs theuziik,Ourobra,358,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
-Absolut Fenny,absolut fenny,Ourobra,684,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Absolut Fenny,absolut fenny,Ourobra,685,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Aconyah Calorus,aconyah calorus,Ourobra,16,Sorcerer,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Adeon Seluna,adeon seluna,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-24T14:49:26Z,,pending
 Adin Kotoco,adin kotoco,Ourobra,13,Druid,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
@@ -24,7 +24,7 @@ Aiolia Of Athena,aiolia of athena,Ourobra,30,Royal Paladin,,,,,,,,,,2026-11-23T1
 Ajode Xourobra,ajode xourobra,Ourobra,33,Sorcerer,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-24T02:53:54Z,,pending
 Akath Dras,akath dras,Ourobra,255,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Akkali,akkali,Ourobra,217,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T17:27:32Z,,pending
-Akot Cigam,akot cigam,Ourobra,350,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
+Akot Cigam,akot cigam,Ourobra,352,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Al Aziz,al aziz,Ourobra,500,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Al vinn,al vinn,Ourobra,1082,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T06:40:07Z,,pending
 Alain Fearless,alain fearless,Ourobra,1236,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
@@ -79,7 +79,7 @@ Arcanis Aragorn,arcanis aragorn,Ourobra,362,Elite Knight,,,,,,,,,,2026-11-22T16:
 Arcanis Blade,arcanis blade,Ourobra,539,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
 Arcanis Freya,arcanis freya,Ourobra,121,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-24T02:53:54Z,,pending
 Arcanis Galak,arcanis galak,Ourobra,481,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
-Arcanis Lord Sauron,arcanis lord sauron,Ourobra,137,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T14:32:01Z,,pending
+Arcanis Lord Sauron,arcanis lord sauron,Ourobra,138,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Arcanis Maw,arcanis maw,Ourobra,607,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-17T23:29:35Z,,pending
 Arcanis Mystic,arcanis mystic,Ourobra,571,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Arcanis Oblivion,arcanis oblivion,Ourobra,424,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-20T01:45:50Z,,pending
@@ -97,19 +97,20 @@ Armou,armou,Ourobra,676,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:
 Arroz Birobiro,arroz birobiro,Ourobra,21,Druid,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Arroz con poillo,arroz con poillo,Ourobra,2,None,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T23:10:05Z,,pending
 Artemis Apex,artemis apex,Ourobra,617,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
-Artesao doidao,artesao doidao,Ourobra,103,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T09:43:17Z,,pending
+Artesao doidao,artesao doidao,Ourobra,117,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T11:13:45Z,,pending
 Artigo Treze,artigo treze,Ourobra,565,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-23T02:43:04Z,,pending
 Artx,artx,Ourobra,501,Elder Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-23T14:32:01Z,,pending
 Artyx Aka,artyx aka,Ourobra,597,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T23:10:05Z,,pending
-Arwi Keadorn,arwi keadorn,Ourobra,953,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Arwi Keadorn,arwi keadorn,Ourobra,954,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Aryann,aryann,Ourobra,411,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Asakura Yohken,asakura yohken,Ourobra,992,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Asantoxel Vari,asantoxel vari,Ourobra,794,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T06:40:07Z,,pending
+Ashklabam,ashklabam,Ourobra,8,Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Asmona Wifany,asmona wifany,Ourobra,95,Druid,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-22T16:14:16Z,,pending
 Asray Fabulosa,asray fabulosa,Ourobra,356,Druid,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Assa Fadinha,assa fadinha,Ourobra,166,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-25T00:39:13Z,,pending
 Astra Ryu,astra ryu,Ourobra,26,Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-25T00:39:13Z,,pending
-Astron Ink,astron ink,Ourobra,65,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
+Astron Ink,astron ink,Ourobra,67,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Asura Red,asura red,Ourobra,31,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Asztarothh,asztarothh,Ourobra,46,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Ato magic,ato magic,Ourobra,51,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -125,6 +126,7 @@ Azaan,azaan,Ourobra,556,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14
 Azagrim Vagath,azagrim vagath,Ourobra,45,Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T00:39:13Z,,pending
 Azeker,azeker,Ourobra,225,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Azezael Chima,azezael chima,Ourobra,11,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
+Azielotor Yoga,azielotor yoga,Ourobra,8,Paladin,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Azzyw,azzyw,Ourobra,220,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Bad Follen,bad follen,Ourobra,37,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-21T17:27:32Z,,pending
 Baga Fracassado,baga fracassado,Ourobra,502,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -136,7 +138,7 @@ Balaaclava,balaaclava,Ourobra,108,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,202
 Baldor Darkbane,baldor darkbane,Ourobra,8,Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Bale Thron,bale thron,Ourobra,12,Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Banco Cansado,banco cansado,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
-Bar do Magraoo,bar do magraoo,Ourobra,2142,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
+Bar do Magraoo,bar do magraoo,Ourobra,2146,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Barao Jega,barao jega,Ourobra,139,Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Barbones Worldseeker,barbones worldseeker,Ourobra,462,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T09:58:14Z,,pending
 Bardock Kazama,bardock kazama,Ourobra,496,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T16:14:16Z,,pending
@@ -152,22 +154,24 @@ Baxola,baxola,Ourobra,63,Master Sorcerer,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-2
 Be badoo,be badoo,Ourobra,1628,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
 Be Vilao,be vilao,Ourobra,1116,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Beatrix the Swordgirl,beatrix the swordgirl,Ourobra,37,Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-23T02:43:04Z,,pending
-Bekx Dragonborn,bekx dragonborn,Ourobra,726,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
+Becon Bombado,becon bombado,Ourobra,582,Royal Paladin,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
+Bekx Dragonborn,bekx dragonborn,Ourobra,729,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Belatrix the Curandeira,belatrix the curandeira,Ourobra,17,Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Belgoto,belgoto,Ourobra,960,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Believe in Fight,believe in fight,Ourobra,56,Elite Knight,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Bellum Angelus Militaris,bellum angelus militaris,Ourobra,911,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T00:39:13Z,,pending
+Bem Malvado,bem malvado,Ourobra,18,Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Ben Dover Maximus,ben dover maximus,Ourobra,27,Paladin,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
-Ben Dropanada,ben dropanada,Ourobra,1412,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T14:49:26Z,,pending
+Ben Dropanada,ben dropanada,Ourobra,1412,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T11:13:45Z,,pending
 Ben Plummm,ben plummm,Ourobra,36,Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-25T00:39:13Z,,pending
-Benn on Ourobra,benn on ourobra,Ourobra,28,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-23T02:43:04Z,,pending
+Benn on Ourobra,benn on ourobra,Ourobra,35,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-25T11:13:45Z,,pending
 Bergonox,bergonox,Ourobra,403,Elite Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Bespeak,bespeak,Ourobra,519,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Betonha,betonha,Ourobra,1020,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
-Bi Gu,bi gu,Ourobra,1639,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
+Bi Gu,bi gu,Ourobra,1644,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Bibi Truthfist,bibi truthfist,Ourobra,110,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
 Bibi Tsunami,bibi tsunami,Ourobra,141,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Bicicletinha,bicicletinha,Ourobra,753,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
+Bicicletinha,bicicletinha,Ourobra,758,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Bie win,bie win,Ourobra,418,Elite Knight,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-22T06:40:07Z,,pending
 Biel Novishur,biel novishur,Ourobra,286,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 Biel Ourobra,biel ourobra,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -201,7 +205,7 @@ Bombaderacimo,bombaderacimo,Ourobra,88,Master Sorcerer,,,,,,,,,,2026-11-11T18:41
 Bombaralho Lendario,bombaralho lendario,Ourobra,1049,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Bombinha Meta Um,bombinha meta um,Ourobra,144,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T01:28:19Z,,pending
 Bombra Bomba,bombra bomba,Ourobra,189,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-23T02:43:04Z,,pending
-Boneco Trevo,boneco trevo,Ourobra,441,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
+Boneco Trevo,boneco trevo,Ourobra,440,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Bonekoo Overagain,bonekoo overagain,Ourobra,788,Elder Druid,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Boommbap,boommbap,Ourobra,254,Master Sorcerer,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Bora War,bora war,Ourobra,190,Elder Druid,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-22T21:45:01Z,,pending
@@ -217,13 +221,13 @@ Brequi Quinaite,brequi quinaite,Ourobra,706,Elite Knight,,,,,,,,,,2026-11-12T22:
 Brewer Bear,brewer bear,Ourobra,943,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-19T00:19:21Z,,pending
 Bricim,bricim,Ourobra,627,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Britnei Claws,britnei claws,Ourobra,60,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
-Brombadinho,brombadinho,Ourobra,397,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T06:40:07Z,,pending
+Brombadinho,brombadinho,Ourobra,401,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Brombado,brombado,Ourobra,286,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-16T01:59:32Z,,pending
 Bru Impaciente,bru impaciente,Ourobra,969,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
 Bruce Desgracadao,bruce desgracadao,Ourobra,624,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T21:45:01Z,,pending
 Brunao Desapegado,brunao desapegado,Ourobra,1248,Elder Druid,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Brunoca,brunoca,Ourobra,1091,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T02:53:54Z,,pending
-Brunoshoow,brunoshoow,Ourobra,713,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-23T14:32:01Z,,pending
+Brunoshoow,brunoshoow,Ourobra,715,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T11:13:45Z,,pending
 Bruw,bruw,Ourobra,547,Royal Paladin,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-21T01:28:19Z,,pending
 Bubassado,bubassado,Ourobra,344,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T00:39:13Z,,pending
 Buda Siddharta,buda siddharta,Ourobra,152,Exalted Monk,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-20T18:35:38Z,,pending
@@ -238,9 +242,9 @@ Cacauuu,cacauuu,Ourobra,145,Elder Druid,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-18
 Cael Marigha,cael marigha,Ourobra,9,Sorcerer,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-22T16:14:16Z,,pending
 Cafeina Brisa,cafeina brisa,Ourobra,110,Royal Paladin,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Caiao Blindex,caiao blindex,Ourobra,517,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T00:39:13Z,,pending
-Caique Rox,caique rox,Ourobra,1098,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-20T18:35:38Z,,pending
+Caique Rox,caique rox,Ourobra,1095,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T11:13:45Z,,pending
 Calca Jeans Molhada,calca jeans molhada,Ourobra,8,Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Camper Solitario,camper solitario,Ourobra,585,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
+Camper Solitario,camper solitario,Ourobra,587,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Candyzin,candyzin,Ourobra,770,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-24T02:53:54Z,,pending
 Caneva Desenfreado,caneva desenfreado,Ourobra,36,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Caneva Infernal,caneva infernal,Ourobra,279,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
@@ -281,7 +285,7 @@ Chandrasekhara Venkata,chandrasekhara venkata,Ourobra,91,Elder Druid,,,,,,,,,,20
 Chaosmagic,chaosmagic,Ourobra,901,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Chapa Sio,chapa sio,Ourobra,236,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Chapahawksz,chapahawksz,Ourobra,316,Elite Knight,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
-Charactor,charactor,Ourobra,234,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
+Charactor,charactor,Ourobra,239,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Charadda Ryvers,charadda ryvers,Ourobra,325,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Charmando,charmando,Ourobra,149,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
 Chavaoo Shelb,chavaoo shelb,Ourobra,396,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
@@ -305,24 +309,24 @@ Clarisse Rabeta,clarisse rabeta,Ourobra,77,Elite Knight,,,,,,,,,,2026-11-11T18:4
 Claudio San,claudio san,Ourobra,40,Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-23T02:43:04Z,,pending
 Clava Calva,clava calva,Ourobra,475,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-24T02:53:54Z,,pending
 Closed Dam er,closed dam er,Ourobra,739,Exalted Monk,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-23T02:43:04Z,,pending
-Closedfriends Belllo,closedfriends belllo,Ourobra,1887,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Closedfriends Belllo,closedfriends belllo,Ourobra,1888,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Closedfriends Bidu,closedfriends bidu,Ourobra,1112,Elder Druid,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Closedfriends Bidu Baiano,closedfriends bidu baiano,Ourobra,1375,Master Sorcerer,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
-Closedfriends Cebola Last,closedfriends cebola last,Ourobra,2136,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Closedfriends Cebola Last,closedfriends cebola last,Ourobra,2136,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Closedfriends Chorao,closedfriends chorao,Ourobra,522,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T06:40:07Z,,pending
 Closedfriends Damer,closedfriends damer,Ourobra,1195,Elder Druid,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
-Closedfriends Damerr,closedfriends damerr,Ourobra,1738,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Closedfriends Damerr,closedfriends damerr,Ourobra,1738,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Closedfriends Dora Efredge,closedfriends dora efredge,Ourobra,1091,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
 Closedfriends Ekbombaum,closedfriends ekbombaum,Ourobra,1191,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
 Closedfriends Errejota,closedfriends errejota,Ourobra,719,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Closedfriends Favoravel,closedfriends favoravel,Ourobra,903,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T00:39:13Z,,pending
 Closedfriends Goku,closedfriends goku,Ourobra,762,Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Closedfriends Guizoon,closedfriends guizoon,Ourobra,790,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
-Closedfriends Leozin,closedfriends leozin,Ourobra,1842,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Closedfriends Leozin,closedfriends leozin,Ourobra,1842,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Closedfriends Liipe,closedfriends liipe,Ourobra,1304,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T02:43:04Z,,pending
-Closedfriends Lipe,closedfriends lipe,Ourobra,1370,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Closedfriends Lipe,closedfriends lipe,Ourobra,1372,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Closedfriends Maghx,closedfriends maghx,Ourobra,1357,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
-Closedfriends Marquinhos,closedfriends marquinhos,Ourobra,1811,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Closedfriends Marquinhos,closedfriends marquinhos,Ourobra,1811,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Closedfriends Monknininhos,closedfriends monknininhos,Ourobra,1191,Exalted Monk,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-24T02:53:54Z,,pending
 Closedfriends Oldtimesvini,closedfriends oldtimesvini,Ourobra,879,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Closedfriends Praguinha,closedfriends praguinha,Ourobra,521,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-23T02:43:04Z,,pending
@@ -337,7 +341,7 @@ Co vucsz,co vucsz,Ourobra,133,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026
 Coala Pimenta,coala pimenta,Ourobra,871,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
 Coco Bigtank,coco bigtank,Ourobra,608,Elite Knight,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
 Cocobraile,cocobraile,Ourobra,8,Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
-Codorna Supremo,codorna supremo,Ourobra,600,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-23T14:32:01Z,,pending
+Codorna Supremo,codorna supremo,Ourobra,601,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-25T11:13:45Z,,pending
 Coelhinho Salva Vidas,coelhinho salva vidas,Ourobra,110,Elder Druid,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Coffeehead,coffeehead,Ourobra,342,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
 Colorado Brabo,colorado brabo,Ourobra,182,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
@@ -372,18 +376,18 @@ Dandrina,dandrina,Ourobra,359,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11
 Dante Rokiz,dante rokiz,Ourobra,819,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Darian Turin,darian turin,Ourobra,378,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-21T17:27:32Z,,pending
 Darianzin,darianzin,Ourobra,440,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
-Dark Aneesha,dark aneesha,Ourobra,150,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T09:43:17Z,,pending
+Dark Aneesha,dark aneesha,Ourobra,154,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-25T11:13:45Z,,pending
 Dark Gibis,dark gibis,Ourobra,513,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-23T02:43:04Z,,pending
-Dark Wiillow,dark wiillow,Ourobra,594,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T09:43:17Z,,pending
+Dark Wiillow,dark wiillow,Ourobra,601,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Darkin Kannabs,darkin kannabs,Ourobra,191,Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
 Darknesz Ogygia,darknesz ogygia,Ourobra,1631,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Darkziito,darkziito,Ourobra,9,Sorcerer,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Davi Inflexivel,davi inflexivel,Ourobra,1507,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Davidzinhow,davidzinhow,Ourobra,2233,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
-Daviizinhow,daviizinhow,Ourobra,791,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-22T16:14:16Z,,pending
+Daviizinhow,daviizinhow,Ourobra,796,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Davizao Boss,davizao boss,Ourobra,143,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Davod Dyky,davod dyky,Ourobra,847,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T01:28:19Z,,pending
-Davyzin Cura Coitado,davyzin cura coitado,Ourobra,997,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T09:58:14Z,,pending
+Davyzin Cura Coitado,davyzin cura coitado,Ourobra,1007,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Davyzin Saldo Negativo,davyzin saldo negativo,Ourobra,1280,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-24T14:49:26Z,,pending
 Days Dryad,days dryad,Ourobra,318,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
 Dazerva Hathunter,dazerva hathunter,Ourobra,494,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-25T00:39:13Z,,pending
@@ -393,7 +397,7 @@ Deby Furyosa,deby furyosa,Ourobra,771,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z
 Deczor,deczor,Ourobra,1340,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
 Dede Tiiranit,dede tiiranit,Ourobra,1000,Elite Knight,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
 Dedos angelicais,dedos angelicais,Ourobra,228,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
-Dee Kao,dee kao,Ourobra,1136,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T14:49:26Z,,pending
+Dee Kao,dee kao,Ourobra,1136,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Deeh on Ourobra,deeh on ourobra,Ourobra,76,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-16T01:59:32Z,,pending
 Deenji,deenji,Ourobra,77,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T21:45:01Z,,pending
 Definidor Implacable,definidor implacable,Ourobra,10,Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
@@ -433,7 +437,7 @@ Dograu,dograu,Ourobra,997,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T
 Dom Jakuros,dom jakuros,Ourobra,792,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-23T02:43:04Z,,pending
 Domigod,domigod,Ourobra,195,Elder Druid,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Domora,domora,Ourobra,151,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-19T00:19:21Z,,pending
-Domqxb,domqxb,Ourobra,530,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
+Domqxb,domqxb,Ourobra,531,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T11:13:45Z,,pending
 Dona Rasputcha,dona rasputcha,Ourobra,757,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Donca Paralyzs,donca paralyzs,Ourobra,236,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Donus Ojiba,donus ojiba,Ourobra,9,Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
@@ -443,11 +447,12 @@ Dorio Peyu,dorio peyu,Ourobra,8,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T
 Doutor Pessimismo,doutor pessimismo,Ourobra,8,Knight,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Dra Din,dra din,Ourobra,398,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
 Draakius,draakius,Ourobra,1015,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
-Dran Forasteiro,dran forasteiro,Ourobra,1224,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T17:27:32Z,,pending
+Dran Forasteiro,dran forasteiro,Ourobra,1227,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Drassler,drassler,Ourobra,752,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T14:49:26Z,,pending
 Dravaius Drayod,dravaius drayod,Ourobra,215,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-13T21:59:42Z,,pending
 Dravoxter,dravoxter,Ourobra,177,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Dravux,dravux,Ourobra,127,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-15T21:01:09Z,,pending
+Draydios Xalgar,draydios xalgar,Ourobra,1061,Elite Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Draythis,draythis,Ourobra,61,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-17T23:29:35Z,,pending
 Dreco Dereco,dreco dereco,Ourobra,960,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Druid do Sobral,druid do sobral,Ourobra,77,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
@@ -469,7 +474,7 @@ Duzera Envolvidao,duzera envolvidao,Ourobra,292,Sorcerer,,,,,,,,,,2026-11-15T21:
 Duzoco Rico,duzoco rico,Ourobra,8,Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Dynamic Ek,dynamic ek,Ourobra,226,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Ed damorte,ed damorte,Ourobra,220,Elder Druid,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-23T02:43:04Z,,pending
-Ed Kotoco,ed kotoco,Ourobra,700,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-19T18:59:45Z,,pending
+Ed Kotoco,ed kotoco,Ourobra,704,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T11:13:45Z,,pending
 Eddih,eddih,Ourobra,473,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Ediih Fearlesss,ediih fearlesss,Ourobra,1220,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
 Ednaldo Pereira Egirl,ednaldo pereira egirl,Ourobra,762,Elite Knight,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-25T00:39:13Z,,pending
@@ -495,7 +500,7 @@ Electrozs,electrozs,Ourobra,1315,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,202
 Elet Mala,elet mala,Ourobra,26,Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Elfaria Albis Serfortt,elfaria albis serfortt,Ourobra,865,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-24T14:49:26Z,,pending
 Elite Bumble,elite bumble,Ourobra,399,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-24T14:49:26Z,,pending
-Elite Denin,elite denin,Ourobra,1222,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Elite Denin,elite denin,Ourobra,1224,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Elite Mamedinho,elite mamedinho,Ourobra,202,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T00:39:13Z,,pending
 Elite Mas Res,elite mas res,Ourobra,189,Elder Druid,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Elite Prime,elite prime,Ourobra,341,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-24T02:53:54Z,,pending
@@ -503,6 +508,7 @@ Elite Tato,elite tato,Ourobra,1274,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,20
 Elite Wendel,elite wendel,Ourobra,317,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Elixe Lilpliizlxs,elixe lilpliizlxs,Ourobra,811,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Elkerann Phison,elkerann phison,Ourobra,942,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T01:28:19Z,,pending
+Ell Glaszord,ell glaszord,Ourobra,203,Exalted Monk,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Elneto,elneto,Ourobra,394,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T02:43:04Z,,pending
 Elockz,elockz,Ourobra,1211,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T14:49:26Z,,pending
 Elver Lephih,elver lephih,Ourobra,45,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-19T00:19:21Z,,pending
@@ -535,7 +541,7 @@ Eventos Bombro,eventos bombro,Ourobra,37,Master Sorcerer,,,,,,,,,,2026-11-12T22:
 Ever Profit,ever profit,Ourobra,403,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-16T01:59:32Z,,pending
 Evil Viserion,evil viserion,Ourobra,131,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Ex Cone,ex cone,Ourobra,568,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T17:27:32Z,,pending
-Exidysz,exidysz,Ourobra,2203,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Exidysz,exidysz,Ourobra,2204,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Exyanki,exyanki,Ourobra,664,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Eydenagode Tald,eydenagode tald,Ourobra,10,Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Fael Rampage,fael rampage,Ourobra,650,Royal Paladin,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
@@ -552,9 +558,9 @@ Fawkkatchi,fawkkatchi,Ourobra,20,Sorcerer,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-
 Fazedordegrana Ourobra,fazedordegrana ourobra,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
 Fazoerri,fazoerri,Ourobra,272,Master Sorcerer,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Fe Zix,fe zix,Ourobra,762,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
-Feeeuuuuuu,feeeuuuuuu,Ourobra,772,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
+Feeeuuuuuu,feeeuuuuuu,Ourobra,772,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Felad Cona,felad cona,Ourobra,11,Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
-Felan Sher,felan sher,Ourobra,964,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-20T09:58:14Z,,pending
+Felan Sher,felan sher,Ourobra,974,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Felipao maisumavez,felipao maisumavez,Ourobra,277,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-17T15:55:55Z,,pending
 Felipera Axe Poderoso,felipera axe poderoso,Ourobra,423,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Fer Vin,fer vin,Ourobra,360,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T21:45:01Z,,pending
@@ -578,20 +584,20 @@ Foi ele quemematou,foi ele quemematou,Ourobra,222,Elder Druid,,,,,,,,,,2026-11-1
 Forced Juice,forced juice,Ourobra,415,Elder Druid,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
 Formighaaz,formighaaz,Ourobra,770,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Francislau Pompeu,francislau pompeu,Ourobra,8,Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T09:43:17Z,,pending
-Free Bless,free bless,Ourobra,996,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-21T09:43:17Z,,pending
+Free Bless,free bless,Ourobra,1001,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T11:13:45Z,,pending
 Frenico Esquizito,frenico esquizito,Ourobra,42,Royal Paladin,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-22T21:45:01Z,,pending
 Frieren The Monk,frieren the monk,Ourobra,366,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Fros Iron,fros iron,Ourobra,49,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-14T22:19:43Z,,pending
 Frosst Aesir,frosst aesir,Ourobra,709,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Fuher Keni,fuher keni,Ourobra,161,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Fuskka Azul,fuskka azul,Ourobra,82,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Future Shape,future shape,Ourobra,309,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T17:27:32Z,,pending
+Future Shape,future shape,Ourobra,329,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Fuxyl,fuxyl,Ourobra,375,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-18T17:13:21Z,,pending
 Fuzzila,fuzzila,Ourobra,306,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-22T16:14:16Z,,pending
 Fylianore,fylianore,Ourobra,353,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Fyoxer Parrudo,fyoxer parrudo,Ourobra,540,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T00:39:13Z,,pending
 Gaalegoo,gaalegoo,Ourobra,79,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Gabin Trapz,gabin trapz,Ourobra,633,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Gabin Trapz,gabin trapz,Ourobra,634,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Gagairon,gagairon,Ourobra,300,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Gagairon pala,gagairon pala,Ourobra,97,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Galinha Piqueangola,galinha piqueangola,Ourobra,400,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T14:32:01Z,,pending
@@ -621,7 +627,7 @@ Ghost Ray,ghost ray,Ourobra,44,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,202
 Ghost Rukor,ghost rukor,Ourobra,535,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T00:39:13Z,,pending
 Ghostland factor,ghostland factor,Ourobra,28,Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Ging de Dez,ging de dez,Ourobra,362,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-22T21:45:01Z,,pending
-Gini Leya,gini leya,Ourobra,35,Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-24T02:53:54Z,,pending
+Gini Leya,gini leya,Ourobra,40,Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-25T11:13:45Z,,pending
 Ginpei,ginpei,Ourobra,152,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-25T00:39:13Z,,pending
 Gipo Tutal,gipo tutal,Ourobra,70,Knight,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Gladiusek,gladiusek,Ourobra,503,Elite Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-24T02:53:54Z,,pending
@@ -638,13 +644,13 @@ Good Usoppi,good usoppi,Ourobra,29,Royal Paladin,,,,,,,,,,2026-11-20T18:35:38Z,2
 Gough,gough,Ourobra,488,Royal Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Gozapramim Vai,gozapramim vai,Ourobra,52,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-18T17:13:21Z,,pending
 Gran Curandeiro,gran curandeiro,Ourobra,431,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Gray Fulbusster,gray fulbusster,Ourobra,407,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-20T01:45:50Z,,pending
+Gray Fulbusster,gray fulbusster,Ourobra,409,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-25T11:13:45Z,,pending
 Grbomb Tres,grbomb tres,Ourobra,310,Elder Druid,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
 Greater Fyoxer,greater fyoxer,Ourobra,511,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T23:10:05Z,,pending
 Gregory Issac,gregory issac,Ourobra,355,Royal Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Groovo,groovo,Ourobra,539,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Grunyx Marvadu,grunyx marvadu,Ourobra,940,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T21:45:01Z,,pending
-Gu thy,gu thy,Ourobra,903,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
+Gu thy,gu thy,Ourobra,905,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Guardiao do Silencio,guardiao do silencio,Ourobra,319,Exalted Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-23T02:43:04Z,,pending
 Guh Sagaz,guh sagaz,Ourobra,1728,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T00:39:13Z,,pending
 Guh Slowmotion,guh slowmotion,Ourobra,575,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T00:39:13Z,,pending
@@ -661,7 +667,7 @@ Gus Obarb,gus obarb,Ourobra,743,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-
 Gustavopedroso,gustavopedroso,Ourobra,75,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Gusu Segura Bronka,gusu segura bronka,Ourobra,167,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-23T02:43:04Z,,pending
 Gutanas,gutanas,Ourobra,1084,Elder Druid,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
-Guuh Infinity,guuh infinity,Ourobra,829,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Guuh Infinity,guuh infinity,Ourobra,831,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Guuzziik,guuzziik,Ourobra,15,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Guvehup,guvehup,Ourobra,646,Royal Paladin,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
 Guzera Prime,guzera prime,Ourobra,1540,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
@@ -669,6 +675,7 @@ Gwagon Marth,gwagon marth,Ourobra,8,Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11
 Hadggan,hadggan,Ourobra,8,Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Haidyn,haidyn,Ourobra,579,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-22T16:14:16Z,,pending
 Hakaw,hakaw,Ourobra,150,Royal Paladin,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
+Halbrand,halbrand,Ourobra,110,Elite Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Haliax Veilborn,haliax veilborn,Ourobra,328,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
 Hammerzin,hammerzin,Ourobra,1181,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Hardmode Cruel,hardmode cruel,Ourobra,170,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-22T16:14:16Z,,pending
@@ -684,7 +691,7 @@ Hell Kromos,hell kromos,Ourobra,852,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2
 Helsing,helsing,Ourobra,36,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Helt Foguinho,helt foguinho,Ourobra,313,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-20T09:58:14Z,,pending
 Hera Kiva Legacy,hera kiva legacy,Ourobra,1984,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
-Herion Aurroy,herion aurroy,Ourobra,37,Druid,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-24T02:53:54Z,,pending
+Herion Aurroy,herion aurroy,Ourobra,44,Druid,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-25T11:13:45Z,,pending
 Hermione Winchester,hermione winchester,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Hetzer Ak,hetzer ak,Ourobra,50,Sorcerer,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Hextor Quebra Ossos,hextor quebra ossos,Ourobra,222,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -714,7 +721,7 @@ Igao du verde,igao du verde,Ourobra,8,Druid,,,,,,,,,,2026-11-25T00:39:13Z,2026-1
 Igor Bloodkion,igor bloodkion,Ourobra,362,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Iguinho Sensacao,iguinho sensacao,Ourobra,676,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T00:39:13Z,,pending
 Ikol Arty,ikol arty,Ourobra,142,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T14:49:26Z,,pending
-Imhotep Monk,imhotep monk,Ourobra,898,Exalted Monk,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-25T00:39:13Z,,pending
+Imhotep Monk,imhotep monk,Ourobra,897,Exalted Monk,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-25T00:39:13Z,,pending
 Imhothep,imhothep,Ourobra,1386,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Impact Sword,impact sword,Ourobra,45,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
 Impel Magaoo,impel magaoo,Ourobra,130,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
@@ -742,7 +749,7 @@ Italyano,italyano,Ourobra,32,Knight,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-24T14:
 Ithan Crow,ithan crow,Ourobra,661,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Itzknust,itzknust,Ourobra,542,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Ivan Hellsing,ivan hellsing,Ourobra,389,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
-Izaro Phrecios,izaro phrecios,Ourobra,381,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
+Izaro Phrecios,izaro phrecios,Ourobra,381,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Ja Compro Ja,ja compro ja,Ourobra,6,Paladin,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Jacaerys,jacaerys,Ourobra,738,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Jack Flybolt,jack flybolt,Ourobra,462,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T02:53:54Z,,pending
@@ -765,8 +772,9 @@ Jettex Fearless,jettex fearless,Ourobra,398,Royal Paladin,,,,,,,,,,2026-11-12T01
 Jevsinhu,jevsinhu,Ourobra,803,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T23:10:05Z,,pending
 Jhe Rozin,jhe rozin,Ourobra,152,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
 Jidaria Eowryloth,jidaria eowryloth,Ourobra,15,Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
+Jigorb,jigorb,Ourobra,60,Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Jin Ourobra,jin ourobra,Ourobra,8,Knight,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
-Jiraya Eremita,jiraya eremita,Ourobra,795,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
+Jiraya Eremita,jiraya eremita,Ourobra,796,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T11:13:45Z,,pending
 Johhn Abruzzi,johhn abruzzi,Ourobra,199,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
 John Balajohnes,john balajohnes,Ourobra,701,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 John Mudd,john mudd,Ourobra,229,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
@@ -782,10 +790,10 @@ Jone Jotavick,jone jotavick,Ourobra,154,Elder Druid,,,,,,,,,,2026-11-14T02:24:18
 Jonynha Ice,jonynha ice,Ourobra,807,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Jonynhas,jonynhas,Ourobra,72,Exalted Monk,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Jorge Empreiteiro,jorge empreiteiro,Ourobra,123,Elder Druid,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
-Josefina Calegari,josefina calegari,Ourobra,62,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
+Josefina Calegari,josefina calegari,Ourobra,61,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Josemimb,josemimb,Ourobra,141,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Josue Em Bombra,josue em bombra,Ourobra,136,Master Sorcerer,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
-Josue Guerreiro Persistente,josue guerreiro persistente,Ourobra,1352,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T14:49:26Z,,pending
+Josue Guerreiro Persistente,josue guerreiro persistente,Ourobra,1353,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Josue jogador persistente,josue jogador persistente,Ourobra,169,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Jovanti Ordang,jovanti ordang,Ourobra,62,Paladin,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Jowzin,jowzin,Ourobra,836,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -793,7 +801,7 @@ Joy Soy Loko,joy soy loko,Ourobra,666,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z
 Jugz,jugz,Ourobra,614,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
 Juka Kanait,juka kanait,Ourobra,251,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-23T02:43:04Z,,pending
 Juka Warzyka,juka warzyka,Ourobra,173,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T14:32:01Z,,pending
-Juko Brokensword,juko brokensword,Ourobra,170,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-25T00:39:13Z,,pending
+Juko Brokensword,juko brokensword,Ourobra,172,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-25T00:39:13Z,,pending
 Juko Monkfist,juko monkfist,Ourobra,80,Exalted Monk,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-20T01:45:50Z,,pending
 Julenion Exor,julenion exor,Ourobra,8,Knight,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
 Juliomart,juliomart,Ourobra,107,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
@@ -806,12 +814,12 @@ Justiceiro Aposentado,justiceiro aposentado,Ourobra,92,Elite Knight,,,,,,,,,,202
 Justiceiro Denji,justiceiro denji,Ourobra,343,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-21T17:27:32Z,,pending
 Kain Doteydedez,kain doteydedez,Ourobra,465,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
 Kain Novak,kain novak,Ourobra,751,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
-Kaio Soupa Meiker,kaio soupa meiker,Ourobra,98,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
+Kaio Soupa Meiker,kaio soupa meiker,Ourobra,98,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Kairos Berserk,kairos berserk,Ourobra,557,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T01:45:50Z,,pending
 Kall Demon,kall demon,Ourobra,41,Knight,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
 Kallsin,kallsin,Ourobra,408,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-20T01:45:50Z,,pending
 Kamatari itj,kamatari itj,Ourobra,92,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
-Kanechow,kanechow,Ourobra,108,Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-25T00:39:13Z,,pending
+Kanechow,kanechow,Ourobra,109,Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-25T00:39:13Z,,pending
 Kapiroto Masflam,kapiroto masflam,Ourobra,507,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Kapn healz,kapn healz,Ourobra,447,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Karkausz,karkausz,Ourobra,753,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -821,7 +829,7 @@ Kawkzik,kawkzik,Ourobra,208,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-
 Kazicao,kazicao,Ourobra,602,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Keig,keig,Ourobra,340,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T06:40:07Z,,pending
 Kell Vinho,kell vinho,Ourobra,152,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
-Kelv ao,kelv ao,Ourobra,675,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T14:49:26Z,,pending
+Kelv ao,kelv ao,Ourobra,675,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T11:13:45Z,,pending
 Kelv ao Ed,kelv ao ed,Ourobra,40,Elder Druid,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Kelveso,kelveso,Ourobra,833,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T17:27:32Z,,pending
 Kem Perguntou,kem perguntou,Ourobra,17,Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
@@ -840,7 +848,7 @@ Kina deconfort,kina deconfort,Ourobra,354,Elite Knight,,,,,,,,,,2026-11-17T23:29
 Kina Kazama,kina kazama,Ourobra,304,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Kina Tenebrozo,kina tenebrozo,Ourobra,694,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-25T00:39:13Z,,pending
 Kinagsia,kinagsia,Ourobra,197,Elite Knight,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
-Kinavo Vilao,kinavo vilao,Ourobra,480,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
+Kinavo Vilao,kinavo vilao,Ourobra,484,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 King Boltadao,king boltadao,Ourobra,74,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 King Daza,king daza,Ourobra,847,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-23T02:43:04Z,,pending
 King Lauy,king lauy,Ourobra,45,Monk,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
@@ -850,11 +858,12 @@ King Praq Exilado,king praq exilado,Ourobra,679,Master Sorcerer,,,,,,,,,,2026-11
 Kinnuf Lostmyself,kinnuf lostmyself,Ourobra,760,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T00:39:13Z,,pending
 Kisino,kisino,Ourobra,853,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Kitsune Braba,kitsune braba,Ourobra,121,Elite Knight,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
-Kitsune Kim,kitsune kim,Ourobra,483,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
+Kitsune Kim,kitsune kim,Ourobra,484,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Kmargoo,kmargoo,Ourobra,485,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Knight Beer,knight beer,Ourobra,136,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-22T16:14:16Z,,pending
 Knight Bombra,knight bombra,Ourobra,290,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-24T02:53:54Z,,pending
 Knight Lukinhas,knight lukinhas,Ourobra,625,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T00:39:13Z,,pending
+Knight Peloria,knight peloria,Ourobra,26,Elite Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Knight Yihkara,knight yihkara,Ourobra,699,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-21T17:27:32Z,,pending
 Knight zarith,knight zarith,Ourobra,370,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-17T23:29:35Z,,pending
 Koderion Tyth,koderion tyth,Ourobra,253,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
@@ -867,7 +876,7 @@ Koringa Fierce,koringa fierce,Ourobra,95,Knight,,,,,,,,,,2026-11-13T21:59:42Z,20
 Korvus Blackwing,korvus blackwing,Ourobra,21,Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Kosbow robacena,kosbow robacena,Ourobra,677,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
 Kotarox,kotarox,Ourobra,1493,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
-Koukan,koukan,Ourobra,730,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
+Koukan,koukan,Ourobra,730,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Kpix Monk,kpix monk,Ourobra,22,Exalted Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Kradak,kradak,Ourobra,560,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
 Kraynnuz Rusher,kraynnuz rusher,Ourobra,934,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
@@ -910,7 +919,7 @@ Laww,laww,Ourobra,293,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:4
 Le onardo Desgracadao,le onardo desgracadao,Ourobra,599,Elder Druid,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Le tetinha,le tetinha,Ourobra,59,Exalted Monk,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Lealziin,lealziin,Ourobra,1743,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
-Leenus roco,leenus roco,Ourobra,298,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
+Leenus roco,leenus roco,Ourobra,298,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Lefiere,lefiere,Ourobra,273,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Legend Twisted,legend twisted,Ourobra,259,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Legendary Spectro,legendary spectro,Ourobra,499,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -933,17 +942,17 @@ Lexus Shoter,lexus shoter,Ourobra,786,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21
 Liipaaoo,liipaaoo,Ourobra,428,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T14:49:26Z,,pending
 Likatrix,likatrix,Ourobra,277,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-25T00:39:13Z,,pending
 Lill Ax,lill ax,Ourobra,452,Elite Knight,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-23T14:32:01Z,,pending
-Lillchefen,lillchefen,Ourobra,663,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
+Lillchefen,lillchefen,Ourobra,667,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Liltank,liltank,Ourobra,569,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-22T21:45:01Z,,pending
 Lina Galunna,lina galunna,Ourobra,114,Royal Paladin,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
 Linen Knight,linen knight,Ourobra,111,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-21T23:10:05Z,,pending
 Lionn Jaws,lionn jaws,Ourobra,393,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-23T02:43:04Z,,pending
 Lipe love Bacon,lipe love bacon,Ourobra,1076,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-22T21:45:01Z,,pending
-Lipin El Calvo,lipin el calvo,Ourobra,914,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
+Lipin El Calvo,lipin el calvo,Ourobra,922,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Lith Mirlewook,lith mirlewook,Ourobra,557,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Locutor metalrock,locutor metalrock,Ourobra,8,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Lolizinha,lolizinha,Ourobra,547,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
-Loonzao,loonzao,Ourobra,1682,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
+Loonzao,loonzao,Ourobra,1682,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Loooh,loooh,Ourobra,211,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Lorao Fullhealer,lorao fullhealer,Ourobra,537,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
 Lord Black Wizard,lord black wizard,Ourobra,137,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
@@ -951,7 +960,7 @@ Lord Caspi,lord caspi,Ourobra,292,Royal Paladin,,,,,,,,,,2026-11-23T02:43:04Z,20
 Lord Iguerah,lord iguerah,Ourobra,191,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Lord Marcelinho,lord marcelinho,Ourobra,638,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-23T02:43:04Z,,pending
 Lord Miyulta,lord miyulta,Ourobra,248,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-21T01:28:19Z,,pending
-Lord Morelinho,lord morelinho,Ourobra,575,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
+Lord Morelinho,lord morelinho,Ourobra,577,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Lord Paullistinhaz,lord paullistinhaz,Ourobra,762,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-22T06:40:07Z,,pending
 Lord Philippe,lord philippe,Ourobra,521,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-19T18:59:45Z,,pending
 Lord Pig,lord pig,Ourobra,482,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T06:40:07Z,,pending
@@ -972,17 +981,17 @@ Lu Zix,lu zix,Ourobra,95,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11
 Luaangow,luaangow,Ourobra,671,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Lucao Balboa,lucao balboa,Ourobra,265,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T17:27:32Z,,pending
 Lucas Exhausted Hand,lucas exhausted hand,Ourobra,804,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
-Lucas Sonolento,lucas sonolento,Ourobra,137,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
+Lucas Sonolento,lucas sonolento,Ourobra,138,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Lucho Torci,lucho torci,Ourobra,101,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-19T00:19:21Z,,pending
 Luck de Vex,luck de vex,Ourobra,12,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
 Luhzera,luhzera,Ourobra,526,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Luiz Siohard,luiz siohard,Ourobra,54,Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Lujet,lujet,Ourobra,189,Elder Druid,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
 Luka Apiacere,luka apiacere,Ourobra,343,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-15T21:01:09Z,,pending
-Luka Og,luka og,Ourobra,890,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
+Luka Og,luka og,Ourobra,891,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Lukcrime,lukcrime,Ourobra,781,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
-Lukcrimes,lukcrimes,Ourobra,760,Master Sorcerer,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-23T02:43:04Z,,pending
-Luki Jogandosolo,luki jogandosolo,Ourobra,1037,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T09:43:17Z,,pending
+Lukcrimes,lukcrimes,Ourobra,762,Master Sorcerer,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-25T11:13:45Z,,pending
+Luki Jogandosolo,luki jogandosolo,Ourobra,1044,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Lukkasxd,lukkasxd,Ourobra,358,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Lulu Nomercy,lulu nomercy,Ourobra,185,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-24T02:53:54Z,,pending
 Luna Hawkeye,luna hawkeye,Ourobra,361,Royal Paladin,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
@@ -997,7 +1006,7 @@ Lysh Gribiwinas,lysh gribiwinas,Ourobra,7,Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z
 Ma za lov,ma za lov,Ourobra,1268,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T17:27:32Z,,pending
 Maabella,maabella,Ourobra,279,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Machado Assiz,machado assiz,Ourobra,26,Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-18T07:20:56Z,,pending
-Maclloe,maclloe,Ourobra,160,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T09:58:14Z,,pending
+Maclloe,maclloe,Ourobra,172,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T11:13:45Z,,pending
 Madam Rockess,madam rockess,Ourobra,171,Elite Knight,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Madame Vany,madame vany,Ourobra,52,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-22T21:45:01Z,,pending
 Madius Shin,madius shin,Ourobra,64,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
@@ -1051,9 +1060,9 @@ Max Blacksteel,max blacksteel,Ourobra,45,Master Sorcerer,,,,,,,,,,2026-11-18T17:
 Max Dragonknight,max dragonknight,Ourobra,122,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Max Restoration,max restoration,Ourobra,133,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-14T11:25:50Z,,pending
 Maxddk,maxddk,Ourobra,79,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
-Maxdukinha,maxdukinha,Ourobra,77,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-24T14:49:26Z,,pending
+Maxdukinha,maxdukinha,Ourobra,78,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T11:13:45Z,,pending
 Maximus Rusher,maximus rusher,Ourobra,1012,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T00:39:13Z,,pending
-Maza lov,maza lov,Ourobra,2217,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Maza lov,maza lov,Ourobra,2217,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Maziim,maziim,Ourobra,864,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Mbdois,mbdois,Ourobra,657,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-20T09:58:14Z,,pending
 Me Deixa Curar,me deixa curar,Ourobra,373,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-16T01:59:32Z,,pending
@@ -1065,7 +1074,7 @@ Megasio,megasio,Ourobra,500,Elder Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16
 Melimay,melimay,Ourobra,571,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Meliodas Assault,meliodas assault,Ourobra,450,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
 Menor Melodica,menor melodica,Ourobra,370,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Mente Difusa,mente difusa,Ourobra,523,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
+Mente Difusa,mente difusa,Ourobra,524,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Merio Toala Noche,merio toala noche,Ourobra,445,Elite Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-25T00:39:13Z,,pending
 Merion Asconin,merion asconin,Ourobra,156,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-22T06:40:07Z,,pending
 Mestre Vey,mestre vey,Ourobra,449,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T16:14:16Z,,pending
@@ -1081,14 +1090,14 @@ Mikizi dos Genjutsu,mikizi dos genjutsu,Ourobra,105,Sorcerer,,,,,,,,,,2026-11-21
 Milooh San,milooh san,Ourobra,294,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T16:14:16Z,,pending
 Milyna,milyna,Ourobra,20,Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-14T11:25:50Z,,pending
 Mindthuz,mindthuz,Ourobra,294,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T14:32:01Z,,pending
-Mini Caballero,mini caballero,Ourobra,108,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T23:10:05Z,,pending
+Mini Caballero,mini caballero,Ourobra,115,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T11:13:45Z,,pending
 Mini Kini,mini kini,Ourobra,225,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Mini Pixel,mini pixel,Ourobra,359,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T14:49:26Z,,pending
 Mirib Amel Returns,mirib amel returns,Ourobra,469,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Miss Bela,miss bela,Ourobra,108,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-20T18:35:38Z,,pending
 Misty Roots,misty roots,Ourobra,700,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T06:40:07Z,,pending
 Miszdk,miszdk,Ourobra,63,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
-Mithea Tropadosafe,mithea tropadosafe,Ourobra,1396,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-24T14:49:26Z,,pending
+Mithea Tropadosafe,mithea tropadosafe,Ourobra,1396,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Mithn,mithn,Ourobra,976,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-20T18:35:38Z,,pending
 Mitsu Boo,mitsu boo,Ourobra,753,Exalted Monk,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-19T18:59:45Z,,pending
 Miwaniflaur,miwaniflaur,Ourobra,209,Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
@@ -1097,7 +1106,7 @@ Mlke Takaflexa,mlke takaflexa,Ourobra,26,Paladin,,,,,,,,,,2026-11-16T20:25:18Z,2
 Mmte Reborn,mmte reborn,Ourobra,573,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
 Mod Venz,mod venz,Ourobra,279,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Modtanke,modtanke,Ourobra,469,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
-Moist Wanted,moist wanted,Ourobra,528,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-23T02:43:04Z,,pending
+Moist Wanted,moist wanted,Ourobra,530,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-25T11:13:45Z,,pending
 Moita Sorcerer,moita sorcerer,Ourobra,279,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
 Molox,molox,Ourobra,684,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T00:39:13Z,,pending
 Monge Duke,monge duke,Ourobra,181,Exalted Monk,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
@@ -1116,14 +1125,15 @@ Monkechix,monkechix,Ourobra,206,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-
 Monkilol,monkilol,Ourobra,329,Exalted Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T01:45:50Z,,pending
 Monklinsito,monklinsito,Ourobra,852,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Monkola,monkola,Ourobra,172,Exalted Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
+Monkzaada,monkzaada,Ourobra,221,Exalted Monk,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Monomakker,monomakker,Ourobra,527,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-22T21:45:01Z,,pending
 Monroy Rockefeller,monroy rockefeller,Ourobra,1015,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Monskyno,monskyno,Ourobra,211,Exalted Monk,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-20T18:35:38Z,,pending
 Monteirozx,monteirozx,Ourobra,193,Elder Druid,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-23T02:43:04Z,,pending
 Moon Key King,moon key king,Ourobra,136,Exalted Monk,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
 Mor garoth,mor garoth,Ourobra,368,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-16T01:59:32Z,,pending
-Moraizinho,moraizinho,Ourobra,580,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
-Morango Jogandosolo,morango jogandosolo,Ourobra,1024,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
+Moraizinho,moraizinho,Ourobra,579,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
+Morango Jogandosolo,morango jogandosolo,Ourobra,1025,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Morde Cranio,morde cranio,Ourobra,441,Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Moretread,moretread,Ourobra,826,Elite Knight,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-23T02:43:04Z,,pending
 Morghantti,morghantti,Ourobra,261,Master Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-24T14:49:26Z,,pending
@@ -1139,10 +1149,10 @@ Mrkowasky,mrkowasky,Ourobra,360,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-
 Mudansa deap,mudansa deap,Ourobra,232,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Muguiale,muguiale,Ourobra,157,Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-23T14:32:01Z,,pending
 Mulihzado,mulihzado,Ourobra,40,Elite Knight,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T16:14:16Z,,pending
-Mumu Cansado,mumu cansado,Ourobra,841,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-23T02:43:04Z,,pending
+Mumu Cansado,mumu cansado,Ourobra,843,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Mumu Quinta Serie,mumu quinta serie,Ourobra,501,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Mumukisto Muskito,mumukisto muskito,Ourobra,629,Master Sorcerer,,,,,,,,,,2026-11-22T06:40:07Z,2026-11-22T06:40:07Z,,pending
-Murilao Pitbull Alado,murilao pitbull alado,Ourobra,450,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
+Murilao Pitbull Alado,murilao pitbull alado,Ourobra,462,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Musta Warmode Roleteiro,musta warmode roleteiro,Ourobra,90,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Mustazza Kill,mustazza kill,Ourobra,354,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T18:35:38Z,,pending
 Muu rilloosz,muu rilloosz,Ourobra,884,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
@@ -1165,7 +1175,7 @@ Naka Buiu,naka buiu,Ourobra,355,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-
 Namoral Manin,namoral manin,Ourobra,109,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T00:39:13Z,,pending
 Nanam Neves,nanam neves,Ourobra,292,Elder Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-21T09:43:17Z,,pending
 Nanandinhoo,nanandinhoo,Ourobra,1121,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
-Nandao Warlord,nandao warlord,Ourobra,962,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
+Nandao Warlord,nandao warlord,Ourobra,974,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Naphear Lovebank,naphear lovebank,Ourobra,1148,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T14:32:01Z,,pending
 Navern,navern,Ourobra,403,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-23T02:43:04Z,,pending
 Navod Boxeador,navod boxeador,Ourobra,147,Exalted Monk,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-22T21:45:01Z,,pending
@@ -1176,16 +1186,16 @@ Negasio,negasio,Ourobra,9,Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:5
 Nehru Protetor,nehru protetor,Ourobra,156,Exalted Monk,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Nejo Konasa,nejo konasa,Ourobra,9,Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T23:10:05Z,,pending
 Nekan Blindao,nekan blindao,Ourobra,455,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
-Neko Naka,neko naka,Ourobra,473,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
-Nektoor Ignorante,nektoor ignorante,Ourobra,1043,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
+Neko Naka,neko naka,Ourobra,475,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T11:13:45Z,,pending
+Nektoor Ignorante,nektoor ignorante,Ourobra,1044,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Nelso Is Come,nelso is come,Ourobra,379,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
 Nena Tyll,nena tyll,Ourobra,525,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Nesquilk,nesquilk,Ourobra,88,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Net ow,net ow,Ourobra,2387,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
+Net ow,net ow,Ourobra,2392,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Netiin,netiin,Ourobra,644,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-23T02:43:04Z,,pending
 Netillsk,netillsk,Ourobra,1210,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Netonha,netonha,Ourobra,1253,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
-Netto Popstarr,netto popstarr,Ourobra,951,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-24T02:53:54Z,,pending
+Netto Popstarr,netto popstarr,Ourobra,952,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T11:13:45Z,,pending
 Neuralf,neuralf,Ourobra,575,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-24T02:53:54Z,,pending
 Never heard,never heard,Ourobra,327,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 New Beast,new beast,Ourobra,305,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-20T18:35:38Z,,pending
@@ -1203,10 +1213,10 @@ Nin Rode,nin rode,Ourobra,708,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-1
 Niro Evo,niro evo,Ourobra,515,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Nitroxy Skull Laxos,nitroxy skull laxos,Ourobra,1074,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T14:49:26Z,,pending
 No Chat,no chat,Ourobra,106,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-24T14:49:26Z,,pending
-No Rottenblood,no rottenblood,Ourobra,1038,Master Sorcerer,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-24T14:49:26Z,,pending
+No Rottenblood,no rottenblood,Ourobra,1038,Master Sorcerer,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-25T11:13:45Z,,pending
 Nobesio Extraforte,nobesio extraforte,Ourobra,71,Elder Druid,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-22T16:14:16Z,,pending
 Nobree Sheik,nobree sheik,Ourobra,829,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-25T00:39:13Z,,pending
-Noctheras,noctheras,Ourobra,682,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-21T09:43:17Z,,pending
+Noctheras,noctheras,Ourobra,697,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-25T11:13:45Z,,pending
 Noctyros,noctyros,Ourobra,446,Exalted Monk,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-25T00:39:13Z,,pending
 Nofarme Zedrin,nofarme zedrin,Ourobra,1455,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-25T00:39:13Z,,pending
 Nosrey Amoroso,nosrey amoroso,Ourobra,586,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-23T14:32:01Z,,pending
@@ -1217,19 +1227,19 @@ Nucutu Tinha,nucutu tinha,Ourobra,150,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:
 Nuit Blanch,nuit blanch,Ourobra,367,Elite Knight,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Nyllew,nyllew,Ourobra,166,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-20T01:45:50Z,,pending
 Nytharis,nytharis,Ourobra,38,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Obrabo Belmont,obrabo belmont,Ourobra,774,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T14:49:26Z,,pending
+Obrabo Belmont,obrabo belmont,Ourobra,774,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Ocuei Greenbomb,ocuei greenbomb,Ourobra,1141,Elder Druid,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-24T14:49:26Z,,pending
 Ode Layo,ode layo,Ourobra,245,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Odet Stor,odet stor,Ourobra,169,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Odim Shex,odim shex,Ourobra,14,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Ofanim,ofanim,Ourobra,8,Knight,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Og Romao,og romao,Ourobra,334,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
-Ogunzinho,ogunzinho,Ourobra,397,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-24T02:53:54Z,,pending
+Ogunzinho,ogunzinho,Ourobra,398,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Ohma San,ohma san,Ourobra,262,Royal Paladin,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
 Oiluja Kebracanela,oiluja kebracanela,Ourobra,71,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
 Okarwn,okarwn,Ourobra,302,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-16T01:59:32Z,,pending
 Okkotsu Yutta,okkotsu yutta,Ourobra,37,Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
-Okorninho,okorninho,Ourobra,747,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
+Okorninho,okorninho,Ourobra,748,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Okorno,okorno,Ourobra,19,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 Old Lou,old lou,Ourobra,115,Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Old Louise,old louise,Ourobra,134,Elite Knight,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
@@ -1243,6 +1253,7 @@ Oozyk,oozyk,Ourobra,87,Elite Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:
 Orlandozoro,orlandozoro,Ourobra,250,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T16:14:16Z,,pending
 Oroshi Yashiro,oroshi yashiro,Ourobra,556,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Oscarzs,oscarzs,Ourobra,870,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-25T00:39:13Z,,pending
+Ouarin Blusi,ouarin blusi,Ourobra,9,Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Ouro Mark,ouro mark,Ourobra,17,Knight,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-18T07:20:56Z,,pending
 Ourobanking,ourobanking,Ourobra,10,Druid,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Ourobra Warlock,ourobra warlock,Ourobra,15,Sorcerer,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-23T02:43:04Z,,pending
@@ -1282,8 +1293,8 @@ Paulinsz Canalha,paulinsz canalha,Ourobra,102,Elite Knight,,,,,,,,,,2026-11-17T1
 Pedr oga Zedrin,pedr oga zedrin,Ourobra,1937,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
 Pedriin Zerodznovee,pedriin zerodznovee,Ourobra,218,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T16:14:16Z,,pending
 Pedrin Aposentado,pedrin aposentado,Ourobra,2327,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
-Pedrin Descongelou,pedrin descongelou,Ourobra,2664,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
-Pedrin Impostor,pedrin impostor,Ourobra,2544,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
+Pedrin Descongelou,pedrin descongelou,Ourobra,2666,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
+Pedrin Impostor,pedrin impostor,Ourobra,2549,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Pedrin Orangepodi,pedrin orangepodi,Ourobra,2440,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T00:39:13Z,,pending
 Pedro Brita,pedro brita,Ourobra,732,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
 Pegasus Al,pegasus al,Ourobra,157,Elder Druid,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
@@ -1306,6 +1317,7 @@ Pipico Marrento,pipico marrento,Ourobra,232,Master Sorcerer,,,,,,,,,,2026-11-14T
 Pipo Milayon,pipo milayon,Ourobra,902,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Pirambus The Druid,pirambus the druid,Ourobra,848,Elder Druid,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-22T21:45:01Z,,pending
 Piratini Rigtwo,piratini rigtwo,Ourobra,113,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-14T22:19:43Z,,pending
+Piri Pancada,piri pancada,Ourobra,335,Exalted Monk,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Pirolyto,pirolyto,Ourobra,239,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T14:49:26Z,,pending
 Pitbull Brisaleve,pitbull brisaleve,Ourobra,836,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-21T01:28:19Z,,pending
 Pitbull Maryjane,pitbull maryjane,Ourobra,856,Elite Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
@@ -1349,8 +1361,8 @@ Rafa Zedrin,rafa zedrin,Ourobra,2107,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2
 Rafax Dictador,rafax dictador,Ourobra,432,Royal Paladin,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-21T23:10:05Z,,pending
 Rafazord Monster,rafazord monster,Ourobra,991,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Rafiiilsk,rafiiilsk,Ourobra,1405,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
-Rage Com Carinho,rage com carinho,Ourobra,49,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-19T18:59:45Z,,pending
-Ragnarr Vilao,ragnarr vilao,Ourobra,2312,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Rage Com Carinho,rage com carinho,Ourobra,52,Elite Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-25T11:13:45Z,,pending
+Ragnarr Vilao,ragnarr vilao,Ourobra,2312,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Ragone Nygan,ragone nygan,Ourobra,133,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T01:28:19Z,,pending
 Raidu Feath,raidu feath,Ourobra,356,Elder Druid,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-22T21:45:01Z,,pending
 Raizen Ryokai,raizen ryokai,Ourobra,694,Royal Paladin,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
@@ -1397,19 +1409,19 @@ Rewardsss,rewardsss,Ourobra,135,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-1
 Rewyn Sheik,rewyn sheik,Ourobra,258,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
 Rey Fernando,rey fernando,Ourobra,1044,Exalted Monk,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Rey Vicente,rey vicente,Ourobra,59,Monk,,,,,,,,,,2026-11-21T09:43:17Z,2026-11-21T09:43:17Z,,pending
-Rhaast Flexiveis,rhaast flexiveis,Ourobra,992,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-23T14:32:01Z,,pending
+Rhaast Flexiveis,rhaast flexiveis,Ourobra,994,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Rhya Mald,rhya mald,Ourobra,82,Elder Druid,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-16T20:25:18Z,,pending
 Rick Gladiator,rick gladiator,Ourobra,24,Knight,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Rick Openzeiro,rick openzeiro,Ourobra,138,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T00:19:21Z,,pending
 Rick Tequileiro,rick tequileiro,Ourobra,194,Royal Paladin,,,,,,,,,,2026-11-19T18:59:45Z,2026-11-22T16:14:16Z,,pending
 Rickee Arrow,rickee arrow,Ourobra,154,Royal Paladin,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
 Rickzin Pally,rickzin pally,Ourobra,300,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
-Riicckkzao,riicckkzao,Ourobra,355,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
+Riicckkzao,riicckkzao,Ourobra,356,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Rippxd,rippxd,Ourobra,2125,Royal Paladin,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T00:39:13Z,,pending
 Ritalina Nudoze,ritalina nudoze,Ourobra,206,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T02:53:54Z,,pending
 River Delirious,river delirious,Ourobra,199,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T21:45:01Z,,pending
 Rodrigo Karapanza,rodrigo karapanza,Ourobra,187,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-16T01:59:32Z,,pending
-Rodrigo The Sorcerer,rodrigo the sorcerer,Ourobra,1099,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-20T09:58:14Z,,pending
+Rodrigo The Sorcerer,rodrigo the sorcerer,Ourobra,1107,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Rolo Depredador,rolo depredador,Ourobra,921,Master Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-24T14:49:26Z,,pending
 Rorald Jaan,rorald jaan,Ourobra,540,Master Sorcerer,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-24T02:53:54Z,,pending
 Roronoah,roronoah,Ourobra,250,Elder Druid,,,,,,,,,,2026-11-24T02:53:54Z,2026-11-24T02:53:54Z,,pending
@@ -1452,14 +1464,15 @@ Samuel Druid brabo,samuel druid brabo,Ourobra,6,Druid,,,,,,,,,,2026-11-20T01:45:
 Samuel Of Utobra,samuel of utobra,Ourobra,117,Elite Knight,,,,,,,,,,2026-11-25T00:39:13Z,2026-11-25T00:39:13Z,,pending
 San Wilker,san wilker,Ourobra,46,Druid,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Sanchovix,sanchovix,Ourobra,547,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
+Sanderssonzz On Bombra,sanderssonzz on bombra,Ourobra,8,Druid,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Sanguiinerod,sanguiinerod,Ourobra,8,Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
 Sankara vive,sankara vive,Ourobra,467,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Sansung Pocket,sansung pocket,Ourobra,84,Elite Knight,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
-Santeszk,santeszk,Ourobra,905,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
+Santeszk,santeszk,Ourobra,909,Master Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Santherius Terror,santherius terror,Ourobra,414,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Santise,santise,Ourobra,225,Royal Paladin,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-20T09:58:14Z,,pending
 Sapagador,sapagador,Ourobra,153,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
-Sarah Sarada,sarah sarada,Ourobra,135,Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-18T07:20:56Z,,pending
+Sarah Sarada,sarah sarada,Ourobra,138,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Sari Adurah,sari adurah,Ourobra,33,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Sariitah,sariitah,Ourobra,65,Elite Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-23T02:43:04Z,,pending
 Sat Nac,sat nac,Ourobra,224,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T02:53:54Z,,pending
@@ -1468,7 +1481,7 @@ Saullow,saullow,Ourobra,2225,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11
 Saulo Ourobra,saulo ourobra,Ourobra,8,Druid,,,,,,,,,,2026-11-22T21:45:01Z,2026-11-22T21:45:01Z,,pending
 Scemnomes,scemnomes,Ourobra,158,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-19T18:59:45Z,,pending
 Sddashow,sddashow,Ourobra,571,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-24T14:49:26Z,,pending
-Sean Leonard,sean leonard,Ourobra,637,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-22T06:40:07Z,,pending
+Sean Leonard,sean leonard,Ourobra,640,Elite Knight,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T11:13:45Z,,pending
 Sebvstian,sebvstian,Ourobra,745,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Segita Hunter,segita hunter,Ourobra,519,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T16:14:16Z,,pending
 Segita Shooter,segita shooter,Ourobra,125,Royal Paladin,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-24T02:53:54Z,,pending
@@ -1478,7 +1491,7 @@ Seleskva Zedrin,seleskva zedrin,Ourobra,1886,Elite Knight,,,,,,,,,,2026-11-12T01
 Selveka Cinok,selveka cinok,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Sem Auma,sem auma,Ourobra,178,Master Sorcerer,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
 Sem mais belongas,sem mais belongas,Ourobra,23,Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-19T18:59:45Z,,pending
-Sena Ek,sena ek,Ourobra,564,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-22T06:40:07Z,,pending
+Sena Ek,sena ek,Ourobra,565,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T11:13:45Z,,pending
 Seph Kardas,seph kardas,Ourobra,1017,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Seven Madlife,seven madlife,Ourobra,903,Master Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-23T02:43:04Z,,pending
 Shadow Kagenou,shadow kagenou,Ourobra,512,Master Sorcerer,,,,,,,,,,2026-11-16T01:59:32Z,2026-11-23T02:43:04Z,,pending
@@ -1519,7 +1532,7 @@ Sir Malachar,sir malachar,Ourobra,610,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z
 Sir Tila,sir tila,Ourobra,245,Master Sorcerer,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Sir Wommy,sir wommy,Ourobra,251,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
 Sire Tiroka,sire tiroka,Ourobra,268,Master Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-23T02:43:04Z,,pending
-Sirgreen Garrotecity,sirgreen garrotecity,Ourobra,301,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-24T14:49:26Z,,pending
+Sirgreen Garrotecity,sirgreen garrotecity,Ourobra,303,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Sirius Blaacck,sirius blaacck,Ourobra,13,Sorcerer,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-16T01:59:32Z,,pending
 Sirius da Red,sirius da red,Ourobra,256,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-23T02:43:04Z,,pending
 Sirius do Sus,sirius do sus,Ourobra,426,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -1555,10 +1568,10 @@ Sorczao Freeacc,sorczao freeacc,Ourobra,187,Sorcerer,,,,,,,,,,2026-11-25T00:39:1
 Sorczao Takeshi,sorczao takeshi,Ourobra,1082,Master Sorcerer,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-23T02:43:04Z,,pending
 Sorella Praranho,sorella praranho,Ourobra,192,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-24T14:49:26Z,,pending
 Soriin Emperor,soriin emperor,Ourobra,2609,Elder Druid,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
-Sorin Fragmentado,sorin fragmentado,Ourobra,2114,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-21T09:43:17Z,,pending
+Sorin Fragmentado,sorin fragmentado,Ourobra,2117,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Sorkaka,sorkaka,Ourobra,391,Elder Druid,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-22T21:45:01Z,,pending
 Sorkzyn,sorkzyn,Ourobra,109,Master Sorcerer,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-24T02:53:54Z,,pending
-Sorocabaa,sorocabaa,Ourobra,49,Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-18T17:13:21Z,,pending
+Sorocabaa,sorocabaa,Ourobra,60,Sorcerer,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-25T11:13:45Z,,pending
 Sotawa,sotawa,Ourobra,198,Royal Paladin,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
 Soteca,soteca,Ourobra,118,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Soul of Mercy,soul of mercy,Ourobra,255,Elder Druid,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-21T17:27:32Z,,pending
@@ -1677,7 +1690,7 @@ True Menace,true menace,Ourobra,191,Royal Paladin,,,,,,,,,,2026-11-11T18:41:35Z,
 Trufa Crush,trufa crush,Ourobra,500,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
 Trufa Slayer,trufa slayer,Ourobra,473,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Tsuuna,tsuuna,Ourobra,212,Elite Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
-Tuas Amiguinha,tuas amiguinha,Ourobra,438,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-22T21:45:01Z,,pending
+Tuas Amiguinha,tuas amiguinha,Ourobra,444,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Tubora,tubora,Ourobra,371,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Tui Finishwar,tui finishwar,Ourobra,882,Royal Paladin,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
 Tulio Donningkrueger,tulio donningkrueger,Ourobra,166,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T00:39:13Z,,pending
@@ -1689,19 +1702,19 @@ Tutszik,tutszik,Ourobra,878,Master Sorcerer,,,,,,,,,,2026-11-17T23:29:35Z,2026-1
 Tutubaron,tutubaron,Ourobra,340,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Ty Thora,ty thora,Ourobra,80,Elite Knight,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T00:39:13Z,,pending
 Tynho Master,tynho master,Ourobra,442,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-11T18:41:35Z,,pending
-Tynhow,tynhow,Ourobra,847,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-23T02:43:04Z,,pending
+Tynhow,tynhow,Ourobra,847,Master Sorcerer,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-25T11:13:45Z,,pending
 Tyrica Elvenbaron,tyrica elvenbaron,Ourobra,12,Sorcerer,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
 Tyrion arbalest,tyrion arbalest,Ourobra,160,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T21:45:01Z,,pending
 Tyron Dake,tyron dake,Ourobra,96,Royal Paladin,,,,,,,,,,2026-11-19T00:19:21Z,2026-11-19T00:19:21Z,,pending
 Uganda Goodfella,uganda goodfella,Ourobra,680,Master Sorcerer,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-20T01:45:50Z,,pending
 Uhtredson,uhtredson,Ourobra,32,Knight,,,,,,,,,,2026-11-15T21:01:09Z,2026-11-15T21:01:09Z,,pending
-Ultimate Fist Fighter,ultimate fist fighter,Ourobra,694,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T14:32:01Z,,pending
+Ultimate Fist Fighter,ultimate fist fighter,Ourobra,695,Exalted Monk,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Unrushed,unrushed,Ourobra,842,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-12T22:43:17Z,,pending
 Unstoppable Smokez,unstoppable smokez,Ourobra,625,Royal Paladin,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
 Unstoppable Spirit,unstoppable spirit,Ourobra,53,Exalted Monk,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-21T01:28:19Z,,pending
 Urrsso,urrsso,Ourobra,563,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-13T21:59:42Z,,pending
 Ursin,ursin,Ourobra,688,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T06:40:07Z,,pending
-Ursinho Lastdance,ursinho lastdance,Ourobra,1116,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-24T14:49:26Z,,pending
+Ursinho Lastdance,ursinho lastdance,Ourobra,1117,Royal Paladin,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T11:13:45Z,,pending
 Utobriano Corinthiano,utobriano corinthiano,Ourobra,50,Master Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
 Utobrianu,utobrianu,Ourobra,246,Elite Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-21T17:27:32Z,,pending
 Utobru,utobru,Ourobra,61,Sorcerer,,,,,,,,,,2026-11-20T18:35:38Z,2026-11-20T18:35:38Z,,pending
@@ -1734,6 +1747,7 @@ Vitinho Cepowisks,vitinho cepowisks,Ourobra,937,Elder Druid,,,,,,,,,,2026-11-14T
 Vitor Malzao,vitor malzao,Ourobra,934,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-19T00:19:21Z,,pending
 Vni Derrubador,vni derrubador,Ourobra,1071,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-24T02:53:54Z,,pending
 Vocation Test,vocation test,Ourobra,744,Exalted Monk,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
+Vohoriga Bora,vohoriga bora,Ourobra,9,Paladin,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Volex Cafagesteh,volex cafagesteh,Ourobra,60,Knight,,,,,,,,,,2026-11-21T01:28:19Z,2026-11-21T01:28:19Z,,pending
 Vomnev,vomnev,Ourobra,467,Elite Knight,,,,,,,,,,2026-11-18T17:13:21Z,2026-11-18T17:13:21Z,,pending
 Vondarck,vondarck,Ourobra,721,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-25T00:39:13Z,,pending
@@ -1760,10 +1774,12 @@ Weber Ourobrinha,weber ourobrinha,Ourobra,8,Knight,,,,,,,,,,2026-11-13T21:59:42Z
 Wendy ogrady,wendy ogrady,Ourobra,488,Elite Knight,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-21T01:28:19Z,,pending
 Weth Edtk,weth edtk,Ourobra,64,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Whatchange,whatchange,Ourobra,1082,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T00:39:13Z,,pending
-Wichozs,wichozs,Ourobra,1118,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T14:32:01Z,,pending
+Wichozs,wichozs,Ourobra,1119,Elite Knight,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
+Wiings of Time,wiings of time,Ourobra,399,Elder Druid,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Will Desgracadao,will desgracadao,Ourobra,465,Exalted Monk,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-22T21:45:01Z,,pending
-Will Novachrono,will novachrono,Ourobra,1104,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-22T21:45:01Z,,pending
+Will Novachrono,will novachrono,Ourobra,1103,Elder Druid,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-25T11:13:45Z,,pending
 Willian Skeat,willian skeat,Ourobra,121,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
+Winchester Mau,winchester mau,Ourobra,442,Elite Knight,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Winx Du Agreste,winx du agreste,Ourobra,194,Elite Knight,,,,,,,,,,2026-11-23T14:32:01Z,2026-11-25T00:39:13Z,,pending
 Wippel Archer,wippel archer,Ourobra,314,Royal Paladin,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-25T00:39:13Z,,pending
 Wmattos,wmattos,Ourobra,417,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-20T01:45:50Z,,pending
@@ -1785,15 +1801,16 @@ Yagumi Wins,yagumi wins,Ourobra,386,Elder Druid,,,,,,,,,,2026-11-12T01:33:23Z,20
 Yan Naing Lee,yan naing lee,Ourobra,1125,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
 Yani Culeo,yani culeo,Ourobra,60,Paladin,,,,,,,,,,2026-11-24T14:49:26Z,2026-11-24T14:49:26Z,,pending
 Yanki Calvo,yanki calvo,Ourobra,249,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-17T23:29:35Z,,pending
+Yargaza,yargaza,Ourobra,313,Royal Paladin,,,,,,,,,,2026-11-25T11:13:45Z,2026-11-25T11:13:45Z,,pending
 Yayayu Ugui,yayayu ugui,Ourobra,211,Elite Knight,,,,,,,,,,2026-11-23T02:43:04Z,2026-11-23T02:43:04Z,,pending
 Ybow Enzin,ybow enzin,Ourobra,10,Knight,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-13T16:16:56Z,,pending
 Yellow Snurix,yellow snurix,Ourobra,625,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T14:32:01Z,,pending
 Ygor Kommander,ygor kommander,Ourobra,53,Elite Knight,,,,,,,,,,2026-11-14T02:24:18Z,2026-11-14T02:24:18Z,,pending
-Yindigo,yindigo,Ourobra,737,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-22T21:45:01Z,,pending
+Yindigo,yindigo,Ourobra,742,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T11:13:45Z,,pending
 Yogow,yogow,Ourobra,15,Knight,,,,,,,,,,2026-11-15T15:38:52Z,2026-11-15T15:38:52Z,,pending
 Yoka Jhob,yoka jhob,Ourobra,250,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-25T00:39:13Z,,pending
 Yoru Gua,yoru gua,Ourobra,208,Elder Druid,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T00:39:13Z,,pending
-Youmi Buu,youmi buu,Ourobra,1788,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-23T02:43:04Z,,pending
+Youmi Buu,youmi buu,Ourobra,1790,Master Sorcerer,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Youmi Buuu,youmi buuu,Ourobra,679,Master Sorcerer,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-25T00:39:13Z,,pending
 Yretemec,yretemec,Ourobra,13,Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-17T23:29:35Z,,pending
 Ys Deep,ys deep,Ourobra,17,Knight,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-14T17:58:01Z,,pending
@@ -1801,14 +1818,14 @@ Yubeln,yubeln,Ourobra,143,Master Sorcerer,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-
 Yukiti,yukiti,Ourobra,2247,Master Sorcerer,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-23T02:43:04Z,,pending
 Yungii,yungii,Ourobra,1218,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-25T00:39:13Z,,pending
 Yuuiz,yuuiz,Ourobra,26,Elite Knight,,,,,,,,,,2026-11-20T01:45:50Z,2026-11-20T01:45:50Z,,pending
-Yuziriha,yuziriha,Ourobra,612,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-25T00:39:13Z,,pending
+Yuziriha,yuziriha,Ourobra,614,Elite Knight,,,,,,,,,,2026-11-18T07:20:56Z,2026-11-25T00:39:13Z,,pending
 Yuzuha,yuzuha,Ourobra,116,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-23T02:43:04Z,,pending
 Yzelda,yzelda,Ourobra,84,Elite Knight,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
 Zaangaduh,zaangaduh,Ourobra,451,Master Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-25T00:39:13Z,,pending
 Zaax Testando,zaax testando,Ourobra,8,Monk,,,,,,,,,,2026-11-13T21:59:42Z,2026-11-13T21:59:42Z,,pending
 Zabrack,zabrack,Ourobra,182,Royal Paladin,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-21T17:27:32Z,,pending
 Zacre Elegante,zacre elegante,Ourobra,835,Royal Paladin,,,,,,,,,,2026-11-19T10:15:49Z,2026-11-19T10:15:49Z,,pending
-Zagatti Achomelhor,zagatti achomelhor,Ourobra,520,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-17T15:55:55Z,,pending
+Zagatti Achomelhor,zagatti achomelhor,Ourobra,520,Royal Paladin,,,,,,,,,,2026-11-17T15:55:55Z,2026-11-25T11:13:45Z,,pending
 Zahx,zahx,Ourobra,744,Master Sorcerer,,,,,,,,,,2026-11-12T18:21:40Z,2026-11-12T18:21:40Z,,pending
 Zald Mard,zald mard,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-12T01:33:23Z,2026-11-12T01:33:23Z,,pending
 Zalverg Averdowux,zalverg averdowux,Ourobra,8,Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-16T01:59:32Z,,pending
@@ -1816,8 +1833,8 @@ Zangbeto,zangbeto,Ourobra,19,Knight,,,,,,,,,,2026-11-16T20:25:18Z,2026-11-21T17:
 Zanzan True Monk,zanzan true monk,Ourobra,581,Exalted Monk,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-23T02:43:04Z,,pending
 Zanzark,zanzark,Ourobra,143,Royal Paladin,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-21T17:27:32Z,,pending
 Zaxyz,zaxyz,Ourobra,2211,Elder Druid,,,,,,,,,,2026-11-14T22:19:43Z,2026-11-25T00:39:13Z,,pending
-Zaymonk,zaymonk,Ourobra,85,Exalted Monk,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-22T16:14:16Z,,pending
-Ze Cueei,ze cueei,Ourobra,2457,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-24T14:49:26Z,,pending
+Zaymonk,zaymonk,Ourobra,115,Exalted Monk,,,,,,,,,,2026-11-22T16:14:16Z,2026-11-25T11:13:45Z,,pending
+Ze Cueei,ze cueei,Ourobra,2457,Elder Druid,,,,,,,,,,2026-11-14T11:25:50Z,2026-11-25T11:13:45Z,,pending
 Zeca Golpista,zeca golpista,Ourobra,754,Royal Paladin,,,,,,,,,,2026-11-14T17:58:01Z,2026-11-24T02:53:54Z,,pending
 Zedrin Ltda,zedrin ltda,Ourobra,2305,Master Sorcerer,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T14:49:26Z,,pending
 Zero Unoo,zero unoo,Ourobra,33,Exalted Monk,,,,,,,,,,2026-11-20T09:58:14Z,2026-11-20T09:58:14Z,,pending
@@ -1838,7 +1855,7 @@ Zmooked,zmooked,Ourobra,115,Elite Knight,,,,,,,,,,2026-11-17T23:29:35Z,2026-11-2
 Zooboomafooo,zooboomafooo,Ourobra,224,Exalted Monk,,,,,,,,,,2026-11-13T16:16:56Z,2026-11-24T14:49:26Z,,pending
 Zorki Snow,zorki snow,Ourobra,779,Elite Knight,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-20T09:58:14Z,,pending
 Zudao Loco,zudao loco,Ourobra,494,Elder Druid,,,,,,,,,,2026-11-21T17:27:32Z,2026-11-24T02:53:54Z,,pending
-Zuperiority,zuperiority,Ourobra,665,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
+Zuperiority,zuperiority,Ourobra,669,Elder Druid,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-25T11:13:45Z,,pending
 Zutroh,zutroh,Ourobra,628,Royal Paladin,,,,,,,,,,2026-11-12T22:43:17Z,2026-11-22T21:45:01Z,,pending
 Zwolfs,zwolfs,Ourobra,8,Sorcerer,,,,,,,,,,2026-11-21T23:10:05Z,2026-11-21T23:10:05Z,,pending
 Zwolle Poxi,zwolle poxi,Ourobra,501,Elite Knight,,,,,,,,,,2026-11-11T18:41:35Z,2026-11-25T00:39:13Z,,pending
